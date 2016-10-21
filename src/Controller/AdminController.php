@@ -24,28 +24,48 @@ class AdminController {
      */
     public function addGroupAction(Request $request, Application $app) {
         $group = new UserGroup();
-        $group->setIdGroup($row['id_user_group']);
-        $group->setGroupName($row['group_name']);
+        $group->setGroup($request->request->get('id_user_group'));
+        $group->setGroupName($request->request->get('group_name'));
+        
+        if (!$request->request->has('id_user_group')) {
+            return $app->json('Missing required parameter: id_user_group', 400);
+        }
+        if (!$request->request->has('group_name')) {
+            return $app->json('Missing required parameter: group_name', 400);
+        }
+        $responseData = $this->buildGroupArray($group);
+         return $app->json($responseData, 201);  // 201 = Created
 
-        $group = $app["dao.group"]->save();
-       return $app->json('success', 'The group was succesfully created.');
+         $app['dao.group']->save($group);
+    }
+
+     /**
+     * API delete group controller.
+     *
+     * @param integer $id group id
+     * @param Application $app Silex application
+     */
+    public function editGroupAction($id_user_group, Application $app) {
+        // Delete all associated depenses
+        $app['dao.depense']->deleteAllByGroup($id_user_group);
+        // Delete the group
+        $app['dao.group']->delete($id_user_group);
+        return $app->json('No Content', 204);  // 204 = No content
     }
 
     /**
-     * Edit group controller.
+     * Converts an group object into an associative array for JSON encoding
      *
-     * @param integer $id Group id
-     * @param Request $request Incoming request
-     * @param Application $app Silex application
+     *
+     *
+     * @return array Associative array whose fields are the group properties.
      */
-    public function editGroupAction($id, Request $request, Application $app) {
-        $group = $app['dao.group']->find($id_user_group);
-
-        // Delete the group
-        $app['dao.group']->delete($id_user_group);
-
-        return $app->json('success', 'The group was succesfully deleted.');
-        
+    private function buildGroupArray(Group $group) {
+        $data  = array(
+            'id_user_group' => $group->getId(),
+            'group_name' => $group->getName(),
+            );
+        return $data;
     }
 
   } 
