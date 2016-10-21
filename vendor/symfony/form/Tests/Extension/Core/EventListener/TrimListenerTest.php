@@ -39,6 +39,7 @@ class TrimListenerTest extends \PHPUnit_Framework_TestCase
 
         $this->assertSame(1234, $event->getData());
     }
+<<<<<<< HEAD
 
     /**
      * @dataProvider spaceProvider
@@ -99,4 +100,6 @@ class TrimListenerTest extends \PHPUnit_Framework_TestCase
 //            array('200B'),
         );
     }
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

@@ -12,7 +12,10 @@
 namespace Symfony\Component\EventDispatcher\Tests;
 
 use Symfony\Component\EventDispatcher\Event;
+<<<<<<< HEAD
 use Symfony\Component\EventDispatcher\EventDispatcher;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * Test class for Event.
@@ -25,18 +28,24 @@ class EventTest extends \PHPUnit_Framework_TestCase
     protected $event;
 
     /**
+<<<<<<< HEAD
      * @var \Symfony\Component\EventDispatcher\EventDispatcher
      */
     protected $dispatcher;
 
     /**
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * Sets up the fixture, for example, opens a network connection.
      * This method is called before a test is executed.
      */
     protected function setUp()
     {
         $this->event = new Event();
+<<<<<<< HEAD
         $this->dispatcher = new EventDispatcher();
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -46,7 +55,10 @@ class EventTest extends \PHPUnit_Framework_TestCase
     protected function tearDown()
     {
         $this->event = null;
+<<<<<<< HEAD
         $this->dispatcher = null;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function testIsPropagationStopped()
@@ -59,6 +71,7 @@ class EventTest extends \PHPUnit_Framework_TestCase
         $this->event->stopPropagation();
         $this->assertTrue($this->event->isPropagationStopped());
     }
+<<<<<<< HEAD
 
     /**
      * @group legacy
@@ -93,4 +106,6 @@ class EventTest extends \PHPUnit_Framework_TestCase
         $this->event->setName('foo');
         $this->assertEquals('foo', $this->event->getName());
     }
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

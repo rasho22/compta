@@ -15,6 +15,7 @@ use Symfony\Component\Config\Definition\Builder\EnumNodeDefinition;
 
 class EnumNodeDefinitionTest extends \PHPUnit_Framework_TestCase
 {
+<<<<<<< HEAD
     /**
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage ->values() must be called with at least two distinct values.
@@ -23,6 +24,24 @@ class EnumNodeDefinitionTest extends \PHPUnit_Framework_TestCase
     {
         $def = new EnumNodeDefinition('foo');
         $def->values(array('foo', 'foo'));
+=======
+    public function testWithOneValue()
+    {
+        $def = new EnumNodeDefinition('foo');
+        $def->values(array('foo'));
+
+        $node = $def->getNode();
+        $this->assertEquals(array('foo'), $node->getValues());
+    }
+
+    public function testWithOneDistinctValue()
+    {
+        $def = new EnumNodeDefinition('foo');
+        $def->values(array('foo', 'foo'));
+
+        $node = $def->getNode();
+        $this->assertEquals(array('foo'), $node->getValues());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -35,6 +54,19 @@ class EnumNodeDefinitionTest extends \PHPUnit_Framework_TestCase
         $def->getNode();
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * @expectedException \InvalidArgumentException
+     * @expectedExceptionMessage ->values() must be called with at least one value.
+     */
+    public function testWithNoValues()
+    {
+        $def = new EnumNodeDefinition('foo');
+        $def->values(array());
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testGetNode()
     {
         $def = new EnumNodeDefinition('foo');

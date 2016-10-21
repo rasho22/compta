@@ -60,11 +60,14 @@ class Twig_Node_Expression_Array extends Twig_Node_Expression
         array_push($this->nodes, $key, $value);
     }
 
+<<<<<<< HEAD
     /**
      * Compiles the node to PHP.
      *
      * @param Twig_Compiler $compiler A Twig_Compiler instance
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function compile(Twig_Compiler $compiler)
     {
         $compiler->raw('array(');

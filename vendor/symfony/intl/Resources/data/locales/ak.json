@@ -53,16 +53,23 @@
         "en_AG": "Borɔfo (Antigua ne Baabuda)",
         "en_AI": "Borɔfo (Anguila)",
         "en_AS": "Borɔfo (Amɛrika Samoa)",
+<<<<<<< HEAD
         "en_AT": "Borɔfo (Ɔstria)",
         "en_AU": "Borɔfo (Ɔstrelia)",
         "en_BB": "Borɔfo (Baabados)",
         "en_BE": "Borɔfo (Bɛlgyium)",
         "en_BI": "Borɔfo (Burundi)",
+=======
+        "en_AU": "Borɔfo (Ɔstrelia)",
+        "en_BB": "Borɔfo (Baabados)",
+        "en_BE": "Borɔfo (Bɛlgyium)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "Borɔfo (Bɛmuda)",
         "en_BS": "Borɔfo (Bahama)",
         "en_BW": "Borɔfo (Bɔtswana)",
         "en_BZ": "Borɔfo (Beliz)",
         "en_CA": "Borɔfo (Kanada)",
+<<<<<<< HEAD
         "en_CH": "Borɔfo (Swetzaland)",
         "en_CK": "Borɔfo (Kook Nsupɔw)",
         "en_CM": "Borɔfo (Kamɛrun)",
@@ -72,6 +79,12 @@
         "en_DM": "Borɔfo (Dɔmeneka)",
         "en_ER": "Borɔfo (Ɛritrea)",
         "en_FI": "Borɔfo (Finland)",
+=======
+        "en_CK": "Borɔfo (Kook Nsupɔw)",
+        "en_CM": "Borɔfo (Kamɛrun)",
+        "en_DM": "Borɔfo (Dɔmeneka)",
+        "en_ER": "Borɔfo (Ɛritrea)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "Borɔfo (Figyi)",
         "en_FK": "Borɔfo (Fɔlkman Aeland)",
         "en_FM": "Borɔfo (Maekronehyia)",
@@ -83,7 +96,10 @@
         "en_GU": "Borɔfo (Guam)",
         "en_GY": "Borɔfo (Gayana)",
         "en_IE": "Borɔfo (Aereland)",
+<<<<<<< HEAD
         "en_IL": "Borɔfo (Israel)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IN": "Borɔfo (India)",
         "en_IO": "Borɔfo (Britenfo Hɔn Man Wɔ India Po No Mu)",
         "en_JM": "Borɔfo (Gyameka)",
@@ -105,7 +121,10 @@
         "en_NA": "Borɔfo (Namibia)",
         "en_NF": "Borɔfo (Nɔfolk Aeland)",
         "en_NG": "Borɔfo (Naegyeria)",
+<<<<<<< HEAD
         "en_NL": "Borɔfo (Nɛdɛland)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "Borɔfo (Naworu)",
         "en_NU": "Borɔfo (Niyu)",
         "en_NZ": "Borɔfo (Ziland Foforo)",
@@ -119,10 +138,15 @@
         "en_SB": "Borɔfo (Solomon Islands)",
         "en_SC": "Borɔfo (Seyhyɛl)",
         "en_SD": "Borɔfo (Sudan)",
+<<<<<<< HEAD
         "en_SE": "Borɔfo (Sweden)",
         "en_SG": "Borɔfo (Singapɔ)",
         "en_SH": "Borɔfo (Saint Helena)",
         "en_SI": "Borɔfo (Slovinia)",
+=======
+        "en_SG": "Borɔfo (Singapɔ)",
+        "en_SH": "Borɔfo (Saint Helena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "Borɔfo (Sierra Leone)",
         "en_SZ": "Borɔfo (Swaziland)",
         "en_TC": "Borɔfo (Turks ne Caicos Islands)",

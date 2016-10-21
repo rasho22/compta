@@ -1,6 +1,20 @@
 CHANGELOG
 =========
 
+<<<<<<< HEAD
+=======
+2.8.0
+-----
+
+ * added option "choice_translation_domain" to DateType, TimeType and DateTimeType.
+ * deprecated option "read_only" in favor of "attr['readonly']"
+ * added the html5 "range" FormType
+ * deprecated the "cascade_validation" option in favor of setting "constraints"
+   with the Valid constraint
+ * moved data trimming logic of TrimListener into StringUtil
+ * [BC BREAK] When registering a type extension through the DI extension, the tag alias has to match the actual extended type.
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 2.7.0
 -----
 

@@ -164,6 +164,7 @@ class RouteTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue($route->hasScheme('httpS'));
     }
 
+<<<<<<< HEAD
     /**
      * @group legacy
      */
@@ -182,6 +183,8 @@ class RouteTest extends \PHPUnit_Framework_TestCase
         $this->assertNull($route->getRequirement('_scheme'));
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testMethod()
     {
         $route = new Route('/');
@@ -192,6 +195,7 @@ class RouteTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(array('GET', 'POST'), $route->getMethods(), '->setMethods() accepts an array of methods and uppercases them');
     }
 
+<<<<<<< HEAD
     /**
      * @group legacy
      */
@@ -207,6 +211,8 @@ class RouteTest extends \PHPUnit_Framework_TestCase
         $this->assertNull($route->getRequirement('_method'));
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testCondition()
     {
         $route = new Route('/');
@@ -224,6 +230,7 @@ class RouteTest extends \PHPUnit_Framework_TestCase
         $this->assertNotSame($compiled, $route->compile(), '->compile() recompiles if the route was modified');
     }
 
+<<<<<<< HEAD
     /**
      * @group legacy
      */
@@ -236,6 +243,8 @@ class RouteTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('/bar', $route->getPattern());
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testSerialize()
     {
         $route = new Route('/prefix/{foo}', array('foo' => 'default'), array('foo' => '\d+'));

@@ -37,8 +37,13 @@ class MemcachedSessionHandlerTest extends \PHPUnit_Framework_TestCase
 
         parent::setUp();
 
+<<<<<<< HEAD
         if (version_compare(phpversion('memcached'), '2.2.0', '>=') && version_compare(phpversion('memcached'), '3.0.0b1', '<')) {
             $this->markTestSkipped('Tests can only be run with memcached extension 2.1.0 or lower, or 3.0.0b1 or higher');
+=======
+        if (version_compare(phpversion('memcached'), '2.2.0', '>=')) {
+            $this->markTestSkipped('Tests can only be run with memcached extension 2.1.0 or lower');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         $this->memcached = $this->getMock('Memcached');

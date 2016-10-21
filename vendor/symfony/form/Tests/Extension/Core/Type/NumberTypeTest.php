@@ -26,9 +26,25 @@ class NumberTypeTest extends TestCase
         \Locale::setDefault('de_DE');
     }
 
+<<<<<<< HEAD
     public function testDefaultFormatting()
     {
         $form = $this->factory->create('number');
+=======
+    /**
+     * @group legacy
+     */
+    public function testLegacyName()
+    {
+        $form = $this->factory->create('number');
+
+        $this->assertSame('number', $form->getConfig()->getType()->getName());
+    }
+
+    public function testDefaultFormatting()
+    {
+        $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\NumberType');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $form->setData('12345.67890');
         $view = $form->createView();
 
@@ -37,7 +53,11 @@ class NumberTypeTest extends TestCase
 
     public function testDefaultFormattingWithGrouping()
     {
+<<<<<<< HEAD
         $form = $this->factory->create('number', null, array('grouping' => true));
+=======
+        $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\NumberType', null, array('grouping' => true));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $form->setData('12345.67890');
         $view = $form->createView();
 
@@ -46,7 +66,11 @@ class NumberTypeTest extends TestCase
 
     public function testDefaultFormattingWithScale()
     {
+<<<<<<< HEAD
         $form = $this->factory->create('number', null, array('scale' => 2));
+=======
+        $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\NumberType', null, array('scale' => 2));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $form->setData('12345.67890');
         $view = $form->createView();
 
@@ -55,7 +79,11 @@ class NumberTypeTest extends TestCase
 
     public function testDefaultFormattingWithRounding()
     {
+<<<<<<< HEAD
         $form = $this->factory->create('number', null, array('scale' => 0, 'rounding_mode' => \NumberFormatter::ROUND_UP));
+=======
+        $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\NumberType', null, array('scale' => 0, 'rounding_mode' => \NumberFormatter::ROUND_UP));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $form->setData('12345.54321');
         $view = $form->createView();
 

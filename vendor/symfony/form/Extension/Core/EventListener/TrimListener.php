@@ -14,6 +14,10 @@ namespace Symfony\Component\Form\Extension\Core\EventListener;
 use Symfony\Component\Form\FormEvents;
 use Symfony\Component\Form\FormEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+<<<<<<< HEAD
+=======
+use Symfony\Component\Form\Util\StringUtil;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * Trims string data.
@@ -30,11 +34,15 @@ class TrimListener implements EventSubscriberInterface
             return;
         }
 
+<<<<<<< HEAD
         if (null !== $result = @preg_replace('/^[\pZ\p{Cc}]+|[\pZ\p{Cc}]+$/u', '', $data)) {
             $event->setData($result);
         } else {
             $event->setData(trim($data));
         }
+=======
+        $event->setData(StringUtil::trim($data));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**

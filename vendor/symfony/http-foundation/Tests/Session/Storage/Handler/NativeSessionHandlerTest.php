@@ -27,6 +27,7 @@ class NativeSessionHandlerTest extends \PHPUnit_Framework_TestCase
     {
         $handler = new NativeSessionHandler();
 
+<<<<<<< HEAD
         // note for PHPUnit optimisers - the use of assertTrue/False
         // here is deliberate since the tests do not require the classes to exist - drak
         if (PHP_VERSION_ID < 50400) {
@@ -36,5 +37,9 @@ class NativeSessionHandlerTest extends \PHPUnit_Framework_TestCase
             $this->assertTrue($handler instanceof \SessionHandler);
             $this->assertTrue($handler instanceof NativeSessionHandler);
         }
+=======
+        $this->assertTrue($handler instanceof \SessionHandler);
+        $this->assertTrue($handler instanceof NativeSessionHandler);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

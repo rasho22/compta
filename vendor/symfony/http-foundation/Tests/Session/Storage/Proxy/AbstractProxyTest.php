@@ -85,6 +85,7 @@ class AbstractProxyTest extends \PHPUnit_Framework_TestCase
         $this->assertFalse($this->proxy->isWrapper());
     }
 
+<<<<<<< HEAD
     public function testIsActivePhp53()
     {
         if (PHP_VERSION_ID >= 50400) {
@@ -100,12 +101,20 @@ class AbstractProxyTest extends \PHPUnit_Framework_TestCase
      * @requires PHP 5.4
      */
     public function testIsActivePhp54()
+=======
+    /**
+     * @runInSeparateProcess
+     * @preserveGlobalState disabled
+     */
+    public function testIsActive()
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         $this->assertFalse($this->proxy->isActive());
         session_start();
         $this->assertTrue($this->proxy->isActive());
     }
 
+<<<<<<< HEAD
     public function testSetActivePhp53()
     {
         if (PHP_VERSION_ID >= 50400) {
@@ -129,6 +138,8 @@ class AbstractProxyTest extends \PHPUnit_Framework_TestCase
         $this->proxy->setActive(true);
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * @runInSeparateProcess
      * @preserveGlobalState disabled
@@ -142,6 +153,7 @@ class AbstractProxyTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+<<<<<<< HEAD
      * @expectedException \LogicException
      */
     public function testNameExceptionPhp53()
@@ -161,6 +173,13 @@ class AbstractProxyTest extends \PHPUnit_Framework_TestCase
      * @requires PHP 5.4
      */
     public function testNameExceptionPhp54()
+=======
+     * @runInSeparateProcess
+     * @preserveGlobalState disabled
+     * @expectedException \LogicException
+     */
+    public function testNameException()
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         session_start();
         $this->proxy->setName('foo');
@@ -179,6 +198,7 @@ class AbstractProxyTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+<<<<<<< HEAD
      * @expectedException \LogicException
      */
     public function testIdExceptionPhp53()
@@ -198,6 +218,13 @@ class AbstractProxyTest extends \PHPUnit_Framework_TestCase
      * @requires PHP 5.4
      */
     public function testIdExceptionPhp54()
+=======
+     * @runInSeparateProcess
+     * @preserveGlobalState disabled
+     * @expectedException \LogicException
+     */
+    public function testIdException()
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         session_start();
         $this->proxy->setId('foo');

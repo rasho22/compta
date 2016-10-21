@@ -8,7 +8,11 @@
         "am": "amharisk",
         "am_ET": "amharisk (Etiopien)",
         "ar": "arabisk",
+<<<<<<< HEAD
         "ar_AE": "arabisk (De Forenede Arabiske Emirater)",
+=======
+        "ar_AE": "arabisk (Forenede Arabiske Emirater)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ar_BH": "arabisk (Bahrain)",
         "ar_DJ": "arabisk (Djibouti)",
         "ar_DZ": "arabisk (Algeriet)",
@@ -48,7 +52,12 @@
         "bg": "bulgarsk",
         "bg_BG": "bulgarsk (Bulgarien)",
         "bm": "bambara",
+<<<<<<< HEAD
         "bm_ML": "bambara (Mali)",
+=======
+        "bm_Latn": "bambara (latinsk)",
+        "bm_Latn_ML": "bambara (latinsk, Mali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengali",
         "bn_BD": "bengali (Bangladesh)",
         "bn_IN": "bengali (Indien)",
@@ -68,8 +77,11 @@
         "ca_ES": "catalansk (Spanien)",
         "ca_FR": "catalansk (Frankrig)",
         "ca_IT": "catalansk (Italien)",
+<<<<<<< HEAD
         "ce": "tjetjensk",
         "ce_RU": "tjetjensk (Rusland)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "tjekkisk",
         "cs_CZ": "tjekkisk (Tjekkiet)",
         "cy": "walisisk",
@@ -96,17 +108,24 @@
         "en_AG": "engelsk (Antigua og Barbuda)",
         "en_AI": "engelsk (Anguilla)",
         "en_AS": "engelsk (Amerikansk Samoa)",
+<<<<<<< HEAD
         "en_AT": "engelsk (Østrig)",
         "en_AU": "engelsk (Australien)",
         "en_BB": "engelsk (Barbados)",
         "en_BE": "engelsk (Belgien)",
         "en_BI": "engelsk (Burundi)",
+=======
+        "en_AU": "engelsk (Australien)",
+        "en_BB": "engelsk (Barbados)",
+        "en_BE": "engelsk (Belgien)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "engelsk (Bermuda)",
         "en_BS": "engelsk (Bahamas)",
         "en_BW": "engelsk (Botswana)",
         "en_BZ": "engelsk (Belize)",
         "en_CA": "engelsk (Canada)",
         "en_CC": "engelsk (Cocosøerne)",
+<<<<<<< HEAD
         "en_CH": "engelsk (Schweiz)",
         "en_CK": "engelsk (Cookøerne)",
         "en_CM": "engelsk (Cameroun)",
@@ -118,6 +137,14 @@
         "en_DM": "engelsk (Dominica)",
         "en_ER": "engelsk (Eritrea)",
         "en_FI": "engelsk (Finland)",
+=======
+        "en_CK": "engelsk (Cookøerne)",
+        "en_CM": "engelsk (Cameroun)",
+        "en_CX": "engelsk (Juleøen)",
+        "en_DG": "engelsk (Diego Garcia)",
+        "en_DM": "engelsk (Dominica)",
+        "en_ER": "engelsk (Eritrea)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "engelsk (Fiji)",
         "en_FK": "engelsk (Falklandsøerne)",
         "en_FM": "engelsk (Mikronesiens Forenede Stater)",
@@ -131,7 +158,10 @@
         "en_GY": "engelsk (Guyana)",
         "en_HK": "engelsk (Hongkong SAR)",
         "en_IE": "engelsk (Irland)",
+<<<<<<< HEAD
         "en_IL": "engelsk (Israel)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "engelsk (Isle of Man)",
         "en_IN": "engelsk (Indien)",
         "en_IO": "engelsk (Det britiske territorium i Det Indiske Ocean)",
@@ -156,7 +186,10 @@
         "en_NA": "engelsk (Namibia)",
         "en_NF": "engelsk (Norfolk Island)",
         "en_NG": "engelsk (Nigeria)",
+<<<<<<< HEAD
         "en_NL": "engelsk (Holland)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "engelsk (Nauru)",
         "en_NU": "engelsk (Niue)",
         "en_NZ": "engelsk (New Zealand)",
@@ -170,10 +203,15 @@
         "en_SB": "engelsk (Salomonøerne)",
         "en_SC": "engelsk (Seychellerne)",
         "en_SD": "engelsk (Sudan)",
+<<<<<<< HEAD
         "en_SE": "engelsk (Sverige)",
         "en_SG": "engelsk (Singapore)",
         "en_SH": "engelsk (St. Helena)",
         "en_SI": "engelsk (Slovenien)",
+=======
+        "en_SG": "engelsk (Singapore)",
+        "en_SH": "engelsk (St. Helena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "engelsk (Sierra Leone)",
         "en_SS": "engelsk (Sydsudan)",
         "en_SX": "engelsk (Sint Maarten)",
@@ -237,7 +275,10 @@
         "fi": "finsk",
         "fi_FI": "finsk (Finland)",
         "fo": "færøsk",
+<<<<<<< HEAD
         "fo_DK": "færøsk (Danmark)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "færøsk (Færøerne)",
         "fr": "fransk",
         "fr_BE": "fransk (Belgien)",
@@ -247,7 +288,11 @@
         "fr_BL": "fransk (Saint Barthélemy)",
         "fr_CA": "fransk (Canada)",
         "fr_CD": "fransk (Congo-Kinshasa)",
+<<<<<<< HEAD
         "fr_CF": "fransk (Den Centralafrikanske Republik)",
+=======
+        "fr_CF": "fransk (Centralafrikanske Republik)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_CG": "fransk (Congo-Brazzaville)",
         "fr_CH": "fransk (Schweiz)",
         "fr_CI": "fransk (Elfenbenskysten)",
@@ -300,6 +345,13 @@
         "gv_IM": "manx (Isle of Man)",
         "ha": "hausa",
         "ha_GH": "hausa (Ghana)",
+<<<<<<< HEAD
+=======
+        "ha_Latn": "hausa (latinsk)",
+        "ha_Latn_GH": "hausa (latinsk, Ghana)",
+        "ha_Latn_NE": "hausa (latinsk, Niger)",
+        "ha_Latn_NG": "hausa (latinsk, Nigeria)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "hausa (Niger)",
         "ha_NG": "hausa (Nigeria)",
         "he": "hebraisk",
@@ -332,6 +384,11 @@
         "ki": "kikuyu",
         "ki_KE": "kikuyu (Kenya)",
         "kk": "kasakhisk",
+<<<<<<< HEAD
+=======
+        "kk_Cyrl": "kasakhisk (kyrillisk)",
+        "kk_Cyrl_KZ": "kasakhisk (kyrillisk, Kasakhstan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "kasakhisk (Kasakhstan)",
         "kl": "grønlandsk",
         "kl_GL": "grønlandsk (Grønland)",
@@ -343,10 +400,20 @@
         "ko_KP": "koreansk (Nordkorea)",
         "ko_KR": "koreansk (Sydkorea)",
         "ks": "kashmiri",
+<<<<<<< HEAD
+=======
+        "ks_Arab": "kashmiri (arabisk)",
+        "ks_Arab_IN": "kashmiri (arabisk, Indien)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "kashmiri (Indien)",
         "kw": "cornisk",
         "kw_GB": "cornisk (Storbritannien)",
         "ky": "kirgisisk",
+<<<<<<< HEAD
+=======
+        "ky_Cyrl": "kirgisisk (kyrillisk)",
+        "ky_Cyrl_KG": "kirgisisk (kyrillisk, Kirgisistan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "kirgisisk (Kirgisistan)",
         "lb": "luxembourgsk",
         "lb_LU": "luxembourgsk (Luxembourg)",
@@ -355,7 +422,11 @@
         "ln": "lingala",
         "ln_AO": "lingala (Angola)",
         "ln_CD": "lingala (Congo-Kinshasa)",
+<<<<<<< HEAD
         "ln_CF": "lingala (Den Centralafrikanske Republik)",
+=======
+        "ln_CF": "lingala (Centralafrikanske Republik)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ln_CG": "lingala (Congo-Brazzaville)",
         "lo": "lao",
         "lo_LA": "lao (Laos)",
@@ -372,6 +443,7 @@
         "ml": "malayalam",
         "ml_IN": "malayalam (Indien)",
         "mn": "mongolsk",
+<<<<<<< HEAD
         "mn_MN": "mongolsk (Mongoliet)",
         "mr": "marathisk",
         "mr_IN": "marathisk (Indien)",
@@ -379,6 +451,21 @@
         "ms_BN": "malajisk (Brunei)",
         "ms_MY": "malajisk (Malaysia)",
         "ms_SG": "malajisk (Singapore)",
+=======
+        "mn_Cyrl": "mongolsk (kyrillisk)",
+        "mn_Cyrl_MN": "mongolsk (kyrillisk, Mongoliet)",
+        "mn_MN": "mongolsk (Mongoliet)",
+        "mr": "marathisk",
+        "mr_IN": "marathisk (Indien)",
+        "ms": "malay",
+        "ms_BN": "malay (Brunei)",
+        "ms_Latn": "malay (latinsk)",
+        "ms_Latn_BN": "malay (latinsk, Brunei)",
+        "ms_Latn_MY": "malay (latinsk, Malaysia)",
+        "ms_Latn_SG": "malay (latinsk, Singapore)",
+        "ms_MY": "malay (Malaysia)",
+        "ms_SG": "malay (Singapore)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mt": "maltesisk",
         "mt_MT": "maltesisk (Malta)",
         "my": "burmesisk",
@@ -394,7 +481,11 @@
         "nl": "hollandsk",
         "nl_AW": "hollandsk (Aruba)",
         "nl_BE": "hollandsk (Belgien)",
+<<<<<<< HEAD
         "nl_BQ": "hollandsk (De Nederlandske Antiller)",
+=======
+        "nl_BQ": "hollandsk (Nederlandske antiller)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nl_CW": "hollandsk (Curaçao)",
         "nl_NL": "hollandsk (Holland)",
         "nl_SR": "hollandsk (Surinam)",
@@ -430,7 +521,11 @@
         "pt_MO": "portugisisk (Macao SAR)",
         "pt_MZ": "portugisisk (Mozambique)",
         "pt_PT": "portugisisk (Portugal)",
+<<<<<<< HEAD
         "pt_ST": "portugisisk (São Tomé og Príncipe)",
+=======
+        "pt_ST": "portugisisk (Sao Tome og Principe)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "pt_TL": "portugisisk (Timor-Leste)",
         "qu": "quechua",
         "qu_BO": "quechua (Bolivia)",
@@ -457,7 +552,11 @@
         "se_NO": "nordsamisk (Norge)",
         "se_SE": "nordsamisk (Sverige)",
         "sg": "sango",
+<<<<<<< HEAD
         "sg_CF": "sango (Den Centralafrikanske Republik)",
+=======
+        "sg_CF": "sango (Centralafrikanske Republik)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sh": "serbokroatisk",
         "sh_BA": "serbokroatisk (Bosnien-Hercegovina)",
         "si": "singalesisk",
@@ -508,8 +607,13 @@
         "ta_SG": "tamilsk (Singapore)",
         "te": "telugu",
         "te_IN": "telugu (Indien)",
+<<<<<<< HEAD
         "th": "thai",
         "th_TH": "thai (Thailand)",
+=======
+        "th": "thailandsk",
+        "th_TH": "thailandsk (Thailand)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ti": "tigrinya",
         "ti_ER": "tigrinya (Eritrea)",
         "ti_ET": "tigrinya (Etiopien)",
@@ -521,6 +625,11 @@
         "tr_CY": "tyrkisk (Cypern)",
         "tr_TR": "tyrkisk (Tyrkiet)",
         "ug": "uygurisk",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "uygurisk (arabisk)",
+        "ug_Arab_CN": "uygurisk (arabisk, Kina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "uygurisk (Kina)",
         "uk": "ukrainsk",
         "uk_UA": "ukrainsk (Ukraine)",

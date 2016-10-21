@@ -1,14 +1,21 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.10.93",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AED": [
             "AED",
             "Dirham Yr Emiradau Arabaidd Unedig"
         ],
+<<<<<<< HEAD
         "AFA": [
             "AFA",
             "Afghani Afghanistan (1927–2002)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "AFN": [
             "AFN",
             "Afghani Afghanistan"
@@ -29,6 +36,7 @@
             "AOA",
             "Kwanza Angola"
         ],
+<<<<<<< HEAD
         "AOK": [
             "AOK",
             "Kwanza Angola (1977–1991)"
@@ -57,14 +65,19 @@
             "ARP",
             "Peso yr Ariannin (1983–1985)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ARS": [
             "ARS",
             "Peso yr Ariannin"
         ],
+<<<<<<< HEAD
         "ATS": [
             "ATS",
             "Swllt Awstria"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "AUD": [
             "A$",
             "Doler Awstralia"
@@ -73,10 +86,13 @@
             "AWG",
             "Fflorin Aruba"
         ],
+<<<<<<< HEAD
         "AZM": [
             "AZM",
             "Manat Azerbaijan (1993–2006)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "AZN": [
             "AZN",
             "Manat Azerbaijan"
@@ -93,6 +109,7 @@
             "BDT",
             "Taka Bangladesh"
         ],
+<<<<<<< HEAD
         "BEC": [
             "BEC",
             "BEC"
@@ -109,14 +126,19 @@
             "BGM",
             "Lev Sosialaidd Bwlgaria"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BGN": [
             "BGN",
             "Lev Bwlgaria"
         ],
+<<<<<<< HEAD
         "BGO": [
             "BGO",
             "Lev Bwlgaria (1879–1952)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BHD": [
             "BHD",
             "Dinar Bahrain"
@@ -137,6 +159,7 @@
             "BOB",
             "Boliviano Bolifia"
         ],
+<<<<<<< HEAD
         "BOL": [
             "BOL",
             "Boliviano Bolifia (1863–1963)"
@@ -161,10 +184,13 @@
             "BRE",
             "Cruzeiro Brasil (1990–1993)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BRL": [
             "R$",
             "Real Brasil"
         ],
+<<<<<<< HEAD
         "BRN": [
             "BRN",
             "Cruzado Newydd Brasil (1989–1990)"
@@ -177,6 +203,8 @@
             "BRZ",
             "Cruzeiro Brasil (1942–1967)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BSD": [
             "BSD",
             "Doler y Bahamas"
@@ -185,10 +213,13 @@
             "BTN",
             "Ngultrum Bhutan"
         ],
+<<<<<<< HEAD
         "BUK": [
             "BUK",
             "Kyat Byrma"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BWP": [
             "BWP",
             "Pula Botswana"
@@ -209,14 +240,18 @@
             "CDF",
             "Ffranc Congo"
         ],
+<<<<<<< HEAD
         "CHE": [
             "CHE",
             "CHE"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CHF": [
             "CHF",
             "Ffranc y Swistir"
         ],
+<<<<<<< HEAD
         "CHW": [
             "CHW",
             "CHW"
@@ -229,14 +264,19 @@
             "CLF",
             "Uned Cyfrifo Chile (UF)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CLP": [
             "CLP",
             "Peso Chile"
         ],
+<<<<<<< HEAD
         "CNX": [
             "CNX",
             "Doler Banc Pobl Tsieina"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CNY": [
             "CN¥",
             "Yuan Tsieina"
@@ -245,14 +285,18 @@
             "COP",
             "Peso Colombia"
         ],
+<<<<<<< HEAD
         "COU": [
             "COU",
             "COU"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CRC": [
             "CRC",
             "Colón Costa Rica"
         ],
+<<<<<<< HEAD
         "CSD": [
             "CSD",
             "CSD"
@@ -264,19 +308,32 @@
         "CUP": [
             "CUP",
             "Peso Ciwba"
+=======
+        "CUC": [
+            "CUC",
+            "Peso Trosadwy Cuba"
+        ],
+        "CUP": [
+            "CUP",
+            "Peso Cuba"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CVE": [
             "CVE",
             "Esgwdo Cabo Verde"
         ],
+<<<<<<< HEAD
         "CYP": [
             "CYP",
             "Punt Cyprus"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CZK": [
             "CZK",
             "Koruna Tsiec"
         ],
+<<<<<<< HEAD
         "DDM": [
             "DDM",
             "DDM"
@@ -285,6 +342,8 @@
             "DEM",
             "DEM"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "DJF": [
             "DJF",
             "Ffranc Djibouti"
@@ -301,10 +360,13 @@
             "DZD",
             "Dinar Algeria"
         ],
+<<<<<<< HEAD
         "ECS": [
             "ECS",
             "Sucre Ecuador"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "EGP": [
             "EGP",
             "Punt Yr Aifft"
@@ -313,10 +375,13 @@
             "ERN",
             "Nakfa Eritrea"
         ],
+<<<<<<< HEAD
         "ESP": [
             "ESP",
             "ESP"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ETB": [
             "ETB",
             "Birr Ethiopia"
@@ -325,10 +390,13 @@
             "€",
             "Ewro"
         ],
+<<<<<<< HEAD
         "FIM": [
             "FIM",
             "FIM"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "FJD": [
             "FJD",
             "Doler Ffiji"
@@ -337,26 +405,35 @@
             "FKP",
             "Punt Ynysoedd Falkland\/Malvinas"
         ],
+<<<<<<< HEAD
         "FRF": [
             "FRF",
             "FRF"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GBP": [
             "£",
             "Punt Prydain"
         ],
+<<<<<<< HEAD
         "GEK": [
             "GEK",
             "Kupon Larit Georgia"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GEL": [
             "GEL",
             "Lari Georgia"
         ],
+<<<<<<< HEAD
         "GHC": [
             "GHC",
             "Cedi Ghana (1979–2007)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GHS": [
             "GHS",
             "Cedi Ghana"
@@ -373,6 +450,7 @@
             "GNF",
             "Ffranc Guinée"
         ],
+<<<<<<< HEAD
         "GNS": [
             "GNS",
             "Syli Guinée"
@@ -385,10 +463,13 @@
             "GRD",
             "GRD"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GTQ": [
             "GTQ",
             "Quetzal Guatemala"
         ],
+<<<<<<< HEAD
         "GWE": [
             "GWE",
             "GWE"
@@ -397,6 +478,8 @@
             "GWP",
             "Peso Guiné-Bissau"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GYD": [
             "GYD",
             "Doler Guyana"
@@ -409,10 +492,13 @@
             "HNL",
             "Lempira Honduras"
         ],
+<<<<<<< HEAD
         "HRD": [
             "HRD",
             "HRD"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "HRK": [
             "HRK",
             "Kuna Croatia"
@@ -433,6 +519,7 @@
             "IEP",
             "Punt Iwerddon"
         ],
+<<<<<<< HEAD
         "ILP": [
             "ILP",
             "Punt Israel"
@@ -441,6 +528,8 @@
             "ILR",
             "Shegel Israel (1980–1985)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ILS": [
             "₪",
             "Shegel Newydd Israel"
@@ -461,10 +550,13 @@
             "ISK",
             "Króna Gwlad yr Iâ"
         ],
+<<<<<<< HEAD
         "ITL": [
             "ITL",
             "ITL"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "JMD": [
             "JMD",
             "Doler Jamaica"
@@ -497,6 +589,7 @@
             "KPW",
             "Won Gogledd Corea"
         ],
+<<<<<<< HEAD
         "KRH": [
             "KRH",
             "Hwan De Corea (1953–1962)"
@@ -508,6 +601,11 @@
         "KRW": [
             "KRW",
             "Won De Corea"
+=======
+        "KRW": [
+            "₩",
+            "Won De Korea"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KWD": [
             "KWD",
@@ -537,14 +635,18 @@
             "LRD",
             "Doler Liberia"
         ],
+<<<<<<< HEAD
         "LSL": [
             "LSL",
             "Loti Lesotho"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LTL": [
             "LTL",
             "Litas Lithwania"
         ],
+<<<<<<< HEAD
         "LTT": [
             "LTT",
             "Talonas Lithwania"
@@ -561,14 +663,19 @@
             "LUL",
             "LUL"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LVL": [
             "LVL",
             "Lats Latfia"
         ],
+<<<<<<< HEAD
         "LVR": [
             "LVR",
             "LVR"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LYD": [
             "LYD",
             "Dinar Libya"
@@ -577,6 +684,7 @@
             "MAD",
             "Dirham Moroco"
         ],
+<<<<<<< HEAD
         "MAF": [
             "MAF",
             "Ffranc Moroco"
@@ -585,6 +693,8 @@
             "MCF",
             "Ffranc Monaco"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MDL": [
             "MDL",
             "Leu Moldofa"
@@ -593,14 +703,18 @@
             "MGA",
             "Ariary Madagascar"
         ],
+<<<<<<< HEAD
         "MGF": [
             "MGF",
             "Ffranc Madagascar"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MKD": [
             "MKD",
             "Denar Macedonia"
         ],
+<<<<<<< HEAD
         "MKN": [
             "MKN",
             "MKN"
@@ -609,6 +723,8 @@
             "MLF",
             "Ffranc Mali"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MMK": [
             "MMK",
             "Kyat Myanmar"
@@ -625,6 +741,7 @@
             "MRO",
             "Ouguiya Mauritania"
         ],
+<<<<<<< HEAD
         "MTL": [
             "MTL",
             "MTL"
@@ -633,14 +750,19 @@
             "MTP",
             "MTP"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MUR": [
             "MUR",
             "Rwpî Mauritius"
         ],
+<<<<<<< HEAD
         "MVP": [
             "MVP",
             "Rwpî’r Maldives (1947–1981)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MVR": [
             "MVR",
             "Rufiyaa’r Maldives"
@@ -651,6 +773,7 @@
         ],
         "MXN": [
             "MX$",
+<<<<<<< HEAD
             "Peso Mecsico"
         ],
         "MXP": [
@@ -660,11 +783,15 @@
         "MXV": [
             "MXV",
             "Uned Fuddsoddi México"
+=======
+            "Peso México"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MYR": [
             "MYR",
             "Ringgit Malaysia"
         ],
+<<<<<<< HEAD
         "MZE": [
             "MZE",
             "Escudo Mozambique"
@@ -673,6 +800,8 @@
             "MZM",
             "Metical Mozambique (1980–2006)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MZN": [
             "MZN",
             "Metical Mozambique"
@@ -685,6 +814,7 @@
             "NGN",
             "Naira Nigeria"
         ],
+<<<<<<< HEAD
         "NIC": [
             "NIC",
             "Córdoba Nicaragua (1988–1991)"
@@ -696,6 +826,11 @@
         "NLG": [
             "NLG",
             "Guilder yr Iseldiroedd"
+=======
+        "NIO": [
+            "NIO",
+            "Córdoba Nicaragua"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "NOK": [
             "NOK",
@@ -717,25 +852,35 @@
             "PAB",
             "Balboa Panama"
         ],
+<<<<<<< HEAD
         "PEI": [
             "PEI",
             "Inti Periw"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PEN": [
             "PEN",
             "Nuevo Sol Periw"
         ],
+<<<<<<< HEAD
         "PES": [
             "PES",
             "Sol Periw (1863–1965)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PGK": [
             "PGK",
             "Kina Papua Guinea Newydd"
         ],
         "PHP": [
             "PHP",
+<<<<<<< HEAD
             "Peso’r Philipinau"
+=======
+            "Peso Pilipinas"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "PKR": [
             "PKR",
@@ -745,10 +890,13 @@
             "PLN",
             "Zloty Gwlad Pwyl"
         ],
+<<<<<<< HEAD
         "PTE": [
             "PTE",
             "PTE"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PYG": [
             "PYG",
             "Guarani Paraguay"
@@ -757,10 +905,13 @@
             "QAR",
             "Rial Qatar"
         ],
+<<<<<<< HEAD
         "RHD": [
             "RHD",
             "Doler Rhodesia"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "RON": [
             "RON",
             "Leu Rwmania"
@@ -789,18 +940,24 @@
             "SCR",
             "Rwpî Seychelles"
         ],
+<<<<<<< HEAD
         "SDD": [
             "SDD",
             "Dinar Sudan (1992–2007)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SDG": [
             "SDG",
             "Punt Sudan"
         ],
+<<<<<<< HEAD
         "SDP": [
             "SDP",
             "Punt Sudan (1957–1998)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SEK": [
             "SEK",
             "Krona Sweden"
@@ -813,10 +970,13 @@
             "SHP",
             "Punt Saint Helena"
         ],
+<<<<<<< HEAD
         "SIT": [
             "SIT",
             "SIT"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SLL": [
             "SLL",
             "Leone Sierra Leone"
@@ -829,10 +989,13 @@
             "SRD",
             "Doler Surinam"
         ],
+<<<<<<< HEAD
         "SRG": [
             "SRG",
             "Guilder Surinam"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SSP": [
             "SSP",
             "Punt De Sudan"
@@ -841,10 +1004,13 @@
             "STD",
             "Dobra São Tomé a Príncipe"
         ],
+<<<<<<< HEAD
         "SVC": [
             "SVC",
             "Colón El Salvador"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SYP": [
             "SYP",
             "Punt Syria"
@@ -857,18 +1023,24 @@
             "฿",
             "Baht Gwlad Thai"
         ],
+<<<<<<< HEAD
         "TJR": [
             "TJR",
             "Rwbl Tajikistan"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TJS": [
             "TJS",
             "Somoni Tajikistan"
         ],
+<<<<<<< HEAD
         "TMM": [
             "TMM",
             "Manat Turkmenistan (1993–2009)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TMT": [
             "TMT",
             "Manat Turkmenistan"
@@ -881,6 +1053,7 @@
             "TOP",
             "Paʻanga Tonga"
         ],
+<<<<<<< HEAD
         "TPE": [
             "TPE",
             "Escudo Timor"
@@ -889,6 +1062,8 @@
             "TRL",
             "Lira Twrci (1922–2005)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TRY": [
             "TRY",
             "Lira Twrci"
@@ -909,10 +1084,13 @@
             "UAH",
             "Hryvnia Wcráin"
         ],
+<<<<<<< HEAD
         "UGS": [
             "UGS",
             "Swllt Uganda (1966–1987)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "UGX": [
             "UGX",
             "Swllt Uganda"
@@ -921,6 +1099,7 @@
             "US$",
             "Doler UDA"
         ],
+<<<<<<< HEAD
         "USN": [
             "USN",
             "Doler UDA (y diwrnod nesaf)"
@@ -937,6 +1116,8 @@
             "UYP",
             "Peso Uruguay (1975–1993)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "UYU": [
             "UYU",
             "Peso Uruguay"
@@ -945,10 +1126,13 @@
             "UZS",
             "Som Uzbekistan"
         ],
+<<<<<<< HEAD
         "VEB": [
             "VEB",
             "Bolívar Venezuela (1871–2008)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "VEF": [
             "VEF",
             "Bolívar Venezuela"
@@ -957,10 +1141,13 @@
             "₫",
             "Dong Fietnam"
         ],
+<<<<<<< HEAD
         "VNN": [
             "VNN",
             "Dong Fietnam (1978–1985)"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "VUV": [
             "VUV",
             "Vatu Vanuatu"
@@ -971,12 +1158,17 @@
         ],
         "XAF": [
             "FCFA",
+<<<<<<< HEAD
             "Ffranc CFA Canol Affrica"
+=======
+            "Ffranc CFA y BEAC"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XCD": [
             "EC$",
             "Doler Dwyrain y Caribî"
         ],
+<<<<<<< HEAD
         "XEU": [
             "XEU",
             "XEU"
@@ -992,11 +1184,21 @@
         "YDD": [
             "YDD",
             "Dinar Yemen"
+=======
+        "XOF": [
+            "CFA",
+            "Ffranc CFA y BCEAO"
+        ],
+        "XPF": [
+            "CFPF",
+            "Ffranc CPF"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "YER": [
             "YER",
             "Rial Yemen"
         ],
+<<<<<<< HEAD
         "YUD": [
             "YUD",
             "YUD"
@@ -1017,6 +1219,8 @@
             "ZAL",
             "Rand (ariannol) De Affrica"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ZAR": [
             "ZAR",
             "Rand De Affrica"
@@ -1028,6 +1232,7 @@
         "ZMW": [
             "ZMW",
             "Kwacha Zambia"
+<<<<<<< HEAD
         ],
         "ZRN": [
             "ZRN",
@@ -1048,6 +1253,8 @@
         "ZWR": [
             "ZWR",
             "Doler Zimbabwe (2008)"
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ]
     }
 }

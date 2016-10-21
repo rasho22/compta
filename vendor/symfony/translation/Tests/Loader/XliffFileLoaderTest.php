@@ -76,9 +76,12 @@ class XliffFileLoaderTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(array('foo' => 'bar', 'extra' => 'extra', 'key' => '', 'test' => 'with'), $catalogue->all('domain1'));
     }
 
+<<<<<<< HEAD
     /**
      * @requires extension mbstring
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testEncoding()
     {
         $loader = new XliffFileLoader();
@@ -89,6 +92,18 @@ class XliffFileLoaderTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(array('notes' => array(array('content' => utf8_decode('bäz')))), $catalogue->getMetadata('foo', 'domain1'));
     }
 
+<<<<<<< HEAD
+=======
+    public function testTargetAttributesAreStoredCorrectly()
+    {
+        $loader = new XliffFileLoader();
+        $catalogue = $loader->load(__DIR__.'/../fixtures/with-attributes.xlf', 'en', 'domain1');
+
+        $metadata = $catalogue->getMetadata('foo', 'domain1');
+        $this->assertEquals('translated', $metadata['target-attributes']['state']);
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * @expectedException \Symfony\Component\Translation\Exception\InvalidResourceException
      */
@@ -156,4 +171,25 @@ class XliffFileLoaderTest extends \PHPUnit_Framework_TestCase
         // message with empty target
         $this->assertEquals(array('notes' => array(array('content' => 'baz'), array('priority' => 2, 'from' => 'bar', 'content' => 'qux'))), $catalogue->getMetadata('key', 'domain1'));
     }
+<<<<<<< HEAD
+=======
+
+    public function testLoadVersion2()
+    {
+        $loader = new XliffFileLoader();
+        $resource = __DIR__.'/../fixtures/resources-2.0.xlf';
+        $catalogue = $loader->load($resource, 'en', 'domain1');
+
+        $this->assertEquals('en', $catalogue->getLocale());
+        $this->assertEquals(array(new FileResource($resource)), $catalogue->getResources());
+        $this->assertSame(array(), libxml_get_errors());
+
+        $domains = $catalogue->all();
+        $this->assertCount(3, $domains['domain1']);
+        $this->assertContainsOnly('string', $catalogue->all('domain1'));
+
+        // target attributes
+        $this->assertEquals(array('target-attributes' => array('order' => 1)), $catalogue->getMetadata('bar', 'domain1'));
+    }
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

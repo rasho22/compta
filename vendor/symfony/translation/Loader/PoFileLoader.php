@@ -11,14 +11,18 @@
 
 namespace Symfony\Component\Translation\Loader;
 
+<<<<<<< HEAD
 use Symfony\Component\Translation\Exception\InvalidResourceException;
 use Symfony\Component\Translation\Exception\NotFoundResourceException;
 use Symfony\Component\Config\Resource\FileResource;
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 /**
  * @copyright Copyright (c) 2010, Union of RAD http://union-of-rad.org (http://lithify.me/)
  * @copyright Copyright (c) 2012, Clemens Tolboom
  */
+<<<<<<< HEAD
 class PoFileLoader extends ArrayLoader
 {
     public function load($resource, $locale, $domain = 'messages')
@@ -52,6 +56,10 @@ class PoFileLoader extends ArrayLoader
         return $catalogue;
     }
 
+=======
+class PoFileLoader extends FileLoader
+{
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * Parses portable object (PO) format.
      *
@@ -93,11 +101,17 @@ class PoFileLoader extends ArrayLoader
      *
      * Items with an empty id are ignored.
      *
+<<<<<<< HEAD
      * @param resource $resource
      *
      * @return array
      */
     private function parse($resource)
+=======
+     * {@inheritdoc}
+     */
+    protected function loadResource($resource)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         $stream = fopen($resource, 'r');
 

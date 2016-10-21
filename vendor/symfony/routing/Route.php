@@ -87,6 +87,7 @@ class Route implements \Serializable
         $this->setRequirements($requirements);
         $this->setOptions($options);
         $this->setHost($host);
+<<<<<<< HEAD
         // The conditions make sure that an initial empty $schemes/$methods does not override the corresponding requirement.
         // They can be removed when the BC layer is removed.
         if ($schemes) {
@@ -95,6 +96,10 @@ class Route implements \Serializable
         if ($methods) {
             $this->setMethods($methods);
         }
+=======
+        $this->setSchemes($schemes);
+        $this->setMethods($methods);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->setCondition($condition);
     }
 
@@ -141,6 +146,7 @@ class Route implements \Serializable
     /**
      * Returns the pattern for the path.
      *
+<<<<<<< HEAD
      * @return string The pattern
      *
      * @deprecated since version 2.2, to be removed in 3.0. Use getPath instead.
@@ -173,6 +179,8 @@ class Route implements \Serializable
     /**
      * Returns the pattern for the path.
      *
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * @return string The path pattern
      */
     public function getPath()
@@ -250,6 +258,7 @@ class Route implements \Serializable
     public function setSchemes($schemes)
     {
         $this->schemes = array_map('strtolower', (array) $schemes);
+<<<<<<< HEAD
 
         // this is to keep BC and will be removed in a future version
         if ($this->schemes) {
@@ -258,6 +267,8 @@ class Route implements \Serializable
             unset($this->requirements['_scheme']);
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->compiled = null;
 
         return $this;
@@ -299,6 +310,7 @@ class Route implements \Serializable
     public function setMethods($methods)
     {
         $this->methods = array_map('strtoupper', (array) $methods);
+<<<<<<< HEAD
 
         // this is to keep BC and will be removed in a future version
         if ($this->methods) {
@@ -307,6 +319,8 @@ class Route implements \Serializable
             unset($this->requirements['_method']);
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->compiled = null;
 
         return $this;
@@ -540,12 +554,15 @@ class Route implements \Serializable
      */
     public function getRequirement($key)
     {
+<<<<<<< HEAD
         if ('_scheme' === $key) {
             @trigger_error('The "_scheme" requirement is deprecated since version 2.2 and will be removed in 3.0. Use getSchemes() instead.', E_USER_DEPRECATED);
         } elseif ('_method' === $key) {
             @trigger_error('The "_method" requirement is deprecated since version 2.2 and will be removed in 3.0. Use getMethods() instead.', E_USER_DEPRECATED);
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return isset($this->requirements[$key]) ? $this->requirements[$key] : null;
     }
 
@@ -643,6 +660,7 @@ class Route implements \Serializable
             throw new \InvalidArgumentException(sprintf('Routing requirement for "%s" cannot be empty.', $key));
         }
 
+<<<<<<< HEAD
         // this is to keep BC and will be removed in a future version
         if ('_scheme' === $key) {
             @trigger_error('The "_scheme" requirement is deprecated since version 2.2 and will be removed in 3.0. Use the setSchemes() method instead.', E_USER_DEPRECATED);
@@ -654,6 +672,8 @@ class Route implements \Serializable
             $this->setMethods(explode('|', $regex));
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return $regex;
     }
 }

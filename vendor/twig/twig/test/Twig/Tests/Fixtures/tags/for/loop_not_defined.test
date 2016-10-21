@@ -7,4 +7,8 @@
 --DATA--
 return array('items' => array('a', 'b'))
 --EXCEPTION--
+<<<<<<< HEAD
 Twig_Error_Syntax: The "loop.last" variable is not defined when looping with a condition in "index.twig" at line 3
+=======
+Twig_Error_Syntax: The "loop.last" variable is not defined when looping with a condition in "index.twig" at line 3.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af

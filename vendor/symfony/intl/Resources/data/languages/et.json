@@ -1,23 +1,38 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afari",
         "ab": "abhaasi",
         "ace": "atšehi",
+<<<<<<< HEAD
         "ach": "atšoli",
         "ada": "adangme",
         "ady": "adõgee",
         "ae": "avesta",
         "aeb": "Tuneesia araabia",
+=======
+        "ach": "akoli",
+        "ada": "adangme",
+        "ady": "adõgee",
+        "ae": "avesta",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "af": "afrikaani",
         "afh": "afrihili",
         "agq": "aghemi",
         "ain": "ainu",
         "ak": "akani",
         "akk": "akadi",
+<<<<<<< HEAD
         "akz": "alabama",
         "ale": "aleuudi",
         "aln": "geegi",
+=======
+        "ale": "aleuudi",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "alt": "altai",
         "am": "amhari",
         "an": "aragoni",
@@ -26,6 +41,7 @@
         "ar": "araabia",
         "ar_001": "araabia (tänapäevane)",
         "arc": "aramea",
+<<<<<<< HEAD
         "arn": "mapudunguni",
         "aro": "araona",
         "arp": "arapaho",
@@ -36,6 +52,13 @@
         "as": "assami",
         "asa": "asu",
         "ase": "Ameerika viipekeel",
+=======
+        "arn": "araukaani",
+        "arp": "arapaho",
+        "arw": "aravaki",
+        "as": "assami",
+        "asa": "asa",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ast": "astuuria",
         "av": "avaari",
         "awa": "avadhi",
@@ -44,24 +67,36 @@
         "ba": "baškiiri",
         "bal": "belutši",
         "ban": "bali",
+<<<<<<< HEAD
         "bar": "baieri",
         "bas": "basa",
         "bax": "bamuni",
         "bbc": "bataki",
+=======
+        "bas": "basa",
+        "bax": "bamuni",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bbj": "ghomala",
         "be": "valgevene",
         "bej": "bedža",
         "bem": "bemba",
+<<<<<<< HEAD
         "bew": "betavi",
         "bez": "bena",
         "bfd": "bafuti",
         "bfq": "badaga",
         "bg": "bulgaaria",
         "bgn": "läänebelutši",
+=======
+        "bez": "bena",
+        "bfd": "bafuti",
+        "bg": "bulgaaria",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhodžpuri",
         "bi": "bislama",
         "bik": "bikoli",
         "bin": "edo",
+<<<<<<< HEAD
         "bjn": "bandžari",
         "bkm": "komi (Aafrika)",
         "bla": "mustjalaindiaani",
@@ -73,6 +108,15 @@
         "br": "bretooni",
         "bra": "bradži",
         "brh": "brahui",
+=======
+        "bkm": "itaŋikomi",
+        "bla": "siksika",
+        "bm": "bambara",
+        "bn": "bengali",
+        "bo": "tiibeti",
+        "br": "bretooni",
+        "bra": "bradži",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "brx": "bodo",
         "bs": "bosnia",
         "bss": "akoose",
@@ -84,11 +128,19 @@
         "ca": "katalaani",
         "cad": "kado",
         "car": "kariibi",
+<<<<<<< HEAD
         "cay": "kajuka",
         "cch": "atsami",
         "ce": "tšetšeeni",
         "ceb": "sebu",
         "cgg": "tšiga",
+=======
+        "cay": "cayuga",
+        "cch": "atsami",
+        "ce": "tšetšeeni",
+        "ceb": "sebu",
+        "cgg": "chiga",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ch": "tšamorro",
         "chb": "tšibtša",
         "chg": "tšagatai",
@@ -99,10 +151,16 @@
         "chp": "tšipevai",
         "chr": "tšerokii",
         "chy": "šaieeni",
+<<<<<<< HEAD
         "ckb": "sorani",
         "co": "korsika",
         "cop": "kopti",
         "cps": "kapisnoni",
+=======
+        "ckb": "sorani kurdi",
+        "co": "korsika",
+        "cop": "kopti",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cr": "krii",
         "crh": "krimmitatari",
         "cs": "tšehhi",
@@ -113,10 +171,16 @@
         "da": "taani",
         "dak": "siuu",
         "dar": "dargi",
+<<<<<<< HEAD
         "dav": "davida",
         "de": "saksa",
         "de_AT": "Austria saksa",
         "de_CH": "Šveitsi ülemsaksa",
+=======
+        "dav": "taita",
+        "de": "saksa",
+        "de_CH": "saksa (kõrgsaksa)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "del": "delavari",
         "den": "sleivi",
         "dgr": "dogribi",
@@ -124,6 +188,7 @@
         "dje": "zarma",
         "doi": "dogri",
         "dsb": "alamsorbi",
+<<<<<<< HEAD
         "dtp": "keskdusuni",
         "dua": "duala",
         "dum": "keskhollandi",
@@ -137,10 +202,24 @@
         "efi": "efiki",
         "egl": "emiilia",
         "egy": "egiptuse",
+=======
+        "dua": "duala",
+        "dum": "keskhollandi",
+        "dv": "maldiivi",
+        "dyo": "jola-fonyi",
+        "dyu": "djula",
+        "dz": "dzongkha",
+        "dzg": "dazaga",
+        "ebu": "embu",
+        "ee": "eve",
+        "efi": "efiki",
+        "egy": "muinasegiptuse",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "eka": "ekadžuki",
         "el": "kreeka",
         "elx": "eelami",
         "en": "inglise",
+<<<<<<< HEAD
         "en_AU": "Austraalia inglise",
         "en_CA": "Kanada inglise",
         "en_GB": "Briti inglise",
@@ -163,16 +242,38 @@
         "fi": "soome",
         "fil": "filipiini",
         "fit": "meä",
+=======
+        "en_GB": "inglise (Briti)",
+        "en_US": "inglise (USA)",
+        "enm": "keskinglise",
+        "eo": "esperanto",
+        "es": "hispaania",
+        "es_ES": "hispaania (Euroopa)",
+        "et": "eesti",
+        "eu": "baski",
+        "ewo": "evondo",
+        "fa": "pärsia",
+        "fan": "fangi",
+        "fat": "fanti",
+        "ff": "fulbe",
+        "fi": "soome",
+        "fil": "filipino",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fj": "fidži",
         "fo": "fääri",
         "fon": "foni",
         "fr": "prantsuse",
+<<<<<<< HEAD
         "fr_CA": "Kanada prantsuse",
         "fr_CH": "Šveitsi prantsuse",
         "frc": "cajun’i",
         "frm": "keskprantsuse",
         "fro": "vanaprantsuse",
         "frp": "frankoprovansi",
+=======
+        "frm": "keskprantsuse",
+        "fro": "vanaprantsuse",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "frr": "põhjafriisi",
         "frs": "idafriisi",
         "fur": "friuuli",
@@ -180,14 +281,20 @@
         "ga": "iiri",
         "gaa": "gaa",
         "gag": "gagauusi",
+<<<<<<< HEAD
         "gan": "kani",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "gay": "gajo",
         "gba": "gbaja",
         "gd": "gaeli",
         "gez": "etioopia",
         "gil": "kiribati",
         "gl": "galeegi",
+<<<<<<< HEAD
         "glk": "gilaki",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "gmh": "keskülemsaksa",
         "gn": "guaranii",
         "goh": "vanaülemsaksa",
@@ -198,8 +305,11 @@
         "grc": "vanakreeka",
         "gsw": "šveitsisaksa",
         "gu": "gudžarati",
+<<<<<<< HEAD
         "guc": "vajuu",
         "gur": "farefare",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "guz": "gusii",
         "gv": "mänksi",
         "gwi": "gvitšini",
@@ -208,6 +318,7 @@
         "haw": "havai",
         "he": "heebrea",
         "hi": "hindi",
+<<<<<<< HEAD
         "hif": "Fidži hindi",
         "hil": "hiligainoni",
         "hit": "heti",
@@ -216,6 +327,14 @@
         "hr": "horvaadi",
         "hsb": "ülemsorbi",
         "hsn": "sjangi",
+=======
+        "hil": "hiligainoni",
+        "hit": "heti",
+        "hmn": "hmongi",
+        "ho": "motu",
+        "hr": "horvaadi",
+        "hsb": "ülemsorbi",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ht": "haiti",
         "hu": "ungari",
         "hup": "hupa",
@@ -227,7 +346,11 @@
         "id": "indoneesia",
         "ie": "interlingue",
         "ig": "ibo",
+<<<<<<< HEAD
         "ii": "Sichuani jii",
+=======
+        "ii": "sichuani jii",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ik": "injupiaki",
         "ilo": "iloko",
         "inh": "inguši",
@@ -235,6 +358,7 @@
         "is": "islandi",
         "it": "itaalia",
         "iu": "inuktituti",
+<<<<<<< HEAD
         "izh": "isuri",
         "ja": "jaapani",
         "jam": "Jamaica kreoolkeel",
@@ -244,6 +368,14 @@
         "jpr": "juudipärsia",
         "jrb": "juudiaraabia",
         "jut": "jüüti",
+=======
+        "ja": "jaapani",
+        "jbo": "lojbani",
+        "jgo": "ngomba",
+        "jmc": "machame",
+        "jpr": "juudipärsia",
+        "jrb": "juudiaraabia",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "jv": "jaava",
         "ka": "gruusia",
         "kaa": "karakalpaki",
@@ -254,11 +386,16 @@
         "kaw": "kaavi",
         "kbd": "kabardi-tšerkessi",
         "kbl": "kanembu",
+<<<<<<< HEAD
         "kcg": "tjapi",
+=======
+        "kcg": "tyapi",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kde": "makonde",
         "kea": "kabuverdianu",
         "kfo": "koro",
         "kg": "kongo",
+<<<<<<< HEAD
         "kgp": "kaingangi",
         "kha": "khasi",
         "kho": "saka",
@@ -271,6 +408,17 @@
         "kkj": "kako",
         "kl": "grööni",
         "kln": "kalendžini",
+=======
+        "kha": "khasi",
+        "kho": "saki",
+        "khq": "koyra chiini",
+        "ki": "kikuju",
+        "kj": "ambo",
+        "kk": "kasahhi",
+        "kkj": "kako",
+        "kl": "grööni",
+        "kln": "kaljenjin",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "km": "khmeeri",
         "kmb": "mbundu",
         "kn": "kannada",
@@ -281,6 +429,7 @@
         "kpe": "kpelle",
         "kr": "kanuri",
         "krc": "karatšai-balkaari",
+<<<<<<< HEAD
         "kri": "krio",
         "krj": "kinaraia",
         "krl": "karjala",
@@ -289,6 +438,14 @@
         "ksb": "šambala",
         "ksf": "bafia",
         "ksh": "kölni",
+=======
+        "krl": "karjala",
+        "kru": "oraoni",
+        "ks": "kašmiiri",
+        "ksb": "shambala",
+        "ksf": "bafia",
+        "ksh": "cologniani",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ku": "kurdi",
         "kum": "kumõki",
         "kut": "kutenai",
@@ -304,23 +461,34 @@
         "lez": "lesgi",
         "lg": "ganda",
         "li": "limburgi",
+<<<<<<< HEAD
         "lij": "liguuri",
         "liv": "liivi",
         "lkt": "lakota",
         "lmo": "lombardi",
+=======
+        "lkt": "lakota",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ln": "lingala",
         "lo": "lao",
         "lol": "mongo",
         "loz": "lozi",
+<<<<<<< HEAD
         "lrc": "põhjaluri",
         "lt": "leedu",
         "ltg": "latgali",
         "lu": "luba",
         "lua": "lulua",
+=======
+        "lt": "leedu",
+        "lu": "luba",
+        "lua": "luba-lulua",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lui": "luisenjo",
         "lun": "lunda",
         "luo": "luo",
         "lus": "lušei",
+<<<<<<< HEAD
         "luy": "luhja",
         "lv": "läti",
         "lzh": "klassikaline hiina",
@@ -328,6 +496,13 @@
         "mad": "madura",
         "maf": "mafa",
         "mag": "magahi",
+=======
+        "luy": "luyia",
+        "lv": "läti",
+        "mad": "madura",
+        "maf": "mafa",
+        "mag": "magali",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mai": "maithili",
         "mak": "makassari",
         "man": "malinke",
@@ -341,7 +516,11 @@
         "mg": "malagassi",
         "mga": "keskiiri",
         "mgh": "makhuwa-meetto",
+<<<<<<< HEAD
         "mgo": "meta",
+=======
+        "mgo": "meta’",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mh": "maršalli",
         "mi": "maoori",
         "mic": "mikmaki",
@@ -354,7 +533,10 @@
         "moh": "mohoogi",
         "mos": "more",
         "mr": "marathi",
+<<<<<<< HEAD
         "mrj": "mäemari",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms": "malai",
         "mt": "malta",
         "mua": "mundangi",
@@ -362,6 +544,7 @@
         "mus": "maskogi",
         "mwl": "miranda",
         "mwr": "marvari",
+<<<<<<< HEAD
         "mwv": "mentavei",
         "my": "birma",
         "mye": "mjene",
@@ -369,27 +552,46 @@
         "mzn": "mazandaraani",
         "na": "nauru",
         "nan": "lõunamini",
+=======
+        "my": "birma",
+        "mye": "myene",
+        "myv": "ersa",
+        "na": "nauru",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nap": "napoli",
         "naq": "nama",
         "nb": "norra bokmål",
         "nd": "põhjandebele",
         "nds": "alamsaksa",
+<<<<<<< HEAD
         "nds_NL": "Hollandi alamsaksa",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepali",
         "new": "nevari",
         "ng": "ndonga",
         "nia": "niasi",
         "niu": "niue",
+<<<<<<< HEAD
         "njo": "ao",
         "nl": "hollandi",
         "nl_BE": "flaami",
         "nmg": "kwasio",
         "nn": "uusnorra",
+=======
+        "nl": "hollandi",
+        "nl_BE": "flaami",
+        "nmg": "kwasio",
+        "nn": "norra nynorsk",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nnh": "ngiembooni",
         "no": "norra",
         "nog": "nogai",
         "non": "vanapõhjala",
+<<<<<<< HEAD
         "nov": "noviaal",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nqo": "nkoo",
         "nr": "lõunandebele",
         "nso": "pedi",
@@ -414,6 +616,7 @@
         "pam": "pampanga",
         "pap": "papiamento",
         "pau": "belau",
+<<<<<<< HEAD
         "pcd": "pikardi",
         "pdc": "Pennsylvania saksa",
         "pdt": "mennoniidisaksa",
@@ -439,12 +642,30 @@
         "rgn": "romanja",
         "rif": "riifi",
         "rm": "romanši",
+=======
+        "peo": "vanapärsia",
+        "phn": "foiniikia",
+        "pi": "paali",
+        "pl": "poola",
+        "pon": "poonpei",
+        "pro": "vanaprovansi",
+        "ps": "puštu",
+        "pt": "portugali",
+        "pt_PT": "portugali (Euroopa)",
+        "qu": "ketšua",
+        "quc": "k’iche’",
+        "raj": "radžastani",
+        "rap": "rapanui",
+        "rar": "rarotonga",
+        "rm": "retoromaani",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "rn": "rundi",
         "ro": "rumeenia",
         "ro_MD": "moldova",
         "rof": "rombo",
         "rom": "mustlaskeel",
         "root": "root",
+<<<<<<< HEAD
         "rtm": "rotuma",
         "ru": "vene",
         "rue": "russiini",
@@ -471,25 +692,59 @@
         "see": "seneka",
         "seh": "sena",
         "sei": "seri",
+=======
+        "ru": "vene",
+        "rup": "aromuuni",
+        "rw": "ruanda",
+        "rwk": "rwa",
+        "sa": "sanskriti",
+        "sad": "sandave",
+        "sah": "jakuudi",
+        "sam": "samaaria aramea",
+        "saq": "samburu",
+        "sas": "sasaki",
+        "sat": "santali",
+        "sba": "ngembay",
+        "sbp": "sangu",
+        "sc": "sardiinia",
+        "scn": "sitsiilia",
+        "sco": "šoti",
+        "sd": "sindhi",
+        "se": "põhjasaami",
+        "see": "seneca",
+        "seh": "sena",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sel": "sölkupi",
         "ses": "koyraboro senni",
         "sg": "sango",
         "sga": "vanaiiri",
+<<<<<<< HEAD
         "sgs": "žemaidi",
         "sh": "serbia-horvaadi",
         "shi": "šilha",
+=======
+        "sh": "serbia-horvaadi",
+        "shi": "tachelhiti",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "shn": "šani",
         "shu": "Tšaadi araabia",
         "si": "singali",
         "sid": "sidamo",
         "sk": "slovaki",
         "sl": "sloveeni",
+<<<<<<< HEAD
         "sli": "alamsileesia",
         "sly": "selajari",
         "sm": "samoa",
         "sma": "lõunasaami",
         "smj": "Lule saami",
         "smn": "Inari saami",
+=======
+        "sm": "samoa",
+        "sma": "lõunasaami",
+        "smj": "lule saami",
+        "smn": "inari saami",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sms": "koltasaami",
         "sn": "šona",
         "snk": "soninke",
@@ -502,13 +757,17 @@
         "ss": "svaasi",
         "ssy": "saho",
         "st": "lõunasotho",
+<<<<<<< HEAD
         "stq": "saterfriisi",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "su": "sunda",
         "suk": "sukuma",
         "sus": "susu",
         "sux": "sumeri",
         "sv": "rootsi",
         "sw": "suahiili",
+<<<<<<< HEAD
         "sw_CD": "Kongo suahiili",
         "swb": "komoori",
         "syc": "vanasüüria",
@@ -516,6 +775,13 @@
         "szl": "sileesia",
         "ta": "tamili",
         "tcy": "tulu",
+=======
+        "swb": "komoori",
+        "swc": "Kongo suahiili",
+        "syc": "klassikaline süüria",
+        "syr": "süüria",
+        "ta": "tamili",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "te": "telugu",
         "tem": "temne",
         "teo": "teso",
@@ -528,17 +794,24 @@
         "tiv": "tivi",
         "tk": "türkmeeni",
         "tkl": "tokelau",
+<<<<<<< HEAD
         "tkr": "tsahhi",
         "tl": "tagalogi",
         "tlh": "klingoni",
         "tli": "tlingiti",
         "tly": "talõši",
+=======
+        "tl": "tagalogi",
+        "tlh": "klingoni",
+        "tli": "tlingiti",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tmh": "tamašeki",
         "tn": "tsvana",
         "to": "tonga",
         "tog": "tšitonga",
         "tpi": "uusmelaneesia",
         "tr": "türgi",
+<<<<<<< HEAD
         "tru": "turojo",
         "trv": "taroko",
         "ts": "tsonga",
@@ -546,23 +819,38 @@
         "tsi": "tšimši",
         "tt": "tatari",
         "ttt": "lõunataadi",
+=======
+        "trv": "taroko",
+        "ts": "tsonga",
+        "tsi": "tšimši",
+        "tt": "tatari",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tum": "tumbuka",
         "tvl": "tuvalu",
         "tw": "tvii",
         "twq": "taswaqi",
         "ty": "tahiti",
         "tyv": "tõva",
+<<<<<<< HEAD
         "tzm": "tamasikti",
+=======
+        "tzm": "Kesk-Maroko tamazighti",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "udm": "udmurdi",
         "ug": "uiguuri",
         "uga": "ugariti",
         "uk": "ukraina",
         "umb": "umbundu",
+<<<<<<< HEAD
         "und": "määramata keel",
+=======
+        "und": "määramata",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ur": "urdu",
         "uz": "usbeki",
         "vai": "vai",
         "ve": "venda",
+<<<<<<< HEAD
         "vec": "veneti",
         "vep": "vepsa",
         "vi": "vietnami",
@@ -583,10 +871,25 @@
         "xal": "kalmõki",
         "xh": "koosa",
         "xmf": "megreli",
+=======
+        "vi": "vietnami",
+        "vo": "volapüki",
+        "vot": "vadja",
+        "vun": "vunjo",
+        "wa": "vallooni",
+        "wae": "walseri",
+        "wal": "volamo",
+        "war": "varai",
+        "was": "vašo",
+        "wo": "volofi",
+        "xal": "kalmõki",
+        "xh": "koosa",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "xog": "soga",
         "yao": "jao",
         "yap": "japi",
         "yav": "yangbeni",
+<<<<<<< HEAD
         "ybb": "jemba",
         "yi": "jidiši",
         "yo": "joruba",
@@ -596,6 +899,15 @@
         "zap": "sapoteegi",
         "zbl": "Blissi sümbolid",
         "zea": "zeelandi",
+=======
+        "ybb": "yemba",
+        "yi": "jidiši",
+        "yo": "joruba",
+        "yue": "kantoni",
+        "za": "tšuangi",
+        "zap": "sapoteegi",
+        "zbl": "blissümbolid",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "zen": "zenaga",
         "zgh": "tamasikti (Maroko)",
         "zh": "hiina",

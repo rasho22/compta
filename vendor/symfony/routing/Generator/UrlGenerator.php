@@ -143,6 +143,7 @@ class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInt
      */
     protected function doGenerate($variables, $defaults, $requirements, $tokens, $parameters, $name, $referenceType, $hostTokens, array $requiredSchemes = array())
     {
+<<<<<<< HEAD
         if (is_bool($referenceType) || is_string($referenceType)) {
             @trigger_error('The hardcoded value you are using for the $referenceType argument of the '.__CLASS__.'::generate method is deprecated since version 2.8 and will not be supported anymore in 3.0. Use the constants defined in the UrlGeneratorInterface instead.', E_USER_DEPRECATED);
 
@@ -157,6 +158,8 @@ class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInt
             }
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $variables = array_flip($variables);
         $mergedParams = array_replace($defaults, $this->context->getParameters(), $parameters);
 
@@ -220,10 +223,13 @@ class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInt
                     $referenceType = self::ABSOLUTE_URL;
                     $scheme = current($requiredSchemes);
                 }
+<<<<<<< HEAD
             } elseif (isset($requirements['_scheme']) && ($req = strtolower($requirements['_scheme'])) && $scheme !== $req) {
                 // We do this for BC; to be removed if _scheme is not supported anymore
                 $referenceType = self::ABSOLUTE_URL;
                 $scheme = $req;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
 
             if ($hostTokens) {

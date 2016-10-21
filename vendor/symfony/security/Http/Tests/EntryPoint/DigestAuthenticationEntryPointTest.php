@@ -23,7 +23,11 @@ class DigestAuthenticationEntryPointTest extends \PHPUnit_Framework_TestCase
 
         $authenticationException = new AuthenticationException('TheAuthenticationExceptionMessage');
 
+<<<<<<< HEAD
         $entryPoint = new DigestAuthenticationEntryPoint('TheRealmName', 'TheKey');
+=======
+        $entryPoint = new DigestAuthenticationEntryPoint('TheRealmName', 'TheSecret');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $response = $entryPoint->start($request, $authenticationException);
 
         $this->assertEquals(401, $response->getStatusCode());
@@ -34,7 +38,11 @@ class DigestAuthenticationEntryPointTest extends \PHPUnit_Framework_TestCase
     {
         $request = $this->getMock('Symfony\Component\HttpFoundation\Request');
 
+<<<<<<< HEAD
         $entryPoint = new DigestAuthenticationEntryPoint('TheRealmName', 'TheKey');
+=======
+        $entryPoint = new DigestAuthenticationEntryPoint('TheRealmName', 'TheSecret');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $response = $entryPoint->start($request);
 
         $this->assertEquals(401, $response->getStatusCode());
@@ -47,7 +55,11 @@ class DigestAuthenticationEntryPointTest extends \PHPUnit_Framework_TestCase
 
         $nonceExpiredException = new NonceExpiredException('TheNonceExpiredExceptionMessage');
 
+<<<<<<< HEAD
         $entryPoint = new DigestAuthenticationEntryPoint('TheRealmName', 'TheKey');
+=======
+        $entryPoint = new DigestAuthenticationEntryPoint('TheRealmName', 'TheSecret');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $response = $entryPoint->start($request, $nonceExpiredException);
 
         $this->assertEquals(401, $response->getStatusCode());

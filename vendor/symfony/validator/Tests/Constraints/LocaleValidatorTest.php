@@ -84,6 +84,10 @@ class LocaleValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', '"'.$locale.'"')
+<<<<<<< HEAD
+=======
+            ->setCode(Locale::NO_SUCH_LOCALE_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 

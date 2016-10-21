@@ -3,6 +3,10 @@ Exception for invalid argument type in replace call
 --TEMPLATE--
 {{ 'test %foo%'|replace(stdClass) }}
 --DATA--
+<<<<<<< HEAD
 return array('stdClass' => new \stdClass())
+=======
+return array('stdClass' => new stdClass())
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 --EXCEPTION--
 Twig_Error_Runtime: The "replace" filter expects an array or "Traversable" as replace values, got "stdClass" in "index.twig" at line 2.

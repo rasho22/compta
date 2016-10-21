@@ -25,6 +25,7 @@ col-sm-2
 {# Rows #}
 
 {% block form_row -%}
+<<<<<<< HEAD
 {% spaceless %}
     <div class="form-group{% if (not compound or force_error|default(false)) and not valid %} has-error{% endif %}">
         {{ form_label(form) }}
@@ -34,6 +35,15 @@ col-sm-2
         </div>
     </div>
 {% endspaceless %}
+=======
+    <div class="form-group{% if (not compound or force_error|default(false)) and not valid %} has-error{% endif %}">
+        {{- form_label(form) -}}
+        <div class="{{ block('form_group_class') }}">
+            {{- form_widget(form) -}}
+            {{- form_errors(form) -}}
+        </div>
+{##}</div>
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {%- endblock form_row %}
 
 {% block checkbox_row -%}
@@ -67,6 +77,20 @@ col-sm-2
 {% endspaceless %}
 {% endblock submit_row %}
 
+<<<<<<< HEAD
+=======
+{% block reset_row -%}
+{% spaceless %}
+    <div class="form-group">
+        <div class="{{ block('form_label_class') }}"></div>
+        <div class="{{ block('form_group_class') }}">
+            {{ form_widget(form) }}
+        </div>
+    </div>
+{% endspaceless %}
+{% endblock reset_row %}
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {% block form_group_class -%}
 col-sm-10
 {%- endblock form_group_class %}

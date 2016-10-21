@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.79",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "lea fakaʻafāla",
         "ab": "lea fakaʻapakasia",
@@ -42,6 +46,10 @@
         "awa": "lea fakaʻauati",
         "ay": "lea fakaʻaimala",
         "az": "lea fakaʻasapaisani",
+<<<<<<< HEAD
+=======
+        "azb": "lea fakaʻasapaisani-tonga",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "lea fakapasikili",
         "bal": "lea fakapalusi",
         "ban": "lea fakapali",
@@ -58,7 +66,10 @@
         "bfd": "lea fakapafuti",
         "bfq": "lea fakapataka",
         "bg": "lea fakapulukalia",
+<<<<<<< HEAD
         "bgn": "lea fakapalusi-hihifo",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "lea fakaposipuli",
         "bi": "lea fakapisilama",
         "bik": "lea fakapikoli",
@@ -100,7 +111,11 @@
         "chp": "lea fakasipeuiani",
         "chr": "lea fakaselokī",
         "chy": "lea fakaseiene",
+<<<<<<< HEAD
         "ckb": "lea fakakūtisi-loloto",
+=======
+        "ckb": "lea fakakūtisi-solani",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "co": "lea fakakōsika",
         "cop": "lea fakakopitika",
         "cps": "lea fakakapiseno",
@@ -212,7 +227,11 @@
         "haw": "lea fakahauaiʻi",
         "he": "lea fakahepelū",
         "hi": "lea fakahinitī",
+<<<<<<< HEAD
         "hif": "lea fakahinitī-fisi",
+=======
+        "hif": "lea fakahihitī-fisi",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hil": "lea fakahilikainoni",
         "hit": "lea fakahitite",
         "hmn": "lea fakamōngi",
@@ -318,7 +337,10 @@
         "lo": "lea fakalau",
         "lol": "lea fakamongikō",
         "loz": "lea fakalosi",
+<<<<<<< HEAD
         "lrc": "lea fakaluli-tokelau",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "lea fakalituania",
         "ltg": "lea fakalatakale",
         "lu": "lea fakalupa-katanga",
@@ -362,7 +384,11 @@
         "mr": "lea fakamalati",
         "mrj": "lea fakamali-hihifo",
         "ms": "lea fakamalei",
+<<<<<<< HEAD
         "mt": "lea fakamalita",
+=======
+        "mt": "lea fakamolota",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mua": "lea fakamunitangi",
         "mul": "lea tuifio",
         "mus": "lea fakakileki",
@@ -380,7 +406,10 @@
         "nb": "lea fakanouaē-pokimali",
         "nd": "lea fakanetepele-tokelau",
         "nds": "lea fakasiamane-hifo",
+<<<<<<< HEAD
         "nds_NL": "lea fakasakisoni-hifo",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "lea fakanepali",
         "new": "lea fakaneuali",
         "ng": "lea fakanetongikā",
@@ -392,7 +421,11 @@
         "nmg": "lea fakakuasio",
         "nn": "lea fakanoauē-ninosiki",
         "nnh": "lea fakangiemipōni",
+<<<<<<< HEAD
         "no": "lea fakanouaē",
+=======
+        "no": "lea fakanouē",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nog": "lea fakanokai",
         "non": "lea fakanoauē-motuʻa",
         "nov": "lea fakanoviale",
@@ -427,7 +460,11 @@
         "pfl": "lea fakasiamane-palatine",
         "phn": "lea fakafoinikia",
         "pi": "lea fakapāli",
+<<<<<<< HEAD
         "pl": "lea fakapolani",
+=======
+        "pl": "lea fakapōlani",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "pms": "lea fakapiemonite",
         "pnt": "lea fakaponitiki",
         "pon": "lea fakaponapē",
@@ -443,7 +480,11 @@
         "raj": "lea fakalasasitani",
         "rap": "lea fakalapanui",
         "rar": "lea fakalalotonga",
+<<<<<<< HEAD
         "rgn": "lea fakalomaniolo",
+=======
+        "rgn": "lea fakaromaniolo",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "rif": "lea fakalifi",
         "rm": "lea fakalaito-lomēnia",
         "rn": "lea fakaluaniti",
@@ -474,7 +515,10 @@
         "sco": "lea fakasikotilani",
         "sd": "lea fakasīniti",
         "sdc": "lea fakasaletīnia-sasalesu",
+<<<<<<< HEAD
         "sdh": "lea faka-tonga ‘o Ketesi",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "lea fakasami-tokelau",
         "see": "lea fakaseneka",
         "seh": "lea fakasena",
@@ -507,7 +551,11 @@
         "sr": "lea fakasēpia",
         "srn": "lea fakasuranane-tongikō",
         "srr": "lea fakasēlēle",
+<<<<<<< HEAD
         "ss": "lea fakasuati",
+=======
+        "ss": "lea fakasuasilani",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ssy": "lea fakasaho",
         "st": "lea fakasoto-tonga",
         "stq": "lea fakafilisia-satēlani",
@@ -517,8 +565,13 @@
         "sux": "lea fakasumelia",
         "sv": "lea fakasuēteni",
         "sw": "lea fakasuahili",
+<<<<<<< HEAD
         "sw_CD": "lea fakasuahili-kongikō",
         "swb": "lea fakakomolo",
+=======
+        "swb": "lea fakakomolo",
+        "swc": "lea fakasuahili-kongikō",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "lea fakasuliāiā-muʻa",
         "syr": "lea fakasuliāiā",
         "szl": "lea fakasilesia",
@@ -532,7 +585,11 @@
         "tg": "lea fakatāsiki",
         "th": "lea fakatailani",
         "ti": "lea fakatikilinia",
+<<<<<<< HEAD
         "tig": "lea fakatikilē",
+=======
+        "tig": "lea fakatikilīnia",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tiv": "lea fakativi",
         "tk": "lea fakatēkimeni",
         "tkl": "lea fakatokelau",
@@ -585,7 +642,10 @@
         "wal": "lea fakaʻuolaita",
         "war": "lea fakaʻualai",
         "was": "lea fakaʻuasiō",
+<<<<<<< HEAD
         "wbp": "lea fakaʻuālipili",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "lea fakaʻuolofo",
         "wuu": "lea fakasiaina-uū",
         "xal": "lea fakakalimiki",

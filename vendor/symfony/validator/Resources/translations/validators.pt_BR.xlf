@@ -310,6 +310,13 @@
                 <source>This value does not match the expected {{ charset }} charset.</source>
                 <target>Este valor não corresponde ao charset {{ charset }} esperado.</target>
             </trans-unit>
+<<<<<<< HEAD
+=======
+            <trans-unit id="81">
+                <source>This is not a valid Business Identifier Code (BIC).</source>
+                <target>Este não é um Código Identificador Bancário (BIC) válido.</target>
+            </trans-unit>
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         </body>
     </file>
 </xliff>

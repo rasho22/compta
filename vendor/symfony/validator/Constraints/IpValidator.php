@@ -97,10 +97,18 @@ class IpValidator extends ConstraintValidator
             if ($this->context instanceof ExecutionContextInterface) {
                 $this->context->buildViolation($constraint->message)
                     ->setParameter('{{ value }}', $this->formatValue($value))
+<<<<<<< HEAD
+=======
+                    ->setCode(Ip::INVALID_IP_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             } else {
                 $this->buildViolation($constraint->message)
                     ->setParameter('{{ value }}', $this->formatValue($value))
+<<<<<<< HEAD
+=======
+                    ->setCode(Ip::INVALID_IP_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             }
         }

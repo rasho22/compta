@@ -12,7 +12,10 @@
 namespace Symfony\Component\EventDispatcher\Tests;
 
 use Symfony\Component\DependencyInjection\Container;
+<<<<<<< HEAD
 use Symfony\Component\DependencyInjection\Scope;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher;
 use Symfony\Component\EventDispatcher\Event;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
@@ -104,6 +107,7 @@ class ContainerAwareEventDispatcherTest extends AbstractEventDispatcherTest
         $dispatcher->dispatch('onEvent', $event);
     }
 
+<<<<<<< HEAD
     /**
      * @expectedException \InvalidArgumentException
      * @group legacy
@@ -170,6 +174,8 @@ class ContainerAwareEventDispatcherTest extends AbstractEventDispatcherTest
         $dispatcher->dispatch('onEvent');
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testHasListenersOnLazyLoad()
     {
         $event = new Event();
@@ -182,9 +188,12 @@ class ContainerAwareEventDispatcherTest extends AbstractEventDispatcherTest
         $dispatcher = new ContainerAwareEventDispatcher($container);
         $dispatcher->addListenerService('onEvent', array('service.listener', 'onEvent'));
 
+<<<<<<< HEAD
         $event->setDispatcher($dispatcher);
         $event->setName('onEvent');
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $service
             ->expects($this->once())
             ->method('onEvent')

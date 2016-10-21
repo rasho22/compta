@@ -52,6 +52,17 @@ class ResolvedTypeDataCollectorProxy implements ResolvedFormTypeInterface
     /**
      * {@inheritdoc}
      */
+<<<<<<< HEAD
+=======
+    public function getBlockPrefix()
+    {
+        return method_exists($this->proxiedType, 'getBlockPrefix') ? $this->proxiedType->getBlockPrefix() : $this->getName();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getParent()
     {
         return $this->proxiedType->getParent();

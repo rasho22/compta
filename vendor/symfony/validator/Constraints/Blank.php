@@ -21,5 +21,14 @@ use Symfony\Component\Validator\Constraint;
  */
 class Blank extends Constraint
 {
+<<<<<<< HEAD
+=======
+    const NOT_BLANK_ERROR = '183ad2de-533d-4796-a439-6d3c3852b549';
+
+    protected static $errorNames = array(
+        self::NOT_BLANK_ERROR => 'NOT_BLANK_ERROR',
+    );
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public $message = 'This value should be blank.';
 }

@@ -10,11 +10,30 @@
  */
 class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
 {
+<<<<<<< HEAD
+=======
+    public function testStreamSource()
+    {
+        $env = new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock());
+        $lexer = new Twig_Lexer($env);
+
+        $env->disableDebug();
+        $this->assertSame('', $lexer->tokenize('foo')->getSource());
+
+        $env->enableDebug();
+        $this->assertSame('foo', $lexer->tokenize('foo')->getSource());
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testNameLabelForTag()
     {
         $template = '{% § %}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
 
         $stream->expect(Twig_Token::BLOCK_START_TYPE);
@@ -25,7 +44,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{{ §() }}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
 
         $stream->expect(Twig_Token::VAR_START_TYPE);
@@ -42,7 +65,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
 
     protected function countToken($template, $type, $value = null)
     {
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
 
         $count = 0;
@@ -67,7 +94,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
             ."baz\n"
             ."}}\n";
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
 
         // foo\nbar\n
@@ -87,7 +118,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
             ."baz\n"
             ."}}\n";
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
 
         // foo\nbar
@@ -102,7 +137,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{# '.str_repeat('*', 100000).' #}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $lexer->tokenize($template);
 
         // should not throw an exception
@@ -112,7 +151,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{% verbatim %}'.str_repeat('*', 100000).'{% endverbatim %}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $lexer->tokenize($template);
 
         // should not throw an exception
@@ -122,7 +165,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{{ '.str_repeat('x', 100000).' }}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $lexer->tokenize($template);
 
         // should not throw an exception
@@ -132,7 +179,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{% '.str_repeat('x', 100000).' %}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $lexer->tokenize($template);
 
         // should not throw an exception
@@ -142,7 +193,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{{ 922337203685477580700 }}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
         $stream->next();
         $node = $stream->next();
@@ -155,7 +210,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
             "{{ 'foo \' bar' }}" => 'foo \' bar',
             '{{ "foo \" bar" }}' => 'foo " bar',
         );
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         foreach ($tests as $template => $expected) {
             $stream = $lexer->tokenize($template);
             $stream->expect(Twig_Token::VAR_START_TYPE);
@@ -167,7 +226,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = 'foo {{ "bar #{ baz + 1 }" }}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
         $stream->expect(Twig_Token::TEXT_TYPE, 'foo ');
         $stream->expect(Twig_Token::VAR_START_TYPE);
@@ -184,7 +247,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{{ "bar \#{baz+1}" }}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
         $stream->expect(Twig_Token::VAR_START_TYPE);
         $stream->expect(Twig_Token::STRING_TYPE, 'bar #{baz+1}');
@@ -195,7 +262,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{{ "bar # baz" }}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
         $stream->expect(Twig_Token::VAR_START_TYPE);
         $stream->expect(Twig_Token::STRING_TYPE, 'bar # baz');
@@ -210,7 +281,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{{ "bar #{x" }}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $lexer->tokenize($template);
     }
 
@@ -218,7 +293,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{{ "bar #{ "foo#{bar}" }" }}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
         $stream->expect(Twig_Token::VAR_START_TYPE);
         $stream->expect(Twig_Token::STRING_TYPE, 'bar ');
@@ -235,7 +314,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = '{% foo "bar #{ "foo#{bar}" }" %}';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
         $stream->expect(Twig_Token::BLOCK_START_TYPE);
         $stream->expect(Twig_Token::NAME_TYPE, 'foo');
@@ -253,7 +336,11 @@ class Twig_Tests_LexerTest extends PHPUnit_Framework_TestCase
     {
         $template = "{{ 1 and\n0}}";
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $lexer->tokenize($template);
         $stream->expect(Twig_Token::VAR_START_TYPE);
         $stream->expect(Twig_Token::NUMBER_TYPE, 1);
@@ -275,7 +362,11 @@ bar
 
 ';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $lexer->tokenize($template);
     }
 
@@ -294,7 +385,11 @@ bar
 
 ';
 
+<<<<<<< HEAD
         $lexer = new Twig_Lexer(new Twig_Environment($this->getMock('Twig_LoaderInterface')));
+=======
+        $lexer = new Twig_Lexer(new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $lexer->tokenize($template);
     }
 }

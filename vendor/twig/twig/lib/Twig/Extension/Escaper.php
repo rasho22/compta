@@ -24,31 +24,40 @@ class Twig_Extension_Escaper extends Twig_Extension
         $this->setDefaultStrategy($defaultStrategy);
     }
 
+<<<<<<< HEAD
     /**
      * Returns the token parser instances to add to the existing list.
      *
      * @return array An array of Twig_TokenParserInterface or Twig_TokenParserBrokerInterface instances
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getTokenParsers()
     {
         return array(new Twig_TokenParser_AutoEscape());
     }
 
+<<<<<<< HEAD
     /**
      * Returns the node visitor instances to add to the existing list.
      *
      * @return Twig_NodeVisitorInterface[] An array of Twig_NodeVisitorInterface instances
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getNodeVisitors()
     {
         return array(new Twig_NodeVisitor_Escaper());
     }
 
+<<<<<<< HEAD
     /**
      * Returns a list of filters to add to the existing list.
      *
      * @return array An array of filters
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getFilters()
     {
         return array(
@@ -68,7 +77,11 @@ class Twig_Extension_Escaper extends Twig_Extension
     {
         // for BC
         if (true === $defaultStrategy) {
+<<<<<<< HEAD
             @trigger_error('Using "true" as the default strategy is deprecated. Use "html" instead.', E_USER_DEPRECATED);
+=======
+            @trigger_error('Using "true" as the default strategy is deprecated since version 1.21. Use "html" instead.', E_USER_DEPRECATED);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
             $defaultStrategy = 'html';
         }
@@ -98,11 +111,14 @@ class Twig_Extension_Escaper extends Twig_Extension
         return $this->defaultStrategy;
     }
 
+<<<<<<< HEAD
     /**
      * Returns the name of the extension.
      *
      * @return string The extension name
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getName()
     {
         return 'escaper';

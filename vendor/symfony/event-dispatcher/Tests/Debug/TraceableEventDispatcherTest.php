@@ -73,6 +73,7 @@ class TraceableEventDispatcherTest extends \PHPUnit_Framework_TestCase
         $this->assertSame(123, $tdispatcher->getListenerPriority('foo', $listeners[0]));
     }
 
+<<<<<<< HEAD
     public function testGetListenerPriorityReturnsZeroWhenWrappedMethodDoesNotExist()
     {
         $dispatcher = $this->getMock('Symfony\Component\EventDispatcher\EventDispatcherInterface');
@@ -83,6 +84,8 @@ class TraceableEventDispatcherTest extends \PHPUnit_Framework_TestCase
         $this->assertSame(0, $traceableEventDispatcher->getListenerPriority('foo', $listeners[0]));
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testAddRemoveSubscriber()
     {
         $dispatcher = new EventDispatcher();

@@ -54,6 +54,7 @@ class Route
         }
     }
 
+<<<<<<< HEAD
     /**
      * @deprecated since version 2.2, to be removed in 3.0. Use setPath instead.
      */
@@ -74,6 +75,8 @@ class Route
         return $this->path;
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function setPath($path)
     {
         $this->path = $path;
@@ -106,6 +109,7 @@ class Route
 
     public function setRequirements($requirements)
     {
+<<<<<<< HEAD
         if (isset($requirements['_method'])) {
             if (0 === count($this->methods)) {
                 $this->methods = explode('|', $requirements['_method']);
@@ -122,6 +126,8 @@ class Route
             @trigger_error('The "_scheme" requirement is deprecated since version 2.2 and will be removed in 3.0. Use the "schemes" option instead.', E_USER_DEPRECATED);
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->requirements = $requirements;
     }
 

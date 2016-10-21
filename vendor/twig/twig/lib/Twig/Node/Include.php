@@ -19,6 +19,7 @@ class Twig_Node_Include extends Twig_Node implements Twig_NodeOutputInterface
 {
     public function __construct(Twig_Node_Expression $expr, Twig_Node_Expression $variables = null, $only = false, $ignoreMissing = false, $lineno, $tag = null)
     {
+<<<<<<< HEAD
         parent::__construct(array('expr' => $expr, 'variables' => $variables), array('only' => (bool) $only, 'ignore_missing' => (bool) $ignoreMissing), $lineno, $tag);
     }
 
@@ -27,6 +28,16 @@ class Twig_Node_Include extends Twig_Node implements Twig_NodeOutputInterface
      *
      * @param Twig_Compiler $compiler A Twig_Compiler instance
      */
+=======
+        $nodes = array('expr' => $expr);
+        if (null !== $variables) {
+            $nodes['variables'] = $variables;
+        }
+
+        parent::__construct($nodes, array('only' => (bool) $only, 'ignore_missing' => (bool) $ignoreMissing), $lineno, $tag);
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function compile(Twig_Compiler $compiler)
     {
         $compiler->addDebugInfo($this);
@@ -64,7 +75,11 @@ class Twig_Node_Include extends Twig_Node implements Twig_NodeOutputInterface
              ->write('$this->loadTemplate(')
              ->subcompile($this->getNode('expr'))
              ->raw(', ')
+<<<<<<< HEAD
              ->repr($compiler->getFilename())
+=======
+             ->repr($this->getFilename())
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
              ->raw(', ')
              ->repr($this->getLine())
              ->raw(')')
@@ -73,7 +88,11 @@ class Twig_Node_Include extends Twig_Node implements Twig_NodeOutputInterface
 
     protected function addTemplateArguments(Twig_Compiler $compiler)
     {
+<<<<<<< HEAD
         if (null === $this->getNode('variables')) {
+=======
+        if (!$this->hasNode('variables')) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $compiler->raw(false === $this->getAttribute('only') ? '$context' : 'array()');
         } elseif (false === $this->getAttribute('only')) {
             $compiler

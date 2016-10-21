@@ -86,6 +86,13 @@ interface FormTypeInterface
      * is discouraged because it leads to a performance penalty. The support
      * for returning type instances may be dropped from future releases.
      *
+<<<<<<< HEAD
+=======
+     * Returning a {@link FormTypeInterface} instance is deprecated since
+     * Symfony 2.8 and will be unsupported as of Symfony 3.0. Return the
+     * fully-qualified class name of the parent type instead.
+     *
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * @return string|null|FormTypeInterface The name of the parent type if any, null otherwise
      */
     public function getParent();
@@ -94,6 +101,12 @@ interface FormTypeInterface
      * Returns the name of this type.
      *
      * @return string The name of this type
+<<<<<<< HEAD
+=======
+     *
+     * @deprecated Deprecated since Symfony 2.8, to be removed in Symfony 3.0.
+     *             Use the fully-qualified class name of the type instead.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getName();
 }

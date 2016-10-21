@@ -7,7 +7,11 @@
 {{ block('container') }}
 --TEMPLATE(parent.twig)--
 {% block sub_container %}
+<<<<<<< HEAD
     <div class="overriden_sub_container">overriden sub_container</div>
+=======
+    <div class="overridden_sub_container">overridden sub_container</div>
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {% endblock %}
 --TEMPLATE(ancestor.twig)--
 {% block container %}
@@ -20,5 +24,9 @@
 --DATA--
 return array()
 --EXPECT--
+<<<<<<< HEAD
 <div class="container">    <div class="overriden_sub_container">overriden sub_container</div>
+=======
+<div class="container">    <div class="overridden_sub_container">overridden sub_container</div>
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 </div>

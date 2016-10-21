@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ab": "Abkasies",
         "ach": "Akoli",
@@ -16,11 +20,18 @@
         "ay": "Aymara",
         "az": "Azerbeidjans",
         "ba": "Baskir",
+<<<<<<< HEAD
         "be": "Belo-Russies",
         "bem": "Bemba",
         "bez": "Bena",
         "bg": "Bulgaars",
         "bgn": "Wes-Balochi",
+=======
+        "be": "Wit-Russies",
+        "bem": "Bemba",
+        "bez": "Bena",
+        "bg": "Bulgaars",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bm": "Bambara",
         "bn": "Bengaals",
         "bo": "Tibettaans",
@@ -28,13 +39,19 @@
         "brx": "Bodo",
         "bs": "Bosnies",
         "ca": "Katalaans",
+<<<<<<< HEAD
         "ce": "Tsjetsjen",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cgg": "Sjiga",
         "chr": "Cherokees",
         "ckb": "Sorani Koerdies",
         "co": "Korsikaans",
         "cs": "Tsjeggies",
+<<<<<<< HEAD
         "cv": "Chuvash",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cy": "Wallies",
         "da": "Deens",
         "dav": "Taita",
@@ -125,7 +142,10 @@
         "ln": "Lingaals",
         "lo": "Lao",
         "loz": "Lozi",
+<<<<<<< HEAD
         "lrc": "Noord-Luri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "Litaus",
         "lu": "Luba-Katanga",
         "lua": "Luba-Lulua",
@@ -149,12 +169,18 @@
         "mua": "Mundang",
         "mul": "Veelvuldige tale",
         "my": "Birmaans",
+<<<<<<< HEAD
         "mzn": "Masanderani",
         "naq": "Nama",
         "nb": "Noorse Bokmål",
         "nd": "Noord-Ndebele",
         "nds": "Lae Duits",
         "nds_NL": "Nedersaksies",
+=======
+        "naq": "Nama",
+        "nb": "Noorse Bokmål",
+        "nd": "Noord-Ndebele",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "Nepalees",
         "nl": "Nederlands",
         "nl_BE": "Vlaams",
@@ -188,8 +214,12 @@
         "saq": "Samburu",
         "sbp": "Sangu",
         "sd": "Sindhi",
+<<<<<<< HEAD
         "sdh": "Suid-Koerdies",
         "se": "Noord-Sami",
+=======
+        "se": "Noordelike Sami",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "seh": "Sena",
         "ses": "Koyraboro Senni",
         "sg": "Sango",
@@ -211,9 +241,15 @@
         "su": "Sundanees",
         "sv": "Sweeds",
         "sw": "Swahili",
+<<<<<<< HEAD
         "sw_CD": "Swahili (Kongo)",
         "ta": "Tamil",
         "te": "Teloegoe",
+=======
+        "swc": "Swahili (Kongo)",
+        "ta": "Tamil",
+        "te": "Telugu",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "teo": "Teso",
         "tet": "Tetum",
         "tg": "Tadzjieks",
@@ -240,7 +276,10 @@
         "ve": "Venda",
         "vi": "Viëtnamees",
         "vun": "Vunjo",
+<<<<<<< HEAD
         "wbp": "Warlpiri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "Wolof",
         "xh": "Xhosa",
         "xog": "Soga",

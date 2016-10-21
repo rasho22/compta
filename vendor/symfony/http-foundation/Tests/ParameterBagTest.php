@@ -73,6 +73,7 @@ class ParameterBagTest extends \PHPUnit_Framework_TestCase
         $this->assertNull($bag->get('foo[bar]'));
     }
 
+<<<<<<< HEAD
     /**
      * @group legacy
      * @dataProvider getInvalidPaths
@@ -108,6 +109,8 @@ class ParameterBagTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('default', $bag->get('bar[moo][foo]', 'default', true));
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testSet()
     {
         $bag = new ParameterBag(array());

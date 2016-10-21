@@ -144,6 +144,10 @@ abstract class AbstractComparisonValidatorTestCase extends AbstractConstraintVal
             ->setParameter('{{ value }}', $dirtyValueAsString)
             ->setParameter('{{ compared_value }}', $comparedValueString)
             ->setParameter('{{ compared_value_type }}', $comparedValueType)
+<<<<<<< HEAD
+=======
+            ->setCode($this->getErrorCode())
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -174,4 +178,14 @@ abstract class AbstractComparisonValidatorTestCase extends AbstractConstraintVal
      * @return Constraint
      */
     abstract protected function createConstraint(array $options);
+<<<<<<< HEAD
+=======
+
+    /**
+     * @return string|null
+     */
+    protected function getErrorCode()
+    {
+    }
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

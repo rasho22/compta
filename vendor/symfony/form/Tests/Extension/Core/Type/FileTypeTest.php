@@ -13,10 +13,27 @@ namespace Symfony\Component\Form\Tests\Extension\Core\Type;
 
 class FileTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
 {
+<<<<<<< HEAD
     // https://github.com/symfony/symfony/pull/5028
     public function testSetData()
     {
         $form = $this->factory->createBuilder('file')->getForm();
+=======
+    /**
+     * @group legacy
+     */
+    public function testLegacyName()
+    {
+        $form = $this->factory->create('file');
+
+        $this->assertSame('file', $form->getConfig()->getType()->getName());
+    }
+
+    // https://github.com/symfony/symfony/pull/5028
+    public function testSetData()
+    {
+        $form = $this->factory->createBuilder('Symfony\Component\Form\Extension\Core\Type\FileType')->getForm();
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $data = $this->createUploadedFileMock('abcdef', 'original.jpg', true);
 
         $form->setData($data);
@@ -26,7 +43,11 @@ class FileTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
 
     public function testSubmit()
     {
+<<<<<<< HEAD
         $form = $this->factory->createBuilder('file')->getForm();
+=======
+        $form = $this->factory->createBuilder('Symfony\Component\Form\Extension\Core\Type\FileType')->getForm();
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $data = $this->createUploadedFileMock('abcdef', 'original.jpg', true);
 
         $form->submit($data);
@@ -37,7 +58,11 @@ class FileTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
     // https://github.com/symfony/symfony/issues/6134
     public function testSubmitEmpty()
     {
+<<<<<<< HEAD
         $form = $this->factory->createBuilder('file')->getForm();
+=======
+        $form = $this->factory->createBuilder('Symfony\Component\Form\Extension\Core\Type\FileType')->getForm();
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $form->submit(null);
 
@@ -46,7 +71,11 @@ class FileTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
 
     public function testSubmitMultiple()
     {
+<<<<<<< HEAD
         $form = $this->factory->createBuilder('file', null, array(
+=======
+        $form = $this->factory->createBuilder('Symfony\Component\Form\Extension\Core\Type\FileType', null, array(
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'multiple' => true,
         ))->getForm();
 
@@ -65,9 +94,15 @@ class FileTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
 
     public function testDontPassValueToView()
     {
+<<<<<<< HEAD
         $form = $this->factory->create('file');
         $form->submit(array(
             'file' => $this->createUploadedFileMock('abcdef', 'original.jpg', true),
+=======
+        $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\FileType');
+        $form->submit(array(
+            'Symfony\Component\Form\Extension\Core\Type\FileType' => $this->createUploadedFileMock('abcdef', 'original.jpg', true),
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ));
         $view = $form->createView();
 

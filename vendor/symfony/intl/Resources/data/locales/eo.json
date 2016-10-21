@@ -6,7 +6,11 @@
         "am": "amhara",
         "am_ET": "amhara (Etiopujo)",
         "ar": "araba",
+<<<<<<< HEAD
         "ar_AE": "araba (Unuiĝintaj Arabaj Emirlandoj)",
+=======
+        "ar_AE": "araba (Unuiĝintaj Arabaj Emirlandos)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ar_BH": "araba (Barejno)",
         "ar_DJ": "araba (Ĝibutio)",
         "ar_DZ": "araba (Alĝerio)",
@@ -76,16 +80,23 @@
         "en": "angla",
         "en_AG": "angla (Antigvo-Barbudo)",
         "en_AI": "angla (Angvilo)",
+<<<<<<< HEAD
         "en_AT": "angla (Aŭstrujo)",
         "en_AU": "angla (Aŭstralio)",
         "en_BB": "angla (Barbado)",
         "en_BE": "angla (Belgujo)",
         "en_BI": "angla (Burundo)",
+=======
+        "en_AU": "angla (Aŭstralio)",
+        "en_BB": "angla (Barbado)",
+        "en_BE": "angla (Belgujo)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "angla (Bermudoj)",
         "en_BS": "angla (Bahamoj)",
         "en_BW": "angla (Bocvano)",
         "en_BZ": "angla (Belizo)",
         "en_CA": "angla (Kanado)",
+<<<<<<< HEAD
         "en_CH": "angla (Svisujo)",
         "en_CK": "angla (Kukinsuloj)",
         "en_CM": "angla (Kameruno)",
@@ -95,6 +106,12 @@
         "en_DM": "angla (Dominiko)",
         "en_ER": "angla (Eritreo)",
         "en_FI": "angla (Finnlando)",
+=======
+        "en_CK": "angla (Kukinsuloj)",
+        "en_CM": "angla (Kameruno)",
+        "en_DM": "angla (Dominiko)",
+        "en_ER": "angla (Eritreo)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "angla (Fiĝoj)",
         "en_FM": "angla (Mikronezio)",
         "en_GB": "angla (Unuiĝinta Reĝlando)",
@@ -105,7 +122,10 @@
         "en_GU": "angla (Gvamo)",
         "en_GY": "angla (Gujano)",
         "en_IE": "angla (Irlando)",
+<<<<<<< HEAD
         "en_IL": "angla (Israelo)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IN": "angla (Hindujo)",
         "en_IO": "angla (Brita Hindoceana Teritorio)",
         "en_JM": "angla (Jamajko)",
@@ -126,7 +146,10 @@
         "en_NA": "angla (Namibio)",
         "en_NF": "angla (Norfolkinsulo)",
         "en_NG": "angla (Niĝerio)",
+<<<<<<< HEAD
         "en_NL": "angla (Nederlando)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "angla (Nauro)",
         "en_NU": "angla (Niuo)",
         "en_NZ": "angla (Nov-Zelando)",
@@ -140,10 +163,15 @@
         "en_SB": "angla (Salomonoj)",
         "en_SC": "angla (Sejŝeloj)",
         "en_SD": "angla (Sudano)",
+<<<<<<< HEAD
         "en_SE": "angla (Svedujo)",
         "en_SG": "angla (Singapuro)",
         "en_SH": "angla (Sent-Heleno)",
         "en_SI": "angla (Slovenujo)",
+=======
+        "en_SG": "angla (Singapuro)",
+        "en_SH": "angla (Sent-Heleno)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "angla (Siera-Leono)",
         "en_SZ": "angla (Svazilando)",
         "en_TO": "angla (Tongo)",
@@ -196,7 +224,10 @@
         "fi": "finna",
         "fi_FI": "finna (Finnlando)",
         "fo": "feroa",
+<<<<<<< HEAD
         "fo_DK": "feroa (Danujo)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "feroa (Ferooj)",
         "fr": "franca",
         "fr_BE": "franca (Belgujo)",

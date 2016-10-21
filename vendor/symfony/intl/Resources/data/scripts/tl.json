@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "Arab": "Arabic",
         "Armn": "Armenian",
@@ -15,8 +19,13 @@
         "Guru": "Gurmukhi",
         "Hang": "Hangul",
         "Hani": "Han",
+<<<<<<< HEAD
         "Hans": "Pinasimple",
         "Hant": "Tradisyonal",
+=======
+        "Hans": "Simplified",
+        "Hant": "Traditional",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Hebr": "Hebrew",
         "Hira": "Hiragana",
         "Jpan": "Japanese",

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AED": [
             "AED",
@@ -67,7 +71,11 @@
         ],
         "BMD": [
             "BMD",
+<<<<<<< HEAD
             "Dollari i Bermudeve"
+=======
+            "Dollari e Bermudeve"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BND": [
             "BND",
@@ -91,7 +99,11 @@
         ],
         "BWP": [
             "BWP",
+<<<<<<< HEAD
             "Pula botsuane"
+=======
+            "Pula botsvane"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BYR": [
             "BYR",
@@ -131,11 +143,19 @@
         ],
         "CUC": [
             "CUC",
+<<<<<<< HEAD
             "Pezoja kubaneze e shkëmbyeshme"
         ],
         "CUP": [
             "CUP",
             "Pezoja kubaneze"
+=======
+            "Pezoja kubane e shkëmbyeshme"
+        ],
+        "CUP": [
+            "CUP",
+            "Pezoja kubane"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CVE": [
             "CVE",
@@ -319,7 +339,11 @@
         ],
         "LKR": [
             "LKR",
+<<<<<<< HEAD
             "Rupia e Sri-Lankës"
+=======
+            "Rupia e Sri Lankës"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "LRD": [
             "LRD",
@@ -475,11 +499,19 @@
         ],
         "SBD": [
             "SBD",
+<<<<<<< HEAD
             "Dollari i Ishujve Solomonë"
         ],
         "SCR": [
             "SCR",
             "Rupia e Ishujve Sishelë"
+=======
+            "Dollari i Ishujve Solomon"
+        ],
+        "SCR": [
+            "SCR",
+            "Rupia e Ishujve Sejçelë"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SDG": [
             "SDG",
@@ -495,11 +527,19 @@
         ],
         "SHP": [
             "SHP",
+<<<<<<< HEAD
             "Stërlina e Ishullit të Shën-Helenës"
         ],
         "SLL": [
             "SLL",
             "Leoni i Sierra-Leones"
+=======
+            "Stërlina e Ishullit të Shën Helenës"
+        ],
+        "SLL": [
+            "SLL",
+            "Leoni i Sierra Leones"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SOS": [
             "SOS",
@@ -515,7 +555,11 @@
         ],
         "STD": [
             "STD",
+<<<<<<< HEAD
             "Dobra e Sao-Tomes dhe Prinsipes"
+=======
+            "Dobra e Sao Tomes dhe Prinsipes"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SYP": [
             "SYP",
@@ -523,7 +567,11 @@
         ],
         "SZL": [
             "SZL",
+<<<<<<< HEAD
             "Lilangeni i Suazilandës"
+=======
+            "Lilangeni i Svazilandit"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "THB": [
             "฿",

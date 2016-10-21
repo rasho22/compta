@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.19.94",
+=======
+    "Version": "2.1.13.23",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AFN": [
             "Af",
@@ -17,6 +21,13 @@
             "Kz",
             "kwanza angoleño"
         ],
+<<<<<<< HEAD
+=======
+        "ARA": [
+            "ARA",
+            "austral argentino"
+        ],
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ARS": [
             "$a",
             "peso argentino"
@@ -37,6 +48,45 @@
             "BND",
             "dólar de Brunéi"
         ],
+<<<<<<< HEAD
+=======
+        "BOL": [
+            "BOL",
+            "BOL"
+        ],
+        "BOP": [
+            "BOP",
+            "peso boliviano"
+        ],
+        "BOV": [
+            "BOV",
+            "MVDOL boliviano"
+        ],
+        "BRB": [
+            "BRB",
+            "nuevo cruceiro brasileño (1967–1986)"
+        ],
+        "BRC": [
+            "BRC",
+            "cruzado brasileño"
+        ],
+        "BRE": [
+            "BRE",
+            "cruceiro brasileño (1990–1993)"
+        ],
+        "BRN": [
+            "BRN",
+            "nuevo cruzado brasileño"
+        ],
+        "BRR": [
+            "BRR",
+            "cruceiro brasileño"
+        ],
+        "BRZ": [
+            "BRZ",
+            "BRZ"
+        ],
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BTN": [
             "BTN",
             "ngultrum butanés"
@@ -45,10 +95,36 @@
             "BWP",
             "pula botsuano"
         ],
+<<<<<<< HEAD
+=======
+        "CLE": [
+            "CLE",
+            "CLE"
+        ],
+        "CLF": [
+            "CLF",
+            "unidad de fomento chilena"
+        ],
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CNY": [
             "CN¥",
             "yuan chino"
         ],
+<<<<<<< HEAD
+=======
+        "COU": [
+            "COU",
+            "unidad de valor real colombiana"
+        ],
+        "ECS": [
+            "ECS",
+            "sucre ecuatoriano"
+        ],
+        "ECV": [
+            "ECV",
+            "unidad de valor constante (UVC) ecuatoriana"
+        ],
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ETB": [
             "ETB",
             "birr etíope"
@@ -125,6 +201,13 @@
             "$",
             "peso mexicano"
         ],
+<<<<<<< HEAD
+=======
+        "MXP": [
+            "MXP",
+            "peso de plata mexicano (1861–1992)"
+        ],
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MYR": [
             "MYR",
             "ringgit malayo"
@@ -137,6 +220,21 @@
             "NGN",
             "naira nigeriano"
         ],
+<<<<<<< HEAD
+=======
+        "NIC": [
+            "NIC",
+            "córdoba nicaragüense (1988–1991)"
+        ],
+        "PEI": [
+            "PEI",
+            "inti peruano"
+        ],
+        "PES": [
+            "PES",
+            "sol peruano"
+        ],
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PGK": [
             "PGK",
             "kina de Papúa Nueva Guinea"
@@ -165,10 +263,24 @@
             "SLL",
             "leone de Sierra Leona"
         ],
+<<<<<<< HEAD
+=======
+        "SRG": [
+            "SRG",
+            "florín surinamés"
+        ],
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "STD": [
             "STD",
             "dobra de Santo Tomé y Príncipe"
         ],
+<<<<<<< HEAD
+=======
+        "SVC": [
+            "SVC",
+            "colón salvadoreño"
+        ],
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SZL": [
             "SZL",
             "lilangeni suazi"
@@ -189,6 +301,21 @@
             "UAH",
             "grivna ucraniana"
         ],
+<<<<<<< HEAD
+=======
+        "USN": [
+            "USN",
+            "dólar estadounidense (día siguiente)"
+        ],
+        "USS": [
+            "USS",
+            "dólar estadounidense (mismo día)"
+        ],
+        "UYI": [
+            "UYI",
+            "peso uruguayo en unidades indexadas"
+        ],
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "UZS": [
             "UZS",
             "som uzbeko"

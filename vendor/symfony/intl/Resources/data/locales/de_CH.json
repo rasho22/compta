@@ -12,7 +12,12 @@
         "gd_GB": "Schottisches Gälisch (Grossbritannien)",
         "kw_GB": "Kornisch (Grossbritannien)",
         "ms_BN": "Malaiisch (Brunei)",
+<<<<<<< HEAD
         "nd_ZW": "Nord-Ndebele (Zimbabwe)",
+=======
+        "ms_Latn_BN": "Malaiisch (Lateinisch, Brunei)",
+        "nd_ZW": "Nord-Ndebele-Sprache (Zimbabwe)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ru_BY": "Russisch (Weissrussland)",
         "sn_ZW": "Shona (Zimbabwe)"
     }

@@ -19,6 +19,10 @@ use Symfony\Component\Security\Csrf\CsrfToken;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Symfony\Component\Security\Http\Authentication\AuthenticationFailureHandlerInterface;
 use Symfony\Component\Security\Http\Authentication\AuthenticationSuccessHandlerInterface;
+<<<<<<< HEAD
+=======
+use Symfony\Component\Security\Http\ParameterBagUtils;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\Security\Http\Session\SessionAuthenticationStrategyInterface;
 use Symfony\Component\Security\Http\HttpUtils;
 use Symfony\Component\Security\Core\Authentication\AuthenticationManagerInterface;
@@ -48,11 +52,28 @@ class UsernamePasswordFormAuthenticationListener extends AbstractAuthenticationL
             throw new InvalidArgumentException('The CSRF token manager should be an instance of CsrfProviderInterface or CsrfTokenManagerInterface.');
         }
 
+<<<<<<< HEAD
+=======
+        if (isset($options['intention'])) {
+            if (isset($options['csrf_token_id'])) {
+                throw new \InvalidArgumentException(sprintf('You should only define an option for one of "intention" or "csrf_token_id" for the "%s". Use the "csrf_token_id" as it replaces "intention".', __CLASS__));
+            }
+
+            @trigger_error('The "intention" option for the '.__CLASS__.' is deprecated since version 2.8 and will be removed in 3.0. Use the "csrf_token_id" option instead.', E_USER_DEPRECATED);
+
+            $options['csrf_token_id'] = $options['intention'];
+        }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         parent::__construct($tokenStorage, $authenticationManager, $sessionStrategy, $httpUtils, $providerKey, $successHandler, $failureHandler, array_merge(array(
             'username_parameter' => '_username',
             'password_parameter' => '_password',
             'csrf_parameter' => '_csrf_token',
+<<<<<<< HEAD
             'intention' => 'authenticate',
+=======
+            'csrf_token_id' => 'authenticate',
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'post_only' => true,
         ), $options), $logger, $dispatcher);
 
@@ -77,19 +98,33 @@ class UsernamePasswordFormAuthenticationListener extends AbstractAuthenticationL
     protected function attemptAuthentication(Request $request)
     {
         if (null !== $this->csrfTokenManager) {
+<<<<<<< HEAD
             $csrfToken = $request->get($this->options['csrf_parameter'], null, true);
 
             if (false === $this->csrfTokenManager->isTokenValid(new CsrfToken($this->options['intention'], $csrfToken))) {
+=======
+            $csrfToken = ParameterBagUtils::getRequestParameterValue($request, $this->options['csrf_parameter']);
+
+            if (false === $this->csrfTokenManager->isTokenValid(new CsrfToken($this->options['csrf_token_id'], $csrfToken))) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 throw new InvalidCsrfTokenException('Invalid CSRF token.');
             }
         }
 
         if ($this->options['post_only']) {
+<<<<<<< HEAD
             $username = trim($request->request->get($this->options['username_parameter'], null, true));
             $password = $request->request->get($this->options['password_parameter'], null, true);
         } else {
             $username = trim($request->get($this->options['username_parameter'], null, true));
             $password = $request->get($this->options['password_parameter'], null, true);
+=======
+            $username = trim(ParameterBagUtils::getParameterBagValue($request->request, $this->options['username_parameter']));
+            $password = ParameterBagUtils::getParameterBagValue($request->request, $this->options['password_parameter']);
+        } else {
+            $username = trim(ParameterBagUtils::getRequestParameterValue($request, $this->options['username_parameter']));
+            $password = ParameterBagUtils::getRequestParameterValue($request, $this->options['password_parameter']);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         if (strlen($username) > Security::MAX_USERNAME_LENGTH) {

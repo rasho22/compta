@@ -1,10 +1,15 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.24.13",
+=======
+    "Version": "2.1.11.59",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AUD": [
             "$",
             "Australian Dollar"
         ],
+<<<<<<< HEAD
         "AWG": [
             "AWG",
             "Aruba Guilder"
@@ -116,6 +121,11 @@
         "XPF": [
             "CFP",
             "CFP Franc"
+=======
+        "SCR": [
+            "SCR",
+            "Seychelles Rupee"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ]
     }
 }

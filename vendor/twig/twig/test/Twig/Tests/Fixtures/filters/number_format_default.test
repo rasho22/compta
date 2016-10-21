@@ -9,7 +9,11 @@
 {{ 1020.25|number_format(2, ',') }}
 {{ 1020.25|number_format(2, ',', '.') }}
 --DATA--
+<<<<<<< HEAD
 $twig->getExtension('core')->setNumberFormat(2, '!', '=');
+=======
+$twig->getExtension('Twig_Extension_Core')->setNumberFormat(2, '!', '=');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 return array();
 --EXPECT--
 20!00

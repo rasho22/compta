@@ -12,7 +12,15 @@
 namespace Symfony\Component\Translation\Catalogue;
 
 /**
+<<<<<<< HEAD
  * Merge operation between two catalogues.
+=======
+ * Merge operation between two catalogues as follows:
+ * all = source ∪ target = {x: x ∈ source ∨ x ∈ target}
+ * new = all ∖ source = {x: x ∈ target ∧ x ∉ source}
+ * obsolete = source ∖ all = {x: x ∈ source ∧ x ∉ source ∧ x ∉ target} = ∅
+ * Basically, the result contains messages from both catalogues.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  *
  * @author Jean-François Simon <contact@jfsimon.fr>
  */

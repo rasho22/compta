@@ -1,9 +1,16 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.81",
     "Names": {
         "Afak": "Defaka",
         "Aghb": "Kaukasisch Albanees",
         "Ahom": "Ahom",
+=======
+    "Version": "2.1.12.94",
+    "Names": {
+        "Afak": "Defaka",
+        "Aghb": "Kaukasisch Albanees",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Arab": "Arabisch",
         "Armi": "Keizerlijk Aramees",
         "Armn": "Armeens",
@@ -50,7 +57,10 @@
         "Hano": "Hanunoo",
         "Hans": "vereenvoudigd",
         "Hant": "traditioneel",
+<<<<<<< HEAD
         "Hatr": "Hatran",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Hebr": "Hebreeuws",
         "Hira": "Hiragana",
         "Hluw": "Anatolische hiërogliefen",
@@ -97,7 +107,10 @@
         "Moon": "Moon",
         "Mroo": "Mro",
         "Mtei": "Meitei",
+<<<<<<< HEAD
         "Mult": "Multani",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Mymr": "Birmaans",
         "Narb": "Oud Noord-Arabisch",
         "Nbat": "Nabateaans",
@@ -119,6 +132,7 @@
         "Phnx": "Foenicisch",
         "Plrd": "Pollard-fonetisch",
         "Prti": "Inscriptioneel Parthisch",
+<<<<<<< HEAD
         "Qaaa": "Qaaa",
         "Qaab": "Qaab",
         "Qaac": "Qaac",
@@ -167,6 +181,8 @@
         "Qabv": "Qabv",
         "Qabw": "Qabw",
         "Qabx": "Qabx",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Rjng": "Rejang",
         "Roro": "Rongorongo",
         "Runr": "Runic",

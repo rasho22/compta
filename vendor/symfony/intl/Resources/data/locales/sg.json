@@ -53,16 +53,23 @@
         "en_AG": "Anglëe (Antîgua na Barbûda)",
         "en_AI": "Anglëe (Angûîla)",
         "en_AS": "Anglëe (Samöa tî Amerîka)",
+<<<<<<< HEAD
         "en_AT": "Anglëe (Otrîsi)",
         "en_AU": "Anglëe (Ostralïi, Sotralïi)",
         "en_BB": "Anglëe (Barabâda)",
         "en_BE": "Anglëe (Bêleze, Belezîki)",
         "en_BI": "Anglëe (Burundïi)",
+=======
+        "en_AU": "Anglëe (Ostralïi, Sotralïi)",
+        "en_BB": "Anglëe (Barabâda)",
+        "en_BE": "Anglëe (Bêleze, Belezîki)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "Anglëe (Beremûda)",
         "en_BS": "Anglëe (Bahâmasa)",
         "en_BW": "Anglëe (Botswana)",
         "en_BZ": "Anglëe (Belîzi)",
         "en_CA": "Anglëe (Kanadäa)",
+<<<<<<< HEAD
         "en_CH": "Anglëe (Sûîsi)",
         "en_CK": "Anglëe (âzûâ Kûku)",
         "en_CM": "Anglëe (Kamerûne)",
@@ -72,6 +79,12 @@
         "en_DM": "Anglëe (Dömïnîka)",
         "en_ER": "Anglëe (Eritrëe)",
         "en_FI": "Anglëe (Fëlânde)",
+=======
+        "en_CK": "Anglëe (âzûâ Kûku)",
+        "en_CM": "Anglëe (Kamerûne)",
+        "en_DM": "Anglëe (Dömïnîka)",
+        "en_ER": "Anglëe (Eritrëe)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "Anglëe (Fidyïi)",
         "en_FK": "Anglëe (Âzûâ tî Mälüîni)",
         "en_FM": "Anglëe (Mikronezïi)",
@@ -83,7 +96,10 @@
         "en_GU": "Anglëe (Guâm)",
         "en_GY": "Anglëe (Gayâna)",
         "en_IE": "Anglëe (Irlânde)",
+<<<<<<< HEAD
         "en_IL": "Anglëe (Israëli)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IN": "Anglëe (Ênnde)",
         "en_IO": "Anglëe (Sêse tî Anglëe na Ngûyämä tî Ênnde)",
         "en_JM": "Anglëe (Zamaîka)",
@@ -105,7 +121,10 @@
         "en_NA": "Anglëe (Namibùii)",
         "en_NF": "Anglëe (Zûâ Nôrfôlko)",
         "en_NG": "Anglëe (Nizerïa)",
+<<<<<<< HEAD
         "en_NL": "Anglëe (Holände)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "Anglëe (Nauru)",
         "en_NU": "Anglëe (Niue)",
         "en_NZ": "Anglëe (Finî Zelânde)",
@@ -119,10 +138,15 @@
         "en_SB": "Anglëe (Zûâ Salomöon)",
         "en_SC": "Anglëe (Sëyshêle)",
         "en_SD": "Anglëe (Sudäan)",
+<<<<<<< HEAD
         "en_SE": "Anglëe (Suêde)",
         "en_SG": "Anglëe (Sïngäpûru)",
         "en_SH": "Anglëe (Sênt-Helêna)",
         "en_SI": "Anglëe (Solovenïi)",
+=======
+        "en_SG": "Anglëe (Sïngäpûru)",
+        "en_SH": "Anglëe (Sênt-Helêna)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "Anglëe (Sierä-Leône)",
         "en_SZ": "Anglëe (Swäzïlânde)",
         "en_TC": "Anglëe (Âzûâ Turku na Kaîki)",

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Pulau Ascension",
         "AD": "Andorra",
@@ -48,7 +52,11 @@
         "CK": "Kepulauan Cook",
         "CL": "Cile",
         "CM": "Kamerun",
+<<<<<<< HEAD
         "CN": "Tiongkok",
+=======
+        "CN": "China",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CO": "Kolombia",
         "CR": "Kosta Rika",
         "CU": "Kuba",
@@ -97,7 +105,11 @@
         "GU": "Guam",
         "GW": "Guinea-Bissau",
         "GY": "Guyana",
+<<<<<<< HEAD
         "HK": "Hong Kong SAR Tiongkok",
+=======
+        "HK": "Hong Kong SAR China",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "HN": "Honduras",
         "HR": "Kroasia",
         "HT": "Haiti",
@@ -150,7 +162,11 @@
         "ML": "Mali",
         "MM": "Myanmar (Burma)",
         "MN": "Mongolia",
+<<<<<<< HEAD
         "MO": "Makau SAR Tiongkok",
+=======
+        "MO": "Makau SAR China",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MP": "Kepulauan Mariana Utara",
         "MQ": "Martinik",
         "MR": "Mauritania",

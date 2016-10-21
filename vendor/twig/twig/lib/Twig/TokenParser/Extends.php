@@ -19,6 +19,7 @@
  */
 class Twig_TokenParser_Extends extends Twig_TokenParser
 {
+<<<<<<< HEAD
     /**
      * Parses a token and returns a node.
      *
@@ -34,17 +35,30 @@ class Twig_TokenParser_Extends extends Twig_TokenParser
 
         if (null !== $this->parser->getParent()) {
             throw new Twig_Error_Syntax('Multiple extends tags are forbidden', $token->getLine(), $this->parser->getFilename());
+=======
+    public function parse(Twig_Token $token)
+    {
+        if (!$this->parser->isMainScope()) {
+            throw new Twig_Error_Syntax('Cannot extend from a block.', $token->getLine(), $this->parser->getFilename());
+        }
+
+        if (null !== $this->parser->getParent()) {
+            throw new Twig_Error_Syntax('Multiple extends tags are forbidden.', $token->getLine(), $this->parser->getFilename());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
         $this->parser->setParent($this->parser->getExpressionParser()->parseExpression());
 
         $this->parser->getStream()->expect(Twig_Token::BLOCK_END_TYPE);
     }
 
+<<<<<<< HEAD
     /**
      * Gets the tag name associated with this token parser.
      *
      * @return string The tag name
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getTag()
     {
         return 'extends';

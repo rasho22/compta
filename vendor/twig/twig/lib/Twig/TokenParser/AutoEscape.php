@@ -29,6 +29,7 @@
  */
 class Twig_TokenParser_AutoEscape extends Twig_TokenParser
 {
+<<<<<<< HEAD
     /**
      * Parses a token and returns a node.
      *
@@ -36,6 +37,8 @@ class Twig_TokenParser_AutoEscape extends Twig_TokenParser
      *
      * @return Twig_NodeInterface A Twig_NodeInterface instance
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function parse(Twig_Token $token)
     {
         $lineno = $token->getLine();
@@ -46,7 +49,11 @@ class Twig_TokenParser_AutoEscape extends Twig_TokenParser
         } else {
             $expr = $this->parser->getExpressionParser()->parseExpression();
             if (!$expr instanceof Twig_Node_Expression_Constant) {
+<<<<<<< HEAD
                 throw new Twig_Error_Syntax('An escaping strategy must be a string or a Boolean.', $stream->getCurrent()->getLine(), $stream->getFilename());
+=======
+                throw new Twig_Error_Syntax('An escaping strategy must be a string or a bool.', $stream->getCurrent()->getLine(), $stream->getFilename());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
             $value = $expr->getAttribute('value');
 
@@ -57,7 +64,11 @@ class Twig_TokenParser_AutoEscape extends Twig_TokenParser
             }
 
             if ($compat && $stream->test(Twig_Token::NAME_TYPE)) {
+<<<<<<< HEAD
                 @trigger_error('Using the autoescape tag with "true" or "false" before the strategy name is deprecated.', E_USER_DEPRECATED);
+=======
+                @trigger_error('Using the autoescape tag with "true" or "false" before the strategy name is deprecated since version 1.21.', E_USER_DEPRECATED);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
                 if (false === $value) {
                     throw new Twig_Error_Syntax('Unexpected escaping strategy as you set autoescaping to false.', $stream->getCurrent()->getLine(), $stream->getFilename());
@@ -79,11 +90,14 @@ class Twig_TokenParser_AutoEscape extends Twig_TokenParser
         return $token->test('endautoescape');
     }
 
+<<<<<<< HEAD
     /**
      * Gets the tag name associated with this token parser.
      *
      * @return string The tag name
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getTag()
     {
         return 'autoescape';

@@ -54,8 +54,13 @@ class NumberToLocalizedStringTransformerTest extends \PHPUnit_Framework_TestCase
     public function provideTransformationsWithGrouping()
     {
         return array(
+<<<<<<< HEAD
             array(1234.5, '1.234,5', 'de_AT'),
             array(12345.912, '12.345,912', 'de_AT'),
+=======
+            array(1234.5, '1.234,5', 'de_DE'),
+            array(12345.912, '12.345,912', 'de_DE'),
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             array(1234.5, '1 234,5', 'fr'),
             array(1234.5, '1 234,5', 'ru'),
             array(1234.5, '1 234,5', 'fi'),
@@ -238,8 +243,11 @@ class NumberToLocalizedStringTransformerTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @see https://github.com/symfony/symfony/issues/7609
+<<<<<<< HEAD
      *
      * @requires extension mbstring
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function testReverseTransformWithGroupingAndFixedSpaces()
     {
@@ -395,10 +403,17 @@ class NumberToLocalizedStringTransformerTest extends \PHPUnit_Framework_TestCase
      */
     public function testDecimalSeparatorMayNotBeDotIfGroupingSeparatorIsDot()
     {
+<<<<<<< HEAD
         // Since we test against "de_AT", we need the full implementation
         IntlTestHelper::requireFullIntl($this);
 
         \Locale::setDefault('de_AT');
+=======
+        // Since we test against "de_DE", we need the full implementation
+        IntlTestHelper::requireFullIntl($this);
+
+        \Locale::setDefault('de_DE');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $transformer = new NumberToLocalizedStringTransformer(null, true);
 
@@ -410,10 +425,17 @@ class NumberToLocalizedStringTransformerTest extends \PHPUnit_Framework_TestCase
      */
     public function testDecimalSeparatorMayNotBeDotIfGroupingSeparatorIsDotWithNoGroupSep()
     {
+<<<<<<< HEAD
         // Since we test against "de_AT", we need the full implementation
         IntlTestHelper::requireFullIntl($this);
 
         \Locale::setDefault('de_AT');
+=======
+        // Since we test against "de_DE", we need the full implementation
+        IntlTestHelper::requireFullIntl($this);
+
+        \Locale::setDefault('de_DE');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $transformer = new NumberToLocalizedStringTransformer(null, true);
 
@@ -583,7 +605,10 @@ class NumberToLocalizedStringTransformerTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \Symfony\Component\Form\Exception\TransformationFailedException
      * @expectedExceptionMessage The number contains unrecognized characters: "foo8"
+<<<<<<< HEAD
      * @requires extension mbstring
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function testReverseTransformDisallowsCenteredExtraCharactersMultibyte()
     {
@@ -600,7 +625,10 @@ class NumberToLocalizedStringTransformerTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \Symfony\Component\Form\Exception\TransformationFailedException
      * @expectedExceptionMessage The number contains unrecognized characters: "foo8"
+<<<<<<< HEAD
      * @requires extension mbstring
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function testReverseTransformIgnoresTrailingSpacesInExceptionMessage()
     {
@@ -628,7 +656,10 @@ class NumberToLocalizedStringTransformerTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \Symfony\Component\Form\Exception\TransformationFailedException
      * @expectedExceptionMessage The number contains unrecognized characters: "foo"
+<<<<<<< HEAD
      * @requires extension mbstring
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function testReverseTransformDisallowsTrailingExtraCharactersMultibyte()
     {

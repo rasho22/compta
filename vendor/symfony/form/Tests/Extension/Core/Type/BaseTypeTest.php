@@ -45,7 +45,11 @@ abstract class BaseTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
 
     public function testPassIdAndNameToViewWithParent()
     {
+<<<<<<< HEAD
         $view = $this->factory->createNamedBuilder('parent', 'form')
+=======
+        $view = $this->factory->createNamedBuilder('parent', 'Symfony\Component\Form\Extension\Core\Type\FormType')
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->add('child', $this->getTestedType())
             ->getForm()
             ->createView();
@@ -57,8 +61,13 @@ abstract class BaseTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
 
     public function testPassIdAndNameToViewWithGrandParent()
     {
+<<<<<<< HEAD
         $builder = $this->factory->createNamedBuilder('parent', 'form')
             ->add('child', 'form');
+=======
+        $builder = $this->factory->createNamedBuilder('parent', 'Symfony\Component\Form\Extension\Core\Type\FormType')
+            ->add('child', 'Symfony\Component\Form\Extension\Core\Type\FormType');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $builder->get('child')->add('grand_child', $this->getTestedType());
         $view = $builder->getForm()->createView();
 
@@ -80,7 +89,11 @@ abstract class BaseTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
     public function testInheritTranslationDomainFromParent()
     {
         $view = $this->factory
+<<<<<<< HEAD
             ->createNamedBuilder('parent', 'form', null, array(
+=======
+            ->createNamedBuilder('parent', 'Symfony\Component\Form\Extension\Core\Type\FormType', null, array(
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 'translation_domain' => 'domain',
             ))
             ->add('child', $this->getTestedType())
@@ -93,7 +106,11 @@ abstract class BaseTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
     public function testPreferOwnTranslationDomain()
     {
         $view = $this->factory
+<<<<<<< HEAD
             ->createNamedBuilder('parent', 'form', null, array(
+=======
+            ->createNamedBuilder('parent', 'Symfony\Component\Form\Extension\Core\Type\FormType', null, array(
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 'translation_domain' => 'parent_domain',
             ))
             ->add('child', $this->getTestedType(), array(
@@ -107,7 +124,11 @@ abstract class BaseTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
 
     public function testDefaultTranslationDomain()
     {
+<<<<<<< HEAD
         $view = $this->factory->createNamedBuilder('parent', 'form')
+=======
+        $view = $this->factory->createNamedBuilder('parent', 'Symfony\Component\Form\Extension\Core\Type\FormType')
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->add('child', $this->getTestedType())
             ->getForm()
             ->createView();

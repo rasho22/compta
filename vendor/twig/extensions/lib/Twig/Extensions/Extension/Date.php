@@ -29,31 +29,43 @@ class Twig_Extensions_Extension_Date extends Twig_Extension
      */
     private $translator;
 
+<<<<<<< HEAD
     /**
      * Constructor.
      *
      * @param TranslatorInterface $translator A TranslatorInterface instance.
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function __construct(TranslatorInterface $translator = null)
     {
         $this->translator = $translator;
     }
 
     /**
+<<<<<<< HEAD
      * Returns a list of filters.
      *
      * @return array
+=======
+     * {@inheritdoc}
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getFilters()
     {
         return array(
+<<<<<<< HEAD
             new Twig_SimpleFilter('time_diff', array($this, 'diff'), array(
                 'needs_environment' => true,
             )),
+=======
+            new Twig_SimpleFilter('time_diff', array($this, 'diff'), array('needs_environment' => true)),
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         );
     }
 
     /**
+<<<<<<< HEAD
      * Name of this extension.
      *
      * @return string
@@ -64,6 +76,8 @@ class Twig_Extensions_Extension_Date extends Twig_Extension
     }
 
     /**
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * Filter for converting dates to a time ago string like Facebook and Twitter has.
      *
      * @param Twig_Environment $env  A Twig_Environment instance.
@@ -101,10 +115,25 @@ class Twig_Extensions_Extension_Date extends Twig_Extension
             return $this->translator->transChoice($id, $count, array('%count%' => $count), 'date');
         }
 
+<<<<<<< HEAD
         if ($count > 1) {
+=======
+        if (1 !== $count) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $unit .= 's';
         }
 
         return $invert ? "in $count $unit" : "$count $unit ago";
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getName()
+    {
+        return 'date';
+    }
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

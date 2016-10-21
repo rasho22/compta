@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Ascensioni saar",
         "AD": "Andorra",
@@ -42,7 +46,11 @@
         "CC": "Kookossaared",
         "CD": "Kongo DV",
         "CF": "Kesk-Aafrika Vabariik",
+<<<<<<< HEAD
         "CG": "Kongo Vabariik",
+=======
+        "CG": "Kongo-Brazzaville",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CH": "Šveits",
         "CI": "Côte d’Ivoire",
         "CK": "Cooki saared",
@@ -75,7 +83,11 @@
         "FI": "Soome",
         "FJ": "Fidži",
         "FK": "Falklandi saared",
+<<<<<<< HEAD
         "FM": "Mikroneesia",
+=======
+        "FM": "Mikroneesia Liiduriigid",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "FO": "Fääri saared",
         "FR": "Prantsusmaa",
         "GA": "Gabon",
@@ -97,7 +109,11 @@
         "GU": "Guam",
         "GW": "Guinea-Bissau",
         "GY": "Guyana",
+<<<<<<< HEAD
         "HK": "Hongkongi erihalduspiirkond",
+=======
+        "HK": "Hongkong - Hiina erihalduspiirkond",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "HN": "Honduras",
         "HR": "Horvaatia",
         "HT": "Haiti",
@@ -117,7 +133,11 @@
         "JM": "Jamaica",
         "JO": "Jordaania",
         "JP": "Jaapan",
+<<<<<<< HEAD
         "KE": "Keenia",
+=======
+        "KE": "Kenya",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "KG": "Kõrgõzstan",
         "KH": "Kambodža",
         "KI": "Kiribati",
@@ -143,14 +163,24 @@
         "MC": "Monaco",
         "MD": "Moldova",
         "ME": "Montenegro",
+<<<<<<< HEAD
         "MF": "Saint-Martin",
         "MG": "Madagaskar",
         "MH": "Marshalli Saared",
+=======
+        "MF": "Saint Martin",
+        "MG": "Madagaskar",
+        "MH": "Marshalli saared",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MK": "Makedoonia",
         "ML": "Mali",
         "MM": "Myanmar (Birma)",
         "MN": "Mongoolia",
+<<<<<<< HEAD
         "MO": "Macau erihalduspiirkond",
+=======
+        "MO": "Macau - Hiina erihalduspiirkond",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MP": "Põhja-Mariaanid",
         "MQ": "Martinique",
         "MR": "Mauritaania",

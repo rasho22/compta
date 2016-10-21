@@ -48,7 +48,12 @@
         "bg": "bugarski",
         "bg_BG": "bugarski (Bugarska)",
         "bm": "bambara",
+<<<<<<< HEAD
         "bm_ML": "bambara (Mali)",
+=======
+        "bm_Latn": "bambara (latinica)",
+        "bm_Latn_ML": "bambara (latinica, Mali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengalski",
         "bn_BD": "bengalski (Bangladeš)",
         "bn_IN": "bengalski (Indija)",
@@ -68,8 +73,11 @@
         "ca_ES": "katalonski (Španija)",
         "ca_FR": "katalonski (Francuska)",
         "ca_IT": "katalonski (Italija)",
+<<<<<<< HEAD
         "ce": "Čečenski",
         "ce_RU": "Čečenski (Rusija)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "češki",
         "cs_CZ": "češki (Češka)",
         "cy": "velški",
@@ -96,16 +104,23 @@
         "en_AG": "engleski (Antigva i Barbuda)",
         "en_AI": "engleski (Angvila)",
         "en_AS": "engleski (Američka Samoa)",
+<<<<<<< HEAD
         "en_AT": "engleski (Austrija)",
         "en_AU": "engleski (Australija)",
         "en_BB": "engleski (Barbados)",
         "en_BE": "engleski (Belgija)",
         "en_BI": "engleski (Burundi)",
+=======
+        "en_AU": "engleski (Australija)",
+        "en_BB": "engleski (Barbados)",
+        "en_BE": "engleski (Belgija)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "engleski (Bermuda)",
         "en_BS": "engleski (Bahami)",
         "en_BW": "engleski (Bocvana)",
         "en_BZ": "engleski (Belize)",
         "en_CA": "engleski (Kanada)",
+<<<<<<< HEAD
         "en_CC": "engleski (Kokosova (Kilingova) Ostrva)",
         "en_CH": "engleski (Švajcarska)",
         "en_CK": "engleski (Kukova Ostrva)",
@@ -118,6 +133,15 @@
         "en_DM": "engleski (Dominika)",
         "en_ER": "engleski (Eritreja)",
         "en_FI": "engleski (Finska)",
+=======
+        "en_CC": "engleski (Kokos (Keling) Ostrva)",
+        "en_CK": "engleski (Kukova Ostrva)",
+        "en_CM": "engleski (Kamerun)",
+        "en_CX": "engleski (Božićno ostrvo)",
+        "en_DG": "engleski (Dijego Garsija)",
+        "en_DM": "engleski (Dominika)",
+        "en_ER": "engleski (Eritreja)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "engleski (Fidži)",
         "en_FK": "engleski (Foklandska ostrva)",
         "en_FM": "engleski (Mikronezija)",
@@ -129,9 +153,14 @@
         "en_GM": "engleski (Gambija)",
         "en_GU": "engleski (Guam)",
         "en_GY": "engleski (Gvajana)",
+<<<<<<< HEAD
         "en_HK": "engleski (SAR Hongkong (Kina))",
         "en_IE": "engleski (Irska)",
         "en_IL": "engleski (Izrael)",
+=======
+        "en_HK": "engleski (Hong Kong S. A. R. Kina)",
+        "en_IE": "engleski (Irska)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "engleski (Ostrvo Man)",
         "en_IN": "engleski (Indija)",
         "en_IO": "engleski (Britanska teritorija u Indijskom okeanu)",
@@ -154,9 +183,14 @@
         "en_MW": "engleski (Malavi)",
         "en_MY": "engleski (Malezija)",
         "en_NA": "engleski (Namibija)",
+<<<<<<< HEAD
         "en_NF": "engleski (Ostrvo Norfok)",
         "en_NG": "engleski (Nigerija)",
         "en_NL": "engleski (Holandija)",
+=======
+        "en_NF": "engleski (Norfolk Ostrvo)",
+        "en_NG": "engleski (Nigerija)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "engleski (Nauru)",
         "en_NU": "engleski (Niue)",
         "en_NZ": "engleski (Novi Zeland)",
@@ -170,10 +204,15 @@
         "en_SB": "engleski (Solomonska Ostrva)",
         "en_SC": "engleski (Sejšeli)",
         "en_SD": "engleski (Sudan)",
+<<<<<<< HEAD
         "en_SE": "engleski (Švedska)",
         "en_SG": "engleski (Singapur)",
         "en_SH": "engleski (Sveta Jelena)",
         "en_SI": "engleski (Slovenija)",
+=======
+        "en_SG": "engleski (Singapur)",
+        "en_SH": "engleski (Sveta Jelena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "engleski (Sijera Leone)",
         "en_SS": "engleski (Južni Sudan)",
         "en_SX": "engleski (Sveti Martin)",
@@ -237,7 +276,10 @@
         "fi": "finski",
         "fi_FI": "finski (Finska)",
         "fo": "farski",
+<<<<<<< HEAD
         "fo_DK": "farski (Danska)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "farski (Farska Ostrva)",
         "fr": "francuski",
         "fr_BE": "francuski (Belgija)",
@@ -296,10 +338,21 @@
         "gl_ES": "galicijski (Španija)",
         "gu": "gudžarati",
         "gu_IN": "gudžarati (Indija)",
+<<<<<<< HEAD
         "gv": "manski",
         "gv_IM": "manski (Ostrvo Man)",
         "ha": "hausa",
         "ha_GH": "hausa (Gana)",
+=======
+        "gv": "Manks",
+        "gv_IM": "Manks (Ostrvo Man)",
+        "ha": "hausa",
+        "ha_GH": "hausa (Gana)",
+        "ha_Latn": "hausa (latinica)",
+        "ha_Latn_GH": "hausa (latinica, Gana)",
+        "ha_Latn_NE": "hausa (latinica, Niger)",
+        "ha_Latn_NG": "hausa (latinica, Nigerija)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "hausa (Niger)",
         "ha_NG": "hausa (Nigerija)",
         "he": "hebrejski",
@@ -332,6 +385,11 @@
         "ki": "kikuju",
         "ki_KE": "kikuju (Kenija)",
         "kk": "kazaški",
+<<<<<<< HEAD
+=======
+        "kk_Cyrl": "kazaški (ćirilica)",
+        "kk_Cyrl_KZ": "kazaški (ćirilica, Kazahstan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "kazaški (Kazahstan)",
         "kl": "kalalisut",
         "kl_GL": "kalalisut (Grenland)",
@@ -343,10 +401,20 @@
         "ko_KP": "korejski (Severna Koreja)",
         "ko_KR": "korejski (Južna Koreja)",
         "ks": "kašmirski",
+<<<<<<< HEAD
+=======
+        "ks_Arab": "kašmirski (arapsko pismo)",
+        "ks_Arab_IN": "kašmirski (arapsko pismo, Indija)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "kašmirski (Indija)",
         "kw": "kornvolski",
         "kw_GB": "kornvolski (Velika Britanija)",
         "ky": "kirgiski",
+<<<<<<< HEAD
+=======
+        "ky_Cyrl": "kirgiski (ćirilica)",
+        "ky_Cyrl_KG": "kirgiski (ćirilica, Kirgistan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "kirgiski (Kirgistan)",
         "lb": "luksemburški",
         "lb_LU": "luksemburški (Luksemburg)",
@@ -372,11 +440,23 @@
         "ml": "malajalam",
         "ml_IN": "malajalam (Indija)",
         "mn": "mongolski",
+<<<<<<< HEAD
+=======
+        "mn_Cyrl": "mongolski (ćirilica)",
+        "mn_Cyrl_MN": "mongolski (ćirilica, Mongolija)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongolski (Mongolija)",
         "mr": "marati",
         "mr_IN": "marati (Indija)",
         "ms": "malajski",
         "ms_BN": "malajski (Brunej)",
+<<<<<<< HEAD
+=======
+        "ms_Latn": "malajski (latinica)",
+        "ms_Latn_BN": "malajski (latinica, Brunej)",
+        "ms_Latn_MY": "malajski (latinica, Malezija)",
+        "ms_Latn_SG": "malajski (latinica, Singapur)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "malajski (Malezija)",
         "ms_SG": "malajski (Singapur)",
         "mt": "malteški",
@@ -521,6 +601,11 @@
         "tr_CY": "turski (Kipar)",
         "tr_TR": "turski (Turska)",
         "ug": "ujgurski",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "ujgurski (arapsko pismo)",
+        "ug_Arab_CN": "ujgurski (arapsko pismo, Kina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "ujgurski (Kina)",
         "uk": "ukrajinski",
         "uk_UA": "ukrajinski (Ukrajina)",
@@ -544,6 +629,7 @@
         "yo_NG": "joruba (Nigerija)",
         "zh": "kineski",
         "zh_CN": "kineski (Kina)",
+<<<<<<< HEAD
         "zh_HK": "kineski (SAR Hongkong (Kina))",
         "zh_Hans": "kineski (pojednostavljeno kinesko pismo)",
         "zh_Hans_CN": "kineski (pojednostavljeno kinesko pismo, Kina)",
@@ -552,6 +638,16 @@
         "zh_Hans_SG": "kineski (pojednostavljeno kinesko pismo, Singapur)",
         "zh_Hant": "kineski (tradicionalno kinesko pismo)",
         "zh_Hant_HK": "kineski (tradicionalno kinesko pismo, SAR Hongkong (Kina))",
+=======
+        "zh_HK": "kineski (Hong Kong S. A. R. Kina)",
+        "zh_Hans": "kineski (pojednostavljeno kinesko pismo)",
+        "zh_Hans_CN": "kineski (pojednostavljeno kinesko pismo, Kina)",
+        "zh_Hans_HK": "kineski (pojednostavljeno kinesko pismo, Hong Kong S. A. R. Kina)",
+        "zh_Hans_MO": "kineski (pojednostavljeno kinesko pismo, SAR Makao (Kina))",
+        "zh_Hans_SG": "kineski (pojednostavljeno kinesko pismo, Singapur)",
+        "zh_Hant": "kineski (tradicionalno kinesko pismo)",
+        "zh_Hant_HK": "kineski (tradicionalno kinesko pismo, Hong Kong S. A. R. Kina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "zh_Hant_MO": "kineski (tradicionalno kinesko pismo, SAR Makao (Kina))",
         "zh_Hant_TW": "kineski (tradicionalno kinesko pismo, Tajvan)",
         "zh_MO": "kineski (SAR Makao (Kina))",

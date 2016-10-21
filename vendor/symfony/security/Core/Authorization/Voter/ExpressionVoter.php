@@ -102,6 +102,10 @@ class ExpressionVoter implements VoterInterface
             'token' => $token,
             'user' => $token->getUser(),
             'object' => $object,
+<<<<<<< HEAD
+=======
+            'subject' => $object,
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'roles' => array_map(function ($role) { return $role->getRole(); }, $roles),
             'trust_resolver' => $this->trustResolver,
         );

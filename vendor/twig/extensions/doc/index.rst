@@ -30,7 +30,11 @@ command line:
 * :doc:`I18n <i18n>`: Adds internationalization support via the ``gettext``
   library;
 
+<<<<<<< HEAD
 * :doc:`Intl <intl>`: Adds a filter for localization of ``DateTime`` objects;
+=======
+* :doc:`Intl <intl>`: Adds a filter for localization of ``DateTime`` objects, numbers and currency;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 * :doc:`Array <array>`: Provides useful filters for array manipulation;
 

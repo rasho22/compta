@@ -13,7 +13,16 @@ class Twig_Node_Expression_GetAttr extends Twig_Node_Expression
 {
     public function __construct(Twig_Node_Expression $node, Twig_Node_Expression $attribute, Twig_Node_Expression $arguments = null, $type, $lineno)
     {
+<<<<<<< HEAD
         parent::__construct(array('node' => $node, 'attribute' => $attribute, 'arguments' => $arguments), array('type' => $type, 'is_defined_test' => false, 'ignore_strict_check' => false, 'disable_c_ext' => false), $lineno);
+=======
+        $nodes = array('node' => $node, 'attribute' => $attribute);
+        if (null !== $arguments) {
+            $nodes['arguments'] = $arguments;
+        }
+
+        parent::__construct($nodes, array('type' => $type, 'is_defined_test' => false, 'ignore_strict_check' => false, 'disable_c_ext' => false), $lineno);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function compile(Twig_Compiler $compiler)
@@ -36,10 +45,17 @@ class Twig_Node_Expression_GetAttr extends Twig_Node_Expression
         $needFourth = $this->getAttribute('ignore_strict_check');
         $needThird = $needFourth || $this->getAttribute('is_defined_test');
         $needSecond = $needThird || Twig_Template::ANY_CALL !== $this->getAttribute('type');
+<<<<<<< HEAD
         $needFirst = $needSecond || null !== $this->getNode('arguments');
 
         if ($needFirst) {
             if (null !== $this->getNode('arguments')) {
+=======
+        $needFirst = $needSecond || $this->hasNode('arguments');
+
+        if ($needFirst) {
+            if ($this->hasNode('arguments')) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 $compiler->raw(', ')->subcompile($this->getNode('arguments'));
             } else {
                 $compiler->raw(', array()');

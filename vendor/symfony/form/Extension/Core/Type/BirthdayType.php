@@ -31,7 +31,11 @@ class BirthdayType extends AbstractType
      */
     public function getParent()
     {
+<<<<<<< HEAD
         return 'date';
+=======
+        return __NAMESPACE__.'\DateType';
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -39,6 +43,17 @@ class BirthdayType extends AbstractType
      */
     public function getName()
     {
+<<<<<<< HEAD
+=======
+        return $this->getBlockPrefix();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getBlockPrefix()
+    {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return 'birthday';
     }
 }

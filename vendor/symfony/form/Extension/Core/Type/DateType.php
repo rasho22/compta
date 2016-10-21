@@ -37,6 +37,14 @@ class DateType extends AbstractType
         \IntlDateFormatter::SHORT,
     );
 
+<<<<<<< HEAD
+=======
+    private static $widgets = array(
+        'text' => 'Symfony\Component\Form\Extension\Core\Type\TextType',
+        'choice' => 'Symfony\Component\Form\Extension\Core\Type\ChoiceType',
+    );
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * {@inheritdoc}
      */
@@ -90,12 +98,24 @@ class DateType extends AbstractType
                 $yearOptions['choices'] = $this->formatTimestamps($formatter, '/y+/', $this->listYears($options['years']));
                 $yearOptions['choices_as_values'] = true;
                 $yearOptions['placeholder'] = $options['placeholder']['year'];
+<<<<<<< HEAD
                 $monthOptions['choices'] = $this->formatTimestamps($formatter, '/[M|L]+/', $this->listMonths($options['months']));
                 $monthOptions['choices_as_values'] = true;
                 $monthOptions['placeholder'] = $options['placeholder']['month'];
                 $dayOptions['choices'] = $this->formatTimestamps($formatter, '/d+/', $this->listDays($options['days']));
                 $dayOptions['choices_as_values'] = true;
                 $dayOptions['placeholder'] = $options['placeholder']['day'];
+=======
+                $yearOptions['choice_translation_domain'] = $options['choice_translation_domain']['year'];
+                $monthOptions['choices'] = $this->formatTimestamps($formatter, '/[M|L]+/', $this->listMonths($options['months']));
+                $monthOptions['choices_as_values'] = true;
+                $monthOptions['placeholder'] = $options['placeholder']['month'];
+                $monthOptions['choice_translation_domain'] = $options['choice_translation_domain']['month'];
+                $dayOptions['choices'] = $this->formatTimestamps($formatter, '/d+/', $this->listDays($options['days']));
+                $dayOptions['choices_as_values'] = true;
+                $dayOptions['placeholder'] = $options['placeholder']['day'];
+                $dayOptions['choice_translation_domain'] = $options['choice_translation_domain']['day'];
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
 
             // Append generic carry-along options
@@ -104,9 +124,15 @@ class DateType extends AbstractType
             }
 
             $builder
+<<<<<<< HEAD
                 ->add('year', $options['widget'], $yearOptions)
                 ->add('month', $options['widget'], $monthOptions)
                 ->add('day', $options['widget'], $dayOptions)
+=======
+                ->add('year', self::$widgets[$options['widget']], $yearOptions)
+                ->add('month', self::$widgets[$options['widget']], $monthOptions)
+                ->add('day', self::$widgets[$options['widget']], $dayOptions)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 ->addViewTransformer(new DateTimeToArrayTransformer(
                     $options['model_timezone'], $options['view_timezone'], array('year', 'month', 'day')
                 ))
@@ -205,6 +231,26 @@ class DateType extends AbstractType
             );
         };
 
+<<<<<<< HEAD
+=======
+        $choiceTranslationDomainNormalizer = function (Options $options, $choiceTranslationDomain) {
+            if (is_array($choiceTranslationDomain)) {
+                $default = false;
+
+                return array_replace(
+                    array('year' => $default, 'month' => $default, 'day' => $default),
+                    $choiceTranslationDomain
+                );
+            };
+
+            return array(
+                'year' => $choiceTranslationDomain,
+                'month' => $choiceTranslationDomain,
+                'day' => $choiceTranslationDomain,
+            );
+        };
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $format = function (Options $options) {
             return 'single_text' === $options['widget'] ? DateType::HTML5_FORMAT : DateType::DEFAULT_FORMAT;
         };
@@ -231,9 +277,17 @@ class DateType extends AbstractType
             // this option.
             'data_class' => null,
             'compound' => $compound,
+<<<<<<< HEAD
         ));
 
         $resolver->setNormalizer('placeholder', $placeholderNormalizer);
+=======
+            'choice_translation_domain' => false,
+        ));
+
+        $resolver->setNormalizer('placeholder', $placeholderNormalizer);
+        $resolver->setNormalizer('choice_translation_domain', $choiceTranslationDomainNormalizer);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $resolver->setAllowedValues('input', array(
             'datetime',
@@ -258,6 +312,17 @@ class DateType extends AbstractType
      */
     public function getName()
     {
+<<<<<<< HEAD
+=======
+        return $this->getBlockPrefix();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getBlockPrefix()
+    {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return 'date';
     }
 

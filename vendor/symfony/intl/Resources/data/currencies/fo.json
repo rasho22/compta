@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
     "Names": {
         "AED": [
@@ -149,10 +150,15 @@
             "DJF",
             "Djibuti frankur"
         ],
+=======
+    "Version": "2.1.12.27",
+    "Names": {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "DKK": [
             "kr",
             "donsk króna"
         ],
+<<<<<<< HEAD
         "DOP": [
             "DOP",
             "Dominika peso"
@@ -256,11 +262,17 @@
         "IRR": [
             "IRR",
             "iranskir rials"
+=======
+        "EUR": [
+            "€",
+            "euro"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ISK": [
             "ISK",
             "íslendsk króna"
         ],
+<<<<<<< HEAD
         "JMD": [
             "JMD",
             "Jamaika dollari"
@@ -397,10 +409,13 @@
             "NIO",
             "Nikaragua córdoba"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "NOK": [
             "NOK",
             "norsk króna"
         ],
+<<<<<<< HEAD
         "NPR": [
             "NPR",
             "Nepal rupi"
@@ -616,6 +631,11 @@
         "ZMW": [
             "ZMW",
             "Sambia kwacha"
+=======
+        "SEK": [
+            "SEK",
+            "svensk króna"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ]
     }
 }

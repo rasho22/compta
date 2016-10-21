@@ -29,7 +29,11 @@ interface FormFactoryInterface
      *
      * @throws \Symfony\Component\OptionsResolver\Exception\InvalidOptionsException if any given option is not applicable to the given type
      */
+<<<<<<< HEAD
     public function create($type = 'form', $data = null, array $options = array());
+=======
+    public function create($type = 'Symfony\Component\Form\Extension\Core\Type\FormType', $data = null, array $options = array());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     /**
      * Returns a form.
@@ -45,7 +49,11 @@ interface FormFactoryInterface
      *
      * @throws \Symfony\Component\OptionsResolver\Exception\InvalidOptionsException if any given option is not applicable to the given type
      */
+<<<<<<< HEAD
     public function createNamed($name, $type = 'form', $data = null, array $options = array());
+=======
+    public function createNamed($name, $type = 'Symfony\Component\Form\Extension\Core\Type\FormType', $data = null, array $options = array());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     /**
      * Returns a form for a property of a class.
@@ -74,7 +82,11 @@ interface FormFactoryInterface
      *
      * @throws \Symfony\Component\OptionsResolver\Exception\InvalidOptionsException if any given option is not applicable to the given type
      */
+<<<<<<< HEAD
     public function createBuilder($type = 'form', $data = null, array $options = array());
+=======
+    public function createBuilder($type = 'Symfony\Component\Form\Extension\Core\Type\FormType', $data = null, array $options = array());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     /**
      * Returns a form builder.
@@ -88,7 +100,11 @@ interface FormFactoryInterface
      *
      * @throws \Symfony\Component\OptionsResolver\Exception\InvalidOptionsException if any given option is not applicable to the given type
      */
+<<<<<<< HEAD
     public function createNamedBuilder($name, $type = 'form', $data = null, array $options = array());
+=======
+    public function createNamedBuilder($name, $type = 'Symfony\Component\Form\Extension\Core\Type\FormType', $data = null, array $options = array());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     /**
      * Returns a form builder for a property of a class.

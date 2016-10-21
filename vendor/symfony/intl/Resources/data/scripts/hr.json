@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.7",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "Afak": "afaka pismo",
         "Arab": "arapsko pismo",
@@ -123,7 +127,11 @@
         "Sind": "khudawadi pismo",
         "Sinh": "sinhaleško pismo",
         "Sora": "sora sompeng pismo",
+<<<<<<< HEAD
         "Sund": "sundansko pismo",
+=======
+        "Sund": "sudansko pismo",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Sylo": "syloti nagri pismo",
         "Syrc": "sirijsko pismo",
         "Syre": "sirijsko estrangelo pismo",

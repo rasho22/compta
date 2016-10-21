@@ -69,6 +69,19 @@ abstract class Client
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * Returns whether client automatically follows redirects or not.
+     *
+     * @return bool
+     */
+    public function isFollowingRedirects()
+    {
+        return $this->followRedirects;
+    }
+
+    /**
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * Sets the maximum number of requests that crawler can follow.
      *
      * @param int $maxRedirects
@@ -80,6 +93,19 @@ abstract class Client
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * Returns the maximum number of requests that crawler can follow.
+     *
+     * @return int
+     */
+    public function getMaxRedirects()
+    {
+        return $this->maxRedirects;
+    }
+
+    /**
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * Sets the insulated flag.
      *
      * @param bool $insulated Whether to insulate the requests or not

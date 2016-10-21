@@ -24,7 +24,11 @@ class ChoiceSubType extends AbstractType
      */
     public function configureOptions(OptionsResolver $resolver)
     {
+<<<<<<< HEAD
         $resolver->setDefaults(array('expanded' => true));
+=======
+        $resolver->setDefaults(array('expanded' => true, 'choices_as_values' => true));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $resolver->setNormalizer('choices', function () {
             return array(
                 'attr1' => 'Attribute 1',
@@ -36,6 +40,7 @@ class ChoiceSubType extends AbstractType
     /**
      * {@inheritdoc}
      */
+<<<<<<< HEAD
     public function getName()
     {
         return 'sub_choice';
@@ -47,5 +52,10 @@ class ChoiceSubType extends AbstractType
     public function getParent()
     {
         return 'choice';
+=======
+    public function getParent()
+    {
+        return 'Symfony\Component\Form\Extension\Core\Type\ChoiceType';
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

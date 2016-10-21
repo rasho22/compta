@@ -896,7 +896,11 @@ class Form implements \IteratorAggregate, FormInterface
             $options['auto_initialize'] = false;
 
             if (null === $type && null === $this->config->getDataClass()) {
+<<<<<<< HEAD
                 $type = 'text';
+=======
+                $type = 'Symfony\Component\Form\Extension\Core\Type\TextType';
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
 
             if (null === $type) {

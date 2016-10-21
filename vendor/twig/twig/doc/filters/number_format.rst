@@ -30,6 +30,12 @@ These defaults can be easily changed through the core extension:
 .. code-block:: php
 
     $twig = new Twig_Environment($loader);
+<<<<<<< HEAD
+=======
+    $twig->getExtension('Twig_Extension_Core')->setNumberFormat(3, '.', ',');
+
+    // before Twig 1.26
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     $twig->getExtension('core')->setNumberFormat(3, '.', ',');
 
 The defaults set for ``number_format`` can be over-ridden upon each call using the

@@ -39,6 +39,7 @@ final class PropertyAccess
     }
 
     /**
+<<<<<<< HEAD
      * Alias of {@link createPropertyAccessor}.
      *
      * @return PropertyAccessor The new property accessor
@@ -54,6 +55,8 @@ final class PropertyAccess
     }
 
     /**
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * This class cannot be instantiated.
      */
     private function __construct()

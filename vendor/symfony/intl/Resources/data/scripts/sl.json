@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "Arab": "arabski",
         "Armi": "imperialno-aramejski",
@@ -71,7 +75,11 @@
         "Maya": "majevska slikovna pisava",
         "Mero": "meroitski",
         "Mlym": "malajalamski",
+<<<<<<< HEAD
         "Mong": "mongolska",
+=======
+        "Mong": "mongolski",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Moon": "Moonova pisava za slepe",
         "Mtei": "manipurski",
         "Mymr": "mjanmarski",

@@ -17,17 +17,23 @@ class Twig_Extension_Optimizer extends Twig_Extension
         $this->optimizers = $optimizers;
     }
 
+<<<<<<< HEAD
     /**
      * {@inheritdoc}
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getNodeVisitors()
     {
         return array(new Twig_NodeVisitor_Optimizer($this->optimizers));
     }
 
+<<<<<<< HEAD
     /**
      * {@inheritdoc}
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getName()
     {
         return 'optimizer';

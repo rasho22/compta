@@ -35,6 +35,14 @@ class IdenticalToValidatorTest extends AbstractComparisonValidatorTestCase
         return new IdenticalTo($options);
     }
 
+<<<<<<< HEAD
+=======
+    protected function getErrorCode()
+    {
+        return IdenticalTo::NOT_IDENTICAL_ERROR;
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function provideAllValidComparisons()
     {
         $this->setDefaultTimezone('UTC');

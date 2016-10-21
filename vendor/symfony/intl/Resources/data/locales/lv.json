@@ -48,7 +48,12 @@
         "bg": "bulgāru",
         "bg_BG": "bulgāru (Bulgārija)",
         "bm": "bambaru",
+<<<<<<< HEAD
         "bm_ML": "bambaru (Mali)",
+=======
+        "bm_Latn": "bambaru (latīņu)",
+        "bm_Latn_ML": "bambaru (latīņu, Mali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengāļu",
         "bn_BD": "bengāļu (Bangladeša)",
         "bn_IN": "bengāļu (Indija)",
@@ -68,8 +73,11 @@
         "ca_ES": "katalāņu (Spānija)",
         "ca_FR": "katalāņu (Francija)",
         "ca_IT": "katalāņu (Itālija)",
+<<<<<<< HEAD
         "ce": "čečenu",
         "ce_RU": "čečenu (Krievija)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "čehu",
         "cs_CZ": "čehu (Čehija)",
         "cy": "velsiešu",
@@ -96,17 +104,24 @@
         "en_AG": "angļu (Antigva un Barbuda)",
         "en_AI": "angļu (Angilja)",
         "en_AS": "angļu (Amerikāņu Samoa)",
+<<<<<<< HEAD
         "en_AT": "angļu (Austrija)",
         "en_AU": "angļu (Austrālija)",
         "en_BB": "angļu (Barbadosa)",
         "en_BE": "angļu (Beļģija)",
         "en_BI": "angļu (Burundi)",
+=======
+        "en_AU": "angļu (Austrālija)",
+        "en_BB": "angļu (Barbadosa)",
+        "en_BE": "angļu (Beļģija)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "angļu (Bermudu salas)",
         "en_BS": "angļu (Bahamu salas)",
         "en_BW": "angļu (Botsvāna)",
         "en_BZ": "angļu (Beliza)",
         "en_CA": "angļu (Kanāda)",
         "en_CC": "angļu (Kokosu jeb Kīlinga salas)",
+<<<<<<< HEAD
         "en_CH": "angļu (Šveice)",
         "en_CK": "angļu (Kuka salas)",
         "en_CM": "angļu (Kamerūna)",
@@ -118,6 +133,14 @@
         "en_DM": "angļu (Dominika)",
         "en_ER": "angļu (Eritreja)",
         "en_FI": "angļu (Somija)",
+=======
+        "en_CK": "angļu (Kuka salas)",
+        "en_CM": "angļu (Kamerūna)",
+        "en_CX": "angļu (Ziemsvētku sala)",
+        "en_DG": "angļu (Djego Garsijas atols)",
+        "en_DM": "angļu (Dominika)",
+        "en_ER": "angļu (Eritreja)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "angļu (Fidži)",
         "en_FK": "angļu (Folklenda salas)",
         "en_FM": "angļu (Mikronēzija)",
@@ -131,7 +154,10 @@
         "en_GY": "angļu (Gajāna)",
         "en_HK": "angļu (Ķīnas īpašās pārvaldes apgabals Honkonga)",
         "en_IE": "angļu (Īrija)",
+<<<<<<< HEAD
         "en_IL": "angļu (Izraēla)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "angļu (Mena)",
         "en_IN": "angļu (Indija)",
         "en_IO": "angļu (Indijas okeāna Britu teritorija)",
@@ -156,7 +182,10 @@
         "en_NA": "angļu (Namībija)",
         "en_NF": "angļu (Norfolkas sala)",
         "en_NG": "angļu (Nigērija)",
+<<<<<<< HEAD
         "en_NL": "angļu (Nīderlande)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "angļu (Nauru)",
         "en_NU": "angļu (Niue)",
         "en_NZ": "angļu (Jaunzēlande)",
@@ -170,10 +199,15 @@
         "en_SB": "angļu (Zālamana salas)",
         "en_SC": "angļu (Šeišelu salas)",
         "en_SD": "angļu (Sudāna)",
+<<<<<<< HEAD
         "en_SE": "angļu (Zviedrija)",
         "en_SG": "angļu (Singapūra)",
         "en_SH": "angļu (Sv.Helēnas sala)",
         "en_SI": "angļu (Slovēnija)",
+=======
+        "en_SG": "angļu (Singapūra)",
+        "en_SH": "angļu (Sv.Helēnas sala)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "angļu (Sjerraleone)",
         "en_SS": "angļu (Dienvidsudāna)",
         "en_SX": "angļu (Sintmārtena)",
@@ -237,7 +271,10 @@
         "fi": "somu",
         "fi_FI": "somu (Somija)",
         "fo": "fēru",
+<<<<<<< HEAD
         "fo_DK": "fēru (Dānija)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "fēru (Fēru Salas)",
         "fr": "franču",
         "fr_BE": "franču (Beļģija)",
@@ -300,6 +337,13 @@
         "gv_IM": "meniešu (Mena)",
         "ha": "hausu",
         "ha_GH": "hausu (Gana)",
+<<<<<<< HEAD
+=======
+        "ha_Latn": "hausu (latīņu)",
+        "ha_Latn_GH": "hausu (latīņu, Gana)",
+        "ha_Latn_NE": "hausu (latīņu, Nigēra)",
+        "ha_Latn_NG": "hausu (latīņu, Nigērija)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "hausu (Nigēra)",
         "ha_NG": "hausu (Nigērija)",
         "he": "ivrits",
@@ -332,6 +376,11 @@
         "ki": "kikuju",
         "ki_KE": "kikuju (Kenija)",
         "kk": "kazahu",
+<<<<<<< HEAD
+=======
+        "kk_Cyrl": "kazahu (kirilica)",
+        "kk_Cyrl_KZ": "kazahu (kirilica, Kazahstāna)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "kazahu (Kazahstāna)",
         "kl": "grenlandiešu",
         "kl_GL": "grenlandiešu (Grenlande)",
@@ -343,10 +392,20 @@
         "ko_KP": "korejiešu (Ziemeļkoreja)",
         "ko_KR": "korejiešu (Dienvidkoreja)",
         "ks": "kašmiriešu",
+<<<<<<< HEAD
+=======
+        "ks_Arab": "kašmiriešu (arābu)",
+        "ks_Arab_IN": "kašmiriešu (arābu, Indija)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "kašmiriešu (Indija)",
         "kw": "korniešu",
         "kw_GB": "korniešu (Lielbritānija)",
         "ky": "kirgīzu",
+<<<<<<< HEAD
+=======
+        "ky_Cyrl": "kirgīzu (kirilica)",
+        "ky_Cyrl_KG": "kirgīzu (kirilica, Kirgizstāna)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "kirgīzu (Kirgizstāna)",
         "lb": "luksemburgiešu",
         "lb_LU": "luksemburgiešu (Luksemburga)",
@@ -372,11 +431,23 @@
         "ml": "malajalu",
         "ml_IN": "malajalu (Indija)",
         "mn": "mongoļu",
+<<<<<<< HEAD
+=======
+        "mn_Cyrl": "mongoļu (kirilica)",
+        "mn_Cyrl_MN": "mongoļu (kirilica, Mongolija)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongoļu (Mongolija)",
         "mr": "maratu",
         "mr_IN": "maratu (Indija)",
         "ms": "malajiešu",
         "ms_BN": "malajiešu (Bruneja)",
+<<<<<<< HEAD
+=======
+        "ms_Latn": "malajiešu (latīņu)",
+        "ms_Latn_BN": "malajiešu (latīņu, Bruneja)",
+        "ms_Latn_MY": "malajiešu (latīņu, Malaizija)",
+        "ms_Latn_SG": "malajiešu (latīņu, Singapūra)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "malajiešu (Malaizija)",
         "ms_SG": "malajiešu (Singapūra)",
         "mt": "maltiešu",
@@ -521,6 +592,11 @@
         "tr_CY": "turku (Kipra)",
         "tr_TR": "turku (Turcija)",
         "ug": "uiguru",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "uiguru (arābu)",
+        "ug_Arab_CN": "uiguru (arābu, Ķīna)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "uiguru (Ķīna)",
         "uk": "ukraiņu",
         "uk_UA": "ukraiņu (Ukraina)",

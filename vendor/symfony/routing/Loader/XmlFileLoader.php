@@ -107,6 +107,7 @@ class XmlFileLoader extends FileLoader
      */
     protected function parseRoute(RouteCollection $collection, \DOMElement $node, $path)
     {
+<<<<<<< HEAD
         if ('' === ($id = $node->getAttribute('id')) || (!$node->hasAttribute('pattern') && !$node->hasAttribute('path'))) {
             throw new \InvalidArgumentException(sprintf('The <route> element in file "%s" must have an "id" and a "path" attribute.', $path));
         }
@@ -122,11 +123,18 @@ class XmlFileLoader extends FileLoader
             $node->removeAttribute('pattern');
         }
 
+=======
+        if ('' === ($id = $node->getAttribute('id')) || !$node->hasAttribute('path')) {
+            throw new \InvalidArgumentException(sprintf('The <route> element in file "%s" must have an "id" and a "path" attribute.', $path));
+        }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $schemes = preg_split('/[\s,\|]++/', $node->getAttribute('schemes'), -1, PREG_SPLIT_NO_EMPTY);
         $methods = preg_split('/[\s,\|]++/', $node->getAttribute('methods'), -1, PREG_SPLIT_NO_EMPTY);
 
         list($defaults, $requirements, $options, $condition) = $this->parseConfigs($node, $path);
 
+<<<<<<< HEAD
         if (isset($requirements['_method'])) {
             if (0 === count($methods)) {
                 $methods = explode('|', $requirements['_method']);
@@ -145,6 +153,8 @@ class XmlFileLoader extends FileLoader
             @trigger_error(sprintf('The "_scheme" requirement of route "%s" in file "%s" is deprecated since version 2.2 and will be removed in 3.0. Use the "schemes" attribute instead.', $id, $path), E_USER_DEPRECATED);
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $route = new Route($node->getAttribute('path'), $defaults, $requirements, $options, $node->getAttribute('host'), $schemes, $methods, $condition);
         $collection->add($id, $route);
     }

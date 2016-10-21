@@ -13,7 +13,10 @@ namespace Symfony\Component\HttpFoundation\Session\Storage;
 
 use Symfony\Component\HttpFoundation\Session\SessionBagInterface;
 use Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler;
+<<<<<<< HEAD
 use Symfony\Component\HttpFoundation\Session\Storage\Proxy\NativeProxy;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy;
 use Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy;
 
@@ -127,6 +130,7 @@ class NativeSessionStorage implements SessionStorageInterface
             return true;
         }
 
+<<<<<<< HEAD
         if (PHP_VERSION_ID >= 50400 && \PHP_SESSION_ACTIVE === session_status()) {
             throw new \RuntimeException('Failed to start the session: already started by PHP.');
         }
@@ -136,6 +140,12 @@ class NativeSessionStorage implements SessionStorageInterface
             throw new \RuntimeException('Failed to start the session: already started by PHP ($_SESSION is set).');
         }
 
+=======
+        if (\PHP_SESSION_ACTIVE === session_status()) {
+            throw new \RuntimeException('Failed to start the session: already started by PHP.');
+        }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         if (ini_get('session.use_cookies') && headers_sent($file, $line)) {
             throw new \RuntimeException(sprintf('Failed to start the session because headers have already been sent by "%s" at line %d.', $file, $line));
         }
@@ -146,10 +156,13 @@ class NativeSessionStorage implements SessionStorageInterface
         }
 
         $this->loadSession();
+<<<<<<< HEAD
         if (!$this->saveHandler->isWrapper() && !$this->saveHandler->isSessionHandlerInterface()) {
             // This condition matches only PHP 5.3 with internal save handlers
             $this->saveHandler->setActive(true);
         }
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         return true;
     }
@@ -192,12 +205,16 @@ class NativeSessionStorage implements SessionStorageInterface
     public function regenerate($destroy = false, $lifetime = null)
     {
         // Cannot regenerate the session ID for non-active sessions.
+<<<<<<< HEAD
         if (PHP_VERSION_ID >= 50400 && \PHP_SESSION_ACTIVE !== session_status()) {
             return false;
         }
 
         // Check if session ID exists in PHP 5.3
         if (PHP_VERSION_ID < 50400 && '' === session_id()) {
+=======
+        if (\PHP_SESSION_ACTIVE !== session_status()) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             return false;
         }
 
@@ -225,11 +242,14 @@ class NativeSessionStorage implements SessionStorageInterface
     {
         session_write_close();
 
+<<<<<<< HEAD
         if (!$this->saveHandler->isWrapper() && !$this->saveHandler->isSessionHandlerInterface()) {
             // This condition matches only PHP 5.3 with internal save handlers
             $this->saveHandler->setActive(false);
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->closed = true;
         $this->started = false;
     }
@@ -379,12 +399,17 @@ class NativeSessionStorage implements SessionStorageInterface
         if (!$saveHandler instanceof AbstractProxy && $saveHandler instanceof \SessionHandlerInterface) {
             $saveHandler = new SessionHandlerProxy($saveHandler);
         } elseif (!$saveHandler instanceof AbstractProxy) {
+<<<<<<< HEAD
             $saveHandler = PHP_VERSION_ID >= 50400 ?
                 new SessionHandlerProxy(new \SessionHandler()) : new NativeProxy();
+=======
+            $saveHandler = new SessionHandlerProxy(new \SessionHandler());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
         $this->saveHandler = $saveHandler;
 
         if ($this->saveHandler instanceof \SessionHandlerInterface) {
+<<<<<<< HEAD
             if (PHP_VERSION_ID >= 50400) {
                 session_set_save_handler($this->saveHandler, false);
             } else {
@@ -397,6 +422,9 @@ class NativeSessionStorage implements SessionStorageInterface
                     array($this->saveHandler, 'gc')
                 );
             }
+=======
+            session_set_save_handler($this->saveHandler, false);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
     }
 

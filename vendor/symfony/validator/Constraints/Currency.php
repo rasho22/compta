@@ -18,8 +18,21 @@ use Symfony\Component\Validator\Constraint;
  * @Target({"PROPERTY", "METHOD", "ANNOTATION"})
  *
  * @author Miha Vrhovnik <miha.vrhovnik@pagein.si>
+<<<<<<< HEAD
  */
 class Currency extends Constraint
 {
+=======
+ * @author Bernhard Schussek <bschussek@gmail.com>
+ */
+class Currency extends Constraint
+{
+    const NO_SUCH_CURRENCY_ERROR = '69945ac1-2db4-405f-bec7-d2772f73df52';
+
+    protected static $errorNames = array(
+        self::NO_SUCH_CURRENCY_ERROR => 'NO_SUCH_CURRENCY_ERROR',
+    );
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public $message = 'This value is not a valid currency.';
 }

@@ -53,16 +53,23 @@
         "en_AG": "Turanci (Antigwa da Barbuba)",
         "en_AI": "Turanci (Angila)",
         "en_AS": "Turanci (Samowa Ta Amurka)",
+<<<<<<< HEAD
         "en_AT": "Turanci (Ostiriya)",
         "en_AU": "Turanci (Ostareliya)",
         "en_BB": "Turanci (Barbadas)",
         "en_BE": "Turanci (Belgiyom)",
         "en_BI": "Turanci (Burundi)",
+=======
+        "en_AU": "Turanci (Ostareliya)",
+        "en_BB": "Turanci (Barbadas)",
+        "en_BE": "Turanci (Belgiyom)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "Turanci (Barmuda)",
         "en_BS": "Turanci (Bahamas)",
         "en_BW": "Turanci (Baswana)",
         "en_BZ": "Turanci (Beliz)",
         "en_CA": "Turanci (Kanada)",
+<<<<<<< HEAD
         "en_CH": "Turanci (Suwizalan)",
         "en_CK": "Turanci (Tsibiran Kuku)",
         "en_CM": "Turanci (Kamaru)",
@@ -72,6 +79,12 @@
         "en_DM": "Turanci (Dominika)",
         "en_ER": "Turanci (Eritireya)",
         "en_FI": "Turanci (Finlan)",
+=======
+        "en_CK": "Turanci (Tsibiran Kuku)",
+        "en_CM": "Turanci (Kamaru)",
+        "en_DM": "Turanci (Dominika)",
+        "en_ER": "Turanci (Eritireya)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "Turanci (Fiji)",
         "en_FK": "Turanci (Tsibiran Falkilan)",
         "en_FM": "Turanci (Mikuronesiya)",
@@ -83,7 +96,10 @@
         "en_GU": "Turanci (Gwam)",
         "en_GY": "Turanci (Guyana)",
         "en_IE": "Turanci (Ayalan)",
+<<<<<<< HEAD
         "en_IL": "Turanci (Iziraʼila)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IN": "Turanci (Indiya)",
         "en_IO": "Turanci (Yankin Birtaniya Na Tekun Indiya)",
         "en_JM": "Turanci (Jamaika)",
@@ -105,7 +121,10 @@
         "en_NA": "Turanci (Namibiya)",
         "en_NF": "Turanci (Tsibirin Narfalk)",
         "en_NG": "Turanci (Najeriya)",
+<<<<<<< HEAD
         "en_NL": "Turanci (Holan)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "Turanci (Nauru)",
         "en_NU": "Turanci (Niyu)",
         "en_NZ": "Turanci (Nuzilan)",
@@ -119,10 +138,15 @@
         "en_SB": "Turanci (Tsibiran Salaman)",
         "en_SC": "Turanci (Saishal)",
         "en_SD": "Turanci (Sudan)",
+<<<<<<< HEAD
         "en_SE": "Turanci (Suwedan)",
         "en_SG": "Turanci (Singapur)",
         "en_SH": "Turanci (San Helena)",
         "en_SI": "Turanci (Sulobeniya)",
+=======
+        "en_SG": "Turanci (Singapur)",
+        "en_SH": "Turanci (San Helena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "Turanci (Salewo)",
         "en_SZ": "Turanci (Suwazilan)",
         "en_TC": "Turanci (Turkis Da Tsibiran Kaikwas)",

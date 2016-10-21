@@ -53,16 +53,23 @@
         "en_AG": "Gĩthungũ (Antigua na Barbuda)",
         "en_AI": "Gĩthungũ (Anguilla)",
         "en_AS": "Gĩthungũ (Samoa ya Marekani)",
+<<<<<<< HEAD
         "en_AT": "Gĩthungũ (Austria)",
         "en_AU": "Gĩthungũ (Australia)",
         "en_BB": "Gĩthungũ (Babadosi)",
         "en_BE": "Gĩthungũ (Ubelgiji)",
         "en_BI": "Gĩthungũ (Mburundi)",
+=======
+        "en_AU": "Gĩthungũ (Australia)",
+        "en_BB": "Gĩthungũ (Babadosi)",
+        "en_BE": "Gĩthungũ (Ubelgiji)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "Gĩthungũ (Bermuda)",
         "en_BS": "Gĩthungũ (Bahama)",
         "en_BW": "Gĩthungũ (Botswana)",
         "en_BZ": "Gĩthungũ (Belize)",
         "en_CA": "Gĩthungũ (Kanada)",
+<<<<<<< HEAD
         "en_CH": "Gĩthungũ (Uswisi)",
         "en_CK": "Gĩthungũ (Visiwa vya Cook)",
         "en_CM": "Gĩthungũ (Kameruni)",
@@ -72,6 +79,12 @@
         "en_DM": "Gĩthungũ (Dominika)",
         "en_ER": "Gĩthungũ (Eritrea)",
         "en_FI": "Gĩthungũ (Ufini)",
+=======
+        "en_CK": "Gĩthungũ (Visiwa vya Cook)",
+        "en_CM": "Gĩthungũ (Kameruni)",
+        "en_DM": "Gĩthungũ (Dominika)",
+        "en_ER": "Gĩthungũ (Eritrea)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "Gĩthungũ (Fiji)",
         "en_FK": "Gĩthungũ (Visiwa vya Falkland)",
         "en_FM": "Gĩthungũ (Mikronesia)",
@@ -83,7 +96,10 @@
         "en_GU": "Gĩthungũ (Gwam)",
         "en_GY": "Gĩthungũ (Guyana)",
         "en_IE": "Gĩthungũ (Ayalandi)",
+<<<<<<< HEAD
         "en_IL": "Gĩthungũ (Israeli)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IN": "Gĩthungũ (India)",
         "en_IO": "Gĩthungũ (Eneo la Uingereza katika Bahari Hindi)",
         "en_JM": "Gĩthungũ (Jamaika)",
@@ -105,7 +121,10 @@
         "en_NA": "Gĩthungũ (Namimbia)",
         "en_NF": "Gĩthungũ (Kisiwa cha Norfok)",
         "en_NG": "Gĩthungũ (Nainjeria)",
+<<<<<<< HEAD
         "en_NL": "Gĩthungũ (Uholanzi)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "Gĩthungũ (Nauru)",
         "en_NU": "Gĩthungũ (Niue)",
         "en_NZ": "Gĩthungũ (Nyuzilandi)",
@@ -119,10 +138,15 @@
         "en_SB": "Gĩthungũ (Visiwa vya Solomon)",
         "en_SC": "Gĩthungũ (Shelisheli)",
         "en_SD": "Gĩthungũ (Sudani)",
+<<<<<<< HEAD
         "en_SE": "Gĩthungũ (Uswidi)",
         "en_SG": "Gĩthungũ (Singapoo)",
         "en_SH": "Gĩthungũ (Santahelena)",
         "en_SI": "Gĩthungũ (Slovenia)",
+=======
+        "en_SG": "Gĩthungũ (Singapoo)",
+        "en_SH": "Gĩthungũ (Santahelena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "Gĩthungũ (Siera Leoni)",
         "en_SZ": "Gĩthungũ (Uswazi)",
         "en_TC": "Gĩthungũ (Visiwa vya Turki na Kaiko)",

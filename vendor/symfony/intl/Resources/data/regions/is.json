@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Ascension-eyja",
         "AD": "Andorra",
@@ -27,7 +31,11 @@
         "BH": "Barein",
         "BI": "Búrúndí",
         "BJ": "Benín",
+<<<<<<< HEAD
         "BL": "Sankti Bartólómeusareyjar",
+=======
+        "BL": "Saint Barthélemy",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BM": "Bermúdaeyjar",
         "BN": "Brúnei",
         "BO": "Bólivía",
@@ -73,7 +81,11 @@
         "ES": "Spánn",
         "ET": "Eþíópía",
         "FI": "Finnland",
+<<<<<<< HEAD
         "FJ": "Fídjíeyjar",
+=======
+        "FJ": "Fídjieyjar",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "FK": "Falklandseyjar",
         "FM": "Míkrónesía",
         "FO": "Færeyjar",
@@ -143,7 +155,11 @@
         "MC": "Mónakó",
         "MD": "Moldóva",
         "ME": "Svartfjallaland",
+<<<<<<< HEAD
         "MF": "St. Martin",
+=======
+        "MF": "Saint Martin",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MG": "Madagaskar",
         "MH": "Marshalleyjar",
         "MK": "Makedónía",
@@ -213,7 +229,11 @@
         "SS": "Suður-Súdan",
         "ST": "Saó Tóme og Prinsípe",
         "SV": "El Salvador",
+<<<<<<< HEAD
         "SX": "Sankti Martin",
+=======
+        "SX": "Sint Maarten",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SY": "Sýrland",
         "SZ": "Svasíland",
         "TA": "Tristan da Cunha",

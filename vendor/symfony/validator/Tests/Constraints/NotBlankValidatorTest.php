@@ -58,6 +58,10 @@ class NotBlankValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', 'null')
+<<<<<<< HEAD
+=======
+            ->setCode(NotBlank::IS_BLANK_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -71,6 +75,10 @@ class NotBlankValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', '""')
+<<<<<<< HEAD
+=======
+            ->setCode(NotBlank::IS_BLANK_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -84,6 +92,10 @@ class NotBlankValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', 'false')
+<<<<<<< HEAD
+=======
+            ->setCode(NotBlank::IS_BLANK_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -97,6 +109,10 @@ class NotBlankValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', 'array')
+<<<<<<< HEAD
+=======
+            ->setCode(NotBlank::IS_BLANK_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 }

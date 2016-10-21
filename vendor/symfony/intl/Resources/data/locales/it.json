@@ -13,7 +13,11 @@
         "ar_DJ": "arabo (Gibuti)",
         "ar_DZ": "arabo (Algeria)",
         "ar_EG": "arabo (Egitto)",
+<<<<<<< HEAD
         "ar_EH": "arabo (Sahara occidentale)",
+=======
+        "ar_EH": "arabo (Sahara Occidentale)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ar_ER": "arabo (Eritrea)",
         "ar_IL": "arabo (Israele)",
         "ar_IQ": "arabo (Iraq)",
@@ -30,7 +34,11 @@
         "ar_SA": "arabo (Arabia Saudita)",
         "ar_SD": "arabo (Sudan)",
         "ar_SO": "arabo (Somalia)",
+<<<<<<< HEAD
         "ar_SS": "arabo (Sud Sudan)",
+=======
+        "ar_SS": "arabo (Sudan del Sud)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ar_SY": "arabo (Siria)",
         "ar_TD": "arabo (Ciad)",
         "ar_TN": "arabo (Tunisia)",
@@ -48,7 +56,12 @@
         "bg": "bulgaro",
         "bg_BG": "bulgaro (Bulgaria)",
         "bm": "bambara",
+<<<<<<< HEAD
         "bm_ML": "bambara (Mali)",
+=======
+        "bm_Latn": "bambara (latino)",
+        "bm_Latn_ML": "bambara (latino, Mali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengalese",
         "bn_BD": "bengalese (Bangladesh)",
         "bn_IN": "bengalese (India)",
@@ -58,18 +71,29 @@
         "br": "bretone",
         "br_FR": "bretone (Francia)",
         "bs": "bosniaco",
+<<<<<<< HEAD
         "bs_BA": "bosniaco (Bosnia ed Erzegovina)",
         "bs_Cyrl": "bosniaco (cirillico)",
         "bs_Cyrl_BA": "bosniaco (cirillico, Bosnia ed Erzegovina)",
         "bs_Latn": "bosniaco (latino)",
         "bs_Latn_BA": "bosniaco (latino, Bosnia ed Erzegovina)",
+=======
+        "bs_BA": "bosniaco (Bosnia-Erzegovina)",
+        "bs_Cyrl": "bosniaco (cirillico)",
+        "bs_Cyrl_BA": "bosniaco (cirillico, Bosnia-Erzegovina)",
+        "bs_Latn": "bosniaco (latino)",
+        "bs_Latn_BA": "bosniaco (latino, Bosnia-Erzegovina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ca": "catalano",
         "ca_AD": "catalano (Andorra)",
         "ca_ES": "catalano (Spagna)",
         "ca_FR": "catalano (Francia)",
         "ca_IT": "catalano (Italia)",
+<<<<<<< HEAD
         "ce": "ceceno",
         "ce_RU": "ceceno (Russia)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "ceco",
         "cs_CZ": "ceco (Repubblica Ceca)",
         "cy": "gallese",
@@ -95,17 +119,25 @@
         "en": "inglese",
         "en_AG": "inglese (Antigua e Barbuda)",
         "en_AI": "inglese (Anguilla)",
+<<<<<<< HEAD
         "en_AS": "inglese (Samoa americane)",
         "en_AT": "inglese (Austria)",
         "en_AU": "inglese (Australia)",
         "en_BB": "inglese (Barbados)",
         "en_BE": "inglese (Belgio)",
         "en_BI": "inglese (Burundi)",
+=======
+        "en_AS": "inglese (Samoa Americane)",
+        "en_AU": "inglese (Australia)",
+        "en_BB": "inglese (Barbados)",
+        "en_BE": "inglese (Belgio)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "inglese (Bermuda)",
         "en_BS": "inglese (Bahamas)",
         "en_BW": "inglese (Botswana)",
         "en_BZ": "inglese (Belize)",
         "en_CA": "inglese (Canada)",
+<<<<<<< HEAD
         "en_CC": "inglese (Isole Cocos (Keeling))",
         "en_CH": "inglese (Svizzera)",
         "en_CK": "inglese (Isole Cook)",
@@ -118,6 +150,15 @@
         "en_DM": "inglese (Dominica)",
         "en_ER": "inglese (Eritrea)",
         "en_FI": "inglese (Finlandia)",
+=======
+        "en_CC": "inglese (Isole Cocos)",
+        "en_CK": "inglese (Isole Cook)",
+        "en_CM": "inglese (Camerun)",
+        "en_CX": "inglese (Isola di Christmas)",
+        "en_DG": "inglese (Diego Garcia)",
+        "en_DM": "inglese (Dominica)",
+        "en_ER": "inglese (Eritrea)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "inglese (Figi)",
         "en_FK": "inglese (Isole Falkland)",
         "en_FM": "inglese (Micronesia)",
@@ -131,10 +172,16 @@
         "en_GY": "inglese (Guyana)",
         "en_HK": "inglese (RAS di Hong Kong)",
         "en_IE": "inglese (Irlanda)",
+<<<<<<< HEAD
         "en_IL": "inglese (Israele)",
         "en_IM": "inglese (Isola di Man)",
         "en_IN": "inglese (India)",
         "en_IO": "inglese (Territorio britannico dell’Oceano Indiano)",
+=======
+        "en_IM": "inglese (Isola di Man)",
+        "en_IN": "inglese (India)",
+        "en_IO": "inglese (Territorio Britannico dell’Oceano Indiano)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_JE": "inglese (Jersey)",
         "en_JM": "inglese (Giamaica)",
         "en_KE": "inglese (Kenya)",
@@ -147,16 +194,27 @@
         "en_MG": "inglese (Madagascar)",
         "en_MH": "inglese (Isole Marshall)",
         "en_MO": "inglese (RAS di Macao)",
+<<<<<<< HEAD
         "en_MP": "inglese (Isole Marianne settentrionali)",
+=======
+        "en_MP": "inglese (Isole Marianne Settentrionali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_MS": "inglese (Montserrat)",
         "en_MT": "inglese (Malta)",
         "en_MU": "inglese (Mauritius)",
         "en_MW": "inglese (Malawi)",
+<<<<<<< HEAD
         "en_MY": "inglese (Malaysia)",
         "en_NA": "inglese (Namibia)",
         "en_NF": "inglese (Isola Norfolk)",
         "en_NG": "inglese (Nigeria)",
         "en_NL": "inglese (Paesi Bassi)",
+=======
+        "en_MY": "inglese (Malesia)",
+        "en_NA": "inglese (Namibia)",
+        "en_NF": "inglese (Isola Norfolk)",
+        "en_NG": "inglese (Nigeria)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "inglese (Nauru)",
         "en_NU": "inglese (Niue)",
         "en_NZ": "inglese (Nuova Zelanda)",
@@ -167,6 +225,7 @@
         "en_PR": "inglese (Portorico)",
         "en_PW": "inglese (Palau)",
         "en_RW": "inglese (Ruanda)",
+<<<<<<< HEAD
         "en_SB": "inglese (Isole Salomone)",
         "en_SC": "inglese (Seychelles)",
         "en_SD": "inglese (Sudan)",
@@ -176,6 +235,15 @@
         "en_SI": "inglese (Slovenia)",
         "en_SL": "inglese (Sierra Leone)",
         "en_SS": "inglese (Sud Sudan)",
+=======
+        "en_SB": "inglese (Isole Solomon)",
+        "en_SC": "inglese (Seychelles)",
+        "en_SD": "inglese (Sudan)",
+        "en_SG": "inglese (Singapore)",
+        "en_SH": "inglese (Sant’Elena)",
+        "en_SL": "inglese (Sierra Leone)",
+        "en_SS": "inglese (Sudan del Sud)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SX": "inglese (Sint Maarten)",
         "en_SZ": "inglese (Swaziland)",
         "en_TC": "inglese (Isole Turks e Caicos)",
@@ -185,7 +253,11 @@
         "en_TV": "inglese (Tuvalu)",
         "en_TZ": "inglese (Tanzania)",
         "en_UG": "inglese (Uganda)",
+<<<<<<< HEAD
         "en_UM": "inglese (Altre isole americane del Pacifico)",
+=======
+        "en_UM": "inglese (Isole minori lontane dagli USA)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_US": "inglese (Stati Uniti)",
         "en_VC": "inglese (Saint Vincent e Grenadines)",
         "en_VG": "inglese (Isole Vergini Britanniche)",
@@ -237,8 +309,12 @@
         "fi": "finlandese",
         "fi_FI": "finlandese (Finlandia)",
         "fo": "faroese",
+<<<<<<< HEAD
         "fo_DK": "faroese (Danimarca)",
         "fo_FO": "faroese (Isole Fær Øer)",
+=======
+        "fo_FO": "faroese (Isole Faroe)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr": "francese",
         "fr_BE": "francese (Belgio)",
         "fr_BF": "francese (Burkina Faso)",
@@ -256,7 +332,11 @@
         "fr_DZ": "francese (Algeria)",
         "fr_FR": "francese (Francia)",
         "fr_GA": "francese (Gabon)",
+<<<<<<< HEAD
         "fr_GF": "francese (Guyana francese)",
+=======
+        "fr_GF": "francese (Guiana Francese)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_GN": "francese (Guinea)",
         "fr_GP": "francese (Guadalupa)",
         "fr_GQ": "francese (Guinea Equatoriale)",
@@ -273,9 +353,15 @@
         "fr_MU": "francese (Mauritius)",
         "fr_NC": "francese (Nuova Caledonia)",
         "fr_NE": "francese (Niger)",
+<<<<<<< HEAD
         "fr_PF": "francese (Polinesia francese)",
         "fr_PM": "francese (Saint Pierre e Miquelon)",
         "fr_RE": "francese (Riunione)",
+=======
+        "fr_PF": "francese (Polinesia Francese)",
+        "fr_PM": "francese (Saint Pierre e Miquelon)",
+        "fr_RE": "francese (Réunion)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_RW": "francese (Ruanda)",
         "fr_SC": "francese (Seychelles)",
         "fr_SN": "francese (Senegal)",
@@ -296,10 +382,21 @@
         "gl_ES": "galiziano (Spagna)",
         "gu": "gujarati",
         "gu_IN": "gujarati (India)",
+<<<<<<< HEAD
         "gv": "mannese",
         "gv_IM": "mannese (Isola di Man)",
         "ha": "hausa",
         "ha_GH": "hausa (Ghana)",
+=======
+        "gv": "manx",
+        "gv_IM": "manx (Isola di Man)",
+        "ha": "hausa",
+        "ha_GH": "hausa (Ghana)",
+        "ha_Latn": "hausa (latino)",
+        "ha_Latn_GH": "hausa (latino, Ghana)",
+        "ha_Latn_NE": "hausa (latino, Niger)",
+        "ha_Latn_NG": "hausa (latino, Nigeria)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "hausa (Niger)",
         "ha_NG": "hausa (Nigeria)",
         "he": "ebraico",
@@ -307,7 +404,11 @@
         "hi": "hindi",
         "hi_IN": "hindi (India)",
         "hr": "croato",
+<<<<<<< HEAD
         "hr_BA": "croato (Bosnia ed Erzegovina)",
+=======
+        "hr_BA": "croato (Bosnia-Erzegovina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hr_HR": "croato (Croazia)",
         "hu": "ungherese",
         "hu_HU": "ungherese (Ungheria)",
@@ -332,9 +433,17 @@
         "ki": "kikuyu",
         "ki_KE": "kikuyu (Kenya)",
         "kk": "kazako",
+<<<<<<< HEAD
         "kk_KZ": "kazako (Kazakistan)",
         "kl": "groenlandese",
         "kl_GL": "groenlandese (Groenlandia)",
+=======
+        "kk_Cyrl": "kazako (cirillico)",
+        "kk_Cyrl_KZ": "kazako (cirillico, Kazakistan)",
+        "kk_KZ": "kazako (Kazakistan)",
+        "kl": "kalaallisut",
+        "kl_GL": "kalaallisut (Groenlandia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "km": "khmer",
         "km_KH": "khmer (Cambogia)",
         "kn": "kannada",
@@ -343,10 +452,20 @@
         "ko_KP": "coreano (Corea del Nord)",
         "ko_KR": "coreano (Corea del Sud)",
         "ks": "kashmiri",
+<<<<<<< HEAD
+=======
+        "ks_Arab": "kashmiri (arabo)",
+        "ks_Arab_IN": "kashmiri (arabo, India)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "kashmiri (India)",
         "kw": "cornico",
         "kw_GB": "cornico (Regno Unito)",
         "ky": "chirghiso",
+<<<<<<< HEAD
+=======
+        "ky_Cyrl": "chirghiso (cirillico)",
+        "ky_Cyrl_KG": "chirghiso (cirillico, Kirghizistan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "chirghiso (Kirghizistan)",
         "lb": "lussemburghese",
         "lb_LU": "lussemburghese (Lussemburgo)",
@@ -372,12 +491,25 @@
         "ml": "malayalam",
         "ml_IN": "malayalam (India)",
         "mn": "mongolo",
+<<<<<<< HEAD
+=======
+        "mn_Cyrl": "mongolo (cirillico)",
+        "mn_Cyrl_MN": "mongolo (cirillico, Mongolia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongolo (Mongolia)",
         "mr": "marathi",
         "mr_IN": "marathi (India)",
         "ms": "malese",
         "ms_BN": "malese (Brunei)",
+<<<<<<< HEAD
         "ms_MY": "malese (Malaysia)",
+=======
+        "ms_Latn": "malese (latino)",
+        "ms_Latn_BN": "malese (latino, Brunei)",
+        "ms_Latn_MY": "malese (latino, Malesia)",
+        "ms_Latn_SG": "malese (latino, Singapore)",
+        "ms_MY": "malese (Malesia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_SG": "malese (Singapore)",
         "mt": "maltese",
         "mt_MT": "maltese (Malta)",
@@ -410,7 +542,11 @@
         "or_IN": "oriya (India)",
         "os": "ossetico",
         "os_GE": "ossetico (Georgia)",
+<<<<<<< HEAD
         "os_RU": "ossetico (Russia)",
+=======
+        "os_RU": "ossetico (Federazione Russa)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "pa": "punjabi",
         "pa_Arab": "punjabi (arabo)",
         "pa_Arab_PK": "punjabi (arabo, Pakistan)",
@@ -431,7 +567,11 @@
         "pt_MZ": "portoghese (Mozambico)",
         "pt_PT": "portoghese (Portogallo)",
         "pt_ST": "portoghese (São Tomé e Príncipe)",
+<<<<<<< HEAD
         "pt_TL": "portoghese (Timor Leste)",
+=======
+        "pt_TL": "portoghese (Timor Est)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "qu": "quechua",
         "qu_BO": "quechua (Bolivia)",
         "qu_EC": "quechua (Ecuador)",
@@ -448,7 +588,11 @@
         "ru_KG": "russo (Kirghizistan)",
         "ru_KZ": "russo (Kazakistan)",
         "ru_MD": "russo (Moldavia)",
+<<<<<<< HEAD
         "ru_RU": "russo (Russia)",
+=======
+        "ru_RU": "russo (Federazione Russa)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ru_UA": "russo (Ucraina)",
         "rw": "kinyarwanda",
         "rw_RW": "kinyarwanda (Ruanda)",
@@ -459,7 +603,11 @@
         "sg": "sango",
         "sg_CF": "sango (Repubblica Centrafricana)",
         "sh": "serbo-croato",
+<<<<<<< HEAD
         "sh_BA": "serbo-croato (Bosnia ed Erzegovina)",
+=======
+        "sh_BA": "serbo-croato (Bosnia-Erzegovina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "si": "singalese",
         "si_LK": "singalese (Sri Lanka)",
         "sk": "slovacco",
@@ -478,14 +626,24 @@
         "sq_MK": "albanese (Repubblica di Macedonia)",
         "sq_XK": "albanese (Kosovo)",
         "sr": "serbo",
+<<<<<<< HEAD
         "sr_BA": "serbo (Bosnia ed Erzegovina)",
         "sr_Cyrl": "serbo (cirillico)",
         "sr_Cyrl_BA": "serbo (cirillico, Bosnia ed Erzegovina)",
+=======
+        "sr_BA": "serbo (Bosnia-Erzegovina)",
+        "sr_Cyrl": "serbo (cirillico)",
+        "sr_Cyrl_BA": "serbo (cirillico, Bosnia-Erzegovina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sr_Cyrl_ME": "serbo (cirillico, Montenegro)",
         "sr_Cyrl_RS": "serbo (cirillico, Serbia)",
         "sr_Cyrl_XK": "serbo (cirillico, Kosovo)",
         "sr_Latn": "serbo (latino)",
+<<<<<<< HEAD
         "sr_Latn_BA": "serbo (latino, Bosnia ed Erzegovina)",
+=======
+        "sr_Latn_BA": "serbo (latino, Bosnia-Erzegovina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sr_Latn_ME": "serbo (latino, Montenegro)",
         "sr_Latn_RS": "serbo (latino, Serbia)",
         "sr_Latn_XK": "serbo (latino, Kosovo)",
@@ -493,7 +651,11 @@
         "sr_RS": "serbo (Serbia)",
         "sr_XK": "serbo (Kosovo)",
         "sv": "svedese",
+<<<<<<< HEAD
         "sv_AX": "svedese (Isole Åland)",
+=======
+        "sv_AX": "svedese (Isole Aland)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sv_FI": "svedese (Finlandia)",
         "sv_SE": "svedese (Svezia)",
         "sw": "swahili",
@@ -504,12 +666,20 @@
         "ta": "tamil",
         "ta_IN": "tamil (India)",
         "ta_LK": "tamil (Sri Lanka)",
+<<<<<<< HEAD
         "ta_MY": "tamil (Malaysia)",
+=======
+        "ta_MY": "tamil (Malesia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ta_SG": "tamil (Singapore)",
         "te": "telugu",
         "te_IN": "telugu (India)",
         "th": "thai",
+<<<<<<< HEAD
         "th_TH": "thai (Thailandia)",
+=======
+        "th_TH": "thai (Tailandia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ti": "tigrino",
         "ti_ER": "tigrino (Eritrea)",
         "ti_ET": "tigrino (Etiopia)",
@@ -521,6 +691,11 @@
         "tr_CY": "turco (Cipro)",
         "tr_TR": "turco (Turchia)",
         "ug": "uiguro",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "uiguro (arabo)",
+        "ug_Arab_CN": "uiguro (arabo, Cina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "uiguro (Cina)",
         "uk": "ucraino",
         "uk_UA": "ucraino (Ucraina)",

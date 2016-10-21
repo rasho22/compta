@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.13.4",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "Afar",
         "ab": "Abchasisch",
@@ -26,7 +30,11 @@
         "ar": "Arabisch",
         "ar_001": "Modernes Hocharabisch",
         "arc": "Aramäisch",
+<<<<<<< HEAD
         "arn": "Mapudungun",
+=======
+        "arn": "Araukanisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "aro": "Araona",
         "arp": "Arapaho-Sprache",
         "arq": "Algerisches Arabisch",
@@ -42,6 +50,10 @@
         "awa": "Awadhi",
         "ay": "Aymara",
         "az": "Aserbaidschanisch",
+<<<<<<< HEAD
+=======
+        "azb": "Südaserbaidschanisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "Baschkirisch",
         "bal": "Belutschisch",
         "ban": "Balinesisch",
@@ -52,13 +64,20 @@
         "bbj": "Ghomala",
         "be": "Weißrussisch",
         "bej": "Bedauye",
+<<<<<<< HEAD
         "bem": "Bemba",
+=======
+        "bem": "Bemba-Sprache",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bew": "Betawi",
         "bez": "Bena",
         "bfd": "Bafut",
         "bfq": "Badaga",
         "bg": "Bulgarisch",
+<<<<<<< HEAD
         "bgn": "Westliches Belutschi",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "Bhodschpuri",
         "bi": "Bislama",
         "bik": "Bikol-Sprache",
@@ -66,7 +85,11 @@
         "bjn": "Banjaresisch",
         "bkm": "Kom",
         "bla": "Blackfoot-Sprache",
+<<<<<<< HEAD
         "bm": "Bambara",
+=======
+        "bm": "Bambara-Sprache",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "Bengalisch",
         "bo": "Tibetisch",
         "bpy": "Bishnupriya",
@@ -100,7 +123,11 @@
         "chp": "Chipewyan",
         "chr": "Cherokee",
         "chy": "Cheyenne",
+<<<<<<< HEAD
         "ckb": "Zentralkurdisch",
+=======
+        "ckb": "Sorani",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "co": "Korsisch",
         "cop": "Koptisch",
         "cps": "Capiznon",
@@ -131,7 +158,11 @@
         "dv": "Maledivisch",
         "dyo": "Diola",
         "dyu": "Dyula-Sprache",
+<<<<<<< HEAD
         "dz": "Dzongkha",
+=======
+        "dz": "Bhutanisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "dzg": "Dazaga",
         "ebu": "Embu",
         "ee": "Ewe",
@@ -206,7 +237,11 @@
         "guz": "Gusii",
         "gv": "Manx",
         "gwi": "Kutchin-Sprache",
+<<<<<<< HEAD
         "ha": "Haussa",
+=======
+        "ha": "Hausa",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hai": "Haida-Sprache",
         "hak": "Hakka",
         "haw": "Hawaiisch",
@@ -220,7 +255,11 @@
         "hr": "Kroatisch",
         "hsb": "Obersorbisch",
         "hsn": "Xiang",
+<<<<<<< HEAD
         "ht": "Haiti-Kreolisch",
+=======
+        "ht": "Haitianisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hu": "Ungarisch",
         "hup": "Hupa",
         "hy": "Armenisch",
@@ -276,7 +315,11 @@
         "kkj": "Kako",
         "kl": "Grönländisch",
         "kln": "Kalenjin",
+<<<<<<< HEAD
         "km": "Khmer",
+=======
+        "km": "Kambodschanisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kmb": "Kimbundu-Sprache",
         "kn": "Kannada",
         "ko": "Koreanisch",
@@ -290,7 +333,11 @@
         "krj": "Kinaray-a",
         "krl": "Karelisch",
         "kru": "Oraon-Sprache",
+<<<<<<< HEAD
         "ks": "Kaschmiri",
+=======
+        "ks": "Kaschmirisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ksb": "Shambala",
         "ksf": "Bafia",
         "ksh": "Kölsch",
@@ -318,7 +365,10 @@
         "lo": "Laotisch",
         "lol": "Mongo",
         "loz": "Rotse-Sprache",
+<<<<<<< HEAD
         "lrc": "Nördliches Luri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "Litauisch",
         "ltg": "Lettgallisch",
         "lu": "Luba-Katanga",
@@ -337,7 +387,11 @@
         "mai": "Maithili",
         "mak": "Makassarisch",
         "man": "Manding-Sprache",
+<<<<<<< HEAD
         "mas": "Massai",
+=======
+        "mas": "Massai-Sprache",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mde": "Maba",
         "mdf": "Moksha",
         "mdr": "Mandaresisch",
@@ -378,9 +432,14 @@
         "nap": "Neapolitanisch",
         "naq": "Nama",
         "nb": "Norwegisch Bokmål",
+<<<<<<< HEAD
         "nd": "Nord-Ndebele",
         "nds": "Niederdeutsch",
         "nds_NL": "Niedersächsisch",
+=======
+        "nd": "Nord-Ndebele-Sprache",
+        "nds": "Niederdeutsch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "Nepalesisch",
         "new": "Newari",
         "ng": "Ndonga",
@@ -414,7 +473,11 @@
         "os": "Ossetisch",
         "osa": "Osage-Sprache",
         "ota": "Osmanisch",
+<<<<<<< HEAD
         "pa": "Punjabi",
+=======
+        "pa": "Panjabi",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "pag": "Pangasinan-Sprache",
         "pal": "Mittelpersisch",
         "pam": "Pampanggan-Sprache",
@@ -446,7 +509,11 @@
         "rgn": "Romagnol",
         "rif": "Tarifit",
         "rm": "Rätoromanisch",
+<<<<<<< HEAD
         "rn": "Rundi",
+=======
+        "rn": "Rundi-Sprache",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ro": "Rumänisch",
         "ro_MD": "Moldauisch",
         "rof": "Rombo",
@@ -457,7 +524,11 @@
         "rue": "Russinisch",
         "rug": "Roviana",
         "rup": "Aromunisch",
+<<<<<<< HEAD
         "rw": "Kinyarwanda",
+=======
+        "rw": "Ruandisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "rwk": "Rwa",
         "sa": "Sanskrit",
         "sad": "Sandawe-Sprache",
@@ -474,8 +545,12 @@
         "sco": "Schottisch",
         "sd": "Sindhi",
         "sdc": "Sassarisch",
+<<<<<<< HEAD
         "sdh": "Südkurdisch",
         "se": "Nordsamisch",
+=======
+        "se": "Nord-Samisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "see": "Seneca",
         "seh": "Sena",
         "sei": "Seri",
@@ -495,10 +570,17 @@
         "sli": "Schlesisch",
         "sly": "Selayar",
         "sm": "Samoanisch",
+<<<<<<< HEAD
         "sma": "Südsamisch",
         "smj": "Lule-Samisch",
         "smn": "Inari-Samisch",
         "sms": "Skolt-Samisch",
+=======
+        "sma": "Süd-Samisch",
+        "smj": "Lule-Lappisch",
+        "smn": "Inari-Lappisch",
+        "sms": "Skolt-Lappisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sn": "Shona",
         "snk": "Soninke-Sprache",
         "so": "Somali",
@@ -517,12 +599,21 @@
         "sux": "Sumerisch",
         "sv": "Schwedisch",
         "sw": "Suaheli",
+<<<<<<< HEAD
         "sw_CD": "Kongo-Suaheli",
         "swb": "Komorisch",
         "syc": "Altsyrisch",
         "syr": "Syrisch",
         "szl": "Schlesisch (Polen)",
         "ta": "Tamil",
+=======
+        "swb": "Komorisch",
+        "swc": "Kongo-Suaheli",
+        "syc": "Altsyrisch",
+        "syr": "Syrisch",
+        "szl": "Schlesisch (Polen)",
+        "ta": "Tamilisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tcy": "Tulu",
         "te": "Telugu",
         "tem": "Temne",
@@ -531,7 +622,11 @@
         "tet": "Tetum-Sprache",
         "tg": "Tadschikisch",
         "th": "Thailändisch",
+<<<<<<< HEAD
         "ti": "Tigrinya",
+=======
+        "ti": "Tigrinja",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tig": "Tigre",
         "tiv": "Tiv-Sprache",
         "tk": "Turkmenisch",
@@ -585,7 +680,10 @@
         "wal": "Walamo-Sprache",
         "war": "Waray",
         "was": "Washo-Sprache",
+<<<<<<< HEAD
         "wbp": "Warlpiri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "Wolof",
         "wuu": "Wu",
         "xal": "Kalmückisch",

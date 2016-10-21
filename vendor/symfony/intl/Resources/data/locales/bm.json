@@ -35,7 +35,10 @@
         "bg": "buligarikan",
         "bg_BG": "buligarikan (Buligari)",
         "bm": "bamanakan",
+<<<<<<< HEAD
         "bm_ML": "bamanakan (Mali)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bɛngalikan",
         "bn_BD": "bɛngalikan (Bɛngiladɛsi)",
         "bn_IN": "bɛngalikan (Ɛndujamana)",
@@ -55,16 +58,23 @@
         "en_AG": "angilɛkan (Antiga-ni-Barbuda)",
         "en_AI": "angilɛkan (Angiya)",
         "en_AS": "angilɛkan (Samowa amerikani)",
+<<<<<<< HEAD
         "en_AT": "angilɛkan (Otirisi)",
         "en_AU": "angilɛkan (Ositirali)",
         "en_BB": "angilɛkan (Barbadi)",
         "en_BE": "angilɛkan (Bɛliziki)",
         "en_BI": "angilɛkan (Burundi)",
+=======
+        "en_AU": "angilɛkan (Ositirali)",
+        "en_BB": "angilɛkan (Barbadi)",
+        "en_BE": "angilɛkan (Bɛliziki)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "angilɛkan (Bermudi)",
         "en_BS": "angilɛkan (Bahamasi)",
         "en_BW": "angilɛkan (Bɔtisiwana)",
         "en_BZ": "angilɛkan (Belizi)",
         "en_CA": "angilɛkan (Kanada)",
+<<<<<<< HEAD
         "en_CH": "angilɛkan (Suwisi)",
         "en_CK": "angilɛkan (Kuki Gun)",
         "en_CM": "angilɛkan (Kameruni)",
@@ -74,6 +84,12 @@
         "en_DM": "angilɛkan (Dɔminiki)",
         "en_ER": "angilɛkan (Eritere)",
         "en_FI": "angilɛkan (Finilandi)",
+=======
+        "en_CK": "angilɛkan (Kuki Gun)",
+        "en_CM": "angilɛkan (Kameruni)",
+        "en_DM": "angilɛkan (Dɔminiki)",
+        "en_ER": "angilɛkan (Eritere)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "angilɛkan (Fiji)",
         "en_FK": "angilɛkan (Maluwini Gun)",
         "en_FM": "angilɛkan (Mikironesi)",
@@ -85,7 +101,10 @@
         "en_GU": "angilɛkan (Gwam)",
         "en_GY": "angilɛkan (Gwiyana)",
         "en_IE": "angilɛkan (Irilandi)",
+<<<<<<< HEAD
         "en_IL": "angilɛkan (Isirayeli)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IN": "angilɛkan (Ɛndujamana)",
         "en_IO": "angilɛkan (Angilɛ ka ɛndu dugukolo)",
         "en_JM": "angilɛkan (Zamayiki)",
@@ -107,7 +126,10 @@
         "en_NA": "angilɛkan (Namibi)",
         "en_NF": "angilɛkan (Nɔrofoliki Gun)",
         "en_NG": "angilɛkan (Nizeriya)",
+<<<<<<< HEAD
         "en_NL": "angilɛkan (Peyiba)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "angilɛkan (Nawuru)",
         "en_NU": "angilɛkan (Nyuwe)",
         "en_NZ": "angilɛkan (Zelandi Koura)",
@@ -121,10 +143,15 @@
         "en_SB": "angilɛkan (Salomo Gun)",
         "en_SC": "angilɛkan (Sesɛli)",
         "en_SD": "angilɛkan (Sudaŋ)",
+<<<<<<< HEAD
         "en_SE": "angilɛkan (Suwɛdi)",
         "en_SG": "angilɛkan (Sɛngapuri)",
         "en_SH": "angilɛkan (Ɛlɛni Senu)",
         "en_SI": "angilɛkan (Sloveni)",
+=======
+        "en_SG": "angilɛkan (Sɛngapuri)",
+        "en_SH": "angilɛkan (Ɛlɛni Senu)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "angilɛkan (Siyera Lewɔni)",
         "en_SZ": "angilɛkan (Swazilandi)",
         "en_TC": "angilɛkan (Turiki Gun ni Kayiki)",

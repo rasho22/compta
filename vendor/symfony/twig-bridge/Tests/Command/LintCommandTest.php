@@ -16,9 +16,12 @@ use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Tester\CommandTester;
 
+<<<<<<< HEAD
 /**
  * @covers \Symfony\Bridge\Twig\Command\LintCommand
  */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 class LintCommandTest extends \PHPUnit_Framework_TestCase
 {
     private $files;
@@ -31,7 +34,11 @@ class LintCommandTest extends \PHPUnit_Framework_TestCase
         $ret = $tester->execute(array('filename' => array($filename)), array('verbosity' => OutputInterface::VERBOSITY_VERBOSE, 'decorated' => false));
 
         $this->assertEquals(0, $ret, 'Returns 0 in case of success');
+<<<<<<< HEAD
         $this->assertRegExp('/^OK in /', $tester->getDisplay());
+=======
+        $this->assertRegExp('/^\/\/ OK in /', trim($tester->getDisplay()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function testLintIncorrectFile()
@@ -42,7 +49,11 @@ class LintCommandTest extends \PHPUnit_Framework_TestCase
         $ret = $tester->execute(array('filename' => array($filename)), array('decorated' => false));
 
         $this->assertEquals(1, $ret, 'Returns 1 in case of error');
+<<<<<<< HEAD
         $this->assertRegExp('/^KO in /', $tester->getDisplay());
+=======
+        $this->assertRegExp('/ERROR  in \S+ \(line /', trim($tester->getDisplay()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -65,7 +76,11 @@ class LintCommandTest extends \PHPUnit_Framework_TestCase
         $ret = $tester->execute(array('filename' => array($filename)), array('decorated' => false));
 
         $this->assertEquals(1, $ret, 'Returns 1 in case of error');
+<<<<<<< HEAD
         $this->assertRegExp('/^KO in /', $tester->getDisplay());
+=======
+        $this->assertRegExp('/ERROR  in \S+ \(line /', trim($tester->getDisplay()));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**

@@ -1,6 +1,11 @@
 {
     "Names": {
         "ky": "kirgiziska",
+<<<<<<< HEAD
+=======
+        "ky_Cyrl": "kirgiziska (kyrilliska)",
+        "ky_Cyrl_KG": "kirgiziska (kyrilliska, Kirgizistan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "kirgiziska (Kirgizistan)"
     }
 }

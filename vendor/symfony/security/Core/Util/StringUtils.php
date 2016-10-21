@@ -11,10 +11,22 @@
 
 namespace Symfony\Component\Security\Core\Util;
 
+<<<<<<< HEAD
+=======
+@trigger_error('The '.__NAMESPACE__.'\\StringUtils class is deprecated since version 2.8 and will be removed in 3.0. Use hash_equals() instead.', E_USER_DEPRECATED);
+
+use Symfony\Polyfill\Util\Binary;
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 /**
  * String utility functions.
  *
  * @author Fabien Potencier <fabien@symfony.com>
+<<<<<<< HEAD
+=======
+ *
+ * @deprecated since 2.8, to be removed in 3.0.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  */
 class StringUtils
 {
@@ -47,6 +59,7 @@ class StringUtils
             $userInput = (string) $userInput;
         }
 
+<<<<<<< HEAD
         if (function_exists('hash_equals')) {
             return hash_equals($knownString, $userInput);
         }
@@ -66,6 +79,9 @@ class StringUtils
 
         // They are only identical strings if $result is exactly 0...
         return 0 === $result;
+=======
+        return hash_equals($knownString, $userInput);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -77,6 +93,7 @@ class StringUtils
      */
     public static function safeStrlen($string)
     {
+<<<<<<< HEAD
         // Premature optimization
         // Since this cannot be changed at runtime, we can cache it
         static $funcExists = null;
@@ -89,5 +106,8 @@ class StringUtils
         }
 
         return strlen($string);
+=======
+        return Binary::strlen($string);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

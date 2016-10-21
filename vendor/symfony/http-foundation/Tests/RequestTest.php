@@ -1042,6 +1042,7 @@ class RequestTest extends \PHPUnit_Framework_TestCase
         $req->getContent($second);
     }
 
+<<<<<<< HEAD
     public function getContentCantBeCalledTwiceWithResourcesProvider()
     {
         return array(
@@ -1052,6 +1053,10 @@ class RequestTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider getContentCanBeCalledTwiceWithResourcesProvider
+=======
+    /**
+     * @dataProvider getContentCantBeCalledTwiceWithResourcesProvider
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * @requires PHP 5.6
      */
     public function testGetContentCanBeCalledTwiceWithResources($first, $second)
@@ -1068,6 +1073,7 @@ class RequestTest extends \PHPUnit_Framework_TestCase
             $b = stream_get_contents($b);
         }
 
+<<<<<<< HEAD
         $this->assertSame($a, $b);
     }
 
@@ -1076,6 +1082,14 @@ class RequestTest extends \PHPUnit_Framework_TestCase
         return array(
             'Fetch then fetch' => array(false, false),
             'Fetch then resource' => array(false, true),
+=======
+        $this->assertEquals($a, $b);
+    }
+
+    public function getContentCantBeCalledTwiceWithResourcesProvider()
+    {
+        return array(
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'Resource then fetch' => array(true, false),
             'Resource then resource' => array(true, true),
         );
@@ -1266,6 +1280,28 @@ class RequestTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('/path%20test/info', $request->getPathInfo());
     }
 
+<<<<<<< HEAD
+=======
+    public function testGetParameterPrecedence()
+    {
+        $request = new Request();
+        $request->attributes->set('foo', 'attr');
+        $request->query->set('foo', 'query');
+        $request->request->set('foo', 'body');
+
+        $this->assertSame('attr', $request->get('foo'));
+
+        $request->attributes->remove('foo');
+        $this->assertSame('query', $request->get('foo'));
+
+        $request->query->remove('foo');
+        $this->assertSame('body', $request->get('foo'));
+
+        $request->request->remove('foo');
+        $this->assertNull($request->get('foo'));
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testGetPreferredLanguage()
     {
         $request = new Request();
@@ -1407,6 +1443,12 @@ class RequestTest extends \PHPUnit_Framework_TestCase
         $request = new Request();
         $this->assertNull($request->setRequestFormat('foo'));
         $this->assertEquals('foo', $request->getRequestFormat(null));
+<<<<<<< HEAD
+=======
+
+        $request = new Request(array('_format' => 'foo'));
+        $this->assertEquals('html', $request->getRequestFormat());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function testHasSession()

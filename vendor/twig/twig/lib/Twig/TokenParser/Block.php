@@ -22,6 +22,7 @@
  */
 class Twig_TokenParser_Block extends Twig_TokenParser
 {
+<<<<<<< HEAD
     /**
      * Parses a token and returns a node.
      *
@@ -29,13 +30,19 @@ class Twig_TokenParser_Block extends Twig_TokenParser
      *
      * @return Twig_NodeInterface A Twig_NodeInterface instance
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function parse(Twig_Token $token)
     {
         $lineno = $token->getLine();
         $stream = $this->parser->getStream();
         $name = $stream->expect(Twig_Token::NAME_TYPE)->getValue();
         if ($this->parser->hasBlock($name)) {
+<<<<<<< HEAD
             throw new Twig_Error_Syntax(sprintf("The block '$name' has already been defined line %d", $this->parser->getBlock($name)->getLine()), $stream->getCurrent()->getLine(), $stream->getFilename());
+=======
+            throw new Twig_Error_Syntax(sprintf("The block '%s' has already been defined line %d.", $name, $this->parser->getBlock($name)->getLine()), $stream->getCurrent()->getLine(), $stream->getFilename());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
         $this->parser->setBlock($name, $block = new Twig_Node_Block($name, new Twig_Node(array()), $lineno));
         $this->parser->pushLocalScope();
@@ -47,7 +54,11 @@ class Twig_TokenParser_Block extends Twig_TokenParser
                 $value = $token->getValue();
 
                 if ($value != $name) {
+<<<<<<< HEAD
                     throw new Twig_Error_Syntax(sprintf('Expected endblock for block "%s" (but "%s" given)', $name, $value), $stream->getCurrent()->getLine(), $stream->getFilename());
+=======
+                    throw new Twig_Error_Syntax(sprintf('Expected endblock for block "%s" (but "%s" given).', $name, $value), $stream->getCurrent()->getLine(), $stream->getFilename());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 }
             }
         } else {
@@ -69,11 +80,14 @@ class Twig_TokenParser_Block extends Twig_TokenParser
         return $token->test('endblock');
     }
 
+<<<<<<< HEAD
     /**
      * Gets the tag name associated with this token parser.
      *
      * @return string The tag name
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getTag()
     {
         return 'block';

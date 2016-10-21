@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afar",
         "ab": "abchaski",
@@ -42,6 +46,10 @@
         "awa": "awadhi",
         "ay": "ajmara",
         "az": "azerski",
+<<<<<<< HEAD
+=======
+        "azb": "południowoazerski",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "baszkirski",
         "bal": "beludżi",
         "ban": "balijski",
@@ -58,7 +66,10 @@
         "bfd": "bafut",
         "bfq": "badaga",
         "bg": "bułgarski",
+<<<<<<< HEAD
         "bgn": "beludżi północny",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhodźpuri",
         "bi": "bislama",
         "bik": "bikol",
@@ -318,7 +329,10 @@
         "lo": "laotański",
         "lol": "mongo",
         "loz": "lozi",
+<<<<<<< HEAD
         "lrc": "luryjski północny",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "litewski",
         "ltg": "łatgalski",
         "lu": "luba-katanga",
@@ -379,7 +393,11 @@
         "naq": "nama",
         "nb": "norweski (bokmål)",
         "nd": "ndebele północny",
+<<<<<<< HEAD
         "nds": "dolnoniemiecki",
+=======
+        "nds": "dolnosaksoński",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepalski",
         "new": "newarski",
         "ng": "ndonga",
@@ -387,7 +405,11 @@
         "niu": "niue",
         "njo": "ao",
         "nl": "niderlandzki",
+<<<<<<< HEAD
         "nl_BE": "flamandzki",
+=======
+        "nl_BE": "flamandzki (Belgia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nmg": "ngumba",
         "nn": "norweski (nynorsk)",
         "nnh": "ngiemboon",
@@ -473,7 +495,10 @@
         "sco": "szkocki",
         "sd": "sindhi",
         "sdc": "sassarski",
+<<<<<<< HEAD
         "sdh": "południowokurdyjski",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "lapoński północny",
         "see": "seneka",
         "seh": "sena",
@@ -516,8 +541,13 @@
         "sux": "sumeryjski",
         "sv": "szwedzki",
         "sw": "suahili",
+<<<<<<< HEAD
         "sw_CD": "kongijski suahili",
         "swb": "komoryjski",
+=======
+        "swb": "komoryjski",
+        "swc": "kongijski suahili",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "syriacki",
         "syr": "syryjski",
         "szl": "śląski",
@@ -584,7 +614,10 @@
         "wal": "walamo",
         "war": "waraj",
         "was": "washo",
+<<<<<<< HEAD
         "wbp": "Warlpiri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "wolof",
         "wuu": "wu",
         "xal": "kałmucki",
@@ -604,7 +637,11 @@
         "zbl": "bliss",
         "zea": "zelandzki",
         "zen": "zenaga",
+<<<<<<< HEAD
         "zgh": "standardowy marokański tamazight",
+=======
+        "zgh": "zgh",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "zh": "chiński",
         "zh_Hans": "chiński (uproszczony)",
         "zh_Hant": "chiński (tradycyjny)",

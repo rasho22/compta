@@ -19,9 +19,13 @@ class Twig_Extensions_Extension_Intl extends Twig_Extension
     }
 
     /**
+<<<<<<< HEAD
      * Returns a list of filters to add to the existing list.
      *
      * @return array An array of filters
+=======
+     * {@inheritdoc}
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getFilters()
     {
@@ -33,9 +37,13 @@ class Twig_Extensions_Extension_Intl extends Twig_Extension
     }
 
     /**
+<<<<<<< HEAD
      * Returns the name of the extension.
      *
      * @return string The extension name
+=======
+     * {@inheritdoc}
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getName()
     {
@@ -43,7 +51,11 @@ class Twig_Extensions_Extension_Intl extends Twig_Extension
     }
 }
 
+<<<<<<< HEAD
 function twig_localized_date_filter(Twig_Environment $env, $date, $dateFormat = 'medium', $timeFormat = 'medium', $locale = null, $timezone = null, $format = null)
+=======
+function twig_localized_date_filter(Twig_Environment $env, $date, $dateFormat = 'medium', $timeFormat = 'medium', $locale = null, $timezone = null, $format = null, $calendar = 'gregorian')
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     $date = twig_date_converter($env, $date, $timezone);
 
@@ -60,7 +72,11 @@ function twig_localized_date_filter(Twig_Environment $env, $date, $dateFormat = 
         $formatValues[$dateFormat],
         $formatValues[$timeFormat],
         $date->getTimezone()->getName(),
+<<<<<<< HEAD
         IntlDateFormatter::GREGORIAN,
+=======
+        'gregorian' === $calendar ? IntlDateFormatter::GREGORIAN : IntlDateFormatter::TRADITIONAL,
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $format
     );
 

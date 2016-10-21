@@ -1,9 +1,16 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
     "Scripts": [
         "Afak",
         "Aghb",
         "Ahom",
+=======
+    "Version": "2.1.12.90",
+    "Scripts": [
+        "Afak",
+        "Aghb",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Arab",
         "Armi",
         "Armn",
@@ -50,7 +57,10 @@
         "Hano",
         "Hans",
         "Hant",
+<<<<<<< HEAD
         "Hatr",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Hebr",
         "Hira",
         "Hluw",
@@ -97,7 +107,10 @@
         "Moon",
         "Mroo",
         "Mtei",
+<<<<<<< HEAD
         "Mult",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Mymr",
         "Narb",
         "Nbat",
@@ -119,6 +132,7 @@
         "Phnx",
         "Plrd",
         "Prti",
+<<<<<<< HEAD
         "Qaaa",
         "Qaab",
         "Qaac",
@@ -167,6 +181,8 @@
         "Qabv",
         "Qabw",
         "Qabx",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Rjng",
         "Roro",
         "Runr",
@@ -212,7 +228,10 @@
         "Yiii",
         "Zinh",
         "Zmth",
+<<<<<<< HEAD
         "Zsye",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Zsym",
         "Zxxx",
         "Zyyy",

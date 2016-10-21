@@ -43,10 +43,13 @@ class PhpBridgeSessionStorage extends NativeSessionStorage
         }
 
         $this->loadSession();
+<<<<<<< HEAD
         if (!$this->saveHandler->isWrapper() && !$this->saveHandler->isSessionHandlerInterface()) {
             // This condition matches only PHP 5.3 + internal save handlers
             $this->saveHandler->setActive(true);
         }
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         return true;
     }

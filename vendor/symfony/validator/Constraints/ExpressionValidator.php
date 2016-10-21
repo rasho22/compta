@@ -37,6 +37,7 @@ class ExpressionValidator extends ConstraintValidator
      */
     private $expressionLanguage;
 
+<<<<<<< HEAD
     /**
      * @param PropertyAccessorInterface|null $propertyAccessor Optional as of Symfony 2.5
      *
@@ -49,6 +50,12 @@ class ExpressionValidator extends ConstraintValidator
         }
 
         $this->propertyAccessor = $propertyAccessor;
+=======
+    public function __construct(PropertyAccessorInterface $propertyAccessor = null, ExpressionLanguage $expressionLanguage = null)
+    {
+        $this->propertyAccessor = $propertyAccessor;
+        $this->expressionLanguage = $expressionLanguage;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -88,10 +95,18 @@ class ExpressionValidator extends ConstraintValidator
             if ($this->context instanceof ExecutionContextInterface) {
                 $this->context->buildViolation($constraint->message)
                     ->setParameter('{{ value }}', $this->formatValue($value))
+<<<<<<< HEAD
+=======
+                    ->setCode(Expression::EXPRESSION_FAILED_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             } else {
                 $this->buildViolation($constraint->message)
                     ->setParameter('{{ value }}', $this->formatValue($value))
+<<<<<<< HEAD
+=======
+                    ->setCode(Expression::EXPRESSION_FAILED_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             }
         }

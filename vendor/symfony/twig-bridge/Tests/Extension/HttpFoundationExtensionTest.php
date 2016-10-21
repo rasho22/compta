@@ -14,6 +14,10 @@ namespace Symfony\Bridge\Twig\Tests\Extension;
 use Symfony\Bridge\Twig\Extension\HttpFoundationExtension;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Request;
+<<<<<<< HEAD
+=======
+use Symfony\Component\Routing\RequestContext;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 class HttpFoundationExtensionTest extends \PHPUnit_Framework_TestCase
 {
@@ -43,6 +47,52 @@ class HttpFoundationExtensionTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * @dataProvider getGenerateAbsoluteUrlRequestContextData
+     */
+    public function testGenerateAbsoluteUrlWithRequestContext($path, $baseUrl, $host, $scheme, $httpPort, $httpsPort, $expected)
+    {
+        if (!class_exists('Symfony\Component\Routing\RequestContext')) {
+            $this->markTestSkipped('The Routing component is needed to run tests that depend on its request context.');
+        }
+
+        $requestContext = new RequestContext($baseUrl, 'GET', $host, $scheme, $httpPort, $httpsPort, $path);
+        $extension = new HttpFoundationExtension(new RequestStack(), $requestContext);
+
+        $this->assertEquals($expected, $extension->generateAbsoluteUrl($path));
+    }
+
+    /**
+     * @dataProvider getGenerateAbsoluteUrlRequestContextData
+     */
+    public function testGenerateAbsoluteUrlWithoutRequestAndRequestContext($path)
+    {
+        if (!class_exists('Symfony\Component\Routing\RequestContext')) {
+            $this->markTestSkipped('The Routing component is needed to run tests that depend on its request context.');
+        }
+
+        $extension = new HttpFoundationExtension(new RequestStack());
+
+        $this->assertEquals($path, $extension->generateAbsoluteUrl($path));
+    }
+
+    public function getGenerateAbsoluteUrlRequestContextData()
+    {
+        return array(
+            array('/foo.png', '/foo', 'localhost', 'http', 80, 443, 'http://localhost/foo.png'),
+            array('foo.png', '/foo', 'localhost', 'http', 80, 443, 'http://localhost/foo/foo.png'),
+            array('foo.png', '/foo/bar/', 'localhost', 'http', 80, 443, 'http://localhost/foo/bar/foo.png'),
+            array('/foo.png', '/foo', 'localhost', 'https', 80, 443, 'https://localhost/foo.png'),
+            array('foo.png', '/foo', 'localhost', 'https', 80, 443, 'https://localhost/foo/foo.png'),
+            array('foo.png', '/foo/bar/', 'localhost', 'https', 80, 443, 'https://localhost/foo/bar/foo.png'),
+            array('/foo.png', '/foo', 'localhost', 'http', 443, 80, 'http://localhost:443/foo.png'),
+            array('/foo.png', '/foo', 'localhost', 'https', 443, 80, 'https://localhost:80/foo.png'),
+        );
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testGenerateAbsoluteUrlWithScriptFileName()
     {
         $request = Request::create('http://localhost/app/web/app_dev.php');

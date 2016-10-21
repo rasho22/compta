@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.81",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Ascension",
         "AD": "Andorra",
@@ -36,7 +40,11 @@
         "BS": "Bahama’s",
         "BT": "Bhutan",
         "BW": "Botswana",
+<<<<<<< HEAD
         "BY": "Belarus",
+=======
+        "BY": "Wit-Rusland",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BZ": "Belize",
         "CA": "Canada",
         "CC": "Cocoseilanden",
@@ -126,7 +134,11 @@
         "KP": "Noord-Korea",
         "KR": "Zuid-Korea",
         "KW": "Koeweit",
+<<<<<<< HEAD
         "KY": "Kaaimaneilanden",
+=======
+        "KY": "Caymaneilanden",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "KZ": "Kazachstan",
         "LA": "Laos",
         "LB": "Libanon",
@@ -219,7 +231,11 @@
         "TA": "Tristan da Cunha",
         "TC": "Turks- en Caicoseilanden",
         "TD": "Tsjaad",
+<<<<<<< HEAD
         "TF": "Franse Gebieden in de zuidelijke Indische Oceaan",
+=======
+        "TF": "Franse Zuidelijke Gebieden",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TG": "Togo",
         "TH": "Thailand",
         "TJ": "Tadzjikistan",

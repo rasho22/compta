@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.10.93",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "Arab": "i-Arab",
         "Armn": "i-Armenian",
@@ -16,7 +20,11 @@
         "Hang": "i-Hangul",
         "Hani": "i-Han",
         "Hans": "i-Simplified",
+<<<<<<< HEAD
         "Hant": "okosiko",
+=======
+        "Hant": "Okosiko",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Hebr": "i-Hebrew",
         "Hira": "i-Hiragana",
         "Jpan": "i-Japanese",
@@ -36,9 +44,16 @@
         "Thaa": "i-Thaana",
         "Thai": "i-Thai",
         "Tibt": "i-Tibetan",
+<<<<<<< HEAD
         "Zsym": "amasimbuli",
         "Zxxx": "okungabhaliwe",
         "Zyyy": "ejwayelekile",
         "Zzzz": "iskripthi esingaziwa"
+=======
+        "Zsym": "Amasimbuli",
+        "Zxxx": "Okungabhaliwe",
+        "Zyyy": "Ejwayelekile",
+        "Zzzz": "Iskripthi esingaziwa"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

@@ -4,8 +4,16 @@ namespace compta\Controller;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
+<<<<<<< HEAD
 use compta\Domain\Depense;
 use compta\Form\Type\DepenseType;
+=======
+use compta\Domain\Depenses;
+use compta\Domain\User;
+use compta\Domain\UserGroup;
+
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 class HomeController {
 
@@ -15,6 +23,7 @@ class HomeController {
      * @param Application $app Silex application
      */
     public function indexAction(Application $app) {
+<<<<<<< HEAD
         $articles = $app['dao.group']->findAll();
        /* return $app['twig']->render('index.html.twig', array('articles' => $articles));*/
     }
@@ -61,5 +70,14 @@ class HomeController {
             'error'         => $app['security.last_error']($request),
             'last_username' => $app['session']->get('_security.last_username'),
             ));*/
+=======
+        $user = $app['dao.user']->findAll()
+        return $app->json(array(
+            'records' => $result,
+            'status' => 'OK'
+        ), 200);
+
+    
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

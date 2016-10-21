@@ -33,11 +33,19 @@ class AnonymousAuthenticationProviderTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \Symfony\Component\Security\Core\Exception\BadCredentialsException
      */
+<<<<<<< HEAD
     public function testAuthenticateWhenKeyIsNotValid()
     {
         $provider = $this->getProvider('foo');
 
         $this->assertNull($provider->authenticate($this->getSupportedToken('bar')));
+=======
+    public function testAuthenticateWhenSecretIsNotValid()
+    {
+        $provider = $this->getProvider('foo');
+
+        $provider->authenticate($this->getSupportedToken('bar'));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function testAuthenticate()
@@ -48,19 +56,34 @@ class AnonymousAuthenticationProviderTest extends \PHPUnit_Framework_TestCase
         $this->assertSame($token, $provider->authenticate($token));
     }
 
+<<<<<<< HEAD
     protected function getSupportedToken($key)
     {
         $token = $this->getMock('Symfony\Component\Security\Core\Authentication\Token\AnonymousToken', array('getKey'), array(), '', false);
         $token->expects($this->any())
               ->method('getKey')
               ->will($this->returnValue($key))
+=======
+    protected function getSupportedToken($secret)
+    {
+        $token = $this->getMock('Symfony\Component\Security\Core\Authentication\Token\AnonymousToken', array('getSecret'), array(), '', false);
+        $token->expects($this->any())
+              ->method('getSecret')
+              ->will($this->returnValue($secret))
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ;
 
         return $token;
     }
 
+<<<<<<< HEAD
     protected function getProvider($key)
     {
         return new AnonymousAuthenticationProvider($key);
+=======
+    protected function getProvider($secret)
+    {
+        return new AnonymousAuthenticationProvider($secret);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

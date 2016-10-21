@@ -15,6 +15,10 @@ namespace Symfony\Component\Validator\Constraints;
  * Validates values are less than the previous (<).
  *
  * @author Daniel Holmes <daniel@danielholmes.org>
+<<<<<<< HEAD
+=======
+ * @author Bernhard Schussek <bschussek@gmail.com>
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  */
 class LessThanValidator extends AbstractComparisonValidator
 {
@@ -25,4 +29,15 @@ class LessThanValidator extends AbstractComparisonValidator
     {
         return $value1 < $value2;
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function getErrorCode()
+    {
+        return LessThan::TOO_HIGH_ERROR;
+    }
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

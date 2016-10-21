@@ -28,7 +28,11 @@ class Twig_Tests_Node_ForTest extends Twig_Test_NodeTestCase
         $this->assertTrue($node->getAttribute('ifexpr'));
         $this->assertEquals('Twig_Node_If', get_class($node->getNode('body')));
         $this->assertEquals($body, $node->getNode('body')->getNode('tests')->getNode(1)->getNode(0));
+<<<<<<< HEAD
         $this->assertNull($node->getNode('else'));
+=======
+        $this->assertFalse($node->hasNode('else'));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $else = new Twig_Node_Print(new Twig_Node_Expression_Name('foo', 1), 1);
         $node = new Twig_Node_For($keyTarget, $valueTarget, $seq, $ifexpr, $body, $else, 1);
@@ -51,7 +55,11 @@ class Twig_Tests_Node_ForTest extends Twig_Test_NodeTestCase
 
         $tests[] = array($node, <<<EOF
 // line 1
+<<<<<<< HEAD
 \$context['_parent'] = (array) \$context;
+=======
+\$context['_parent'] = \$context;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 \$context['_seq'] = twig_ensure_traversable({$this->getVariableGetter('items')});
 foreach (\$context['_seq'] as \$context["key"] => \$context["item"]) {
     echo {$this->getVariableGetter('foo')};
@@ -73,7 +81,11 @@ EOF
 
         $tests[] = array($node, <<<EOF
 // line 1
+<<<<<<< HEAD
 \$context['_parent'] = (array) \$context;
+=======
+\$context['_parent'] = \$context;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 \$context['_seq'] = twig_ensure_traversable({$this->getVariableGetter('values')});
 \$context['loop'] = array(
   'parent' => \$context['_parent'],
@@ -116,7 +128,11 @@ EOF
 
         $tests[] = array($node, <<<EOF
 // line 1
+<<<<<<< HEAD
 \$context['_parent'] = (array) \$context;
+=======
+\$context['_parent'] = \$context;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 \$context['_seq'] = twig_ensure_traversable({$this->getVariableGetter('values')});
 \$context['loop'] = array(
   'parent' => \$context['_parent'],
@@ -149,7 +165,11 @@ EOF
 
         $tests[] = array($node, <<<EOF
 // line 1
+<<<<<<< HEAD
 \$context['_parent'] = (array) \$context;
+=======
+\$context['_parent'] = \$context;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 \$context['_seq'] = twig_ensure_traversable({$this->getVariableGetter('values')});
 \$context['_iterated'] = false;
 \$context['loop'] = array(

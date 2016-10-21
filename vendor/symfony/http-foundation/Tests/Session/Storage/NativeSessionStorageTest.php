@@ -16,7 +16,10 @@ use Symfony\Component\HttpFoundation\Session\Flash\FlashBag;
 use Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler;
 use Symfony\Component\HttpFoundation\Session\Storage\Handler\NullSessionHandler;
 use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
+<<<<<<< HEAD
 use Symfony\Component\HttpFoundation\Session\Storage\Proxy\NativeProxy;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy;
 
 /**
@@ -193,6 +196,7 @@ class NativeSessionStorageTest extends \PHPUnit_Framework_TestCase
         $storage->setSaveHandler(new \stdClass());
     }
 
+<<<<<<< HEAD
     public function testSetSaveHandler53()
     {
         if (PHP_VERSION_ID >= 50400) {
@@ -219,6 +223,9 @@ class NativeSessionStorageTest extends \PHPUnit_Framework_TestCase
      * @requires PHP 5.4
      */
     public function testSetSaveHandler54()
+=======
+    public function testSetSaveHandler()
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         $this->iniSet('session.save_handler', 'files');
         $storage = $this->getStorage();
@@ -239,7 +246,11 @@ class NativeSessionStorageTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \RuntimeException
      */
+<<<<<<< HEAD
     public function testStartedOutside()
+=======
+    public function testStarted()
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         $storage = $this->getStorage();
 
@@ -248,10 +259,15 @@ class NativeSessionStorageTest extends \PHPUnit_Framework_TestCase
 
         session_start();
         $this->assertTrue(isset($_SESSION));
+<<<<<<< HEAD
         if (PHP_VERSION_ID >= 50400) {
             // this only works in PHP >= 5.4 where session_status is available
             $this->assertTrue($storage->getSaveHandler()->isActive());
         }
+=======
+        $this->assertTrue($storage->getSaveHandler()->isActive());
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         // PHP session might have started, but the storage driver has not, so false is correct here
         $this->assertFalse($storage->isStarted());
 

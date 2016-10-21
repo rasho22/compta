@@ -7,4 +7,8 @@ Exception for syntax error in reused template
     {% do node.data = 5 %}
 {% endblock %}
 --EXCEPTION--
+<<<<<<< HEAD
 Twig_Error_Syntax: Unexpected token "operator" of value "=" ("end of statement block" expected) in "foo.twig" at line 3
+=======
+Twig_Error_Syntax: Unexpected token "operator" of value "=" ("end of statement block" expected) in "foo.twig" at line 3.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af

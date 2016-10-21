@@ -15,7 +15,11 @@
 #ifndef PHP_TWIG_H
 #define PHP_TWIG_H
 
+<<<<<<< HEAD
 #define PHP_TWIG_VERSION "1.21.2"
+=======
+#define PHP_TWIG_VERSION "1.26.1"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 #include "php.h"
 

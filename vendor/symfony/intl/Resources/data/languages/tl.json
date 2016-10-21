@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ab": "Abkhazian",
         "ach": "Acoli",
@@ -19,7 +23,10 @@
         "bem": "Bemba",
         "bez": "Bena",
         "bg": "Bulgarian",
+<<<<<<< HEAD
         "bgn": "Kanlurang Balochi",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bm": "Bambara",
         "bn": "Bengali",
         "bo": "Tibetan",
@@ -27,6 +34,7 @@
         "brx": "Bodo",
         "bs": "Bosnian",
         "ca": "Catalan",
+<<<<<<< HEAD
         "ce": "Chechen",
         "cgg": "Chiga",
         "chr": "Cherokee",
@@ -34,12 +42,22 @@
         "co": "Corsican",
         "cs": "Czech",
         "cv": "Chuvash",
+=======
+        "cgg": "Chiga",
+        "chr": "Cherokee",
+        "ckb": "Sorani Kurdish",
+        "co": "Corsican",
+        "cs": "Czech",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cy": "Welsh",
         "da": "Danish",
         "dav": "Taita",
         "de": "German",
+<<<<<<< HEAD
         "de_AT": "Austrian German",
         "de_CH": "Swiss High German",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "dje": "Zarma",
         "dsb": "Lower Sorbian",
         "dua": "Duala",
@@ -53,6 +71,7 @@
         "en": "Ingles",
         "en_AU": "Ingles ng Australya",
         "en_CA": "Ingles sa Canada",
+<<<<<<< HEAD
         "en_GB": "Ingles ng British",
         "en_US": "Ingles (US)",
         "eo": "Esperanto",
@@ -60,6 +79,15 @@
         "es_419": "Latin American na Espanyol",
         "es_ES": "European Spanish",
         "es_MX": "Espanyol ng Mehiko",
+=======
+        "en_GB": "Ingles (UK)",
+        "en_US": "Ingles (US)",
+        "eo": "Esperanto",
+        "es": "Spanish",
+        "es_419": "Latin American Spanish",
+        "es_ES": "European Spanish",
+        "es_MX": "Mexican Spanish",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "et": "Estonian",
         "eu": "Basque",
         "fa": "Persian",
@@ -70,7 +98,11 @@
         "fr": "French",
         "fr_CA": "Canadian French",
         "fr_CH": "Swiss French",
+<<<<<<< HEAD
         "fy": "Kanlurang Frisian",
+=======
+        "fy": "Western Frisian",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ga": "Irish",
         "gaa": "Ga",
         "gag": "Gagauz",
@@ -132,7 +164,10 @@
         "ln": "Lingala",
         "lo": "Lao",
         "loz": "Lozi",
+<<<<<<< HEAD
         "lrc": "Hilagang Luri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "Lithuanian",
         "lu": "Luba-Katanga",
         "lua": "Luba-Lulua",
@@ -155,12 +190,18 @@
         "mt": "Maltese",
         "mua": "Mundang",
         "my": "Burmese",
+<<<<<<< HEAD
         "mzn": "Mazanderani",
         "naq": "Nama",
         "nb": "Norwegian Bokmal",
         "nd": "Hilagang Ndebele",
         "nds": "Low German",
         "nds_NL": "Low Saxon",
+=======
+        "naq": "Nama",
+        "nb": "Norwegian Bokmal",
+        "nd": "North Ndebele",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "Nepali",
         "nl": "Dutch",
         "nl_BE": "Flemish",
@@ -180,7 +221,11 @@
         "pl": "Polish",
         "ps": "Pashto",
         "pt": "Portuges",
+<<<<<<< HEAD
         "pt_BR": "Portuges ng Brasil",
+=======
+        "pt_BR": "Brazilian Portuguese",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "pt_PT": "European Portuguese",
         "qu": "Quechua",
         "quc": "Kʼicheʼ",
@@ -196,8 +241,12 @@
         "saq": "Samburu",
         "sbp": "Sangu",
         "sd": "Sindhi",
+<<<<<<< HEAD
         "sdh": "Katimugang Kurdish",
         "se": "Hilagang Sami",
+=======
+        "se": "Northern Sami",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "seh": "Sena",
         "ses": "Koyraboro Senni",
         "sg": "Sango",
@@ -207,7 +256,11 @@
         "sk": "Slovak",
         "sl": "Slovenian",
         "sm": "Samoan",
+<<<<<<< HEAD
         "sma": "Katimugang Sami",
+=======
+        "sma": "Southern Sami",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "smj": "Lule Sami",
         "smn": "Inari Sami",
         "sms": "Skolt Sami",
@@ -220,8 +273,13 @@
         "su": "Sundanese",
         "sv": "Swedish",
         "sw": "Swahili",
+<<<<<<< HEAD
         "sw_CD": "Swahili (Congo)",
         "swb": "Comorian",
+=======
+        "swb": "Comorian",
+        "swc": "Swahili (Congo)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ta": "Tamil",
         "te": "Telugu",
         "teo": "Teso",
@@ -250,7 +308,10 @@
         "ve": "Venda",
         "vi": "Vietnamese",
         "vun": "Vunjo",
+<<<<<<< HEAD
         "wbp": "Warlpiri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "Wolof",
         "xh": "Xhosa",
         "xog": "Soga",

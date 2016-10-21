@@ -11,13 +11,23 @@
 
 namespace Symfony\Component\Security\Core\Util;
 
+<<<<<<< HEAD
 use Doctrine\Common\Util\ClassUtils as DoctrineClassUtils;
+=======
+use Symfony\Component\Security\Acl\Util\ClassUtils as AclClassUtils;
+
+@trigger_error('The '.__NAMESPACE__.'\ClassUtils class is deprecated since version 2.8, to be removed in 3.0. Use Symfony\Component\Security\Acl\Util\ClassUtils instead.', E_USER_DEPRECATED);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * Class related functionality for objects that
  * might or might not be proxy objects at the moment.
  *
+<<<<<<< HEAD
  * @see DoctrineClassUtils
+=======
+ * @deprecated ClassUtils is deprecated since version 2.8, to be removed in 3.0. Use Acl ClassUtils instead.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  *
  * @author Benjamin Eberlei <kontakt@beberlei.de>
  * @author Johannes Schmitt <schmittjoh@gmail.com>
@@ -54,6 +64,14 @@ class ClassUtils
      */
     public static function getRealClass($object)
     {
+<<<<<<< HEAD
+=======
+        if (class_exists('Symfony\Component\Security\Acl\Util\ClassUtils')) {
+            return AclClassUtils::getRealClass($object);
+        }
+
+        // fallback in case security-acl is not installed
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $class = is_object($object) ? get_class($object) : $object;
 
         if (false === $pos = strrpos($class, '\\'.self::MARKER.'\\')) {

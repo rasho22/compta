@@ -67,9 +67,15 @@ class Scope
      * @param string $key
      * @param mixed  $value
      *
+<<<<<<< HEAD
      * @throws \LogicException
      *
      * @return Scope Current scope
+=======
+     * @return Scope Current scope
+     *
+     * @throws \LogicException
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function set($key, $value)
     {

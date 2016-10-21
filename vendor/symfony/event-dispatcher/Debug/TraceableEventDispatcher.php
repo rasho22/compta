@@ -104,10 +104,13 @@ class TraceableEventDispatcher implements TraceableEventDispatcherInterface
      */
     public function getListenerPriority($eventName, $listener)
     {
+<<<<<<< HEAD
         if (!method_exists($this->dispatcher, 'getListenerPriority')) {
             return 0;
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return $this->dispatcher->getListenerPriority($eventName, $listener);
     }
 

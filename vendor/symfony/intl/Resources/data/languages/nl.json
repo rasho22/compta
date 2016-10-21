@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.81",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "Afar",
         "ab": "Abchazisch",
@@ -42,6 +46,10 @@
         "awa": "Awadhi",
         "ay": "Aymara",
         "az": "Azerbeidzjaans",
+<<<<<<< HEAD
+=======
+        "azb": "Zuid-Azerbeidzjaans Arabisch",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "Basjkiers",
         "bal": "Beloetsji",
         "ban": "Balinees",
@@ -58,7 +66,10 @@
         "bfd": "Bafut",
         "bfq": "Badaga",
         "bg": "Bulgaars",
+<<<<<<< HEAD
         "bgn": "Westers Beloetsji",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "Bhojpuri",
         "bi": "Bislama",
         "bik": "Bikol",
@@ -181,7 +192,10 @@
         "ga": "Iers",
         "gaa": "Ga",
         "gag": "Gagaoezisch",
+<<<<<<< HEAD
         "gan": "Ganyu",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "gay": "Gayo",
         "gba": "Gbaya",
         "gbz": "Zoroastrisch Dari",
@@ -318,7 +332,10 @@
         "lo": "Laotiaans",
         "lol": "Mongo",
         "loz": "Lozi",
+<<<<<<< HEAD
         "lrc": "Noordelijk Luri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "Litouws",
         "ltg": "Letgaals",
         "lu": "Luba-Katanga",
@@ -472,7 +489,10 @@
         "sco": "Schots",
         "sd": "Sindhi",
         "sdc": "Sassarees",
+<<<<<<< HEAD
         "sdh": "Pahlavani",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "Noord-Samisch",
         "see": "Seneca",
         "seh": "Sena",
@@ -515,8 +535,13 @@
         "sux": "Soemerisch",
         "sv": "Zweeds",
         "sw": "Swahili",
+<<<<<<< HEAD
         "sw_CD": "Congo Swahili",
         "swb": "Shimaore",
+=======
+        "swb": "Shimaore",
+        "swc": "Congo Swahili",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "Klassiek Syrisch",
         "syr": "Syrisch",
         "szl": "Silezisch",
@@ -528,7 +553,11 @@
         "ter": "Tereno",
         "tet": "Tetun",
         "tg": "Tadzjieks",
+<<<<<<< HEAD
         "th": "Thai",
+=======
+        "th": "Thais",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ti": "Tigrinya",
         "tig": "Tigre",
         "tiv": "Tiv",
@@ -538,7 +567,10 @@
         "tl": "Tagalog",
         "tlh": "Klingon",
         "tli": "Tlingit",
+<<<<<<< HEAD
         "tly": "Talysh",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tmh": "Tamashek",
         "tn": "Tswana",
         "to": "Tongaans",
@@ -573,7 +605,10 @@
         "vep": "Wepsisch",
         "vi": "Vietnamees",
         "vls": "West-Vlaams",
+<<<<<<< HEAD
         "vmf": "Opperfrankisch",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "vo": "Volapük",
         "vot": "Votisch",
         "vro": "Võro",
@@ -583,7 +618,10 @@
         "wal": "Wolaytta",
         "war": "Waray",
         "was": "Washo",
+<<<<<<< HEAD
         "wbp": "Warlpiri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "Wolof",
         "wuu": "Wuyu",
         "xal": "Kalmuks",

@@ -312,7 +312,11 @@ class Request
             'SERVER_NAME' => 'localhost',
             'SERVER_PORT' => 80,
             'HTTP_HOST' => 'localhost',
+<<<<<<< HEAD
             'HTTP_USER_AGENT' => 'Symfony/2.X',
+=======
+            'HTTP_USER_AGENT' => 'Symfony/3.X',
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'HTTP_ACCEPT_LANGUAGE' => 'en-us,en;q=0.5',
             'HTTP_ACCEPT_CHARSET' => 'ISO-8859-1,utf-8;q=0.7,*;q=0.7',
@@ -701,6 +705,7 @@ class Request
     }
 
     /**
+<<<<<<< HEAD
      * Gets a "parameter" value.
      *
      * This method is mainly useful for libraries that want to provide some flexibility.
@@ -738,6 +743,32 @@ class Request
         }
 
         if ($this !== $result = $this->request->get($key, $this, $deep)) {
+=======
+     * Gets a "parameter" value from any bag.
+     *
+     * This method is mainly useful for libraries that want to provide some flexibility. If you don't need the
+     * flexibility in controllers, it is better to explicitly get request parameters from the appropriate
+     * public property instead (attributes, query, request).
+     *
+     * Order of precedence: PATH (routing placeholders or custom attributes), GET, BODY
+     *
+     * @param string $key     the key
+     * @param mixed  $default the default value if the parameter key does not exist
+     *
+     * @return mixed
+     */
+    public function get($key, $default = null)
+    {
+        if ($this !== $result = $this->attributes->get($key, $this)) {
+            return $result;
+        }
+
+        if ($this !== $result = $this->query->get($key, $this)) {
+            return $result;
+        }
+
+        if ($this !== $result = $this->request->get($key, $this)) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             return $result;
         }
 
@@ -1377,7 +1408,11 @@ class Request
      * Here is the process to determine the format:
      *
      *  * format defined by the user (with setRequestFormat())
+<<<<<<< HEAD
      *  * _format request parameter
+=======
+     *  * _format request attribute
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *  * $default
      *
      * @param string $default The default format
@@ -1387,7 +1422,11 @@ class Request
     public function getRequestFormat($default = 'html')
     {
         if (null === $this->format) {
+<<<<<<< HEAD
             $this->format = $this->get('_format', $default);
+=======
+            $this->format = $this->attributes->get('_format', $default);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         return $this->format;
@@ -1522,7 +1561,11 @@ class Request
             return stream_get_contents($this->content);
         }
 
+<<<<<<< HEAD
         if (null === $this->content || false === $this->content) {
+=======
+        if (null === $this->content) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $this->content = file_get_contents('php://input');
         }
 

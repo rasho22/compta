@@ -13,6 +13,12 @@ namespace Symfony\Component\CssSelector\Tests;
 
 use Symfony\Component\CssSelector\CssSelector;
 
+<<<<<<< HEAD
+=======
+/**
+ * @group legacy
+ */
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 class CssSelectorTest extends \PHPUnit_Framework_TestCase
 {
     public function testCssToXPath()

@@ -23,6 +23,7 @@
  */
 class Twig_TokenParser_For extends Twig_TokenParser
 {
+<<<<<<< HEAD
     /**
      * Parses a token and returns a node.
      *
@@ -30,6 +31,8 @@ class Twig_TokenParser_For extends Twig_TokenParser
      *
      * @return Twig_NodeInterface A Twig_NodeInterface instance
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function parse(Twig_Token $token)
     {
         $lineno = $token->getLine();
@@ -86,7 +89,11 @@ class Twig_TokenParser_For extends Twig_TokenParser
     protected function checkLoopUsageCondition(Twig_TokenStream $stream, Twig_NodeInterface $node)
     {
         if ($node instanceof Twig_Node_Expression_GetAttr && $node->getNode('node') instanceof Twig_Node_Expression_Name && 'loop' == $node->getNode('node')->getAttribute('name')) {
+<<<<<<< HEAD
             throw new Twig_Error_Syntax('The "loop" variable cannot be used in a looping condition', $node->getLine(), $stream->getFilename());
+=======
+            throw new Twig_Error_Syntax('The "loop" variable cannot be used in a looping condition.', $node->getLine(), $stream->getFilename());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         foreach ($node as $n) {
@@ -105,7 +112,11 @@ class Twig_TokenParser_For extends Twig_TokenParser
         if ($node instanceof Twig_Node_Expression_GetAttr && $node->getNode('node') instanceof Twig_Node_Expression_Name && 'loop' == $node->getNode('node')->getAttribute('name')) {
             $attribute = $node->getNode('attribute');
             if ($attribute instanceof Twig_Node_Expression_Constant && in_array($attribute->getAttribute('value'), array('length', 'revindex0', 'revindex', 'last'))) {
+<<<<<<< HEAD
                 throw new Twig_Error_Syntax(sprintf('The "loop.%s" variable is not defined when looping with a condition', $attribute->getAttribute('value')), $node->getLine(), $stream->getFilename());
+=======
+                throw new Twig_Error_Syntax(sprintf('The "loop.%s" variable is not defined when looping with a condition.', $attribute->getAttribute('value')), $node->getLine(), $stream->getFilename());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
         }
 
@@ -123,11 +134,14 @@ class Twig_TokenParser_For extends Twig_TokenParser
         }
     }
 
+<<<<<<< HEAD
     /**
      * Gets the tag name associated with this token parser.
      *
      * @return string The tag name
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getTag()
     {
         return 'for';

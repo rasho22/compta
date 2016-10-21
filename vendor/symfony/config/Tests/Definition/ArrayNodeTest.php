@@ -12,6 +12,10 @@
 namespace Symfony\Component\Config\Tests\Definition;
 
 use Symfony\Component\Config\Definition\ArrayNode;
+<<<<<<< HEAD
+=======
+use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\Config\Definition\ScalarNode;
 
 class ArrayNodeTest extends \PHPUnit_Framework_TestCase
@@ -35,6 +39,7 @@ class ArrayNodeTest extends \PHPUnit_Framework_TestCase
         $node->normalize(array('foo' => 'bar'));
     }
 
+<<<<<<< HEAD
     /**
      * Tests that no exception is thrown for an unrecognized child if the
      * ignoreExtraKeys option is set to true.
@@ -48,6 +53,32 @@ class ArrayNodeTest extends \PHPUnit_Framework_TestCase
 
         $node->normalize(array('foo' => 'bar'));
         $this->assertTrue(true, 'No exception was thrown when setIgnoreExtraKeys is true');
+=======
+    public function ignoreAndRemoveMatrixProvider()
+    {
+        $unrecognizedOptionException = new InvalidConfigurationException('Unrecognized option "foo" under "root"');
+
+        return array(
+            array(true, true, array(), 'no exception is thrown for an unrecognized child if the ignoreExtraKeys option is set to true'),
+            array(true, false, array('foo' => 'bar'), 'extra keys are not removed when ignoreExtraKeys second option is set to false'),
+            array(false, true, $unrecognizedOptionException),
+            array(false, false, $unrecognizedOptionException),
+        );
+    }
+
+    /**
+     * @dataProvider ignoreAndRemoveMatrixProvider
+     */
+    public function testIgnoreAndRemoveBehaviors($ignore, $remove, $expected, $message = '')
+    {
+        if ($expected instanceof \Exception) {
+            $this->setExpectedException(get_class($expected), $expected->getMessage());
+        }
+        $node = new ArrayNode('root');
+        $node->setIgnoreExtraKeys($ignore, $remove);
+        $result = $node->normalize(array('foo' => 'bar'));
+        $this->assertSame($expected, $result, $message);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**

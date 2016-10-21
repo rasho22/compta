@@ -11,6 +11,7 @@
 
 namespace Symfony\Component\Config;
 
+<<<<<<< HEAD
 use Symfony\Component\Config\Resource\ResourceInterface;
 use Symfony\Component\Filesystem\Exception\IOException;
 use Symfony\Component\Filesystem\Filesystem;
@@ -27,6 +28,29 @@ class ConfigCache implements ConfigCacheInterface
 {
     private $debug;
     private $file;
+=======
+use Symfony\Component\Config\Resource\BCResourceInterfaceChecker;
+use Symfony\Component\Config\Resource\SelfCheckingResourceChecker;
+
+/**
+ * ConfigCache caches arbitrary content in files on disk.
+ *
+ * When in debug mode, those metadata resources that implement
+ * \Symfony\Component\Config\Resource\SelfCheckingResourceInterface will
+ * be used to check cache freshness.
+ *
+ * During a transition period, also instances of
+ * \Symfony\Component\Config\Resource\ResourceInterface will be checked
+ * by means of the isFresh() method. This behaviour is deprecated since 2.8
+ * and will be removed in 3.0.
+ *
+ * @author Fabien Potencier <fabien@symfony.com>
+ * @author Matthias Pigulla <mp@webfactory.de>
+ */
+class ConfigCache extends ResourceCheckerConfigCache
+{
+    private $debug;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     /**
      * @param string $file  The absolute cache path
@@ -34,7 +58,14 @@ class ConfigCache implements ConfigCacheInterface
      */
     public function __construct($file, $debug)
     {
+<<<<<<< HEAD
         $this->file = $file;
+=======
+        parent::__construct($file, array(
+            new SelfCheckingResourceChecker(),
+            new BCResourceInterfaceChecker(),
+        ));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->debug = (bool) $debug;
     }
 
@@ -49,6 +80,7 @@ class ConfigCache implements ConfigCacheInterface
     {
         @trigger_error('ConfigCache::__toString() is deprecated since version 2.7 and will be removed in 3.0. Use the getPath() method instead.', E_USER_DEPRECATED);
 
+<<<<<<< HEAD
         return $this->file;
     }
 
@@ -60,18 +92,26 @@ class ConfigCache implements ConfigCacheInterface
     public function getPath()
     {
         return $this->file;
+=======
+        return $this->getPath();
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
      * Checks if the cache is still fresh.
      *
+<<<<<<< HEAD
      * This method always returns true when debug is off and the
+=======
+     * This implementation always returns true when debug is off and the
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * cache file exists.
      *
      * @return bool true if the cache is fresh, false otherwise
      */
     public function isFresh()
     {
+<<<<<<< HEAD
         if (!is_file($this->file)) {
             return false;
         }
@@ -134,5 +174,12 @@ class ConfigCache implements ConfigCacheInterface
     private function getMetaFile()
     {
         return $this->file.'.meta';
+=======
+        if (!$this->debug && is_file($this->getPath())) {
+            return true;
+        }
+
+        return parent::isFresh();
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

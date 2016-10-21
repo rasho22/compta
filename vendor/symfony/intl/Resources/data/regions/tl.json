@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Acsencion island",
         "AD": "Andorra",
@@ -123,8 +127,13 @@
         "KI": "Kiribati",
         "KM": "Comoros",
         "KN": "Saint Kitts and Nevis",
+<<<<<<< HEAD
         "KP": "Hilagang Korea",
         "KR": "Timog Korea",
+=======
+        "KP": "North Korea",
+        "KR": "South Korea",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "KW": "Kuwait",
         "KY": "Cayman Islands",
         "KZ": "Kazakhstan",

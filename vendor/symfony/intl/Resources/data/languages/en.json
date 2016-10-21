@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.24.18",
+=======
+    "Version": "2.1.13.48",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "Afar",
         "ab": "Abkhazian",
@@ -42,6 +46,10 @@
         "awa": "Awadhi",
         "ay": "Aymara",
         "az": "Azerbaijani",
+<<<<<<< HEAD
+=======
+        "azb": "South Azerbaijani",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "Bashkir",
         "bal": "Baluchi",
         "ban": "Balinese",
@@ -58,7 +66,10 @@
         "bfd": "Bafut",
         "bfq": "Badaga",
         "bg": "Bulgarian",
+<<<<<<< HEAD
         "bgn": "Western Balochi",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "Bhojpuri",
         "bi": "Bislama",
         "bik": "Bikol",
@@ -158,7 +169,10 @@
         "ewo": "Ewondo",
         "ext": "Extremaduran",
         "fa": "Persian",
+<<<<<<< HEAD
         "fa_AF": "Dari",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fan": "Fang",
         "fat": "Fanti",
         "ff": "Fulah",
@@ -221,7 +235,11 @@
         "hr": "Croatian",
         "hsb": "Upper Sorbian",
         "hsn": "Xiang Chinese",
+<<<<<<< HEAD
         "ht": "Haitian Creole",
+=======
+        "ht": "Haitian",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hu": "Hungarian",
         "hup": "Hupa",
         "hy": "Armenian",
@@ -319,7 +337,10 @@
         "lo": "Lao",
         "lol": "Mongo",
         "loz": "Lozi",
+<<<<<<< HEAD
         "lrc": "Northern Luri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "Lithuanian",
         "ltg": "Latgalian",
         "lu": "Luba-Katanga",
@@ -381,7 +402,10 @@
         "nb": "Norwegian Bokmål",
         "nd": "North Ndebele",
         "nds": "Low German",
+<<<<<<< HEAD
         "nds_NL": "Low Saxon",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "Nepali",
         "new": "Newari",
         "ng": "Ndonga",
@@ -397,7 +421,11 @@
         "nog": "Nogai",
         "non": "Old Norse",
         "nov": "Novial",
+<<<<<<< HEAD
         "nqo": "N’Ko",
+=======
+        "nqo": "NʼKo",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nr": "South Ndebele",
         "nso": "Northern Sotho",
         "nus": "Nuer",
@@ -475,7 +503,10 @@
         "sco": "Scots",
         "sd": "Sindhi",
         "sdc": "Sassarese Sardinian",
+<<<<<<< HEAD
         "sdh": "Southern Kurdish",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "Northern Sami",
         "see": "Seneca",
         "seh": "Sena",
@@ -518,8 +549,13 @@
         "sux": "Sumerian",
         "sv": "Swedish",
         "sw": "Swahili",
+<<<<<<< HEAD
         "sw_CD": "Congo Swahili",
         "swb": "Comorian",
+=======
+        "swb": "Comorian",
+        "swc": "Congo Swahili",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "Classical Syriac",
         "syr": "Syriac",
         "szl": "Silesian",

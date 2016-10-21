@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.79",
+=======
+    "Version": "2.1.13.46",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afar",
         "ab": "abkhaze",
@@ -23,7 +27,11 @@
         "ar": "arabe",
         "ar_001": "arabe standard moderne",
         "arc": "araméen",
+<<<<<<< HEAD
         "arn": "mapuche",
+=======
+        "arn": "araukan",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "arp": "arapaho",
         "arw": "arawak",
         "as": "assamais",
@@ -45,7 +53,10 @@
         "bez": "béna",
         "bfd": "bafut",
         "bg": "bulgare",
+<<<<<<< HEAD
         "bgn": "baloutchi occidental",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhojpuri",
         "bi": "bichelamar",
         "bik": "bikol",
@@ -187,7 +198,11 @@
         "ho": "hiri motu",
         "hr": "croate",
         "hsb": "haut-sorabe",
+<<<<<<< HEAD
         "ht": "créole haïtien",
+=======
+        "ht": "haïtien",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hu": "hongrois",
         "hup": "hupa",
         "hy": "arménien",
@@ -272,7 +287,10 @@
         "lo": "lao",
         "lol": "mongo",
         "loz": "lozi",
+<<<<<<< HEAD
         "lrc": "lori du Nord",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "lituanien",
         "lu": "luba-katanga",
         "lua": "luba-lulua",
@@ -321,14 +339,20 @@
         "my": "birman",
         "mye": "myènè",
         "myv": "erzya",
+<<<<<<< HEAD
         "mzn": "mazandérani",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "na": "nauruan",
         "nap": "napolitain",
         "naq": "nama",
         "nb": "norvégien bokmål",
         "nd": "ndébélé du Nord",
         "nds": "bas-allemand",
+<<<<<<< HEAD
         "nds_NL": "bas-saxon néerlandais",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "népalais",
         "new": "newari",
         "ng": "ndonga",
@@ -405,7 +429,10 @@
         "scn": "sicilien",
         "sco": "écossais",
         "sd": "sindhi",
+<<<<<<< HEAD
         "sdh": "kurde du Sud",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "sami du Nord",
         "see": "seneca",
         "seh": "sena",
@@ -443,8 +470,13 @@
         "sux": "sumérien",
         "sv": "suédois",
         "sw": "swahili",
+<<<<<<< HEAD
         "sw_CD": "swahili du Congo",
         "swb": "comorien",
+=======
+        "swb": "comorien",
+        "swc": "swahili du Congo",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "syriaque classique",
         "syr": "syriaque",
         "ta": "tamoul",
@@ -499,7 +531,10 @@
         "wal": "walamo",
         "war": "waray",
         "was": "washo",
+<<<<<<< HEAD
         "wbp": "warlpiri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "wolof",
         "xal": "kalmouk",
         "xh": "xhosa",

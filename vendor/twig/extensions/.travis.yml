@@ -11,6 +11,12 @@ env:
     globals:
         - deps=no
 
+<<<<<<< HEAD
+=======
+before_install:
+    - if [[ ! $TRAVIS_PHP_VERSION = hhvm* ]]; then phpenv config-rm xdebug.ini || echo "xdebug not available"; fi
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 before_script:
     - if [ "$deps" = "low" ]; then composer --prefer-lowest --prefer-stable update; fi;
     - if [ "$deps" = "no" ]; then composer install; fi;

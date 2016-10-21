@@ -48,7 +48,12 @@
         "bg": "bulgaria",
         "bg_BG": "bulgaria (Bulgaria)",
         "bm": "bambara",
+<<<<<<< HEAD
         "bm_ML": "bambara (Mali)",
+=======
+        "bm_Latn": "bambara (latinalainen)",
+        "bm_Latn_ML": "bambara (latinalainen, Mali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengali",
         "bn_BD": "bengali (Bangladesh)",
         "bn_IN": "bengali (Intia)",
@@ -68,8 +73,11 @@
         "ca_ES": "katalaani (Espanja)",
         "ca_FR": "katalaani (Ranska)",
         "ca_IT": "katalaani (Italia)",
+<<<<<<< HEAD
         "ce": "tšetšeeni",
         "ce_RU": "tšetšeeni (Venäjä)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "tšekki",
         "cs_CZ": "tšekki (Tšekki)",
         "cy": "kymri",
@@ -96,17 +104,24 @@
         "en_AG": "englanti (Antigua ja Barbuda)",
         "en_AI": "englanti (Anguilla)",
         "en_AS": "englanti (Amerikan Samoa)",
+<<<<<<< HEAD
         "en_AT": "englanti (Itävalta)",
         "en_AU": "englanti (Australia)",
         "en_BB": "englanti (Barbados)",
         "en_BE": "englanti (Belgia)",
         "en_BI": "englanti (Burundi)",
+=======
+        "en_AU": "englanti (Australia)",
+        "en_BB": "englanti (Barbados)",
+        "en_BE": "englanti (Belgia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "englanti (Bermuda)",
         "en_BS": "englanti (Bahama)",
         "en_BW": "englanti (Botswana)",
         "en_BZ": "englanti (Belize)",
         "en_CA": "englanti (Kanada)",
         "en_CC": "englanti (Kookossaaret (Keelingsaaret))",
+<<<<<<< HEAD
         "en_CH": "englanti (Sveitsi)",
         "en_CK": "englanti (Cookinsaaret)",
         "en_CM": "englanti (Kamerun)",
@@ -118,6 +133,14 @@
         "en_DM": "englanti (Dominica)",
         "en_ER": "englanti (Eritrea)",
         "en_FI": "englanti (Suomi)",
+=======
+        "en_CK": "englanti (Cookinsaaret)",
+        "en_CM": "englanti (Kamerun)",
+        "en_CX": "englanti (Joulusaari)",
+        "en_DG": "englanti (Diego Garcia)",
+        "en_DM": "englanti (Dominica)",
+        "en_ER": "englanti (Eritrea)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "englanti (Fidži)",
         "en_FK": "englanti (Falklandinsaaret)",
         "en_FM": "englanti (Mikronesian liittovaltio)",
@@ -131,7 +154,10 @@
         "en_GY": "englanti (Guyana)",
         "en_HK": "englanti (Hongkong – Kiinan e.h.a.)",
         "en_IE": "englanti (Irlanti)",
+<<<<<<< HEAD
         "en_IL": "englanti (Israel)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "englanti (Mansaari)",
         "en_IN": "englanti (Intia)",
         "en_IO": "englanti (Brittiläinen Intian valtameren alue)",
@@ -156,7 +182,10 @@
         "en_NA": "englanti (Namibia)",
         "en_NF": "englanti (Norfolkinsaari)",
         "en_NG": "englanti (Nigeria)",
+<<<<<<< HEAD
         "en_NL": "englanti (Alankomaat)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "englanti (Nauru)",
         "en_NU": "englanti (Niue)",
         "en_NZ": "englanti (Uusi-Seelanti)",
@@ -170,10 +199,15 @@
         "en_SB": "englanti (Salomonsaaret)",
         "en_SC": "englanti (Seychellit)",
         "en_SD": "englanti (Sudan)",
+<<<<<<< HEAD
         "en_SE": "englanti (Ruotsi)",
         "en_SG": "englanti (Singapore)",
         "en_SH": "englanti (Saint Helena)",
         "en_SI": "englanti (Slovenia)",
+=======
+        "en_SG": "englanti (Singapore)",
+        "en_SH": "englanti (Saint Helena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "englanti (Sierra Leone)",
         "en_SS": "englanti (Etelä-Sudan)",
         "en_SX": "englanti (Sint Maarten)",
@@ -237,7 +271,10 @@
         "fi": "suomi",
         "fi_FI": "suomi (Suomi)",
         "fo": "fääri",
+<<<<<<< HEAD
         "fo_DK": "fääri (Tanska)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "fääri (Färsaaret)",
         "fr": "ranska",
         "fr_BE": "ranska (Belgia)",
@@ -300,6 +337,13 @@
         "gv_IM": "manksi (Mansaari)",
         "ha": "hausa",
         "ha_GH": "hausa (Ghana)",
+<<<<<<< HEAD
+=======
+        "ha_Latn": "hausa (latinalainen)",
+        "ha_Latn_GH": "hausa (latinalainen, Ghana)",
+        "ha_Latn_NE": "hausa (latinalainen, Niger)",
+        "ha_Latn_NG": "hausa (latinalainen, Nigeria)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "hausa (Niger)",
         "ha_NG": "hausa (Nigeria)",
         "he": "heprea",
@@ -332,6 +376,11 @@
         "ki": "kikuju",
         "ki_KE": "kikuju (Kenia)",
         "kk": "kazakki",
+<<<<<<< HEAD
+=======
+        "kk_Cyrl": "kazakki (kyrillinen)",
+        "kk_Cyrl_KZ": "kazakki (kyrillinen, Kazakstan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "kazakki (Kazakstan)",
         "kl": "kalaallisut",
         "kl_GL": "kalaallisut (Grönlanti)",
@@ -343,10 +392,20 @@
         "ko_KP": "korea (Pohjois-Korea)",
         "ko_KR": "korea (Etelä-Korea)",
         "ks": "kašmiri",
+<<<<<<< HEAD
+=======
+        "ks_Arab": "kašmiri (arabialainen)",
+        "ks_Arab_IN": "kašmiri (arabialainen, Intia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "kašmiri (Intia)",
         "kw": "korni",
         "kw_GB": "korni (Iso-Britannia)",
         "ky": "kirgiisi",
+<<<<<<< HEAD
+=======
+        "ky_Cyrl": "kirgiisi (kyrillinen)",
+        "ky_Cyrl_KG": "kirgiisi (kyrillinen, Kirgisia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "kirgiisi (Kirgisia)",
         "lb": "luxemburg",
         "lb_LU": "luxemburg (Luxemburg)",
@@ -372,11 +431,23 @@
         "ml": "malajalam",
         "ml_IN": "malajalam (Intia)",
         "mn": "mongoli",
+<<<<<<< HEAD
+=======
+        "mn_Cyrl": "mongoli (kyrillinen)",
+        "mn_Cyrl_MN": "mongoli (kyrillinen, Mongolia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongoli (Mongolia)",
         "mr": "marathi",
         "mr_IN": "marathi (Intia)",
         "ms": "malaiji",
         "ms_BN": "malaiji (Brunei)",
+<<<<<<< HEAD
+=======
+        "ms_Latn": "malaiji (latinalainen)",
+        "ms_Latn_BN": "malaiji (latinalainen, Brunei)",
+        "ms_Latn_MY": "malaiji (latinalainen, Malesia)",
+        "ms_Latn_SG": "malaiji (latinalainen, Singapore)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "malaiji (Malesia)",
         "ms_SG": "malaiji (Singapore)",
         "mt": "malta",
@@ -521,6 +592,11 @@
         "tr_CY": "turkki (Kypros)",
         "tr_TR": "turkki (Turkki)",
         "ug": "uiguuri",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "uiguuri (arabialainen)",
+        "ug_Arab_CN": "uiguuri (arabialainen, Kiina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "uiguuri (Kiina)",
         "uk": "ukraina",
         "uk_UA": "ukraina (Ukraina)",

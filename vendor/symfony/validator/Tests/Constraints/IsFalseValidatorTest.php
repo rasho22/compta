@@ -51,6 +51,10 @@ class IsFalseValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', 'true')
+<<<<<<< HEAD
+=======
+            ->setCode(IsFalse::NOT_FALSE_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 }

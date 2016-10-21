@@ -2,9 +2,17 @@
     "Names": {
         "bn_BD": "bengalí (Bangladesh)",
         "en_CC": "inglés (Islas Cocos (Keeling))",
+<<<<<<< HEAD
         "en_GG": "inglés (Guernsey)",
         "en_HK": "inglés (Región Administrativa Especial de Hong Kong de la República Popular China)",
         "en_MO": "inglés (Región Administrativa Especial de Macao de la República Popular China)",
+=======
+        "en_CX": "inglés (Isla de Navidad)",
+        "en_GG": "inglés (Guernsey)",
+        "en_HK": "inglés (Región Administrativa Especial de Hong Kong de la República Popular China)",
+        "en_MO": "inglés (Región Administrativa Especial de Macao de la República Popular China)",
+        "en_PW": "inglés (Palaos)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_UM": "inglés (Islas Ultramarinas Menores de Estados Unidos)",
         "en_VI": "inglés (Islas Vírgenes de los Estados Unidos)",
         "es_IC": "español (Islas Canarias)",

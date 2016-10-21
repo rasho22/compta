@@ -1,18 +1,26 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.21.97",
     "Names": {
         "AMD": [
             "AMD",
             "dram armenio"
         ],
+=======
+    "Version": "2.1.13.23",
+    "Names": {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CAD": [
             "CAD",
             "dólar canadiense"
         ],
+<<<<<<< HEAD
         "ERN": [
             "ERN",
             "nafka"
         ],
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "EUR": [
             "EUR",
             "euro"

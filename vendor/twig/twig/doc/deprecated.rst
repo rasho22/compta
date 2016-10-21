@@ -26,6 +26,23 @@ Extensions
 * As of Twig 1.x, the ability to remove an extension is deprecated and the
   ``Twig_Environment::removeExtension()`` method will be removed in 2.0.
 
+<<<<<<< HEAD
+=======
+* As of Twig 1.23, the ``Twig_ExtensionInterface::initRuntime()`` method is
+  deprecated. You have two options to avoid the deprecation notice: if you
+  implement this method to store the environment for your custom filters,
+  functions, or tests, use the ``needs_environment`` option instead; if you
+  have more complex needs, explicitly implement
+  ``Twig_Extension_InitRuntimeInterface`` (not recommended).
+
+* As of Twig 1.23, the ``Twig_ExtensionInterface::getGlobals()`` method is
+  deprecated. Implement ``Twig_Extension_GlobalsInterface`` to avoid
+  deprecation notices.
+
+* As of Twig 1.26, the ``Twig_ExtensionInterface::getName()`` method is
+  deprecated and it is not used internally anymore.
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 PEAR
 ----
 
@@ -98,6 +115,13 @@ Nodes
 * As of Twig 1.x, ``Node::toXml()`` is deprecated and will be removed in Twig
   2.0.
 
+<<<<<<< HEAD
+=======
+* As of Twig 1.26, ``Node::$nodes`` should only contains ``Twig_Node``
+  instances, storing a ``null`` value is deprecated and won't be possible in
+  Twig 2.x.
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 Interfaces
 ----------
 
@@ -113,17 +137,34 @@ Interfaces
   those constants Twig_Template::ANY_CALL, Twig_Template::ARRAY_CALL,
   Twig_Template::METHOD_CALL)
 
+<<<<<<< HEAD
+=======
+Compiler
+--------
+
+* As of Twig 1.26, the ``Twig_Compiler::getFilename()`` has been deprecated.
+  You should not use it anyway as its values is not reliable.
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 Loaders
 -------
 
 * As of Twig 1.x, ``Twig_Loader_String`` is deprecated and will be removed in
+<<<<<<< HEAD
   2.0.
+=======
+  2.0. You can render a string via ``Twig_Environment::createTemplate()``.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 Node Visitors
 -------------
 
 * Because of the removal of ``Twig_NodeInterface`` in 2.0, you need to extend
+<<<<<<< HEAD
   ``Twig_BaseNodeVistor`` instead of implementing ``Twig_NodeVisitorInterface``
+=======
+  ``Twig_BaseNodeVisitor`` instead of implementing ``Twig_NodeVisitorInterface``
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
   directly to make your node visitors compatible with both Twig 1.x and 2.x.
 
 Globals
@@ -133,15 +174,33 @@ Globals
   or the extensions have been initialized is not possible anymore (but
   changing the value of an already registered global is possible).
 
+<<<<<<< HEAD
 * As of Twig 1.x, the ``_self`` global variable is deprecated except for usage
   in the ``from`` and the ``import`` tags. In Twig 2.0, ``_self`` is not
   exposed anymore but still usable in the ``from`` and the ``import`` tags.
+=======
+* As of Twig 1.x, using the ``_self`` global variable to get access to the
+  current ``Twig_Template`` instance is deprecated; most usages only need the
+  current template name, which will continue to work in Twig 2.0. In Twig 2.0,
+  ``_self`` returns the current template name instead of the current
+  ``Twig_Template`` instance.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 Miscellaneous
 -------------
 
+<<<<<<< HEAD
 * As of Twig 1.x, ``Twig_Environment::clearTemplateCache()`` is deprecated and
   will be removed in 2.0.
+=======
+* As of Twig 1.x, ``Twig_Environment::clearTemplateCache()``,
+  ``Twig_Environment::writeCacheFile()``,
+  ``Twig_Environment::clearCacheFiles()``,
+  ``Twig_Environment::getCacheFilename()``,
+  ``Twig_Environment::getTemplateClassPrefix()``,
+  ``Twig_Environment::getLexer()``, ``Twig_Environment::getParser()``, and
+  ``Twig_Environment::getCompiler()`` are deprecated and will be removed in 2.0.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 * As of Twig 1.x, ``Twig_Template::getEnvironment()`` and
   ``Twig_TemplateInterface::getEnvironment()`` are deprecated and will be

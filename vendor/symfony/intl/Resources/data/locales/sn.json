@@ -52,16 +52,23 @@
         "en_AG": "Chirungu (Antigua ne Barbuda)",
         "en_AI": "Chirungu (Anguila)",
         "en_AS": "Chirungu (Samoa ye Amerika)",
+<<<<<<< HEAD
         "en_AT": "Chirungu (Austria)",
         "en_AU": "Chirungu (Australia)",
         "en_BB": "Chirungu (Barbados)",
         "en_BE": "Chirungu (Beljium)",
         "en_BI": "Chirungu (Burundi)",
+=======
+        "en_AU": "Chirungu (Australia)",
+        "en_BB": "Chirungu (Barbados)",
+        "en_BE": "Chirungu (Beljium)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "Chirungu (Bermuda)",
         "en_BS": "Chirungu (Bahama)",
         "en_BW": "Chirungu (Botswana)",
         "en_BZ": "Chirungu (Belize)",
         "en_CA": "Chirungu (Kanada)",
+<<<<<<< HEAD
         "en_CH": "Chirungu (Switzerland)",
         "en_CK": "Chirungu (Zvitsuwa zveCook)",
         "en_CM": "Chirungu (Kameruni)",
@@ -71,6 +78,12 @@
         "en_DM": "Chirungu (Dominica)",
         "en_ER": "Chirungu (Eritrea)",
         "en_FI": "Chirungu (Finland)",
+=======
+        "en_CK": "Chirungu (Zvitsuwa zveCook)",
+        "en_CM": "Chirungu (Kameruni)",
+        "en_DM": "Chirungu (Dominica)",
+        "en_ER": "Chirungu (Eritrea)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "Chirungu (Fiji)",
         "en_FK": "Chirungu (Zvitsuwa zveFalklands)",
         "en_FM": "Chirungu (Micronesia)",
@@ -82,7 +95,10 @@
         "en_GU": "Chirungu (Guam)",
         "en_GY": "Chirungu (Guyana)",
         "en_IE": "Chirungu (Ireland)",
+<<<<<<< HEAD
         "en_IL": "Chirungu (Izuraeri)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IN": "Chirungu (India)",
         "en_IO": "Chirungu (British Indian Ocean Territory)",
         "en_JM": "Chirungu (Jamaica)",
@@ -104,7 +120,10 @@
         "en_NA": "Chirungu (Namibia)",
         "en_NF": "Chirungu (Chitsuwa cheNorfolk)",
         "en_NG": "Chirungu (Nigeria)",
+<<<<<<< HEAD
         "en_NL": "Chirungu (Netherlands)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "Chirungu (Nauru)",
         "en_NU": "Chirungu (Niue)",
         "en_NZ": "Chirungu (New Zealand)",
@@ -118,10 +137,15 @@
         "en_SB": "Chirungu (Zvitsuwa zvaSolomon)",
         "en_SC": "Chirungu (Seychelles)",
         "en_SD": "Chirungu (Sudan)",
+<<<<<<< HEAD
         "en_SE": "Chirungu (Sweden)",
         "en_SG": "Chirungu (Singapore)",
         "en_SH": "Chirungu (Saint Helena)",
         "en_SI": "Chirungu (Slovenia)",
+=======
+        "en_SG": "Chirungu (Singapore)",
+        "en_SH": "Chirungu (Saint Helena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "Chirungu (Sierra Leone)",
         "en_SZ": "Chirungu (Swaziland)",
         "en_TC": "Chirungu (Zvitsuwa zveTurk neCaico)",

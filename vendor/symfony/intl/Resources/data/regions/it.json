@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
     "Names": {
         "AC": "Isola Ascensione",
+=======
+    "Version": "2.1.13.6",
+    "Names": {
+        "AC": "Isola di Ascensione",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "AD": "Andorra",
         "AE": "Emirati Arabi Uniti",
         "AF": "Afghanistan",
@@ -12,6 +18,7 @@
         "AO": "Angola",
         "AQ": "Antartide",
         "AR": "Argentina",
+<<<<<<< HEAD
         "AS": "Samoa americane",
         "AT": "Austria",
         "AU": "Australia",
@@ -19,6 +26,15 @@
         "AX": "Isole Åland",
         "AZ": "Azerbaigian",
         "BA": "Bosnia ed Erzegovina",
+=======
+        "AS": "Samoa Americane",
+        "AT": "Austria",
+        "AU": "Australia",
+        "AW": "Aruba",
+        "AX": "Isole Aland",
+        "AZ": "Azerbaigian",
+        "BA": "Bosnia-Erzegovina",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BB": "Barbados",
         "BD": "Bangladesh",
         "BE": "Belgio",
@@ -39,7 +55,11 @@
         "BY": "Bielorussia",
         "BZ": "Belize",
         "CA": "Canada",
+<<<<<<< HEAD
         "CC": "Isole Cocos (Keeling)",
+=======
+        "CC": "Isole Cocos",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CD": "Congo - Kinshasa",
         "CF": "Repubblica Centrafricana",
         "CG": "Congo-Brazzaville",
@@ -54,7 +74,11 @@
         "CU": "Cuba",
         "CV": "Capo Verde",
         "CW": "Curaçao",
+<<<<<<< HEAD
         "CX": "Isola Christmas",
+=======
+        "CX": "Isola di Christmas",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CY": "Cipro",
         "CZ": "Repubblica Ceca",
         "DE": "Germania",
@@ -68,7 +92,11 @@
         "EC": "Ecuador",
         "EE": "Estonia",
         "EG": "Egitto",
+<<<<<<< HEAD
         "EH": "Sahara occidentale",
+=======
+        "EH": "Sahara Occidentale",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ER": "Eritrea",
         "ES": "Spagna",
         "ET": "Etiopia",
@@ -76,13 +104,21 @@
         "FJ": "Figi",
         "FK": "Isole Falkland",
         "FM": "Micronesia",
+<<<<<<< HEAD
         "FO": "Isole Fær Øer",
+=======
+        "FO": "Isole Faroe",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "FR": "Francia",
         "GA": "Gabon",
         "GB": "Regno Unito",
         "GD": "Grenada",
         "GE": "Georgia",
+<<<<<<< HEAD
         "GF": "Guyana francese",
+=======
+        "GF": "Guiana Francese",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GG": "Guernsey",
         "GH": "Ghana",
         "GI": "Gibilterra",
@@ -92,7 +128,11 @@
         "GP": "Guadalupa",
         "GQ": "Guinea Equatoriale",
         "GR": "Grecia",
+<<<<<<< HEAD
         "GS": "Georgia del Sud e isole Sandwich australi",
+=======
+        "GS": "Georgia del Sud e isole Sandwich meridionali",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GT": "Guatemala",
         "GU": "Guam",
         "GW": "Guinea-Bissau",
@@ -108,7 +148,11 @@
         "IL": "Israele",
         "IM": "Isola di Man",
         "IN": "India",
+<<<<<<< HEAD
         "IO": "Territorio britannico dell’Oceano Indiano",
+=======
+        "IO": "Territorio Britannico dell’Oceano Indiano",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "IQ": "Iraq",
         "IR": "Iran",
         "IS": "Islanda",
@@ -151,7 +195,11 @@
         "MM": "Myanmar (Birmania)",
         "MN": "Mongolia",
         "MO": "RAS di Macao",
+<<<<<<< HEAD
         "MP": "Isole Marianne settentrionali",
+=======
+        "MP": "Isole Marianne Settentrionali",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MQ": "Martinica",
         "MR": "Mauritania",
         "MS": "Montserrat",
@@ -160,7 +208,11 @@
         "MV": "Maldive",
         "MW": "Malawi",
         "MX": "Messico",
+<<<<<<< HEAD
         "MY": "Malaysia",
+=======
+        "MY": "Malesia",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MZ": "Mozambico",
         "NA": "Namibia",
         "NC": "Nuova Caledonia",
@@ -177,7 +229,11 @@
         "OM": "Oman",
         "PA": "Panamá",
         "PE": "Perù",
+<<<<<<< HEAD
         "PF": "Polinesia francese",
+=======
+        "PF": "Polinesia Francese",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PG": "Papua Nuova Guinea",
         "PH": "Filippine",
         "PK": "Pakistan",
@@ -190,6 +246,7 @@
         "PW": "Palau",
         "PY": "Paraguay",
         "QA": "Qatar",
+<<<<<<< HEAD
         "RE": "Riunione",
         "RO": "Romania",
         "RS": "Serbia",
@@ -197,6 +254,15 @@
         "RW": "Ruanda",
         "SA": "Arabia Saudita",
         "SB": "Isole Salomone",
+=======
+        "RE": "Réunion",
+        "RO": "Romania",
+        "RS": "Serbia",
+        "RU": "Federazione Russa",
+        "RW": "Ruanda",
+        "SA": "Arabia Saudita",
+        "SB": "Isole Solomon",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SC": "Seychelles",
         "SD": "Sudan",
         "SE": "Svezia",
@@ -210,7 +276,11 @@
         "SN": "Senegal",
         "SO": "Somalia",
         "SR": "Suriname",
+<<<<<<< HEAD
         "SS": "Sud Sudan",
+=======
+        "SS": "Sudan del Sud",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ST": "São Tomé e Príncipe",
         "SV": "El Salvador",
         "SX": "Sint Maarten",
@@ -219,12 +289,21 @@
         "TA": "Tristan da Cunha",
         "TC": "Isole Turks e Caicos",
         "TD": "Ciad",
+<<<<<<< HEAD
         "TF": "Terre australi francesi",
         "TG": "Togo",
         "TH": "Thailandia",
         "TJ": "Tagikistan",
         "TK": "Tokelau",
         "TL": "Timor Leste",
+=======
+        "TF": "Territori australi francesi",
+        "TG": "Togo",
+        "TH": "Tailandia",
+        "TJ": "Tagikistan",
+        "TK": "Tokelau",
+        "TL": "Timor Est",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TM": "Turkmenistan",
         "TN": "Tunisia",
         "TO": "Tonga",
@@ -235,7 +314,11 @@
         "TZ": "Tanzania",
         "UA": "Ucraina",
         "UG": "Uganda",
+<<<<<<< HEAD
         "UM": "Altre isole americane del Pacifico",
+=======
+        "UM": "Isole minori lontane dagli USA",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "US": "Stati Uniti",
         "UY": "Uruguay",
         "UZ": "Uzbekistan",

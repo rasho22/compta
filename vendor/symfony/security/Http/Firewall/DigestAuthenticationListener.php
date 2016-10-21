@@ -12,7 +12,10 @@
 namespace Symfony\Component\Security\Http\Firewall;
 
 use Symfony\Component\Security\Core\User\UserProviderInterface;
+<<<<<<< HEAD
 use Symfony\Component\Security\Core\Util\StringUtils;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\Security\Http\EntryPoint\DigestAuthenticationEntryPoint;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
@@ -79,7 +82,11 @@ class DigestAuthenticationListener implements ListenerInterface
         }
 
         try {
+<<<<<<< HEAD
             $digestAuth->validateAndDecode($this->authenticationEntryPoint->getKey(), $this->authenticationEntryPoint->getRealmName());
+=======
+            $digestAuth->validateAndDecode($this->authenticationEntryPoint->getSecret(), $this->authenticationEntryPoint->getRealmName());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         } catch (BadCredentialsException $e) {
             $this->fail($event, $request, $e);
 
@@ -100,7 +107,11 @@ class DigestAuthenticationListener implements ListenerInterface
             return;
         }
 
+<<<<<<< HEAD
         if (!StringUtils::equals($serverDigestMd5, $digestAuth->getResponse())) {
+=======
+        if (!hash_equals($serverDigestMd5, $digestAuth->getResponse())) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             if (null !== $this->logger) {
                 $this->logger->debug('Unexpected response from the DigestAuth received; is the header returning a clear text passwords?', array('expected' => $serverDigestMd5, 'received' => $digestAuth->getResponse()));
             }

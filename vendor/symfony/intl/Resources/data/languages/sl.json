@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afarščina",
         "ab": "abhaščina",
@@ -42,7 +46,10 @@
         "bem": "bemba",
         "bez": "benajščina",
         "bg": "bolgarščina",
+<<<<<<< HEAD
         "bgn": "zahodnobalučijščina",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bodžpuri",
         "bi": "bislamščina",
         "bik": "bikolski jezik",
@@ -253,7 +260,10 @@
         "lo": "laoščina",
         "lol": "mongo",
         "loz": "lozi",
+<<<<<<< HEAD
         "lrc": "severnolurijščina",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "litovščina",
         "lu": "luba-katanga",
         "lua": "luba-lulua",
@@ -298,14 +308,20 @@
         "mwr": "marvarščina",
         "my": "burmanščina",
         "myv": "erzjanščina",
+<<<<<<< HEAD
         "mzn": "mazanderanščina",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "na": "naurujščina",
         "nap": "napolitanščina",
         "naq": "khoekhoe",
         "nb": "knjižna norveščina",
         "nd": "severna ndebelščina",
         "nds": "nizka nemščina",
+<<<<<<< HEAD
         "nds_NL": "nizka saščina",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepalščina",
         "new": "nevarščina",
         "nia": "niaščina",
@@ -376,7 +392,10 @@
         "scn": "sicilijanščina",
         "sco": "škotščina",
         "sd": "sindščina",
+<<<<<<< HEAD
         "sdh": "južna kurdščina",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "severna samijščina",
         "seh": "sena",
         "sel": "selkupščina",
@@ -409,8 +428,13 @@
         "sux": "sumerščina",
         "sv": "švedščina",
         "sw": "svahili",
+<<<<<<< HEAD
         "sw_CD": "svahili (Kongo)",
         "swb": "šikomor",
+=======
+        "swb": "šikomor",
+        "swc": "svahili (Kongo)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "klasična sirščina",
         "syr": "sirščina",
         "ta": "tamilščina",
@@ -462,10 +486,16 @@
         "wal": "valamščina",
         "war": "varajščina",
         "was": "vašajščina",
+<<<<<<< HEAD
         "wbp": "varlpirščina",
         "wo": "volofščina",
         "xal": "kalmiščina",
         "xh": "koščina",
+=======
+        "wo": "volofščina",
+        "xal": "kalmiščina",
+        "xh": "xhosa",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "xog": "sogščina",
         "yao": "jaojščina",
         "yap": "japščina",

@@ -23,7 +23,10 @@
         "de_DE": "Afaan Jarmanii (Germany)",
         "el": "Afaan Giriiki",
         "en": "Ingliffa",
+<<<<<<< HEAD
         "en_DE": "Ingliffa (Germany)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_GB": "Ingliffa (United Kingdom)",
         "en_IN": "Ingliffa (India)",
         "en_KE": "Ingliffa (Keeniyaa)",
@@ -68,6 +71,10 @@
         "mr": "Afaan Maratii",
         "mr_IN": "Afaan Maratii (India)",
         "ms": "Malaayiffaa",
+<<<<<<< HEAD
+=======
+        "ms_Latn": "Malaayiffaa (Latin)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mt": "Afaan Maltesii",
         "ne": "Afaan Nepalii",
         "ne_IN": "Afaan Nepalii (India)",

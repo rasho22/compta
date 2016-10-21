@@ -17,7 +17,10 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
 use Symfony\Component\Security\Core\User\UserInterface;
+<<<<<<< HEAD
 use Symfony\Component\Security\Core\Util\StringUtils;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * Concrete implementation of the RememberMeServicesInterface providing
@@ -54,7 +57,11 @@ class TokenBasedRememberMeServices extends AbstractRememberMeServices
             throw new \RuntimeException(sprintf('The UserProviderInterface implementation must return an instance of UserInterface, but returned "%s".', get_class($user)));
         }
 
+<<<<<<< HEAD
         if (true !== StringUtils::equals($this->generateCookieHash($class, $username, $expires, $user->getPassword()), $hash)) {
+=======
+        if (true !== hash_equals($this->generateCookieHash($class, $username, $expires, $user->getPassword()), $hash)) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new AuthenticationException('The cookie\'s hash is invalid.');
         }
 
@@ -121,6 +128,10 @@ class TokenBasedRememberMeServices extends AbstractRememberMeServices
      */
     protected function generateCookieHash($class, $username, $expires, $password)
     {
+<<<<<<< HEAD
         return hash_hmac('sha256', $class.$username.$expires.$password, $this->getKey());
+=======
+        return hash_hmac('sha256', $class.$username.$expires.$password, $this->getSecret());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

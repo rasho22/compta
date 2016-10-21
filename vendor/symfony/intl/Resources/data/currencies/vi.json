@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.12",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -459,7 +463,11 @@
         ],
         "HUF": [
             "HUF",
+<<<<<<< HEAD
             "Forint Hungary"
+=======
+            "Forint Hungaria"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "IDR": [
             "IDR",
@@ -855,7 +863,11 @@
         ],
         "SHP": [
             "SHP",
+<<<<<<< HEAD
             "Bảng St. Helena"
+=======
+            "Bảng Saint Helena"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SIT": [
             "SIT",
@@ -1027,7 +1039,11 @@
         ],
         "XAF": [
             "FCFA",
+<<<<<<< HEAD
             "Franc CFA Trung Phi"
+=======
+            "CFA Franc BEAC"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XCD": [
             "EC$",
@@ -1047,7 +1063,11 @@
         ],
         "XOF": [
             "CFA",
+<<<<<<< HEAD
             "Franc CFA Tây Phi"
+=======
+            "Franc CFA BCEAO"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XPF": [
             "CFPF",

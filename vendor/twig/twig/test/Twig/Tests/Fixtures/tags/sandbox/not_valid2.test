@@ -11,4 +11,8 @@ sandbox tag
 --TEMPLATE(foo.twig)--
 foo
 --EXCEPTION--
+<<<<<<< HEAD
 Twig_Error_Syntax: Only "include" tags are allowed within a "sandbox" section in "index.twig" at line 5
+=======
+Twig_Error_Syntax: Only "include" tags are allowed within a "sandbox" section in "index.twig" at line 5.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af

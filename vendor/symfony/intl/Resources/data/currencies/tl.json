@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AED": [
             "AED",
@@ -19,7 +23,11 @@
         ],
         "ANG": [
             "ANG",
+<<<<<<< HEAD
             "Antillean Guilder ng Netherlands"
+=======
+            "Netherlands Antillean Guilder"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "AOA": [
             "AOA",
@@ -27,7 +35,11 @@
         ],
         "ARS": [
             "ARS",
+<<<<<<< HEAD
             "Piso ng Argentina"
+=======
+            "Argentine Peso"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "AUD": [
             "A$",
@@ -35,7 +47,11 @@
         ],
         "AWG": [
             "AWG",
+<<<<<<< HEAD
             "Florin ng Aruba"
+=======
+            "Aruban Florin"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "AZN": [
             "AZN",
@@ -75,11 +91,19 @@
         ],
         "BOB": [
             "BOB",
+<<<<<<< HEAD
             "Boliviano ng Bolivia"
         ],
         "BRL": [
             "R$",
             "Real ng Barzil"
+=======
+            "Bolivian Boliviano"
+        ],
+        "BRL": [
+            "R$",
+            "Brazilian Real"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BSD": [
             "BSD",
@@ -127,7 +151,11 @@
         ],
         "CRC": [
             "CRC",
+<<<<<<< HEAD
             "Colón ng Costa Rica"
+=======
+            "Costa Rican Colón"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CUC": [
             "CUC",
@@ -155,7 +183,11 @@
         ],
         "DKK": [
             "DKK",
+<<<<<<< HEAD
             "Danish Krone"
+=======
+            "Denmark Krone"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "DOP": [
             "DOP",
@@ -191,7 +223,11 @@
         ],
         "FKP": [
             "FKP",
+<<<<<<< HEAD
             "Pound ng Falkland Islands"
+=======
+            "Falkland Islands Pound"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "FRF": [
             "FRF",
@@ -223,7 +259,11 @@
         ],
         "GTQ": [
             "GTQ",
+<<<<<<< HEAD
             "Quetzal ng Guatemala"
+=======
+            "Guatemalan Quetzal"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "GYD": [
             "GYD",
@@ -235,7 +275,11 @@
         ],
         "HNL": [
             "HNL",
+<<<<<<< HEAD
             "Lempira ng Honduras"
+=======
+            "Honduran Lempira"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "HRK": [
             "HRK",
@@ -243,7 +287,11 @@
         ],
         "HTG": [
             "HTG",
+<<<<<<< HEAD
             "Gourde ng Haiti"
+=======
+            "Haitian Gourde"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "HUF": [
             "HUF",
@@ -303,11 +351,19 @@
         ],
         "KPW": [
             "KPW",
+<<<<<<< HEAD
             "Won ng Hilagang Korea"
         ],
         "KRW": [
             "₩",
             "Won ng Timog Korea"
+=======
+            "North Korean Won"
+        ],
+        "KRW": [
+            "₩",
+            "South Korean Won"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KWD": [
             "KWD",
@@ -327,7 +383,11 @@
         ],
         "LBP": [
             "LBP",
+<<<<<<< HEAD
             "Pound ng Lebanon"
+=======
+            "Lebanese Pound"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "LKR": [
             "LKR",
@@ -419,7 +479,11 @@
         ],
         "NIO": [
             "NIO",
+<<<<<<< HEAD
             "Córdoba ng Nicaragua"
+=======
+            "Nicaraguan Córdoba"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "NOK": [
             "NOK",
@@ -439,7 +503,11 @@
         ],
         "PAB": [
             "PAB",
+<<<<<<< HEAD
             "Balboa ng Panama"
+=======
+            "Panamanian Balboa"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "PEN": [
             "PEN",
@@ -499,7 +567,11 @@
         ],
         "SDG": [
             "SDG",
+<<<<<<< HEAD
             "Pound ng Sudan"
+=======
+            "Sudanese Pound"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SEK": [
             "SEK",
@@ -535,11 +607,19 @@
         ],
         "SSP": [
             "SSP",
+<<<<<<< HEAD
             "Pound ng Timog Sudan"
         ],
         "STD": [
             "STD",
             "São Tomé & Príncipe Dobra"
+=======
+            "South Sudanese Pound"
+        ],
+        "STD": [
+            "STD",
+            "Sao Tome and Principe Dobra"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SYP": [
             "SYP",
@@ -611,7 +691,11 @@
         ],
         "VEF": [
             "VEF",
+<<<<<<< HEAD
             "Bolívar ng Venezuela"
+=======
+            "Venezuelan Bolívar"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "VND": [
             "₫",
@@ -635,7 +719,11 @@
         ],
         "XOF": [
             "CFA",
+<<<<<<< HEAD
             "CFA Franc ng Kanlurang Africa"
+=======
+            "CFA Franc BCEAO"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XPF": [
             "CFPF",
@@ -647,7 +735,11 @@
         ],
         "ZAR": [
             "ZAR",
+<<<<<<< HEAD
             "Rand ng Timog Africa"
+=======
+            "South African Rand"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ZMK": [
             "ZMK",

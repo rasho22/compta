@@ -12,6 +12,7 @@
 namespace Symfony\Component\Config\Tests;
 
 use Symfony\Component\Config\ConfigCache;
+<<<<<<< HEAD
 use Symfony\Component\Config\Resource\FileResource;
 
 class ConfigCacheTest extends \PHPUnit_Framework_TestCase
@@ -30,11 +31,26 @@ class ConfigCacheTest extends \PHPUnit_Framework_TestCase
 
         $this->makeCacheFresh();
         $this->generateMetaFile();
+=======
+use Symfony\Component\Config\Tests\Resource\ResourceStub;
+
+class ConfigCacheTest extends \PHPUnit_Framework_TestCase
+{
+    private $cacheFile = null;
+
+    protected function setUp()
+    {
+        $this->cacheFile = tempnam(sys_get_temp_dir(), 'config_');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     protected function tearDown()
     {
+<<<<<<< HEAD
         $files = array($this->cacheFile, $this->metaFile, $this->resourceFile);
+=======
+        $files = array($this->cacheFile, $this->cacheFile.'.meta');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         foreach ($files as $file) {
             if (file_exists($file)) {
@@ -43,6 +59,7 @@ class ConfigCacheTest extends \PHPUnit_Framework_TestCase
         }
     }
 
+<<<<<<< HEAD
     public function testGetPath()
     {
         $cache = new ConfigCache($this->cacheFile, true);
@@ -55,19 +72,39 @@ class ConfigCacheTest extends \PHPUnit_Framework_TestCase
         unlink($this->cacheFile);
 
         $cache = new ConfigCache($this->cacheFile, false);
+=======
+    /**
+     * @dataProvider debugModes
+     */
+    public function testCacheIsNotValidIfNothingHasBeenCached($debug)
+    {
+        unlink($this->cacheFile); // remove tempnam() side effect
+        $cache = new ConfigCache($this->cacheFile, $debug);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $this->assertFalse($cache->isFresh());
     }
 
+<<<<<<< HEAD
     public function testCacheIsAlwaysFreshIfFileExistsWithDebugDisabled()
     {
         $this->makeCacheStale();
 
         $cache = new ConfigCache($this->cacheFile, false);
+=======
+    public function testIsAlwaysFreshInProduction()
+    {
+        $staleResource = new ResourceStub();
+        $staleResource->setFresh(false);
+
+        $cache = new ConfigCache($this->cacheFile, false);
+        $cache->write('', array($staleResource));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $this->assertTrue($cache->isFresh());
     }
 
+<<<<<<< HEAD
     public function testCacheIsNotFreshWithoutMetaFile()
     {
         unlink($this->metaFile);
@@ -134,5 +171,45 @@ class ConfigCacheTest extends \PHPUnit_Framework_TestCase
     private function generateMetaFile()
     {
         file_put_contents($this->metaFile, serialize(array(new FileResource($this->resourceFile))));
+=======
+    /**
+     * @dataProvider debugModes
+     */
+    public function testIsFreshWhenNoResourceProvided($debug)
+    {
+        $cache = new ConfigCache($this->cacheFile, $debug);
+        $cache->write('', array());
+        $this->assertTrue($cache->isFresh());
+    }
+
+    public function testFreshResourceInDebug()
+    {
+        $freshResource = new ResourceStub();
+        $freshResource->setFresh(true);
+
+        $cache = new ConfigCache($this->cacheFile, true);
+        $cache->write('', array($freshResource));
+
+        $this->assertTrue($cache->isFresh());
+    }
+
+    public function testStaleResourceInDebug()
+    {
+        $staleResource = new ResourceStub();
+        $staleResource->setFresh(false);
+
+        $cache = new ConfigCache($this->cacheFile, true);
+        $cache->write('', array($staleResource));
+
+        $this->assertFalse($cache->isFresh());
+    }
+
+    public function debugModes()
+    {
+        return array(
+            array(true),
+            array(false),
+        );
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

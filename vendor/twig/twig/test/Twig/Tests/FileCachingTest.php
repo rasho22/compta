@@ -9,6 +9,7 @@
  * file that was distributed with this source code.
  */
 
+<<<<<<< HEAD
 class Twig_Tests_FileCachingTest extends PHPUnit_Framework_TestCase
 {
     protected $fileName;
@@ -16,6 +17,16 @@ class Twig_Tests_FileCachingTest extends PHPUnit_Framework_TestCase
     protected $tmpDir;
 
     public function setUp()
+=======
+require_once dirname(__FILE__).'/FilesystemHelper.php';
+
+class Twig_Tests_FileCachingTest extends PHPUnit_Framework_TestCase
+{
+    private $env;
+    private $tmpDir;
+
+    protected function setUp()
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         $this->tmpDir = sys_get_temp_dir().'/TwigTests';
         if (!file_exists($this->tmpDir)) {
@@ -29,6 +40,7 @@ class Twig_Tests_FileCachingTest extends PHPUnit_Framework_TestCase
         $this->env = new Twig_Environment(new Twig_Loader_Array(array('index' => 'index', 'index2' => 'index2')), array('cache' => $this->tmpDir));
     }
 
+<<<<<<< HEAD
     public function tearDown()
     {
         if ($this->fileName) {
@@ -38,6 +50,16 @@ class Twig_Tests_FileCachingTest extends PHPUnit_Framework_TestCase
         $this->removeDir($this->tmpDir);
     }
 
+=======
+    protected function tearDown()
+    {
+        Twig_Tests_FilesystemHelper::removeDir($this->tmpDir);
+    }
+
+    /**
+     * @group legacy
+     */
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testWritingCacheFiles()
     {
         $name = 'index';
@@ -45,9 +67,17 @@ class Twig_Tests_FileCachingTest extends PHPUnit_Framework_TestCase
         $cacheFileName = $this->env->getCacheFilename($name);
 
         $this->assertTrue(file_exists($cacheFileName), 'Cache file does not exist.');
+<<<<<<< HEAD
         $this->fileName = $cacheFileName;
     }
 
+=======
+    }
+
+    /**
+     * @group legacy
+     */
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testClearingCacheFiles()
     {
         $name = 'index2';
@@ -58,6 +88,7 @@ class Twig_Tests_FileCachingTest extends PHPUnit_Framework_TestCase
         $this->env->clearCacheFiles();
         $this->assertFalse(file_exists($cacheFileName), 'Cache file was not cleared.');
     }
+<<<<<<< HEAD
 
     private function removeDir($target)
     {
@@ -76,4 +107,6 @@ class Twig_Tests_FileCachingTest extends PHPUnit_Framework_TestCase
         closedir($fp);
         rmdir($target);
     }
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

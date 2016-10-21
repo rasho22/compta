@@ -77,17 +77,24 @@
         "en_AG": "eaŋgalsgiella (Antigua ja Barbuda)",
         "en_AI": "eaŋgalsgiella (Anguilla)",
         "en_AS": "eaŋgalsgiella (Amerihká Samoa)",
+<<<<<<< HEAD
         "en_AT": "eaŋgalsgiella (Nuortariika)",
         "en_AU": "eaŋgalsgiella (Austrália)",
         "en_BB": "eaŋgalsgiella (Barbados)",
         "en_BE": "eaŋgalsgiella (Belgia)",
         "en_BI": "eaŋgalsgiella (Burundi)",
+=======
+        "en_AU": "eaŋgalsgiella (Austrália)",
+        "en_BB": "eaŋgalsgiella (Barbados)",
+        "en_BE": "eaŋgalsgiella (Belgia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "eaŋgalsgiella (Bermuda)",
         "en_BS": "eaŋgalsgiella (Bahamas)",
         "en_BW": "eaŋgalsgiella (Botswana)",
         "en_BZ": "eaŋgalsgiella (Belize)",
         "en_CA": "eaŋgalsgiella (Kanáda)",
         "en_CC": "eaŋgalsgiella (Cocos-sullot)",
+<<<<<<< HEAD
         "en_CH": "eaŋgalsgiella (Šveica)",
         "en_CK": "eaŋgalsgiella (Cook-sullot)",
         "en_CM": "eaŋgalsgiella (Kamerun)",
@@ -99,6 +106,14 @@
         "en_DM": "eaŋgalsgiella (Dominica)",
         "en_ER": "eaŋgalsgiella (Eritrea)",
         "en_FI": "eaŋgalsgiella (Suopma)",
+=======
+        "en_CK": "eaŋgalsgiella (Cook-sullot)",
+        "en_CM": "eaŋgalsgiella (Kamerun)",
+        "en_CX": "eaŋgalsgiella (Juovllat-sullot)",
+        "en_DG": "eaŋgalsgiella (Diego Garcia)",
+        "en_DM": "eaŋgalsgiella (Dominica)",
+        "en_ER": "eaŋgalsgiella (Eritrea)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "eaŋgalsgiella (Fijisullot)",
         "en_FK": "eaŋgalsgiella (Falklandsullot)",
         "en_FM": "eaŋgalsgiella (Mikronesia)",
@@ -112,7 +127,10 @@
         "en_GY": "eaŋgalsgiella (Guyana)",
         "en_HK": "eaŋgalsgiella (Hongkong)",
         "en_IE": "eaŋgalsgiella (Irlánda)",
+<<<<<<< HEAD
         "en_IL": "eaŋgalsgiella (Israel)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "eaŋgalsgiella (Mann-sullot)",
         "en_IN": "eaŋgalsgiella (India)",
         "en_JE": "eaŋgalsgiella (Jersey)",
@@ -136,7 +154,10 @@
         "en_NA": "eaŋgalsgiella (Namibia)",
         "en_NF": "eaŋgalsgiella (Norfolksullot)",
         "en_NG": "eaŋgalsgiella (Nigeria)",
+<<<<<<< HEAD
         "en_NL": "eaŋgalsgiella (Vuolleeatnamat)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "eaŋgalsgiella (Nauru)",
         "en_NU": "eaŋgalsgiella (Niue)",
         "en_NZ": "eaŋgalsgiella (Ođđa-Selánda)",
@@ -150,10 +171,15 @@
         "en_SB": "eaŋgalsgiella (Salomon-sullot)",
         "en_SC": "eaŋgalsgiella (Seychellsullot)",
         "en_SD": "eaŋgalsgiella (Davvisudan)",
+<<<<<<< HEAD
         "en_SE": "eaŋgalsgiella (Ruoŧŧa)",
         "en_SG": "eaŋgalsgiella (Singapore)",
         "en_SH": "eaŋgalsgiella (Saint Helena)",
         "en_SI": "eaŋgalsgiella (Slovenia)",
+=======
+        "en_SG": "eaŋgalsgiella (Singapore)",
+        "en_SH": "eaŋgalsgiella (Saint Helena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "eaŋgalsgiella (Sierra Leone)",
         "en_SS": "eaŋgalsgiella (Máttasudan)",
         "en_SX": "eaŋgalsgiella (Vuolleeatnamat Saint Martin)",
@@ -208,7 +234,10 @@
         "fi": "suomagiella",
         "fi_FI": "suomagiella (Suopma)",
         "fo": "fearagiella",
+<<<<<<< HEAD
         "fo_DK": "fearagiella (Dánmárku)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "fearagiella (Fearsullot)",
         "fr": "fránskkagiella",
         "fr_BE": "fránskkagiella (Belgia)",
@@ -267,6 +296,13 @@
         "gv_IM": "manksgiella (Mann-sullot)",
         "ha": "haussagiella",
         "ha_GH": "haussagiella (Ghana)",
+<<<<<<< HEAD
+=======
+        "ha_Latn": "haussagiella (láhtenaš)",
+        "ha_Latn_GH": "haussagiella (láhtenaš, Ghana)",
+        "ha_Latn_NE": "haussagiella (láhtenaš, Niger)",
+        "ha_Latn_NG": "haussagiella (láhtenaš, Nigeria)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "haussagiella (Niger)",
         "ha_NG": "haussagiella (Nigeria)",
         "hi": "hindigiella",
@@ -291,6 +327,11 @@
         "ka": "georgiagiella",
         "ka_GE": "georgiagiella (Georgia)",
         "kk": "kazakgiella",
+<<<<<<< HEAD
+=======
+        "kk_Cyrl": "kazakgiella (kyrillalaš)",
+        "kk_Cyrl_KZ": "kazakgiella (kyrillalaš, Kasakstan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "kazakgiella (Kasakstan)",
         "km": "kambodiagiella",
         "km_KH": "kambodiagiella (Kambodža)",
@@ -310,6 +351,11 @@
         "mk": "makedoniagiella",
         "mk_MK": "makedoniagiella (Makedonia)",
         "mn": "mongoliagiella",
+<<<<<<< HEAD
+=======
+        "mn_Cyrl": "mongoliagiella (kyrillalaš)",
+        "mn_Cyrl_MN": "mongoliagiella (kyrillalaš, Mongolia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongoliagiella (Mongolia)",
         "mt": "maltagiella",
         "mt_MT": "maltagiella (Málta)",

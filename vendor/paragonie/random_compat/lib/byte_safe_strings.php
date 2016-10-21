@@ -5,7 +5,11 @@
  *
  * The MIT License (MIT)
  *
+<<<<<<< HEAD
  * Copyright (c) 2015 Paragon Initiative Enterprises
+=======
+ * Copyright (c) 2015 - 2016 Paragon Initiative Enterprises
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -26,7 +30,11 @@
  * SOFTWARE.
  */
 
+<<<<<<< HEAD
 if (!function_exists('RandomCompat_strlen')) {
+=======
+if (!is_callable('RandomCompat_strlen')) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     if (
         defined('MB_OVERLOAD_STRING') &&
         ini_get('mbstring.func_overload') & MB_OVERLOAD_STRING
@@ -78,7 +86,11 @@ if (!function_exists('RandomCompat_strlen')) {
     }
 }
 
+<<<<<<< HEAD
 if (!function_exists('RandomCompat_substr')) {
+=======
+if (!is_callable('RandomCompat_substr')) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     if (
         defined('MB_OVERLOAD_STRING')
@@ -125,6 +137,17 @@ if (!function_exists('RandomCompat_substr')) {
                 );
             }
 
+<<<<<<< HEAD
+=======
+            // Consistency with PHP's behavior
+            if ($start === RandomCompat_strlen($binary_string) && $length === 0) {
+                return '';
+            }
+            if ($start > RandomCompat_strlen($binary_string)) {
+                return false;
+            }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             return mb_substr($binary_string, $start, $length, '8bit');
         }
 

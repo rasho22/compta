@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.10.93",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afar",
         "ab": "abkhazeg",
@@ -22,12 +26,18 @@
         "am": "amhareg",
         "an": "aragoneg",
         "ang": "hensaozneg",
+<<<<<<< HEAD
         "anp": "angika",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ar": "arabeg",
         "ar_001": "arabeg modern",
         "arc": "arameeg",
         "arn": "araoukaneg",
+<<<<<<< HEAD
         "aro": "araona",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "arp": "arapaho",
         "arq": "arabeg Aljeria",
         "arw": "arawakeg",
@@ -35,12 +45,20 @@
         "arz": "arabeg Egipt",
         "as": "asameg",
         "asa": "asu",
+<<<<<<< HEAD
         "ase": "yezh sinoù Amerika",
         "ast": "asturianeg",
         "av": "avar",
         "awa": "awadhi",
         "ay": "aymara",
         "az": "azerbaidjaneg",
+=======
+        "av": "avar",
+        "awa": "awadhi",
+        "ay": "aymara",
+        "az": "azeri",
+        "azb": "azeri ar Su",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "bachkir",
         "bal": "baloutchi",
         "ban": "balineg",
@@ -51,7 +69,10 @@
         "bem": "bemba",
         "bez": "bena",
         "bg": "bulgareg",
+<<<<<<< HEAD
         "bgn": "baloutchi ar Cʼhornôg",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhojpuri",
         "bi": "bislama",
         "bik": "bikol",
@@ -64,14 +85,20 @@
         "brh": "brahweg",
         "brx": "bodo",
         "bs": "bosneg",
+<<<<<<< HEAD
         "bss": "akoose",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bua": "bouriat",
         "bug": "bugi",
         "byn": "blin",
         "ca": "katalaneg",
         "cad": "caddo",
         "car": "karibeg",
+<<<<<<< HEAD
         "cch": "atsam",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ce": "tchetcheneg",
         "ceb": "cebuano",
         "ch": "chamorru",
@@ -132,14 +159,20 @@
         "fat": "fanti",
         "fi": "finneg",
         "fil": "filipineg",
+<<<<<<< HEAD
         "fit": "finneg traoñienn an Torne",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fj": "fidjieg",
         "fo": "faeroeg",
         "fon": "fon",
         "fr": "galleg",
         "fr_CA": "galleg Kanada",
         "fr_CH": "galleg Suis",
+<<<<<<< HEAD
         "frc": "galleg cajun",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "frm": "krenncʼhalleg",
         "fro": "hencʼhalleg",
         "frp": "arpitaneg",
@@ -198,7 +231,10 @@
         "it": "italianeg",
         "iu": "inuktitut",
         "ja": "japaneg",
+<<<<<<< HEAD
         "jam": "kreoleg Jamaika",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "jpr": "yuzev-perseg",
         "jrb": "yuzev-arabeg",
         "jv": "javaneg",
@@ -227,7 +263,10 @@
         "krl": "karelieg",
         "kru": "kurukh",
         "ks": "kashmiri",
+<<<<<<< HEAD
         "ksh": "koluneg",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ku": "kurdeg",
         "kut": "kutenai",
         "kw": "kerneveureg",
@@ -279,7 +318,10 @@
         "mt": "malteg",
         "mul": "yezhoù lies",
         "mus": "muskogi",
+<<<<<<< HEAD
         "mwl": "mirandeg",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "my": "birmaneg",
         "myv": "erza",
         "na": "naurueg",
@@ -288,13 +330,19 @@
         "nb": "norvegeg bokmål",
         "nd": "ndebele an Norzh",
         "nds": "alamaneg izel",
+<<<<<<< HEAD
         "nds_NL": "saksoneg izel",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepaleg",
         "new": "newari",
         "ng": "ndonga",
         "nia": "nias",
         "niu": "niue",
+<<<<<<< HEAD
         "njo": "aoeg",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nl": "nederlandeg",
         "nl_BE": "flandrezeg",
         "nn": "norvegeg nynorsk",
@@ -338,7 +386,10 @@
         "pt_BR": "portugaleg Brazil",
         "pt_PT": "portugaleg Europa",
         "qu": "kechuaeg",
+<<<<<<< HEAD
         "qug": "kichuaeg Chimborazo",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "raj": "rajasthani",
         "rap": "rapanui",
         "rar": "rarotonga",
@@ -368,7 +419,10 @@
         "sg": "sango",
         "sga": "heniwerzhoneg",
         "sh": "serb-kroateg",
+<<<<<<< HEAD
         "shi": "tacheliteg",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "shn": "shan",
         "shu": "arabeg Tchad",
         "si": "singhaleg",
@@ -393,11 +447,17 @@
         "sux": "sumereg",
         "sv": "svedeg",
         "sw": "swahili",
+<<<<<<< HEAD
         "sw_CD": "swahili Kongo",
         "swb": "komoreg",
         "syc": "sirieg klasel",
         "syr": "sirieg",
         "szl": "silezieg",
+=======
+        "swb": "komoreg",
+        "syc": "sirieg klasel",
+        "syr": "sirieg",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ta": "tamileg",
         "tcy": "touloueg",
         "te": "telougou",
@@ -419,7 +479,10 @@
         "tog": "nyasa tonga",
         "tpi": "tok pisin",
         "tr": "turkeg",
+<<<<<<< HEAD
         "tru": "turoyoeg",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ts": "tsonga",
         "tsi": "tsimshian",
         "tt": "tatar",
@@ -428,7 +491,10 @@
         "tw": "twi",
         "ty": "tahitianeg",
         "tyv": "touva",
+<<<<<<< HEAD
         "tzm": "tamazigteg Kreizatlas",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "udm": "oudmourteg",
         "ug": "ouigoureg",
         "uga": "ougariteg",
@@ -439,13 +505,19 @@
         "uz": "ouzbekeg",
         "vai": "vai",
         "ve": "venda",
+<<<<<<< HEAD
         "vec": "venezieg",
         "vep": "vepseg",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "vi": "vietnameg",
         "vls": "flandrezeg ar c’hornôg",
         "vo": "volapük",
         "vot": "votyakeg",
+<<<<<<< HEAD
         "vro": "voroeg",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wa": "walloneg",
         "wae": "walser",
         "wal": "walamo",
@@ -455,7 +527,10 @@
         "wuu": "sinaeg Wu",
         "xal": "kalmouk",
         "xh": "xhosa",
+<<<<<<< HEAD
         "xmf": "megreleg",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "yao": "yao",
         "yap": "yapeg",
         "yi": "yiddish",

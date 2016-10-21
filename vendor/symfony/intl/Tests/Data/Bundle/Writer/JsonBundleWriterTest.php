@@ -16,7 +16,10 @@ use Symfony\Component\Intl\Data\Bundle\Writer\JsonBundleWriter;
 
 /**
  * @author Bernhard Schussek <bschussek@gmail.com>
+<<<<<<< HEAD
  * @requires PHP 5.4
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  */
 class JsonBundleWriterTest extends \PHPUnit_Framework_TestCase
 {
@@ -43,10 +46,13 @@ class JsonBundleWriterTest extends \PHPUnit_Framework_TestCase
 
     protected function tearDown()
     {
+<<<<<<< HEAD
         if (PHP_VERSION_ID < 50400) {
             return;
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->filesystem->remove($this->directory);
     }
 

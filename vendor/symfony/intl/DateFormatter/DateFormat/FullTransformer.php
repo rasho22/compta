@@ -90,10 +90,15 @@ class FullTransformer
      */
     public function format(\DateTime $dateTime)
     {
+<<<<<<< HEAD
         $that = $this;
 
         $formatted = preg_replace_callback($this->regExp, function ($matches) use ($that, $dateTime) {
             return $that->formatReplace($matches[0], $dateTime);
+=======
+        $formatted = preg_replace_callback($this->regExp, function ($matches) use ($dateTime) {
+            return $this->formatReplace($matches[0], $dateTime);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }, $this->pattern);
 
         return $formatted;
@@ -178,24 +183,39 @@ class FullTransformer
      */
     public function getReverseMatchingRegExp($pattern)
     {
+<<<<<<< HEAD
         $that = $this;
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $escapedPattern = preg_quote($pattern, '/');
 
         // ICU 4.8 recognizes slash ("/") in a value to be parsed as a dash ("-") and vice-versa
         // when parsing a date/time value
         $escapedPattern = preg_replace('/\\\[\-|\/]/', '[\/\-]', $escapedPattern);
 
+<<<<<<< HEAD
         $reverseMatchingRegExp = preg_replace_callback($this->regExp, function ($matches) use ($that) {
+=======
+        $reverseMatchingRegExp = preg_replace_callback($this->regExp, function ($matches) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $length = strlen($matches[0]);
             $transformerIndex = $matches[0][0];
 
             $dateChars = $matches[0];
+<<<<<<< HEAD
             if ($that->isQuoteMatch($dateChars)) {
                 return $that->replaceQuoteMatch($dateChars);
             }
 
             $transformers = $that->getTransformers();
+=======
+            if ($this->isQuoteMatch($dateChars)) {
+                return $this->replaceQuoteMatch($dateChars);
+            }
+
+            $transformers = $this->getTransformers();
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             if (isset($transformers[$transformerIndex])) {
                 $transformer = $transformers[$transformerIndex];
                 $captureName = str_repeat($transformerIndex, $length);

@@ -25,6 +25,7 @@ class UnexpectedTypeException extends RuntimeException
      * @param PropertyPathInterface $path      The property path
      * @param int                   $pathIndex The property path index when the unexpected value was found
      */
+<<<<<<< HEAD
     public function __construct($value, $path, $pathIndex = null)
     {
         if (func_num_args() === 3 && $path instanceof PropertyPathInterface) {
@@ -44,6 +45,17 @@ class UnexpectedTypeException extends RuntimeException
                 is_object($value) ? get_class($value) : gettype($value)
             );
         }
+=======
+    public function __construct($value, PropertyPathInterface $path, $pathIndex)
+    {
+        $message = sprintf(
+            'PropertyAccessor requires a graph of objects or arrays to operate on, '.
+            'but it found type "%s" while trying to traverse path "%s" at property "%s".',
+            gettype($value),
+            (string) $path,
+            $path->getElement($pathIndex)
+        );
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         parent::__construct($message);
     }

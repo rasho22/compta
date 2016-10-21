@@ -5,8 +5,13 @@
         "af_ZA": "afrikanisht (Afrika e Jugut)",
         "ak": "akanisht",
         "ak_GH": "akanisht (Ganë)",
+<<<<<<< HEAD
         "am": "amarikisht",
         "am_ET": "amarikisht (Etiopi)",
+=======
+        "am": "amarike",
+        "am_ET": "amarike (Etiopi)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ar": "arabisht",
         "ar_AE": "arabisht (Emiratet e Bashkuara Arabe)",
         "ar_BH": "arabisht (Bahrein)",
@@ -37,26 +42,46 @@
         "ar_YE": "arabisht (Jemen)",
         "as": "asamezisht",
         "as_IN": "asamezisht (Indi)",
+<<<<<<< HEAD
         "az": "azerbajxhanisht",
         "az_AZ": "azerbajxhanisht (Azerbajxhan)",
         "az_Cyrl": "azerbajxhanisht (cirilik)",
         "az_Cyrl_AZ": "azerbajxhanisht (cirilik, Azerbajxhan)",
         "az_Latn": "azerbajxhanisht (latin)",
         "az_Latn_AZ": "azerbajxhanisht (latin, Azerbajxhan)",
+=======
+        "az": "azere",
+        "az_AZ": "azere (Azerbajxhan)",
+        "az_Cyrl": "azere (cirilik)",
+        "az_Cyrl_AZ": "azere (cirilik, Azerbajxhan)",
+        "az_Latn": "azere (latin)",
+        "az_Latn_AZ": "azere (latin, Azerbajxhan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "be": "bjellorusisht",
         "be_BY": "bjellorusisht (Bjellorusi)",
         "bg": "bullgarisht",
         "bg_BG": "bullgarisht (Bullgari)",
+<<<<<<< HEAD
         "bm": "bambarisht",
         "bm_ML": "bambarisht (Mali)",
+=======
+        "bm": "bambara",
+        "bm_Latn": "bambara (latin)",
+        "bm_Latn_ML": "bambara (latin, Mali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengalisht",
         "bn_BD": "bengalisht (Bangladesh)",
         "bn_IN": "bengalisht (Indi)",
         "bo": "tibetisht",
         "bo_CN": "tibetisht (Kinë)",
         "bo_IN": "tibetisht (Indi)",
+<<<<<<< HEAD
         "br": "bretonisht",
         "br_FR": "bretonisht (Francë)",
+=======
+        "br": "bretone",
+        "br_FR": "bretone (Francë)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bs": "boshnjakisht",
         "bs_BA": "boshnjakisht (Bosnjë-Hercegovinë)",
         "bs_Cyrl": "boshnjakisht (cirilik)",
@@ -68,8 +93,11 @@
         "ca_ES": "katalonisht (Spanjë)",
         "ca_FR": "katalonisht (Francë)",
         "ca_IT": "katalonisht (Itali)",
+<<<<<<< HEAD
         "ce": "çeçenisht",
         "ce_RU": "çeçenisht (Rusi)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "çekisht",
         "cs_CZ": "çekisht (Republika Çeke)",
         "cy": "uellsisht",
@@ -84,8 +112,13 @@
         "de_DE": "gjermanisht (Gjermani)",
         "de_LI": "gjermanisht (Lihtënshtajn)",
         "de_LU": "gjermanisht (Luksemburg)",
+<<<<<<< HEAD
         "dz": "xhongaisht",
         "dz_BT": "xhongaisht (Butan)",
+=======
+        "dz": "xongka",
+        "dz_BT": "xongka (Butan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ee": "juisht",
         "ee_GH": "juisht (Ganë)",
         "ee_TG": "juisht (Togo)",
@@ -96,6 +129,7 @@
         "en_AG": "anglisht (Antigua e Barbuda)",
         "en_AI": "anglisht (Anguilë)",
         "en_AS": "anglisht (Samoa Amerikane)",
+<<<<<<< HEAD
         "en_AT": "anglisht (Austri)",
         "en_AU": "anglisht (Australi)",
         "en_BB": "anglisht (Barbados)",
@@ -118,6 +152,23 @@
         "en_DM": "anglisht (Dominikë)",
         "en_ER": "anglisht (Eritre)",
         "en_FI": "anglisht (Finlandë)",
+=======
+        "en_AU": "anglisht (Australi)",
+        "en_BB": "anglisht (Barbados)",
+        "en_BE": "anglisht (Belgjikë)",
+        "en_BM": "anglisht (Bermudë)",
+        "en_BS": "anglisht (Bahamas)",
+        "en_BW": "anglisht (Botsvanë)",
+        "en_BZ": "anglisht (Belizë)",
+        "en_CA": "anglisht (Kanada)",
+        "en_CC": "anglisht (Ishujt Kokos)",
+        "en_CK": "anglisht (Ishujt Kukë)",
+        "en_CM": "anglisht (Kamerun)",
+        "en_CX": "anglisht (Ishulli i Krishtlindjes)",
+        "en_DG": "anglisht (Diego Garsia)",
+        "en_DM": "anglisht (Dominikë)",
+        "en_ER": "anglisht (Eritre)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "anglisht (Fixhi)",
         "en_FK": "anglisht (Ishujt Folklandë)",
         "en_FM": "anglisht (Mikronezi)",
@@ -131,7 +182,10 @@
         "en_GY": "anglisht (Guajanë)",
         "en_HK": "anglisht (RVAK i Hong Kongut)",
         "en_IE": "anglisht (Irlandë)",
+<<<<<<< HEAD
         "en_IL": "anglisht (Izrael)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "anglisht (Ishulli i Manit)",
         "en_IN": "anglisht (Indi)",
         "en_IO": "anglisht (Territori Britanik i Oqeanit Indian)",
@@ -139,9 +193,15 @@
         "en_JM": "anglisht (Xhamajkë)",
         "en_KE": "anglisht (Kenia)",
         "en_KI": "anglisht (Qiribati)",
+<<<<<<< HEAD
         "en_KN": "anglisht (Shën-Kits dhe Nevis)",
         "en_KY": "anglisht (Ishujt Kajmanë)",
         "en_LC": "anglisht (Shën-Luçia)",
+=======
+        "en_KN": "anglisht (Shën Kits e Nevis)",
+        "en_KY": "anglisht (Ishujt Kajmanë)",
+        "en_LC": "anglisht (Shën Luçia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_LR": "anglisht (Liberi)",
         "en_LS": "anglisht (Lesoto)",
         "en_MG": "anglisht (Madagaskar)",
@@ -154,9 +214,14 @@
         "en_MW": "anglisht (Malavi)",
         "en_MY": "anglisht (Malajzi)",
         "en_NA": "anglisht (Namibi)",
+<<<<<<< HEAD
         "en_NF": "anglisht (Ishulli Norfolk)",
         "en_NG": "anglisht (Nigeri)",
         "en_NL": "anglisht (Holandë)",
+=======
+        "en_NF": "anglisht (Ishujt Norfolkë)",
+        "en_NG": "anglisht (Nigeri)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "anglisht (Nauru)",
         "en_NU": "anglisht (Niue)",
         "en_NZ": "anglisht (Zelanda e Re)",
@@ -164,12 +229,17 @@
         "en_PH": "anglisht (Filipine)",
         "en_PK": "anglisht (Pakistan)",
         "en_PN": "anglisht (Ishujt Pitkernë)",
+<<<<<<< HEAD
         "en_PR": "anglisht (Porto-Riko)",
+=======
+        "en_PR": "anglisht (Porto Riko)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_PW": "anglisht (Palau)",
         "en_RW": "anglisht (Ruandë)",
         "en_SB": "anglisht (Ishujt Solomonë)",
         "en_SC": "anglisht (Sishel)",
         "en_SD": "anglisht (Sudan)",
+<<<<<<< HEAD
         "en_SE": "anglisht (Suedi)",
         "en_SG": "anglisht (Singapor)",
         "en_SH": "anglisht (Shën-Helena)",
@@ -178,6 +248,14 @@
         "en_SS": "anglisht (Sudani i Jugut)",
         "en_SX": "anglisht (Shën-Martin (Sint Maarten - pjesa e Mbretërisë së Holandës))",
         "en_SZ": "anglisht (Suazilandë)",
+=======
+        "en_SG": "anglisht (Singapor)",
+        "en_SH": "anglisht (Shën Helena)",
+        "en_SL": "anglisht (Siera Leone)",
+        "en_SS": "anglisht (Sudani i Jugut)",
+        "en_SX": "anglisht (Shën Martin (Sint Maarten-pjesa e Mbretërisë së Holandës))",
+        "en_SZ": "anglisht (Svazilandë)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_TC": "anglisht (Ishujt Turke dhe Kaike)",
         "en_TK": "anglisht (Tokelau)",
         "en_TO": "anglisht (Tonga)",
@@ -187,7 +265,11 @@
         "en_UG": "anglisht (Ugandë)",
         "en_UM": "anglisht (Ishujt periferikë të SHBA-së)",
         "en_US": "anglisht (Shtetet e Bashkuara të Amerikës)",
+<<<<<<< HEAD
         "en_VC": "anglisht (Shën-Vinsent dhe Grenadinet)",
+=======
+        "en_VC": "anglisht (Shën Vinsent dhe Grenadinet)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_VG": "anglisht (Ishujt e Virgjër Britanikë)",
         "en_VI": "anglisht (Ishujt e Virgjër Amerikanë)",
         "en_VU": "anglisht (Vanuatu)",
@@ -201,7 +283,11 @@
         "es_BO": "spanjisht (Bolivi)",
         "es_CL": "spanjisht (Kili)",
         "es_CO": "spanjisht (Kolumbi)",
+<<<<<<< HEAD
         "es_CR": "spanjisht (Kosta-Rikë)",
+=======
+        "es_CR": "spanjisht (Kosta Rikë)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "es_CU": "spanjisht (Kubë)",
         "es_DO": "spanjisht (Republika Dominikane)",
         "es_EA": "spanjisht (Theuta e Melila)",
@@ -216,7 +302,11 @@
         "es_PA": "spanjisht (Panama)",
         "es_PE": "spanjisht (Peru)",
         "es_PH": "spanjisht (Filipine)",
+<<<<<<< HEAD
         "es_PR": "spanjisht (Porto-Riko)",
+=======
+        "es_PR": "spanjisht (Porto Riko)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "es_PY": "spanjisht (Paraguai)",
         "es_SV": "spanjisht (El Salvador)",
         "es_US": "spanjisht (Shtetet e Bashkuara të Amerikës)",
@@ -232,6 +322,7 @@
         "fi": "finlandisht",
         "fi_FI": "finlandisht (Finlandë)",
         "fo": "faroisht",
+<<<<<<< HEAD
         "fo_DK": "faroisht (Danimarkë)",
         "fo_FO": "faroisht (Ishujt Faroe)",
         "fr": "frëngjisht",
@@ -240,6 +331,15 @@
         "fr_BI": "frëngjisht (Burund)",
         "fr_BJ": "frëngjisht (Benin)",
         "fr_BL": "frëngjisht (Shën-Bartolemeo)",
+=======
+        "fo_FO": "faroisht (Ishujt Faroe)",
+        "fr": "frëngjisht",
+        "fr_BE": "frëngjisht (Belgjikë)",
+        "fr_BF": "frëngjisht (Burkina Faso)",
+        "fr_BI": "frëngjisht (Burund)",
+        "fr_BJ": "frëngjisht (Benin)",
+        "fr_BL": "frëngjisht (Shën Bartolemeo)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_CA": "frëngjisht (Kanada)",
         "fr_CD": "frëngjisht (Kongo-Kinshasa)",
         "fr_CF": "frëngjisht (Republika Afrikano-Qendrore)",
@@ -260,7 +360,11 @@
         "fr_LU": "frëngjisht (Luksemburg)",
         "fr_MA": "frëngjisht (Marok)",
         "fr_MC": "frëngjisht (Monako)",
+<<<<<<< HEAD
         "fr_MF": "frëngjisht (Shën-Martin)",
+=======
+        "fr_MF": "frëngjisht (Shën Martin)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_MG": "frëngjisht (Madagaskar)",
         "fr_ML": "frëngjisht (Mali)",
         "fr_MQ": "frëngjisht (Martinik)",
@@ -269,7 +373,11 @@
         "fr_NC": "frëngjisht (Kaledonia e Re)",
         "fr_NE": "frëngjisht (Niger)",
         "fr_PF": "frëngjisht (Polinezia Franceze)",
+<<<<<<< HEAD
         "fr_PM": "frëngjisht (Shën-Peir dhe Mikuelon)",
+=======
+        "fr_PM": "frëngjisht (Shën Peir dhe Mikuelon)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_RE": "frëngjisht (Reunion)",
         "fr_RW": "frëngjisht (Ruandë)",
         "fr_SC": "frëngjisht (Sishel)",
@@ -283,22 +391,43 @@
         "fr_YT": "frëngjisht (Majotë)",
         "fy": "frizianisht",
         "fy_NL": "frizianisht (Holandë)",
+<<<<<<< HEAD
         "ga": "irlandisht",
         "ga_IE": "irlandisht (Irlandë)",
+=======
+        "ga": "irlandezçe",
+        "ga_IE": "irlandezçe (Irlandë)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "gl": "galike",
         "gl_ES": "galike (Spanjë)",
         "gu": "guxharatisht",
         "gu_IN": "guxharatisht (Indi)",
+<<<<<<< HEAD
         "gv": "manksisht",
         "gv_IM": "manksisht (Ishulli i Manit)",
         "ha": "hausisht",
         "ha_GH": "hausisht (Ganë)",
+=======
+        "gv": "mankse",
+        "gv_IM": "mankse (Ishulli i Manit)",
+        "ha": "hausisht",
+        "ha_GH": "hausisht (Ganë)",
+        "ha_Latn": "hausisht (latin)",
+        "ha_Latn_GH": "hausisht (latin, Ganë)",
+        "ha_Latn_NE": "hausisht (latin, Niger)",
+        "ha_Latn_NG": "hausisht (latin, Nigeri)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "hausisht (Niger)",
         "ha_NG": "hausisht (Nigeri)",
         "he": "hebraisht",
         "he_IL": "hebraisht (Izrael)",
+<<<<<<< HEAD
         "hi": "indisht",
         "hi_IN": "indisht (Indi)",
+=======
+        "hi": "indishte",
+        "hi_IN": "indishte (Indi)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hr": "kroatisht",
         "hr_BA": "kroatisht (Bosnjë-Hercegovinë)",
         "hr_HR": "kroatisht (Kroaci)",
@@ -308,8 +437,13 @@
         "hy_AM": "armenisht (Armeni)",
         "id": "indonezisht",
         "id_ID": "indonezisht (Indonezi)",
+<<<<<<< HEAD
         "ig": "igboisht",
         "ig_NG": "igboisht (Nigeri)",
+=======
+        "ig": "igbe",
+        "ig_NG": "igbe (Nigeri)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ii": "sishuanisht",
         "ii_CN": "sishuanisht (Kinë)",
         "is": "islandisht",
@@ -317,7 +451,11 @@
         "it": "italisht",
         "it_CH": "italisht (Zvicër)",
         "it_IT": "italisht (Itali)",
+<<<<<<< HEAD
         "it_SM": "italisht (San-Marino)",
+=======
+        "it_SM": "italisht (San Marino)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ja": "japonisht",
         "ja_JP": "japonisht (Japoni)",
         "ka": "gjeorgjisht",
@@ -325,9 +463,17 @@
         "ki": "kikujuisht",
         "ki_KE": "kikujuisht (Kenia)",
         "kk": "kazakisht",
+<<<<<<< HEAD
         "kk_KZ": "kazakisht (Kazakistan)",
         "kl": "kalalisutisht",
         "kl_GL": "kalalisutisht (Grenlandë)",
+=======
+        "kk_Cyrl": "kazakisht (cirilik)",
+        "kk_Cyrl_KZ": "kazakisht (cirilik, Kazakistan)",
+        "kk_KZ": "kazakisht (Kazakistan)",
+        "kl": "kalalisute",
+        "kl_GL": "kalalisute (Grenlandë)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "km": "kmere",
         "km_KH": "kmere (Kamboxhia)",
         "kn": "kanade",
@@ -336,10 +482,21 @@
         "ko_KP": "koreanisht (Koreja e Veriut)",
         "ko_KR": "koreanisht (Koreja e Jugut)",
         "ks": "kashmire",
+<<<<<<< HEAD
         "ks_IN": "kashmire (Indi)",
         "kw": "kornishisht",
         "kw_GB": "kornishisht (Mbretëria e Bashkuar)",
         "ky": "kirgizisht",
+=======
+        "ks_Arab": "kashmire (arabik)",
+        "ks_Arab_IN": "kashmire (arabik, Indi)",
+        "ks_IN": "kashmire (Indi)",
+        "kw": "kornisht",
+        "kw_GB": "kornisht (Mbretëria e Bashkuar)",
+        "ky": "kirgizisht",
+        "ky_Cyrl": "kirgizisht (cirilik)",
+        "ky_Cyrl_KG": "kirgizisht (cirilik, Kirgistan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "kirgizisht (Kirgistan)",
         "lb": "luksemburgase",
         "lb_LU": "luksemburgase (Luksemburg)",
@@ -354,6 +511,7 @@
         "lo_LA": "laosisht (Laos)",
         "lt": "lituanisht",
         "lt_LT": "lituanisht (Lituani)",
+<<<<<<< HEAD
         "lu": "lubakatangisht",
         "lu_CD": "lubakatangisht (Kongo-Kinshasa)",
         "lv": "letonisht",
@@ -365,11 +523,33 @@
         "ml": "malajalamisht",
         "ml_IN": "malajalamisht (Indi)",
         "mn": "mongolisht",
+=======
+        "lu": "Lubakatange",
+        "lu_CD": "Lubakatange (Kongo-Kinshasa)",
+        "lv": "letonisht",
+        "lv_LV": "letonisht (Letoni)",
+        "mg": "malageze",
+        "mg_MG": "malageze (Madagaskar)",
+        "mk": "maqedonisht",
+        "mk_MK": "maqedonisht (Maqedoni)",
+        "ml": "malajalame",
+        "ml_IN": "malajalame (Indi)",
+        "mn": "mongolisht",
+        "mn_Cyrl": "mongolisht (cirilik)",
+        "mn_Cyrl_MN": "mongolisht (cirilik, Mongoli)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongolisht (Mongoli)",
         "mr": "maratisht",
         "mr_IN": "maratisht (Indi)",
         "ms": "malajisht",
         "ms_BN": "malajisht (Brunej)",
+<<<<<<< HEAD
+=======
+        "ms_Latn": "malajisht (latin)",
+        "ms_Latn_BN": "malajisht (latin, Brunej)",
+        "ms_Latn_MY": "malajisht (latin, Malajzi)",
+        "ms_Latn_SG": "malajisht (latin, Singapor)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "malajisht (Malajzi)",
         "ms_SG": "malajisht (Singapor)",
         "mt": "maltisht",
@@ -378,7 +558,11 @@
         "my_MM": "birmanisht (Mianmar (Burma))",
         "nb": "bokmalishte norvegjeze",
         "nb_NO": "bokmalishte norvegjeze (Norvegji)",
+<<<<<<< HEAD
         "nb_SJ": "bokmalishte norvegjeze (Svalbard e Zhan-Majen)",
+=======
+        "nb_SJ": "bokmalishte norvegjeze (Svalbard e Zhan Majen)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nd": "ndebelishte veriore",
         "nd_ZW": "ndebelishte veriore (Zimbabve)",
         "ne": "nepalisht",
@@ -391,12 +575,17 @@
         "nl_CW": "holandisht (Kuraçao)",
         "nl_NL": "holandisht (Holandë)",
         "nl_SR": "holandisht (Surinami)",
+<<<<<<< HEAD
         "nl_SX": "holandisht (Shën-Martin (Sint Maarten - pjesa e Mbretërisë së Holandës))",
+=======
+        "nl_SX": "holandisht (Shën Martin (Sint Maarten-pjesa e Mbretërisë së Holandës))",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nn": "ninorske norvegjeze",
         "nn_NO": "ninorske norvegjeze (Norvegji)",
         "om": "oromoisht",
         "om_ET": "oromoisht (Etiopi)",
         "om_KE": "oromoisht (Kenia)",
+<<<<<<< HEAD
         "or": "orijaisht",
         "or_IN": "orijaisht (Indi)",
         "pa": "panxhabisht",
@@ -410,6 +599,21 @@
         "pl_PL": "polonisht (Poloni)",
         "ps": "pashtoisht",
         "ps_AF": "pashtoisht (Afganistan)",
+=======
+        "or": "orije",
+        "or_IN": "orije (Indi)",
+        "pa": "panxhabe",
+        "pa_Arab": "panxhabe (arabik)",
+        "pa_Arab_PK": "panxhabe (arabik, Pakistan)",
+        "pa_Guru": "panxhabe (gurmuk)",
+        "pa_Guru_IN": "panxhabe (gurmuk, Indi)",
+        "pa_IN": "panxhabe (Indi)",
+        "pa_PK": "panxhabe (Pakistan)",
+        "pl": "polonisht",
+        "pl_PL": "polonisht (Poloni)",
+        "ps": "pashto",
+        "ps_AF": "pashto (Afganistan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "pt": "portugalisht",
         "pt_AO": "portugalisht (Angolë)",
         "pt_BR": "portugalisht (Brazil)",
@@ -418,12 +622,21 @@
         "pt_MO": "portugalisht (RVAK i Makaos)",
         "pt_MZ": "portugalisht (Mozambik)",
         "pt_PT": "portugalisht (Portugali)",
+<<<<<<< HEAD
         "pt_ST": "portugalisht (Sao-Tome e Prinsipe)",
         "pt_TL": "portugalisht (Timori Lindor)",
         "qu": "keçuaisht",
         "qu_BO": "keçuaisht (Bolivi)",
         "qu_EC": "keçuaisht (Ekuador)",
         "qu_PE": "keçuaisht (Peru)",
+=======
+        "pt_ST": "portugalisht (Sao Tome e Prinsipe)",
+        "pt_TL": "portugalisht (Timori Lindor)",
+        "qu": "keçua",
+        "qu_BO": "keçua (Bolivi)",
+        "qu_EC": "keçua (Ekuador)",
+        "qu_PE": "keçua (Peru)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "rm": "rome",
         "rm_CH": "rome (Zvicër)",
         "rn": "rundisht",
@@ -448,8 +661,13 @@
         "sg_CF": "sangoisht (Republika Afrikano-Qendrore)",
         "sh": "Serbo-Kroatisht",
         "sh_BA": "Serbo-Kroatisht (Bosnjë-Hercegovinë)",
+<<<<<<< HEAD
         "si": "sinhalisht",
         "si_LK": "sinhalisht (Sri-Lankë)",
+=======
+        "si": "sinhale",
+        "si_LK": "sinhale (Sri Lankë)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sk": "sllovakisht",
         "sk_SK": "sllovakisht (Sllovaki)",
         "sl": "sllovenisht",
@@ -491,7 +709,11 @@
         "sw_UG": "suahilisht (Ugandë)",
         "ta": "tamile",
         "ta_IN": "tamile (Indi)",
+<<<<<<< HEAD
         "ta_LK": "tamile (Sri-Lankë)",
+=======
+        "ta_LK": "tamile (Sri Lankë)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ta_MY": "tamile (Malajzi)",
         "ta_SG": "tamile (Singapor)",
         "te": "teluge",
@@ -507,6 +729,11 @@
         "tr_CY": "turqisht (Qipro)",
         "tr_TR": "turqisht (Turqi)",
         "ug": "ujgure",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "ujgure (arabik)",
+        "ug_Arab_CN": "ujgure (arabik, Kinë)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "ujgure (Kinë)",
         "uk": "ukrainisht",
         "uk_UA": "ukrainisht (Ukrainë)",
@@ -542,7 +769,12 @@
         "zh_MO": "kinezisht (RVAK i Makaos)",
         "zh_SG": "kinezisht (Singapor)",
         "zh_TW": "kinezisht (Tajvan)",
+<<<<<<< HEAD
         "zu": "zuluisht",
         "zu_ZA": "zuluisht (Afrika e Jugut)"
+=======
+        "zu": "zulu",
+        "zu_ZA": "zulu (Afrika e Jugut)"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

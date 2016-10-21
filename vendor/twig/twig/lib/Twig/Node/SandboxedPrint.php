@@ -21,6 +21,7 @@
  */
 class Twig_Node_SandboxedPrint extends Twig_Node_Print
 {
+<<<<<<< HEAD
     public function __construct(Twig_Node_Expression $expr, $lineno, $tag = null)
     {
         parent::__construct($expr, $lineno, $tag);
@@ -31,11 +32,17 @@ class Twig_Node_SandboxedPrint extends Twig_Node_Print
      *
      * @param Twig_Compiler $compiler A Twig_Compiler instance
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function compile(Twig_Compiler $compiler)
     {
         $compiler
             ->addDebugInfo($this)
+<<<<<<< HEAD
             ->write('echo $this->env->getExtension(\'sandbox\')->ensureToStringAllowed(')
+=======
+            ->write('echo $this->env->getExtension(\'Twig_Extension_Sandbox\')->ensureToStringAllowed(')
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->subcompile($this->getNode('expr'))
             ->raw(");\n")
         ;

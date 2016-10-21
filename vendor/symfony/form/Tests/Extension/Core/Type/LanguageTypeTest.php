@@ -24,9 +24,25 @@ class LanguageTypeTest extends TestCase
         parent::setUp();
     }
 
+<<<<<<< HEAD
     public function testCountriesAreSelectable()
     {
         $form = $this->factory->create('language');
+=======
+    /**
+     * @group legacy
+     */
+    public function testLegacyName()
+    {
+        $form = $this->factory->create('language');
+
+        $this->assertSame('language', $form->getConfig()->getType()->getName());
+    }
+
+    public function testCountriesAreSelectable()
+    {
+        $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\LanguageType');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $view = $form->createView();
         $choices = $view->vars['choices'];
 
@@ -39,7 +55,11 @@ class LanguageTypeTest extends TestCase
 
     public function testMultipleLanguagesIsNotIncluded()
     {
+<<<<<<< HEAD
         $form = $this->factory->create('language', 'language');
+=======
+        $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\LanguageType', 'Symfony\Component\Form\Extension\Core\Type\LanguageType');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $view = $form->createView();
         $choices = $view->vars['choices'];
 

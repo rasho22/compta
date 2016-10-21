@@ -12,13 +12,20 @@
 namespace Symfony\Component\Translation\Loader;
 
 use Symfony\Component\Translation\Exception\InvalidResourceException;
+<<<<<<< HEAD
 use Symfony\Component\Translation\Exception\NotFoundResourceException;
 use Symfony\Component\Config\Resource\FileResource;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * @copyright Copyright (c) 2010, Union of RAD http://union-of-rad.org (http://lithify.me/)
  */
+<<<<<<< HEAD
 class MoFileLoader extends ArrayLoader
+=======
+class MoFileLoader extends FileLoader
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     /**
      * Magic used for validating the format of a MO file as well as
@@ -43,6 +50,7 @@ class MoFileLoader extends ArrayLoader
      */
     const MO_HEADER_SIZE = 28;
 
+<<<<<<< HEAD
     public function load($resource, $locale, $domain = 'messages')
     {
         if (!stream_is_local($resource)) {
@@ -74,10 +82,13 @@ class MoFileLoader extends ArrayLoader
         return $catalogue;
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * Parses machine object (MO) format, independent of the machine's endian it
      * was created on. Both 32bit and 64bit systems are supported.
      *
+<<<<<<< HEAD
      * @param resource $resource
      *
      * @return array
@@ -85,6 +96,11 @@ class MoFileLoader extends ArrayLoader
      * @throws InvalidResourceException If stream content has an invalid format.
      */
     private function parse($resource)
+=======
+     * {@inheritdoc}
+     */
+    protected function loadResource($resource)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         $stream = fopen($resource, 'r');
 

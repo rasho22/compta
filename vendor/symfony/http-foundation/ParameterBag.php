@@ -78,6 +78,7 @@ class ParameterBag implements \IteratorAggregate, \Countable
     /**
      * Returns a parameter by name.
      *
+<<<<<<< HEAD
      * Note: Finding deep items is deprecated since version 2.8, to be removed in 3.0.
      *
      * @param string $key     The key
@@ -139,6 +140,16 @@ class ParameterBag implements \IteratorAggregate, \Countable
         }
 
         return $value;
+=======
+     * @param string $key     The key
+     * @param mixed  $default The default value if the parameter key does not exist
+     *
+     * @return mixed
+     */
+    public function get($key, $default = null)
+    {
+        return array_key_exists($key, $this->parameters) ? $this->parameters[$key] : $default;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -179,6 +190,7 @@ class ParameterBag implements \IteratorAggregate, \Countable
      *
      * @param string $key     The parameter key
      * @param string $default The default value if the parameter key does not exist
+<<<<<<< HEAD
      * @param bool   $deep    If true, a path like foo[bar] will find deeper items
      *
      * @return string The filtered value
@@ -186,6 +198,14 @@ class ParameterBag implements \IteratorAggregate, \Countable
     public function getAlpha($key, $default = '', $deep = false)
     {
         return preg_replace('/[^[:alpha:]]/', '', $this->get($key, $default, $deep));
+=======
+     *
+     * @return string The filtered value
+     */
+    public function getAlpha($key, $default = '')
+    {
+        return preg_replace('/[^[:alpha:]]/', '', $this->get($key, $default));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -193,6 +213,7 @@ class ParameterBag implements \IteratorAggregate, \Countable
      *
      * @param string $key     The parameter key
      * @param string $default The default value if the parameter key does not exist
+<<<<<<< HEAD
      * @param bool   $deep    If true, a path like foo[bar] will find deeper items
      *
      * @return string The filtered value
@@ -200,6 +221,14 @@ class ParameterBag implements \IteratorAggregate, \Countable
     public function getAlnum($key, $default = '', $deep = false)
     {
         return preg_replace('/[^[:alnum:]]/', '', $this->get($key, $default, $deep));
+=======
+     *
+     * @return string The filtered value
+     */
+    public function getAlnum($key, $default = '')
+    {
+        return preg_replace('/[^[:alnum:]]/', '', $this->get($key, $default));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -207,6 +236,7 @@ class ParameterBag implements \IteratorAggregate, \Countable
      *
      * @param string $key     The parameter key
      * @param string $default The default value if the parameter key does not exist
+<<<<<<< HEAD
      * @param bool   $deep    If true, a path like foo[bar] will find deeper items
      *
      * @return string The filtered value
@@ -215,6 +245,15 @@ class ParameterBag implements \IteratorAggregate, \Countable
     {
         // we need to remove - and + because they're allowed in the filter
         return str_replace(array('-', '+'), '', $this->filter($key, $default, FILTER_SANITIZE_NUMBER_INT, array(), $deep));
+=======
+     *
+     * @return string The filtered value
+     */
+    public function getDigits($key, $default = '')
+    {
+        // we need to remove - and + because they're allowed in the filter
+        return str_replace(array('-', '+'), '', $this->filter($key, $default, FILTER_SANITIZE_NUMBER_INT));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -222,6 +261,7 @@ class ParameterBag implements \IteratorAggregate, \Countable
      *
      * @param string $key     The parameter key
      * @param int    $default The default value if the parameter key does not exist
+<<<<<<< HEAD
      * @param bool   $deep    If true, a path like foo[bar] will find deeper items
      *
      * @return int The filtered value
@@ -229,6 +269,14 @@ class ParameterBag implements \IteratorAggregate, \Countable
     public function getInt($key, $default = 0, $deep = false)
     {
         return (int) $this->get($key, $default, $deep);
+=======
+     *
+     * @return int The filtered value
+     */
+    public function getInt($key, $default = 0)
+    {
+        return (int) $this->get($key, $default);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -236,6 +284,7 @@ class ParameterBag implements \IteratorAggregate, \Countable
      *
      * @param string $key     The parameter key
      * @param mixed  $default The default value if the parameter key does not exist
+<<<<<<< HEAD
      * @param bool   $deep    If true, a path like foo[bar] will find deeper items
      *
      * @return bool The filtered value
@@ -243,6 +292,14 @@ class ParameterBag implements \IteratorAggregate, \Countable
     public function getBoolean($key, $default = false, $deep = false)
     {
         return $this->filter($key, $default, FILTER_VALIDATE_BOOLEAN, array(), $deep);
+=======
+     *
+     * @return bool The filtered value
+     */
+    public function getBoolean($key, $default = false)
+    {
+        return $this->filter($key, $default, FILTER_VALIDATE_BOOLEAN);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -252,12 +309,16 @@ class ParameterBag implements \IteratorAggregate, \Countable
      * @param mixed  $default Default = null
      * @param int    $filter  FILTER_* constant
      * @param mixed  $options Filter options
+<<<<<<< HEAD
      * @param bool   $deep    Default = false
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *
      * @see http://php.net/manual/en/function.filter-var.php
      *
      * @return mixed
      */
+<<<<<<< HEAD
     public function filter($key, $default = null, $filter = FILTER_DEFAULT, $options = array(), $deep = false)
     {
         static $filters = null;
@@ -276,6 +337,11 @@ class ParameterBag implements \IteratorAggregate, \Countable
         }
 
         $value = $this->get($key, $default, $deep);
+=======
+    public function filter($key, $default = null, $filter = FILTER_DEFAULT, $options = array())
+    {
+        $value = $this->get($key, $default);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         // Always turn $options into an array - this allows filter_var option shortcuts.
         if (!is_array($options) && $options) {

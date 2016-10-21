@@ -68,10 +68,13 @@ class PhpBundleWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testWriteResourceBundle()
     {
+<<<<<<< HEAD
         if (PHP_VERSION_ID < 50315 || (PHP_VERSION_ID >= 50400 && PHP_VERSION_ID < 50404)) {
             $this->markTestSkipped('ResourceBundle implements Traversable only as of PHP 5.3.15 and 5.4.4');
         }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $bundle = new \ResourceBundle('rb', __DIR__.'/Fixtures', false);
 
         $this->writer->write($this->directory, 'en', $bundle);

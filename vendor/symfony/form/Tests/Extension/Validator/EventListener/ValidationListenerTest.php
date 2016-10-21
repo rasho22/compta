@@ -56,7 +56,11 @@ class ValidationListenerTest extends \PHPUnit_Framework_TestCase
     {
         $this->dispatcher = $this->getMock('Symfony\Component\EventDispatcher\EventDispatcherInterface');
         $this->factory = $this->getMock('Symfony\Component\Form\FormFactoryInterface');
+<<<<<<< HEAD
         $this->validator = $this->getMock('Symfony\Component\Validator\ValidatorInterface');
+=======
+        $this->validator = $this->getMock('Symfony\Component\Validator\Validator\ValidatorInterface');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->violationMapper = $this->getMock('Symfony\Component\Form\Extension\Validator\ViolationMapper\ViolationMapperInterface');
         $this->listener = new ValidationListener($this->validator, $this->violationMapper);
         $this->message = 'Message';
@@ -189,6 +193,12 @@ class ValidationListenerTest extends \PHPUnit_Framework_TestCase
         $this->assertAttributeSame($validator, 'validator', $listener);
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * @group legacy
+     */
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testValidatorInterfaceUntilSymfony24()
     {
         // Mock of ValidatorInterface until apiVersion 2.4
@@ -199,6 +209,10 @@ class ValidationListenerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * @group legacy
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * @expectedException \InvalidArgumentException
      */
     public function testInvalidValidatorInterface()

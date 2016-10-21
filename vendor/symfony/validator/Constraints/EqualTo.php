@@ -16,8 +16,21 @@ namespace Symfony\Component\Validator\Constraints;
  * @Target({"PROPERTY", "METHOD", "ANNOTATION"})
  *
  * @author Daniel Holmes <daniel@danielholmes.org>
+<<<<<<< HEAD
  */
 class EqualTo extends AbstractComparison
 {
+=======
+ * @author Bernhard Schussek <bschussek@gmail.com>
+ */
+class EqualTo extends AbstractComparison
+{
+    const NOT_EQUAL_ERROR = '478618a7-95ba-473d-9101-cabd45e49115';
+
+    protected static $errorNames = array(
+        self::NOT_EQUAL_ERROR => 'NOT_EQUAL_ERROR',
+    );
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public $message = 'This value should be equal to {{ compared_value }}.';
 }

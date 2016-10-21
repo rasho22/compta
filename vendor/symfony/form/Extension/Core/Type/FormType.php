@@ -71,7 +71,10 @@ class FormType extends BaseType
         parent::buildView($view, $form, $options);
 
         $name = $form->getName();
+<<<<<<< HEAD
         $readOnly = $options['read_only'];
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         if ($view->parent) {
             if ('' === $name) {
@@ -79,13 +82,22 @@ class FormType extends BaseType
             }
 
             // Complex fields are read-only if they themselves or their parents are.
+<<<<<<< HEAD
             if (!$readOnly) {
                 $readOnly = $view->parent->vars['read_only'];
+=======
+            if (!isset($view->vars['attr']['readonly']) && isset($view->parent->vars['attr']['readonly']) && false !== $view->parent->vars['attr']['readonly']) {
+                $view->vars['attr']['readonly'] = true;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
         }
 
         $view->vars = array_replace($view->vars, array(
+<<<<<<< HEAD
             'read_only' => $readOnly,
+=======
+            'read_only' => isset($view->vars['attr']['readonly']) && false !== $view->vars['attr']['readonly'], // deprecated
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'errors' => $form->getErrors(),
             'valid' => $form->isSubmitted() ? $form->isValid() : true,
             'value' => $form->getViewData(),
@@ -192,12 +204,38 @@ class FormType extends BaseType
             return $attributes;
         };
 
+<<<<<<< HEAD
+=======
+        // BC for "read_only" option
+        $attrNormalizer = function (Options $options, array $attr) {
+            if (!isset($attr['readonly']) && $options['read_only']) {
+                $attr['readonly'] = true;
+            }
+
+            return $attr;
+        };
+
+        $readOnlyNormalizer = function (Options $options, $readOnly) {
+            if (null !== $readOnly) {
+                @trigger_error('The form option "read_only" is deprecated since version 2.8 and will be removed in 3.0. Use "attr[\'readonly\']" instead.', E_USER_DEPRECATED);
+
+                return $readOnly;
+            }
+
+            return false;
+        };
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $resolver->setDefaults(array(
             'data_class' => $dataClass,
             'empty_data' => $emptyData,
             'trim' => true,
             'required' => true,
+<<<<<<< HEAD
             'read_only' => false,
+=======
+            'read_only' => null, // deprecated
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'max_length' => null,
             'pattern' => null,
             'property_path' => null,
@@ -217,6 +255,12 @@ class FormType extends BaseType
             'upload_max_size_message' => $uploadMaxSizeMessage, // internal
         ));
 
+<<<<<<< HEAD
+=======
+        $resolver->setNormalizer('attr', $attrNormalizer);
+        $resolver->setNormalizer('read_only', $readOnlyNormalizer);
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $resolver->setAllowedTypes('label_attr', 'array');
         $resolver->setAllowedTypes('upload_max_size_message', array('callable'));
     }
@@ -233,6 +277,17 @@ class FormType extends BaseType
      */
     public function getName()
     {
+<<<<<<< HEAD
+=======
+        return $this->getBlockPrefix();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getBlockPrefix()
+    {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return 'form';
     }
 }

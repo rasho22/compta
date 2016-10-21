@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.73",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "Afar",
         "ab": "Abhazca",
@@ -42,7 +46,11 @@
         "awa": "Awadhi",
         "ay": "Aymara",
         "az": "Azerice",
+<<<<<<< HEAD
         "az_Arab": "Güney Azerice",
+=======
+        "azb": "Güney Azerice",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "Başkırtça",
         "bal": "Baluchi",
         "ban": "Bali Dili",
@@ -59,7 +67,10 @@
         "bfd": "Bafut",
         "bfq": "Badaga",
         "bg": "Bulgarca",
+<<<<<<< HEAD
         "bgn": "Batı Balochi",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "Arayanice",
         "bi": "Bislama",
         "bik": "Bikol",
@@ -319,8 +330,12 @@
         "lo": "Laoca",
         "lol": "Mongo",
         "loz": "Lozi",
+<<<<<<< HEAD
         "lrc": "Kuzey Luri",
         "lt": "Litvanca",
+=======
+        "lt": "Litvanyaca",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ltg": "Latgalian",
         "lu": "Luba-Katanga",
         "lua": "Luba-Lulua",
@@ -381,7 +396,10 @@
         "nb": "Norveççe Bokmål",
         "nd": "Kuzey Ndebele",
         "nds": "Aşağı Almanca",
+<<<<<<< HEAD
         "nds_NL": "Aşağı Saksonca",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "Nepalce",
         "new": "Nevari",
         "ng": "Ndonga",
@@ -475,7 +493,10 @@
         "sco": "Scots",
         "sd": "Sindhi",
         "sdc": "Sassari Sarduca",
+<<<<<<< HEAD
         "sdh": "Güney Kürtçesi",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "Kuzey Sami",
         "see": "Seneca",
         "seh": "Sena",
@@ -518,8 +539,13 @@
         "sux": "Sümerce",
         "sv": "İsveççe",
         "sw": "Svahili",
+<<<<<<< HEAD
         "sw_CD": "Kongo Svahili",
         "swb": "Komorca",
+=======
+        "swb": "Komorca",
+        "swc": "Kongo Svahili",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "Klasik Süryanice",
         "syr": "Süryanice",
         "szl": "Silezyaca",
@@ -586,7 +612,10 @@
         "wal": "Valamo",
         "war": "Varay",
         "was": "Vaşo",
+<<<<<<< HEAD
         "wbp": "Warlpiri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "Volofça",
         "wuu": "Wu Çincesi",
         "xal": "Kalmıkça",

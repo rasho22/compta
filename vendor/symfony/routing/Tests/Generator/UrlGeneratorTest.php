@@ -468,6 +468,7 @@ class UrlGeneratorTest extends \PHPUnit_Framework_TestCase
         $this->assertSame('//EN.FooBar.com/app.php/', $generator->generate('test', array('locale' => 'EN'), UrlGeneratorInterface::NETWORK_PATH));
     }
 
+<<<<<<< HEAD
     /**
      * @group legacy
      */
@@ -489,6 +490,8 @@ class UrlGeneratorTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testGenerateNetworkPath()
     {
         $routes = $this->getRoutes('test', new Route('/{name}', array(), array(), array(), '{locale}.example.com', array('http')));

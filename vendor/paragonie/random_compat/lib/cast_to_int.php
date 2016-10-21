@@ -5,7 +5,11 @@
  *
  * The MIT License (MIT)
  *
+<<<<<<< HEAD
  * Copyright (c) 2015 Paragon Initiative Enterprises
+=======
+ * Copyright (c) 2015 - 2016 Paragon Initiative Enterprises
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -26,7 +30,11 @@
  * SOFTWARE.
  */
 
+<<<<<<< HEAD
 if (!function_exists('RandomCompat_intval')) {
+=======
+if (!is_callable('RandomCompat_intval')) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     
     /**
      * Cast to an integer if we can, safely.

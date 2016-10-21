@@ -1,16 +1,25 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ab": "abkazisht",
         "af": "afrikanisht",
         "agq": "agemisht",
         "ak": "akanisht",
+<<<<<<< HEAD
         "am": "amarikisht",
+=======
+        "am": "amarike",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ar": "arabisht",
         "ar_001": "arabishte standarde moderne",
         "arn": "mapuçisht",
         "as": "asamezisht",
         "asa": "asuisht",
+<<<<<<< HEAD
         "az": "azerbajxhanisht",
         "ba": "bashkirisht",
         "be": "bjellorusisht",
@@ -32,6 +41,26 @@
         "co": "korsikanisht",
         "cs": "çekisht",
         "cv": "çuvashisht",
+=======
+        "az": "azere",
+        "ba": "bashkirisht",
+        "be": "bjellorusisht",
+        "bem": "bemba",
+        "bez": "bena",
+        "bg": "bullgarisht",
+        "bm": "bambara",
+        "bn": "bengalisht",
+        "bo": "tibetisht",
+        "br": "bretone",
+        "brx": "bodo",
+        "bs": "boshnjakisht",
+        "ca": "katalonisht",
+        "cgg": "çigisht",
+        "chr": "çeroki",
+        "ckb": "kurdishte sorani",
+        "co": "korsikanisht",
+        "cs": "çekisht",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cy": "uellsisht",
         "da": "danisht",
         "dav": "taitisht",
@@ -40,9 +69,15 @@
         "de_CH": "gjermanishte zvicerane (dialekti i Alpeve)",
         "dje": "zarmisht",
         "dsb": "sorbishte e poshtme",
+<<<<<<< HEAD
         "dua": "dualaisht",
         "dyo": "xhulafonjisht",
         "dz": "xhongaisht",
+=======
+        "dua": "dualisht",
+        "dyo": "xhula-fonji",
+        "dz": "xongka",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ebu": "embuisht",
         "ee": "juisht",
         "el": "greqisht",
@@ -61,19 +96,28 @@
         "fa": "persisht",
         "fi": "finlandisht",
         "fil": "filipinase",
+<<<<<<< HEAD
         "fj": "fixhianisht",
+=======
+        "fj": "fixhiane",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo": "faroisht",
         "fr": "frëngjisht",
         "fr_CA": "frëngjishte kanadeze",
         "fr_CH": "frëngjishte zvicerane",
         "fy": "frizianisht",
+<<<<<<< HEAD
         "ga": "irlandisht",
+=======
+        "ga": "irlandezçe",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "gag": "gagauzisht",
         "gl": "galike",
         "gn": "guaranisht",
         "gsw": "gjermanishte zvicerane",
         "gu": "guxharatisht",
         "guz": "gusisht",
+<<<<<<< HEAD
         "gv": "manksisht",
         "ha": "hausisht",
         "haw": "huajanisht",
@@ -90,19 +134,45 @@
         "is": "islandisht",
         "it": "italisht",
         "iu": "inuktitutisht",
+=======
+        "gv": "mankse",
+        "ha": "hausisht",
+        "haw": "hauajane",
+        "he": "hebraisht",
+        "hi": "indishte",
+        "hr": "kroatisht",
+        "hsb": "sorbiane e sipërme",
+        "ht": "haitiançe",
+        "hu": "hungarisht",
+        "hy": "armenisht",
+        "id": "indonezisht",
+        "ig": "igbe",
+        "ii": "sishuanisht",
+        "is": "islandisht",
+        "it": "italisht",
+        "iu": "inuktitut",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ja": "japonisht",
         "jgo": "ngombisht",
         "jmc": "maçamisht",
         "jv": "javanisht",
         "ka": "gjeorgjisht",
         "kab": "kabilisht",
+<<<<<<< HEAD
         "kam": "kambaisht",
+=======
+        "kam": "kambishte",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kde": "makondisht",
         "kea": "kabuverdianisht",
         "khq": "kojraçinisht",
         "ki": "kikujuisht",
         "kk": "kazakisht",
+<<<<<<< HEAD
         "kl": "kalalisutisht",
+=======
+        "kl": "kalalisute",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kln": "kalenjinisht",
         "km": "kmere",
         "kn": "kanade",
@@ -113,7 +183,11 @@
         "ksb": "shambalisht",
         "ksf": "bafianisht",
         "ku": "kurde",
+<<<<<<< HEAD
         "kw": "kornishisht",
+=======
+        "kw": "kornisht",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky": "kirgizisht",
         "la": "latinisht",
         "lag": "langisht",
@@ -122,21 +196,35 @@
         "lkt": "lakotisht",
         "ln": "lingalisht",
         "lo": "laosisht",
+<<<<<<< HEAD
         "lrc": "lurishte veriore",
         "lt": "lituanisht",
         "lu": "lubakatangisht",
+=======
+        "lt": "lituanisht",
+        "lu": "Lubakatange",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "luo": "luoisht",
         "luy": "lujaisht",
         "lv": "letonisht",
         "mas": "masaisht",
         "mer": "meruisht",
         "mfe": "norisjene",
+<<<<<<< HEAD
         "mg": "malagezisht",
         "mgh": "makuamitoisht",
         "mgo": "metaisht",
         "mi": "maorisht",
         "mk": "maqedonisht",
         "ml": "malajalamisht",
+=======
+        "mg": "malageze",
+        "mgh": "makuamito",
+        "mgo": "metaisht",
+        "mi": "maorisht",
+        "mk": "maqedonisht",
+        "ml": "malajalame",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn": "mongolisht",
         "moh": "mohaukisht",
         "mr": "maratisht",
@@ -144,6 +232,7 @@
         "mt": "maltisht",
         "mua": "mundagishte",
         "my": "birmanisht",
+<<<<<<< HEAD
         "mzn": "mazanderanisht",
         "naq": "namaishte",
         "nb": "bokmalishte norvegjeze",
@@ -153,12 +242,21 @@
         "ne": "nepalisht",
         "nl": "holandisht",
         "nl_BE": "flamandisht",
+=======
+        "naq": "namaishte",
+        "nb": "bokmalishte norvegjeze",
+        "nd": "ndebelishte veriore",
+        "ne": "nepalisht",
+        "nl": "holandisht",
+        "nl_BE": "flamande",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nmg": "kuasisht",
         "nn": "ninorske norvegjeze",
         "nqo": "nkoisht",
         "nus": "nuerisht",
         "nyn": "niankolisht",
         "om": "oromoisht",
+<<<<<<< HEAD
         "or": "orijaisht",
         "pa": "panxhabisht",
         "pl": "polonisht",
@@ -167,6 +265,16 @@
         "pt_BR": "portugalishte braziliane",
         "pt_PT": "portugalishte evropiane",
         "qu": "keçuaisht",
+=======
+        "or": "orije",
+        "pa": "panxhabe",
+        "pl": "polonisht",
+        "ps": "pashto",
+        "pt": "portugalisht",
+        "pt_BR": "portugalishte braziliane",
+        "pt_PT": "portugalishte evropiane",
+        "qu": "keçua",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "quc": "kiçeisht",
         "rm": "rome",
         "rn": "rundisht",
@@ -179,15 +287,24 @@
         "sa": "sanskritisht",
         "saq": "samburisht",
         "sbp": "sanguisht",
+<<<<<<< HEAD
         "sd": "sindisht",
         "sdh": "kurdishte jugore",
+=======
+        "sd": "sindi",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "samishte veriore",
         "seh": "senaishte",
         "ses": "senishte kojrabore",
         "sg": "sangoisht",
         "sh": "Serbo-Kroatisht",
+<<<<<<< HEAD
         "shi": "taçelitisht",
         "si": "sinhalisht",
+=======
+        "shi": "taçelit",
+        "si": "sinhale",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sk": "sllovakisht",
         "sl": "sllovenisht",
         "sma": "samishte jugore",
@@ -201,7 +318,11 @@
         "su": "sundanisht",
         "sv": "suedisht",
         "sw": "suahilisht",
+<<<<<<< HEAD
         "sw_CD": "suahilishte kongoje",
+=======
+        "swc": "suahilishte kongoje",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ta": "tamile",
         "te": "teluge",
         "teo": "tezoisht",
@@ -222,16 +343,25 @@
         "vai": "vaisht",
         "vi": "vietnamisht",
         "vun": "vunjisht",
+<<<<<<< HEAD
         "wbp": "uarlipirisht",
         "wo": "ulufisht",
         "xh": "xhozaisht",
+=======
+        "wo": "ulufisht",
+        "xh": "xhose",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "xog": "sogisht",
         "yo": "jorubisht",
         "zgh": "tamazishte standarde marokene",
         "zh": "kinezisht",
         "zh_Hans": "kinezishte e thjeshtuar",
         "zh_Hant": "kinezishte tradicionale",
+<<<<<<< HEAD
         "zu": "zuluisht",
+=======
+        "zu": "zulu",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "zxx": "nuk ka përmbajtje gjuhësore"
     }
 }

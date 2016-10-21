@@ -13,6 +13,12 @@ namespace Symfony\Component\Security\Core\Tests\Util
 {
     use Symfony\Component\Security\Core\Util\ClassUtils;
 
+<<<<<<< HEAD
+=======
+    /**
+     * @group legacy
+     */
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     class ClassUtilsTest extends \PHPUnit_Framework_TestCase
     {
         public static function dataGetClass()

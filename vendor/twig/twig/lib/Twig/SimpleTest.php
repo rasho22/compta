@@ -54,6 +54,14 @@ class Twig_SimpleTest
 
     public function isDeprecated()
     {
+<<<<<<< HEAD
+=======
+        return (bool) $this->options['deprecated'];
+    }
+
+    public function getDeprecatedVersion()
+    {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return $this->options['deprecated'];
     }
 

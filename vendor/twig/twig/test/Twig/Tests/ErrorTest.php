@@ -38,7 +38,11 @@ class Twig_Tests_ErrorTest extends PHPUnit_Framework_TestCase
 
             $this->fail();
         } catch (Twig_Error_Runtime $e) {
+<<<<<<< HEAD
             $this->assertEquals('Variable "foo" does not exist in "index.html" at line 3', $e->getMessage());
+=======
+            $this->assertEquals('Variable "foo" does not exist in "index.html" at line 3.', $e->getMessage());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $this->assertEquals(3, $e->getTemplateLine());
             $this->assertEquals('index.html', $e->getTemplateFile());
         }
@@ -69,7 +73,11 @@ class Twig_Tests_ErrorTest extends PHPUnit_Framework_TestCase
 
             $this->fail();
         } catch (Twig_Error_Runtime $e) {
+<<<<<<< HEAD
             $this->assertEquals(sprintf('Variable "foo" does not exist in "%s" at line %d', $name, $line), $e->getMessage());
+=======
+            $this->assertEquals(sprintf('Variable "foo" does not exist in "%s" at line %d.', $name, $line), $e->getMessage());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $this->assertEquals($line, $e->getTemplateLine());
             $this->assertEquals($name, $e->getTemplateFile());
         }

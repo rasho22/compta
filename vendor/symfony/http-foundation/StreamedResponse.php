@@ -36,7 +36,11 @@ class StreamedResponse extends Response
      * @param int           $status   The response status code
      * @param array         $headers  An array of response headers
      */
+<<<<<<< HEAD
     public function __construct($callback = null, $status = 200, $headers = array())
+=======
+    public function __construct(callable $callback = null, $status = 200, $headers = array())
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         parent::__construct(null, $status, $headers);
 
@@ -64,6 +68,7 @@ class StreamedResponse extends Response
      * Sets the PHP callback associated with this Response.
      *
      * @param callable $callback A valid PHP callback
+<<<<<<< HEAD
      *
      * @throws \LogicException
      */
@@ -72,6 +77,11 @@ class StreamedResponse extends Response
         if (!is_callable($callback)) {
             throw new \LogicException('The Response callback must be a valid PHP callable.');
         }
+=======
+     */
+    public function setCallback(callable $callback)
+    {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->callback = $callback;
     }
 

@@ -252,8 +252,13 @@ class NumberFormatter
     );
 
     private static $enTextAttributes = array(
+<<<<<<< HEAD
         self::DECIMAL => array('', '', '-', '', ' ', '', ''),
         self::CURRENCY => array('¤', '', '-¤', '', ' ', ''),
+=======
+        self::DECIMAL => array('', '', '-', '', '*', '', ''),
+        self::CURRENCY => array('¤', '', '-¤', '', '*', ''),
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     );
 
     /**
@@ -851,6 +856,7 @@ class NumberFormatter
             return false;
         }
 
+<<<<<<< HEAD
         if (PHP_INT_SIZE !== 8 && ($value > self::$int32Max || $value <= -self::$int32Max - 1)) {
             // Bug #59597 was fixed on PHP 5.3.14 and 5.4.4
             // The negative PHP_INT_MAX was being converted to float
@@ -876,6 +882,12 @@ class NumberFormatter
             }
         }
 
+=======
+        if (PHP_INT_SIZE !== 8 && ($value > self::$int32Max || $value < -self::$int32Max - 1)) {
+            return (float) $value;
+        }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return (int) $value;
     }
 

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afar",
         "ab": "abcázio",
@@ -23,7 +27,11 @@
         "ar": "árabe",
         "ar_001": "árabe moderno",
         "arc": "aramaico",
+<<<<<<< HEAD
         "arn": "mapudungun",
+=======
+        "arn": "araucano",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "arp": "arapaho",
         "arw": "arauaqui",
         "as": "assamês",
@@ -33,7 +41,10 @@
         "awa": "awadhi",
         "ay": "aimara",
         "az": "azerbaijano",
+<<<<<<< HEAD
         "az_Arab": "azeri sul",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "bashkir",
         "bal": "balúchi",
         "ban": "balinês",
@@ -46,7 +57,10 @@
         "bez": "bena",
         "bfd": "bafut",
         "bg": "búlgaro",
+<<<<<<< HEAD
         "bgn": "balúchi ocidental",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhojpuri",
         "bi": "bislamá",
         "bik": "bikol",
@@ -92,7 +106,11 @@
         "cs": "tcheco",
         "csb": "kashubian",
         "cu": "eslavo eclesiástico",
+<<<<<<< HEAD
         "cv": "tchuvache",
+=======
+        "cv": "chuvash",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cy": "galês",
         "da": "dinamarquês",
         "dak": "dacota",
@@ -272,7 +290,10 @@
         "lo": "laosiano",
         "lol": "mongo",
         "loz": "lozi",
+<<<<<<< HEAD
         "lrc": "luri setentrional",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "lituano",
         "lu": "luba-catanga",
         "lua": "luba-lulua",
@@ -321,14 +342,20 @@
         "my": "birmanês",
         "mye": "myene",
         "myv": "erzya",
+<<<<<<< HEAD
         "mzn": "mazandarani",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "na": "nauruano",
         "nap": "napolitano",
         "naq": "nama",
         "nb": "bokmål norueguês",
         "nd": "ndebele do norte",
         "nds": "baixo alemão",
+<<<<<<< HEAD
         "nds_NL": "baixo-saxão",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepali",
         "new": "newari",
         "ng": "dongo",
@@ -389,7 +416,11 @@
         "rom": "romani",
         "ru": "russo",
         "rup": "aromeno",
+<<<<<<< HEAD
         "rw": "quiniaruanda",
+=======
+        "rw": "kinyarwanda",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "rwk": "rwa",
         "sa": "sânscrito",
         "sad": "sandawe",
@@ -404,7 +435,10 @@
         "scn": "siciliano",
         "sco": "escocês",
         "sd": "sindi",
+<<<<<<< HEAD
         "sdh": "curdo meridional",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "sami do norte",
         "see": "seneca",
         "seh": "sena",
@@ -422,9 +456,15 @@
         "sl": "esloveno",
         "sm": "samoano",
         "sma": "sami do sul",
+<<<<<<< HEAD
         "smj": "sami de Lule",
         "smn": "sami de Inari",
         "sms": "sami de Skolt",
+=======
+        "smj": "lule sami",
+        "smn": "inari sami",
+        "sms": "skolt sami",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sn": "shona",
         "snk": "soninquê",
         "so": "somali",
@@ -442,8 +482,13 @@
         "sux": "sumério",
         "sv": "sueco",
         "sw": "suaíli",
+<<<<<<< HEAD
         "sw_CD": "suaíli do Congo",
         "swb": "comoriano",
+=======
+        "swb": "comoriano",
+        "swc": "suaíli do Congo",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "siríaco clássico",
         "syr": "siríaco",
         "ta": "tâmil",
@@ -498,7 +543,10 @@
         "wal": "walamo",
         "war": "waray",
         "was": "washo",
+<<<<<<< HEAD
         "wbp": "warlpiri",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "uólofe",
         "xal": "kalmyk",
         "xh": "xosa",

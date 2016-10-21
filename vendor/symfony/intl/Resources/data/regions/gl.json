@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.76",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Illa de Ascensión",
         "AD": "Andorra",
@@ -16,7 +20,11 @@
         "AT": "Austria",
         "AU": "Australia",
         "AW": "Aruba",
+<<<<<<< HEAD
         "AX": "Illas Aland",
+=======
+        "AX": "Åland",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "AZ": "Acerbaixán",
         "BA": "Bosnia e Hercegovina",
         "BB": "Barbados",
@@ -39,7 +47,11 @@
         "BY": "Bielorrusia",
         "BZ": "Belice",
         "CA": "Canadá",
+<<<<<<< HEAD
         "CC": "Illas Cocos (Keeling)",
+=======
+        "CC": "Illas Cocos",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CD": "República Democrática do Congo",
         "CF": "República Centroafricana",
         "CG": "Congo",
@@ -73,7 +85,11 @@
         "ES": "España",
         "ET": "Etiopía",
         "FI": "Finlandia",
+<<<<<<< HEAD
         "FJ": "Fixi",
+=======
+        "FJ": "Fidxi",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "FK": "Illas Malvinas",
         "FM": "Micronesia",
         "FO": "Illas Feroe",
@@ -95,7 +111,11 @@
         "GS": "Xeorxia do Sur e Illas Sandwich",
         "GT": "Guatemala",
         "GU": "Guam",
+<<<<<<< HEAD
         "GW": "Guinea-Bissau",
+=======
+        "GW": "Guinea-Bisau",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GY": "Güiana",
         "HK": "Hong Kong RAE de China",
         "HN": "Honduras",
@@ -113,7 +133,11 @@
         "IR": "Irán",
         "IS": "Islandia",
         "IT": "Italia",
+<<<<<<< HEAD
         "JE": "Jersey",
+=======
+        "JE": "Illa de Jersey",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "JM": "Xamaica",
         "JO": "Xordania",
         "JP": "Xapón",
@@ -122,39 +146,64 @@
         "KH": "Cambodia",
         "KI": "Kiribati",
         "KM": "Comores",
+<<<<<<< HEAD
         "KN": "San Cristovo e Nevis",
+=======
+        "KN": "Saint Kitts e Nevis",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "KP": "Corea do Norte",
         "KR": "Corea do Sur",
         "KW": "Kuwait",
         "KY": "Illas Caimán",
+<<<<<<< HEAD
         "KZ": "Kazakhstan",
+=======
+        "KZ": "Casaquistán",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LA": "Laos",
         "LB": "Líbano",
         "LC": "Santa Lucía",
         "LI": "Liechtenstein",
         "LK": "Sri Lanka",
         "LR": "Liberia",
+<<<<<<< HEAD
         "LS": "Lesotho",
+=======
+        "LS": "Lesoto",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LT": "Lituania",
         "LU": "Luxemburgo",
         "LV": "Letonia",
         "LY": "Libia",
         "MA": "Marrocos",
         "MC": "Mónaco",
+<<<<<<< HEAD
         "MD": "Moldova",
+=======
+        "MD": "Moldavia",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ME": "Montenegro",
         "MF": "San Martiño",
         "MG": "Madagascar",
         "MH": "Illas Marshall",
+<<<<<<< HEAD
         "MK": "Macedonia",
         "ML": "Mali",
+=======
+        "MK": "República de Macedonia",
+        "ML": "Malí",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MM": "Myanmar (Birmania)",
         "MN": "Mongolia",
         "MO": "Macau RAE de China",
         "MP": "Illas Marianas do norte",
         "MQ": "Martinica",
         "MR": "Mauritania",
+<<<<<<< HEAD
         "MS": "Montserrat",
+=======
+        "MS": "Illa Montserrat",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MT": "Malta",
         "MU": "Mauricio",
         "MV": "Maldivas",
@@ -173,7 +222,11 @@
         "NP": "Nepal",
         "NR": "Nauru",
         "NU": "Niue",
+<<<<<<< HEAD
         "NZ": "Nova Celandia",
+=======
+        "NZ": "Nova Zelandia",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "OM": "Omán",
         "PA": "Panamá",
         "PE": "Perú",
@@ -187,7 +240,11 @@
         "PR": "Porto Rico",
         "PS": "Territorios palestinos",
         "PT": "Portugal",
+<<<<<<< HEAD
         "PW": "Palau",
+=======
+        "PW": "Rep. das Palaus",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PY": "Paraguai",
         "QA": "Qatar",
         "RE": "Reunión",
@@ -212,7 +269,11 @@
         "SR": "Surinam",
         "SS": "Sudán do sur",
         "ST": "San Tomé e Príncipe",
+<<<<<<< HEAD
         "SV": "El Salvador",
+=======
+        "SV": "O Salvador",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SX": "Sint Maarten",
         "SY": "Siria",
         "SZ": "Suacilandia",
@@ -223,9 +284,15 @@
         "TG": "Togo",
         "TH": "Tailandia",
         "TJ": "Taxiquistán",
+<<<<<<< HEAD
         "TK": "Tokelau",
         "TL": "Timor Leste",
         "TM": "Turkmenistán",
+=======
+        "TK": "Toquelau",
+        "TL": "Timor Leste",
+        "TM": "Turcomenistán",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TN": "Tunisia",
         "TO": "Tonga",
         "TR": "Turquía",

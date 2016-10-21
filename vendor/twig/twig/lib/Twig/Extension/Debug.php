@@ -10,11 +10,14 @@
  */
 class Twig_Extension_Debug extends Twig_Extension
 {
+<<<<<<< HEAD
     /**
      * Returns a list of global functions to add to the existing list.
      *
      * @return array An array of global functions
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getFunctions()
     {
         // dump is safe if var_dump is overridden by xdebug
@@ -32,11 +35,14 @@ class Twig_Extension_Debug extends Twig_Extension
         );
     }
 
+<<<<<<< HEAD
     /**
      * Returns the name of the extension.
      *
      * @return string The extension name
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getName()
     {
         return 'debug';

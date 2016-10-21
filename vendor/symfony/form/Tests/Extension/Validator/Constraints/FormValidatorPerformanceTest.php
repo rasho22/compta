@@ -36,10 +36,17 @@ class FormValidatorPerformanceTest extends FormPerformanceTestCase
     {
         $this->setMaxRunningTime(1);
 
+<<<<<<< HEAD
         $builder = $this->factory->createBuilder('form');
 
         for ($i = 0; $i < 40; ++$i) {
             $builder->add($i, 'form');
+=======
+        $builder = $this->factory->createBuilder('Symfony\Component\Form\Extension\Core\Type\FormType');
+
+        for ($i = 0; $i < 40; ++$i) {
+            $builder->add($i, 'Symfony\Component\Form\Extension\Core\Type\FormType');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
             $builder->get($i)
                 ->add('a')

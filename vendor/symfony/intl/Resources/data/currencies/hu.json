@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -426,7 +430,11 @@
             "haiti gourde"
         ],
         "HUF": [
+<<<<<<< HEAD
             "Ft",
+=======
+            "HUF",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             "magyar forint"
         ],
         "IDR": [

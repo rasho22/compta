@@ -1,9 +1,16 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
     "Names": {
         "Afak": "afaka",
         "Aghb": "kaukasianalbanialainen",
         "Ahom": "ahom",
+=======
+    "Version": "2.1.13.33",
+    "Names": {
+        "Afak": "afaka",
+        "Aghb": "kaukasianalbanialainen",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Arab": "arabialainen",
         "Armi": "valtakunnanaramealainen",
         "Armn": "armenialainen",
@@ -50,7 +57,10 @@
         "Hano": "hanunoolainen",
         "Hans": "yksinkertaistettu han",
         "Hant": "perinteinen han",
+<<<<<<< HEAD
         "Hatr": "hatralainen",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Hebr": "heprealainen",
         "Hira": "hiragana",
         "Hluw": "anatolialaiset hieroglyfit",
@@ -97,7 +107,10 @@
         "Moon": "moon-kohokirjoitus",
         "Mroo": "mro",
         "Mtei": "meitei",
+<<<<<<< HEAD
         "Mult": "multanilainen",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Mymr": "burmalainen",
         "Narb": "muinaispohjoisarabialainen",
         "Nbat": "nabatealainen",

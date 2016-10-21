@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.66",
+=======
+    "Version": "2.1.12.94",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Ascension",
         "AD": "Andorra",
@@ -97,7 +101,11 @@
         "GU": "Guam",
         "GW": "Guinea-Bissau",
         "GY": "Guyana",
+<<<<<<< HEAD
         "HK": "Hongkong, S.A.R. Kina",
+=======
+        "HK": "Hongkong (S.A.R. Kina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "HN": "Honduras",
         "HR": "Kroatien",
         "HT": "Haiti",
@@ -150,7 +158,11 @@
         "ML": "Mali",
         "MM": "Myanmar (Burma)",
         "MN": "Mongoliet",
+<<<<<<< HEAD
         "MO": "Macao, S.A.R. Kina",
+=======
+        "MO": "Macao (S.A.R. Kina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MP": "Nordmarianerna",
         "MQ": "Martinique",
         "MR": "Mauretanien",

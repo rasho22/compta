@@ -39,6 +39,7 @@ class LengthValidator extends ConstraintValidator
         }
 
         $stringValue = (string) $value;
+<<<<<<< HEAD
         $invalidCharset = false;
 
         if ('UTF8' === $charset = strtoupper($constraint->charset)) {
@@ -64,6 +65,11 @@ class LengthValidator extends ConstraintValidator
             $invalidCharset = false === $length;
         } else {
             $length = strlen($stringValue);
+=======
+
+        if (!$invalidCharset = !@mb_check_encoding($stringValue, $constraint->charset)) {
+            $length = mb_strlen($stringValue, $constraint->charset);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         if ($invalidCharset) {
@@ -72,12 +78,20 @@ class LengthValidator extends ConstraintValidator
                     ->setParameter('{{ value }}', $this->formatValue($stringValue))
                     ->setParameter('{{ charset }}', $constraint->charset)
                     ->setInvalidValue($value)
+<<<<<<< HEAD
+=======
+                    ->setCode(Length::INVALID_CHARACTERS_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             } else {
                 $this->buildViolation($constraint->charsetMessage)
                     ->setParameter('{{ value }}', $this->formatValue($stringValue))
                     ->setParameter('{{ charset }}', $constraint->charset)
                     ->setInvalidValue($value)
+<<<<<<< HEAD
+=======
+                    ->setCode(Length::INVALID_CHARACTERS_ERROR)
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             }
 

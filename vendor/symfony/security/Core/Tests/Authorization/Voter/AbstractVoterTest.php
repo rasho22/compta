@@ -11,9 +11,17 @@
 
 namespace Symfony\Component\Security\Core\Tests\Authorization\Voter;
 
+<<<<<<< HEAD
 use Symfony\Component\Security\Core\Authorization\Voter\AbstractVoter;
 use Symfony\Component\Security\Core\Authorization\Voter\VoterInterface;
 
+=======
+use Symfony\Component\Security\Core\Authorization\Voter\VoterInterface;
+
+/**
+ * @group legacy
+ */
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 class AbstractVoterTest extends \PHPUnit_Framework_TestCase
 {
     protected $token;
@@ -49,11 +57,16 @@ class AbstractVoterTest extends \PHPUnit_Framework_TestCase
      */
     public function testVote(array $attributes, $expectedVote, $object, $message)
     {
+<<<<<<< HEAD
         $voter = new AbstractVoterTest_Voter();
+=======
+        $voter = new Fixtures\MyVoter();
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $this->assertEquals($expectedVote, $voter->vote($this->token, $object, $attributes), $message);
     }
 }
+<<<<<<< HEAD
 
 class AbstractVoterTest_Voter extends AbstractVoter
 {
@@ -72,3 +85,5 @@ class AbstractVoterTest_Voter extends AbstractVoter
         return 'EDIT' === $attribute;
     }
 }
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af

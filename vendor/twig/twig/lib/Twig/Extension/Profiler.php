@@ -34,6 +34,7 @@ class Twig_Extension_Profiler extends Twig_Extension
         }
     }
 
+<<<<<<< HEAD
     /**
      * {@inheritdoc}
      */
@@ -45,6 +46,13 @@ class Twig_Extension_Profiler extends Twig_Extension
     /**
      * {@inheritdoc}
      */
+=======
+    public function getNodeVisitors()
+    {
+        return array(new Twig_Profiler_NodeVisitor_Profiler(get_class($this)));
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getName()
     {
         return 'profiler';

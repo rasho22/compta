@@ -41,12 +41,17 @@ class AccessDecisionManager implements AccessDecisionManagerInterface
      *
      * @throws \InvalidArgumentException
      */
+<<<<<<< HEAD
     public function __construct(array $voters, $strategy = self::STRATEGY_AFFIRMATIVE, $allowIfAllAbstainDecisions = false, $allowIfEqualGrantedDeniedDecisions = true)
     {
         if (!$voters) {
             throw new \InvalidArgumentException('You must at least add one voter.');
         }
 
+=======
+    public function __construct(array $voters = array(), $strategy = self::STRATEGY_AFFIRMATIVE, $allowIfAllAbstainDecisions = false, $allowIfEqualGrantedDeniedDecisions = true)
+    {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $strategyMethod = 'decide'.ucfirst($strategy);
         if (!is_callable(array($this, $strategyMethod))) {
             throw new \InvalidArgumentException(sprintf('The strategy "%s" is not supported.', $strategy));
@@ -59,6 +64,19 @@ class AccessDecisionManager implements AccessDecisionManagerInterface
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * Configures the voters.
+     *
+     * @param VoterInterface[] $voters An array of VoterInterface instances
+     */
+    public function setVoters(array $voters)
+    {
+        $this->voters = $voters;
+    }
+
+    /**
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * {@inheritdoc}
      */
     public function decide(TokenInterface $token, array $attributes, $object = null)
@@ -71,6 +89,11 @@ class AccessDecisionManager implements AccessDecisionManagerInterface
      */
     public function supportsAttribute($attribute)
     {
+<<<<<<< HEAD
+=======
+        @trigger_error('The '.__METHOD__.' is deprecated since version 2.8 and will be removed in version 3.0.', E_USER_DEPRECATED);
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         foreach ($this->voters as $voter) {
             if ($voter->supportsAttribute($attribute)) {
                 return true;
@@ -85,6 +108,11 @@ class AccessDecisionManager implements AccessDecisionManagerInterface
      */
     public function supportsClass($class)
     {
+<<<<<<< HEAD
+=======
+        @trigger_error('The '.__METHOD__.' is deprecated since version 2.8 and will be removed in version 3.0.', E_USER_DEPRECATED);
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         foreach ($this->voters as $voter) {
             if ($voter->supportsClass($class)) {
                 return true;
@@ -144,7 +172,10 @@ class AccessDecisionManager implements AccessDecisionManagerInterface
     {
         $grant = 0;
         $deny = 0;
+<<<<<<< HEAD
         $abstain = 0;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         foreach ($this->voters as $voter) {
             $result = $voter->vote($token, $object, $attributes);
 
@@ -158,11 +189,14 @@ class AccessDecisionManager implements AccessDecisionManagerInterface
                     ++$deny;
 
                     break;
+<<<<<<< HEAD
 
                 default:
                     ++$abstain;
 
                     break;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
         }
 
@@ -174,7 +208,11 @@ class AccessDecisionManager implements AccessDecisionManagerInterface
             return false;
         }
 
+<<<<<<< HEAD
         if ($grant == $deny && $grant != 0) {
+=======
+        if ($grant > 0) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             return $this->allowIfEqualGrantedDeniedDecisions;
         }
 

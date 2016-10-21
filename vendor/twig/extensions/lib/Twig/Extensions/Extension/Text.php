@@ -7,15 +7,25 @@
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
+<<<<<<< HEAD
  *
+=======
+ */
+
+/**
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  * @author Henrik Bjornskov <hb@peytz.dk>
  */
 class Twig_Extensions_Extension_Text extends Twig_Extension
 {
     /**
+<<<<<<< HEAD
      * Returns a list of filters.
      *
      * @return array
+=======
+     * {@inheritdoc}
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getFilters()
     {
@@ -26,9 +36,13 @@ class Twig_Extensions_Extension_Text extends Twig_Extension
     }
 
     /**
+<<<<<<< HEAD
      * Name of this extension.
      *
      * @return string
+=======
+     * {@inheritdoc}
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getName()
     {

@@ -131,8 +131,13 @@ to variables from outer scopes:
 Block Shortcuts
 ---------------
 
+<<<<<<< HEAD
 For blocks with few content, it's possible to use a shortcut syntax. The
 following constructs do the same:
+=======
+For blocks with little content, it's possible to use a shortcut syntax. The
+following constructs do the same thing:
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 .. code-block:: jinja
 

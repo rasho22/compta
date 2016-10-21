@@ -27,11 +27,14 @@ class Twig_Node_AutoEscape extends Twig_Node
         parent::__construct(array('body' => $body), array('value' => $value), $lineno, $tag);
     }
 
+<<<<<<< HEAD
     /**
      * Compiles the node to PHP.
      *
      * @param Twig_Compiler $compiler A Twig_Compiler instance
      */
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function compile(Twig_Compiler $compiler)
     {
         $compiler->subcompile($this->getNode('body'));

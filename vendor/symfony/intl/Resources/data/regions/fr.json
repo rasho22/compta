@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.23.79",
+=======
+    "Version": "2.1.13.46",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Île de l’Ascension",
         "AD": "Andorre",
@@ -148,7 +152,11 @@
         "MH": "Îles Marshall",
         "MK": "Macédoine",
         "ML": "Mali",
+<<<<<<< HEAD
         "MM": "Myanmar (Birmanie)",
+=======
+        "MM": "Myanmar",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MN": "Mongolie",
         "MO": "R.A.S. chinoise de Macao",
         "MP": "Îles Mariannes du Nord",
@@ -223,7 +231,11 @@
         "TG": "Togo",
         "TH": "Thaïlande",
         "TJ": "Tadjikistan",
+<<<<<<< HEAD
         "TK": "Tokélaou",
+=======
+        "TK": "Tokelau",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TL": "Timor oriental",
         "TM": "Turkménistan",
         "TN": "Tunisie",

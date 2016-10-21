@@ -82,7 +82,11 @@ class TwigExtractor extends AbstractFileExtractor implements ExtractorInterface
 
     protected function extractTemplate($template, MessageCatalogue $catalogue)
     {
+<<<<<<< HEAD
         $visitor = $this->twig->getExtension('translator')->getTranslationNodeVisitor();
+=======
+        $visitor = $this->twig->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslationNodeVisitor();
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $visitor->enable();
 
         $this->twig->parse($this->twig->tokenize($template));

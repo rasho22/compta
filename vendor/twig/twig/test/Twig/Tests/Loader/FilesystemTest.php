@@ -51,10 +51,18 @@ class Twig_Tests_Loader_FilesystemTest extends PHPUnit_Framework_TestCase
         );
     }
 
+<<<<<<< HEAD
     public function testPaths()
     {
         $basePath = dirname(__FILE__).'/Fixtures';
 
+=======
+    /**
+     * @dataProvider getBasePaths
+     */
+    public function testPaths($basePath)
+    {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $loader = new Twig_Loader_Filesystem(array($basePath.'/normal', $basePath.'/normal_bis'));
         $loader->setPaths(array($basePath.'/named', $basePath.'/named_bis'), 'named');
         $loader->addPath($basePath.'/named_ter', 'named');
@@ -77,15 +85,31 @@ class Twig_Tests_Loader_FilesystemTest extends PHPUnit_Framework_TestCase
             $basePath.'/named_ter',
         ), $loader->getPaths('named'));
 
+<<<<<<< HEAD
         $this->assertEquals(
             realpath($basePath.'/named_quater/named_absolute.html'),
             realpath($loader->getCacheKey('@named/named_absolute.html'))
         );
+=======
+        // do not use realpath here as it would make the test unuseful
+        $this->assertEquals(str_replace('\\', '/', $basePath.'/named_quater/named_absolute.html'), str_replace('\\', '/', $loader->getCacheKey('@named/named_absolute.html')));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->assertEquals("path (final)\n", $loader->getSource('index.html'));
         $this->assertEquals("path (final)\n", $loader->getSource('@__main__/index.html'));
         $this->assertEquals("named path (final)\n", $loader->getSource('@named/index.html'));
     }
 
+<<<<<<< HEAD
+=======
+    public function getBasePaths()
+    {
+        return array(
+            array(dirname(__FILE__).'/Fixtures'),
+            array('test/Twig/Tests/Loader/Fixtures'),
+        );
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testEmptyConstructor()
     {
         $loader = new Twig_Loader_Filesystem();
@@ -172,4 +196,20 @@ class Twig_Tests_Loader_FilesystemTest extends PHPUnit_Framework_TestCase
         $template = $twig->loadTemplate($templateName);
         $this->assertSame('VALID Child', $template->renderBlock('body', array()));
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * @requires PHP 5.3
+     */
+    public function testLoadTemplateFromPhar()
+    {
+        $loader = new Twig_Loader_Filesystem(array());
+        // phar-sample.phar was created with the following script:
+        // $f = new Phar('phar-test.phar');
+        // $f->addFromString('hello.twig', 'hello from phar');
+        $loader->addPath('phar://'.dirname(__FILE__).'/Fixtures/phar/phar-sample.phar');
+        $this->assertSame('hello from phar', $loader->getSource('hello.twig'));
+    }
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

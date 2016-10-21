@@ -60,12 +60,20 @@ abstract class AbstractComparisonValidator extends ConstraintValidator
                     ->setParameter('{{ value }}', $this->formatValue($value, self::OBJECT_TO_STRING | self::PRETTY_DATE))
                     ->setParameter('{{ compared_value }}', $this->formatValue($comparedValue, self::OBJECT_TO_STRING | self::PRETTY_DATE))
                     ->setParameter('{{ compared_value_type }}', $this->formatTypeOf($comparedValue))
+<<<<<<< HEAD
+=======
+                    ->setCode($this->getErrorCode())
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             } else {
                 $this->buildViolation($constraint->message)
                     ->setParameter('{{ value }}', $this->formatValue($value, self::OBJECT_TO_STRING | self::PRETTY_DATE))
                     ->setParameter('{{ compared_value }}', $this->formatValue($comparedValue, self::OBJECT_TO_STRING | self::PRETTY_DATE))
                     ->setParameter('{{ compared_value_type }}', $this->formatTypeOf($comparedValue))
+<<<<<<< HEAD
+=======
+                    ->setCode($this->getErrorCode())
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             }
         }
@@ -80,4 +88,16 @@ abstract class AbstractComparisonValidator extends ConstraintValidator
      * @return bool true if the relationship is valid, false otherwise
      */
     abstract protected function compareValues($value1, $value2);
+<<<<<<< HEAD
+=======
+
+    /**
+     * Returns the error code used if the comparison fails.
+     *
+     * @return string|null The error code or `null` if no code should be set
+     */
+    protected function getErrorCode()
+    {
+    }
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

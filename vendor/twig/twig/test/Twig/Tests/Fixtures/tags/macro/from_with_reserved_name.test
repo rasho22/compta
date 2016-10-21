@@ -6,4 +6,8 @@
 --DATA--
 return array()
 --EXCEPTION--
+<<<<<<< HEAD
 Twig_Error_Syntax: "templateName" cannot be an imported macro as it is a reserved keyword in "index.twig" at line 2
+=======
+Twig_Error_Syntax: "templateName" cannot be an imported macro as it is a reserved keyword in "index.twig" at line 2.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af

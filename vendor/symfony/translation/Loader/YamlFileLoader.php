@@ -12,8 +12,11 @@
 namespace Symfony\Component\Translation\Loader;
 
 use Symfony\Component\Translation\Exception\InvalidResourceException;
+<<<<<<< HEAD
 use Symfony\Component\Translation\Exception\NotFoundResourceException;
 use Symfony\Component\Config\Resource\FileResource;
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\Yaml\Parser as YamlParser;
 use Symfony\Component\Yaml\Exception\ParseException;
 
@@ -22,13 +25,18 @@ use Symfony\Component\Yaml\Exception\ParseException;
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */
+<<<<<<< HEAD
 class YamlFileLoader extends ArrayLoader
+=======
+class YamlFileLoader extends FileLoader
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     private $yamlParser;
 
     /**
      * {@inheritdoc}
      */
+<<<<<<< HEAD
     public function load($resource, $locale, $domain = 'messages')
     {
         if (!stream_is_local($resource)) {
@@ -44,6 +52,15 @@ class YamlFileLoader extends ArrayLoader
         }
 
         if (null === $this->yamlParser) {
+=======
+    protected function loadResource($resource)
+    {
+        if (null === $this->yamlParser) {
+            if (!class_exists('Symfony\Component\Yaml\Parser')) {
+                throw new \LogicException('Loading translations from the YAML format requires the Symfony Yaml component.');
+            }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $this->yamlParser = new YamlParser();
         }
 
@@ -53,6 +70,7 @@ class YamlFileLoader extends ArrayLoader
             throw new InvalidResourceException(sprintf('Error parsing YAML, invalid file "%s"', $resource), 0, $e);
         }
 
+<<<<<<< HEAD
         // empty file
         if (null === $messages) {
             $messages = array();
@@ -70,5 +88,8 @@ class YamlFileLoader extends ArrayLoader
         }
 
         return $catalogue;
+=======
+        return $messages;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

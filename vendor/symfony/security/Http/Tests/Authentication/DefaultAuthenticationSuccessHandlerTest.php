@@ -69,6 +69,23 @@ class DefaultAuthenticationSuccessHandlerTest extends \PHPUnit_Framework_TestCas
         $this->assertSame($response, $result);
     }
 
+<<<<<<< HEAD
+=======
+    public function testTargetPathIsPassedAsNestedParameterWithRequest()
+    {
+        $this->request->expects($this->once())
+            ->method('get')->with('_target_path')
+            ->will($this->returnValue(array('value' => '/dashboard')));
+
+        $response = $this->expectRedirectResponse('/dashboard');
+
+        $handler = new DefaultAuthenticationSuccessHandler($this->httpUtils, array('target_path_parameter' => '_target_path[value]'));
+        $result = $handler->onAuthenticationSuccess($this->request, $this->token);
+
+        $this->assertSame($response, $result);
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testTargetPathParameterIsCustomised()
     {
         $options = array('target_path_parameter' => '_my_target_path');

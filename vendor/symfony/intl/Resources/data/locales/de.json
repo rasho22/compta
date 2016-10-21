@@ -47,8 +47,14 @@
         "be_BY": "Weißrussisch (Belarus)",
         "bg": "Bulgarisch",
         "bg_BG": "Bulgarisch (Bulgarien)",
+<<<<<<< HEAD
         "bm": "Bambara",
         "bm_ML": "Bambara (Mali)",
+=======
+        "bm": "Bambara-Sprache",
+        "bm_Latn": "Bambara-Sprache (Lateinisch)",
+        "bm_Latn_ML": "Bambara-Sprache (Lateinisch, Mali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "Bengalisch",
         "bn_BD": "Bengalisch (Bangladesch)",
         "bn_IN": "Bengalisch (Indien)",
@@ -68,8 +74,11 @@
         "ca_ES": "Katalanisch (Spanien)",
         "ca_FR": "Katalanisch (Frankreich)",
         "ca_IT": "Katalanisch (Italien)",
+<<<<<<< HEAD
         "ce": "Tschetschenisch",
         "ce_RU": "Tschetschenisch (Russland)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "Tschechisch",
         "cs_CZ": "Tschechisch (Tschechische Republik)",
         "cy": "Walisisch",
@@ -84,8 +93,13 @@
         "de_DE": "Deutsch (Deutschland)",
         "de_LI": "Deutsch (Liechtenstein)",
         "de_LU": "Deutsch (Luxemburg)",
+<<<<<<< HEAD
         "dz": "Dzongkha",
         "dz_BT": "Dzongkha (Bhutan)",
+=======
+        "dz": "Bhutanisch",
+        "dz_BT": "Bhutanisch (Bhutan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ee": "Ewe",
         "ee_GH": "Ewe (Ghana)",
         "ee_TG": "Ewe (Togo)",
@@ -96,17 +110,24 @@
         "en_AG": "Englisch (Antigua und Barbuda)",
         "en_AI": "Englisch (Anguilla)",
         "en_AS": "Englisch (Amerikanisch-Samoa)",
+<<<<<<< HEAD
         "en_AT": "Englisch (Österreich)",
         "en_AU": "Englisch (Australien)",
         "en_BB": "Englisch (Barbados)",
         "en_BE": "Englisch (Belgien)",
         "en_BI": "Englisch (Burundi)",
+=======
+        "en_AU": "Englisch (Australien)",
+        "en_BB": "Englisch (Barbados)",
+        "en_BE": "Englisch (Belgien)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "Englisch (Bermuda)",
         "en_BS": "Englisch (Bahamas)",
         "en_BW": "Englisch (Botsuana)",
         "en_BZ": "Englisch (Belize)",
         "en_CA": "Englisch (Kanada)",
         "en_CC": "Englisch (Kokosinseln)",
+<<<<<<< HEAD
         "en_CH": "Englisch (Schweiz)",
         "en_CK": "Englisch (Cookinseln)",
         "en_CM": "Englisch (Kamerun)",
@@ -118,6 +139,14 @@
         "en_DM": "Englisch (Dominica)",
         "en_ER": "Englisch (Eritrea)",
         "en_FI": "Englisch (Finnland)",
+=======
+        "en_CK": "Englisch (Cookinseln)",
+        "en_CM": "Englisch (Kamerun)",
+        "en_CX": "Englisch (Weihnachtsinsel)",
+        "en_DG": "Englisch (Diego Garcia)",
+        "en_DM": "Englisch (Dominica)",
+        "en_ER": "Englisch (Eritrea)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "Englisch (Fidschi)",
         "en_FK": "Englisch (Falklandinseln)",
         "en_FM": "Englisch (Mikronesien)",
@@ -131,7 +160,10 @@
         "en_GY": "Englisch (Guyana)",
         "en_HK": "Englisch (Sonderverwaltungszone Hongkong)",
         "en_IE": "Englisch (Irland)",
+<<<<<<< HEAD
         "en_IL": "Englisch (Israel)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "Englisch (Isle of Man)",
         "en_IN": "Englisch (Indien)",
         "en_IO": "Englisch (Britisches Territorium im Indischen Ozean)",
@@ -156,7 +188,10 @@
         "en_NA": "Englisch (Namibia)",
         "en_NF": "Englisch (Norfolkinsel)",
         "en_NG": "Englisch (Nigeria)",
+<<<<<<< HEAD
         "en_NL": "Englisch (Niederlande)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "Englisch (Nauru)",
         "en_NU": "Englisch (Niue)",
         "en_NZ": "Englisch (Neuseeland)",
@@ -170,10 +205,15 @@
         "en_SB": "Englisch (Salomonen)",
         "en_SC": "Englisch (Seychellen)",
         "en_SD": "Englisch (Sudan)",
+<<<<<<< HEAD
         "en_SE": "Englisch (Schweden)",
         "en_SG": "Englisch (Singapur)",
         "en_SH": "Englisch (St. Helena)",
         "en_SI": "Englisch (Slowenien)",
+=======
+        "en_SG": "Englisch (Singapur)",
+        "en_SH": "Englisch (St. Helena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "Englisch (Sierra Leone)",
         "en_SS": "Englisch (Südsudan)",
         "en_SX": "Englisch (Sint Maarten)",
@@ -185,7 +225,11 @@
         "en_TV": "Englisch (Tuvalu)",
         "en_TZ": "Englisch (Tansania)",
         "en_UG": "Englisch (Uganda)",
+<<<<<<< HEAD
         "en_UM": "Englisch (Amerikanische Überseeinseln)",
+=======
+        "en_UM": "Englisch (Amerikanisch-Ozeanien)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_US": "Englisch (Vereinigte Staaten)",
         "en_VC": "Englisch (St. Vincent und die Grenadinen)",
         "en_VG": "Englisch (Britische Jungferninseln)",
@@ -237,7 +281,10 @@
         "fi": "Finnisch",
         "fi_FI": "Finnisch (Finnland)",
         "fo": "Färöisch",
+<<<<<<< HEAD
         "fo_DK": "Färöisch (Dänemark)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "Färöisch (Färöer)",
         "fr": "Französisch",
         "fr_BE": "Französisch (Belgien)",
@@ -298,10 +345,21 @@
         "gu_IN": "Gujarati (Indien)",
         "gv": "Manx",
         "gv_IM": "Manx (Isle of Man)",
+<<<<<<< HEAD
         "ha": "Haussa",
         "ha_GH": "Haussa (Ghana)",
         "ha_NE": "Haussa (Niger)",
         "ha_NG": "Haussa (Nigeria)",
+=======
+        "ha": "Hausa",
+        "ha_GH": "Hausa (Ghana)",
+        "ha_Latn": "Hausa (Lateinisch)",
+        "ha_Latn_GH": "Hausa (Lateinisch, Ghana)",
+        "ha_Latn_NE": "Hausa (Lateinisch, Niger)",
+        "ha_Latn_NG": "Hausa (Lateinisch, Nigeria)",
+        "ha_NE": "Hausa (Niger)",
+        "ha_NG": "Hausa (Nigeria)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "he": "Hebräisch",
         "he_IL": "Hebräisch (Israel)",
         "hi": "Hindi",
@@ -332,21 +390,43 @@
         "ki": "Kikuyu",
         "ki_KE": "Kikuyu (Kenia)",
         "kk": "Kasachisch",
+<<<<<<< HEAD
         "kk_KZ": "Kasachisch (Kasachstan)",
         "kl": "Grönländisch",
         "kl_GL": "Grönländisch (Grönland)",
         "km": "Khmer",
         "km_KH": "Khmer (Kambodscha)",
+=======
+        "kk_Cyrl": "Kasachisch (Kyrillisch)",
+        "kk_Cyrl_KZ": "Kasachisch (Kyrillisch, Kasachstan)",
+        "kk_KZ": "Kasachisch (Kasachstan)",
+        "kl": "Grönländisch",
+        "kl_GL": "Grönländisch (Grönland)",
+        "km": "Kambodschanisch",
+        "km_KH": "Kambodschanisch (Kambodscha)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kn": "Kannada",
         "kn_IN": "Kannada (Indien)",
         "ko": "Koreanisch",
         "ko_KP": "Koreanisch (Nordkorea)",
         "ko_KR": "Koreanisch (Südkorea)",
+<<<<<<< HEAD
         "ks": "Kaschmiri",
         "ks_IN": "Kaschmiri (Indien)",
         "kw": "Kornisch",
         "kw_GB": "Kornisch (Vereinigtes Königreich)",
         "ky": "Kirgisisch",
+=======
+        "ks": "Kaschmirisch",
+        "ks_Arab": "Kaschmirisch (Arabisch)",
+        "ks_Arab_IN": "Kaschmirisch (Arabisch, Indien)",
+        "ks_IN": "Kaschmirisch (Indien)",
+        "kw": "Kornisch",
+        "kw_GB": "Kornisch (Vereinigtes Königreich)",
+        "ky": "Kirgisisch",
+        "ky_Cyrl": "Kirgisisch (Kyrillisch)",
+        "ky_Cyrl_KG": "Kirgisisch (Kyrillisch, Kirgisistan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "Kirgisisch (Kirgisistan)",
         "lb": "Luxemburgisch",
         "lb_LU": "Luxemburgisch (Luxemburg)",
@@ -372,11 +452,23 @@
         "ml": "Malayalam",
         "ml_IN": "Malayalam (Indien)",
         "mn": "Mongolisch",
+<<<<<<< HEAD
+=======
+        "mn_Cyrl": "Mongolisch (Kyrillisch)",
+        "mn_Cyrl_MN": "Mongolisch (Kyrillisch, Mongolei)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "Mongolisch (Mongolei)",
         "mr": "Marathi",
         "mr_IN": "Marathi (Indien)",
         "ms": "Malaiisch",
         "ms_BN": "Malaiisch (Brunei Darussalam)",
+<<<<<<< HEAD
+=======
+        "ms_Latn": "Malaiisch (Lateinisch)",
+        "ms_Latn_BN": "Malaiisch (Lateinisch, Brunei Darussalam)",
+        "ms_Latn_MY": "Malaiisch (Lateinisch, Malaysia)",
+        "ms_Latn_SG": "Malaiisch (Lateinisch, Singapur)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "Malaiisch (Malaysia)",
         "ms_SG": "Malaiisch (Singapur)",
         "mt": "Maltesisch",
@@ -386,8 +478,13 @@
         "nb": "Norwegisch Bokmål",
         "nb_NO": "Norwegisch Bokmål (Norwegen)",
         "nb_SJ": "Norwegisch Bokmål (Svalbard und Jan Mayen)",
+<<<<<<< HEAD
         "nd": "Nord-Ndebele",
         "nd_ZW": "Nord-Ndebele (Simbabwe)",
+=======
+        "nd": "Nord-Ndebele-Sprache",
+        "nd_ZW": "Nord-Ndebele-Sprache (Simbabwe)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "Nepalesisch",
         "ne_IN": "Nepalesisch (Indien)",
         "ne_NP": "Nepalesisch (Nepal)",
@@ -411,6 +508,7 @@
         "os": "Ossetisch",
         "os_GE": "Ossetisch (Georgien)",
         "os_RU": "Ossetisch (Russland)",
+<<<<<<< HEAD
         "pa": "Punjabi",
         "pa_Arab": "Punjabi (Arabisch)",
         "pa_Arab_PK": "Punjabi (Arabisch, Pakistan)",
@@ -418,6 +516,15 @@
         "pa_Guru_IN": "Punjabi (Gurmukhi, Indien)",
         "pa_IN": "Punjabi (Indien)",
         "pa_PK": "Punjabi (Pakistan)",
+=======
+        "pa": "Panjabi",
+        "pa_Arab": "Panjabi (Arabisch)",
+        "pa_Arab_PK": "Panjabi (Arabisch, Pakistan)",
+        "pa_Guru": "Panjabi (Gurmukhi)",
+        "pa_Guru_IN": "Panjabi (Gurmukhi, Indien)",
+        "pa_IN": "Panjabi (Indien)",
+        "pa_PK": "Panjabi (Pakistan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "pl": "Polnisch",
         "pl_PL": "Polnisch (Polen)",
         "ps": "Paschtu",
@@ -438,8 +545,13 @@
         "qu_PE": "Quechua (Peru)",
         "rm": "Rätoromanisch",
         "rm_CH": "Rätoromanisch (Schweiz)",
+<<<<<<< HEAD
         "rn": "Rundi",
         "rn_BI": "Rundi (Burundi)",
+=======
+        "rn": "Rundi-Sprache",
+        "rn_BI": "Rundi-Sprache (Burundi)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ro": "Rumänisch",
         "ro_MD": "Rumänisch (Republik Moldau)",
         "ro_RO": "Rumänisch (Rumänien)",
@@ -450,12 +562,21 @@
         "ru_MD": "Russisch (Republik Moldau)",
         "ru_RU": "Russisch (Russland)",
         "ru_UA": "Russisch (Ukraine)",
+<<<<<<< HEAD
         "rw": "Kinyarwanda",
         "rw_RW": "Kinyarwanda (Ruanda)",
         "se": "Nordsamisch",
         "se_FI": "Nordsamisch (Finnland)",
         "se_NO": "Nordsamisch (Norwegen)",
         "se_SE": "Nordsamisch (Schweden)",
+=======
+        "rw": "Ruandisch",
+        "rw_RW": "Ruandisch (Ruanda)",
+        "se": "Nord-Samisch",
+        "se_FI": "Nord-Samisch (Finnland)",
+        "se_NO": "Nord-Samisch (Norwegen)",
+        "se_SE": "Nord-Samisch (Schweden)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sg": "Sango",
         "sg_CF": "Sango (Zentralafrikanische Republik)",
         "sh": "Serbo-Kroatisch",
@@ -501,18 +622,32 @@
         "sw_KE": "Suaheli (Kenia)",
         "sw_TZ": "Suaheli (Tansania)",
         "sw_UG": "Suaheli (Uganda)",
+<<<<<<< HEAD
         "ta": "Tamil",
         "ta_IN": "Tamil (Indien)",
         "ta_LK": "Tamil (Sri Lanka)",
         "ta_MY": "Tamil (Malaysia)",
         "ta_SG": "Tamil (Singapur)",
+=======
+        "ta": "Tamilisch",
+        "ta_IN": "Tamilisch (Indien)",
+        "ta_LK": "Tamilisch (Sri Lanka)",
+        "ta_MY": "Tamilisch (Malaysia)",
+        "ta_SG": "Tamilisch (Singapur)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "te": "Telugu",
         "te_IN": "Telugu (Indien)",
         "th": "Thailändisch",
         "th_TH": "Thailändisch (Thailand)",
+<<<<<<< HEAD
         "ti": "Tigrinya",
         "ti_ER": "Tigrinya (Eritrea)",
         "ti_ET": "Tigrinya (Äthiopien)",
+=======
+        "ti": "Tigrinja",
+        "ti_ER": "Tigrinja (Eritrea)",
+        "ti_ET": "Tigrinja (Äthiopien)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tl": "Tagalog",
         "tl_PH": "Tagalog (Philippinen)",
         "to": "Tongaisch",
@@ -521,6 +656,11 @@
         "tr_CY": "Türkisch (Zypern)",
         "tr_TR": "Türkisch (Türkei)",
         "ug": "Uigurisch",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "Uigurisch (Arabisch)",
+        "ug_Arab_CN": "Uigurisch (Arabisch, China)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "Uigurisch (China)",
         "uk": "Ukrainisch",
         "uk_UA": "Ukrainisch (Ukraine)",

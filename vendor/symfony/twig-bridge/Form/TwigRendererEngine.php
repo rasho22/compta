@@ -70,11 +70,19 @@ class TwigRendererEngine extends AbstractRendererEngine implements TwigRendererE
      *
      * @see getResourceForBlock()
      *
+<<<<<<< HEAD
      * @param string   $cacheKey  The cache key of the form view.
      * @param FormView $view      The form view for finding the applying themes.
      * @param string   $blockName The name of the block to load.
      *
      * @return bool True if the resource could be loaded, false otherwise.
+=======
+     * @param string   $cacheKey  The cache key of the form view
+     * @param FormView $view      The form view for finding the applying themes
+     * @param string   $blockName The name of the block to load
+     *
+     * @return bool True if the resource could be loaded, false otherwise
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     protected function loadResourceForBlockName($cacheKey, FormView $view, $blockName)
     {
@@ -141,7 +149,11 @@ class TwigRendererEngine extends AbstractRendererEngine implements TwigRendererE
     /**
      * Loads the resources for all blocks in a theme.
      *
+<<<<<<< HEAD
      * @param string $cacheKey The cache key for storing the resource.
+=======
+     * @param string $cacheKey The cache key for storing the resource
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * @param mixed  $theme    The theme to load the block from. This parameter
      *                         is passed by reference, because it might be necessary
      *                         to initialize the theme first. Any changes made to

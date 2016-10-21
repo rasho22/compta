@@ -92,7 +92,11 @@ interface ConstraintViolationBuilderInterface
     /**
      * Sets the violation code.
      *
+<<<<<<< HEAD
      * @param int $code The violation code
+=======
+     * @param string|null $code The violation code
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *
      * @return ConstraintViolationBuilderInterface This builder
      */

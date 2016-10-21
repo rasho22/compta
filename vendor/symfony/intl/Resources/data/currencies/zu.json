@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.10.93",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AED": [
             "AED",
@@ -135,7 +139,11 @@
         ],
         "CUP": [
             "CUP",
+<<<<<<< HEAD
             "i-Cuban Peso"
+=======
+            "I-Cuban Peso"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CVE": [
             "CVE",
@@ -395,7 +403,11 @@
         ],
         "MZN": [
             "MZN",
+<<<<<<< HEAD
             "i-Mozambican Metical"
+=======
+            "I-Metical yase-Mozambicque"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "NAD": [
             "NAD",
@@ -459,7 +471,11 @@
         ],
         "RON": [
             "RON",
+<<<<<<< HEAD
             "i-Romanian Leu"
+=======
+            "I-Romanian Leu"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "RSD": [
             "RSD",
@@ -515,7 +531,11 @@
         ],
         "SSP": [
             "SSP",
+<<<<<<< HEAD
             "i-South Sudanese Pound"
+=======
+            "Upondo waseNingizimu Sudan"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "STD": [
             "STD",

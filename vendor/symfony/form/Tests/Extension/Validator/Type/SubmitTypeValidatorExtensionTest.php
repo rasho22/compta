@@ -15,6 +15,10 @@ class SubmitTypeValidatorExtensionTest extends BaseValidatorExtensionTest
 {
     protected function createForm(array $options = array())
     {
+<<<<<<< HEAD
         return $this->factory->create('submit', null, $options);
+=======
+        return $this->factory->create('Symfony\Component\Form\Extension\Core\Type\SubmitType', null, $options);
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.10.93",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "i-Ascension Island",
         "AD": "i-Andorra",
@@ -35,7 +39,11 @@
         "BR": "i-Brazil",
         "BS": "i-Bahamas",
         "BT": "i-Bhutan",
+<<<<<<< HEAD
         "BW": "iBotswana",
+=======
+        "BW": "i-Botswana",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BY": "i-Belarus",
         "BZ": "i-Belize",
         "CA": "i-Canada",
@@ -82,7 +90,11 @@
         "GB": "i-United Kingdom",
         "GD": "i-Grenada",
         "GE": "i-Georgia",
+<<<<<<< HEAD
         "GF": "i-French Guiana",
+=======
+        "GF": "isi-French Guiana",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GG": "i-Guernsey",
         "GH": "i-Ghana",
         "GI": "i-Gibraltar",
@@ -105,7 +117,11 @@
         "IC": "i-Canary Islands",
         "ID": "i-Indonesia",
         "IE": "i-Ireland",
+<<<<<<< HEAD
         "IL": "kwa-Israel",
+=======
+        "IL": "i-Israel",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "IM": "i-Isle of Man",
         "IN": "i-India",
         "IO": "i-British Indian Ocean Territory",
@@ -134,7 +150,11 @@
         "LI": "i-Liechtenstein",
         "LK": "i-Sri Lanka",
         "LR": "i-Liberia",
+<<<<<<< HEAD
         "LS": "iLesotho",
+=======
+        "LS": "i-Lesotho",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LT": "i-Lithuania",
         "LU": "i-Luxembourg",
         "LV": "i-Latvia",
@@ -147,7 +167,11 @@
         "MG": "i-Madagascar",
         "MH": "i-Marshall Islands",
         "MK": "i-Macedonia",
+<<<<<<< HEAD
         "ML": "iMali",
+=======
+        "ML": "i-Mali",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MM": "i-Myanmar (Burma)",
         "MN": "i-Mongolia",
         "MO": "i-Macau SAR China",
@@ -158,7 +182,11 @@
         "MT": "i-Malta",
         "MU": "i-Mauritius",
         "MV": "i-Maldives",
+<<<<<<< HEAD
         "MW": "iMalawi",
+=======
+        "MW": "i-Malawi",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MX": "i-Mexico",
         "MY": "i-Malaysia",
         "MZ": "i-Mozambique",
@@ -213,7 +241,11 @@
         "SS": "i-South Sudan",
         "ST": "i-São Tomé kanye ne-Príncipe",
         "SV": "i-El Salvador",
+<<<<<<< HEAD
         "SX": "i-Sint Maarten",
+=======
+        "SX": "I-Sint Maarten",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SY": "i-Syria",
         "SZ": "i-Swaziland",
         "TA": "i-Tristan da Cunha",
@@ -253,6 +285,10 @@
         "YT": "i-Mayotte",
         "ZA": "i-South Africa",
         "ZM": "i-Zambia",
+<<<<<<< HEAD
         "ZW": "iZimbabwe"
+=======
+        "ZW": "i-Zimbabwe"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

@@ -14,6 +14,11 @@ namespace Symfony\Component\Security\Core\Authentication;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
+<<<<<<< HEAD
+=======
+ * @deprecated Since version 2.8, to be removed in 3.0. Use the same interface from Security\Http\Authentication instead.
+ *
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  * @author Jordi Boggiano <j.boggiano@seld.be>
  */
 interface SimplePreAuthenticatorInterface extends SimpleAuthenticatorInterface

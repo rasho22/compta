@@ -16,11 +16,16 @@ use Symfony\Component\Translation\Dumper\IniFileDumper;
 
 class IniFileDumperTest extends \PHPUnit_Framework_TestCase
 {
+<<<<<<< HEAD
     public function testDump()
+=======
+    public function testFormatCatalogue()
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         $catalogue = new MessageCatalogue('en');
         $catalogue->add(array('foo' => 'bar'));
 
+<<<<<<< HEAD
         $tempDir = sys_get_temp_dir();
         $dumper = new IniFileDumper();
         $dumper->dump($catalogue, array('path' => $tempDir));
@@ -28,5 +33,10 @@ class IniFileDumperTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(file_get_contents(__DIR__.'/../fixtures/resources.ini'), file_get_contents($tempDir.'/messages.en.ini'));
 
         unlink($tempDir.'/messages.en.ini');
+=======
+        $dumper = new IniFileDumper();
+
+        $this->assertStringEqualsFile(__DIR__.'/../fixtures/resources.ini', $dumper->formatCatalogue($catalogue, 'messages'));
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

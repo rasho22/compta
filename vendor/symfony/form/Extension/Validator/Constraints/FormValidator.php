@@ -13,6 +13,10 @@ namespace Symfony\Component\Form\Extension\Validator\Constraints;
 
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\Validator\Constraint;
+<<<<<<< HEAD
+=======
+use Symfony\Component\Validator\Constraints\Valid;
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\Validator\ConstraintValidator;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;
@@ -63,6 +67,23 @@ class FormValidator extends ConstraintValidator
             // in the form
             $constraints = $config->getOption('constraints', array());
             foreach ($constraints as $constraint) {
+<<<<<<< HEAD
+=======
+                // For the "Valid" constraint, validate the data in all groups
+                if ($constraint instanceof Valid) {
+                    if ($validator) {
+                        $validator->atPath('data')->validate($form->getData(), $constraint, $groups);
+                    } else {
+                        // 2.4 API
+                        $this->context->validateValue($form->getData(), $constraint, 'data', $groups);
+                    }
+
+                    continue;
+                }
+
+                // Otherwise validate a constraint only once for the first
+                // matching group
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 foreach ($groups as $group) {
                     if (in_array($group, $constraint->groups)) {
                         if ($validator) {

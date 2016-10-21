@@ -13,7 +13,11 @@ Here is a small example of a macro that renders a form element:
         <input type="{{ type|default('text') }}" name="{{ name }}" value="{{ value|e }}" size="{{ size|default(20) }}" />
     {% endmacro %}
 
+<<<<<<< HEAD
 Macros differs from native PHP functions in a few ways:
+=======
+Macros differ from native PHP functions in a few ways:
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 * Default argument values are defined by using the ``default`` filter in the
   macro body;
@@ -31,6 +35,12 @@ variables.
     You can pass the whole context as an argument by using the special
     ``_context`` variable.
 
+<<<<<<< HEAD
+=======
+Import
+------
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 Macros can be defined in any template, and need to be "imported" before being
 used (see the documentation for the :doc:`import<../tags/import>` tag for more
 information):
@@ -83,4 +93,21 @@ import it locally:
         </div>
     {% endmacro %}
 
+<<<<<<< HEAD
+=======
+Named Macro End-Tags
+--------------------
+
+Twig allows you to put the name of the macro after the end tag for better
+readability:
+
+.. code-block:: jinja
+
+    {% macro input() %}
+        ...
+    {% endmacro input %}
+
+Of course, the name after the ``endmacro`` word must match the macro name.
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 .. seealso:: :doc:`from<../tags/from>`, :doc:`import<../tags/import>`

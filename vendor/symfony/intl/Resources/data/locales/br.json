@@ -37,18 +37,32 @@
         "ar_YE": "arabeg (Yemen)",
         "as": "asameg",
         "as_IN": "asameg (India)",
+<<<<<<< HEAD
         "az": "azerbaidjaneg",
         "az_AZ": "azerbaidjaneg (Azerbaidjan)",
         "az_Cyrl": "azerbaidjaneg (kirillek)",
         "az_Cyrl_AZ": "azerbaidjaneg (kirillek, Azerbaidjan)",
         "az_Latn": "azerbaidjaneg (latin)",
         "az_Latn_AZ": "azerbaidjaneg (latin, Azerbaidjan)",
+=======
+        "az": "azeri",
+        "az_AZ": "azeri (Azerbaidjan)",
+        "az_Cyrl": "azeri (kirillek)",
+        "az_Cyrl_AZ": "azeri (kirillek, Azerbaidjan)",
+        "az_Latn": "azeri (latin)",
+        "az_Latn_AZ": "azeri (latin, Azerbaidjan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "be": "belaruseg",
         "be_BY": "belaruseg (Belarus)",
         "bg": "bulgareg",
         "bg_BG": "bulgareg (Bulgaria)",
         "bm": "bambara",
+<<<<<<< HEAD
         "bm_ML": "bambara (Mali)",
+=======
+        "bm_Latn": "bambara (latin)",
+        "bm_Latn_ML": "bambara (latin, Mali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengali",
         "bn_BD": "bengali (Bangladesh)",
         "bn_IN": "bengali (India)",
@@ -68,8 +82,11 @@
         "ca_ES": "katalaneg (Spagn)",
         "ca_FR": "katalaneg (Frañs)",
         "ca_IT": "katalaneg (Italia)",
+<<<<<<< HEAD
         "ce": "tchetcheneg",
         "ce_RU": "tchetcheneg (Rusia)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "tchekeg",
         "cs_CZ": "tchekeg (Republik Tchek)",
         "cy": "kembraeg",
@@ -96,17 +113,24 @@
         "en_AG": "saozneg (Antigua ha Barbuda)",
         "en_AI": "saozneg (Anguilla)",
         "en_AS": "saozneg (Samoa Amerikan)",
+<<<<<<< HEAD
         "en_AT": "saozneg (Aostria)",
         "en_AU": "saozneg (Aostralia)",
         "en_BB": "saozneg (Barbados)",
         "en_BE": "saozneg (Belgia)",
         "en_BI": "saozneg (Burundi)",
+=======
+        "en_AU": "saozneg (Aostralia)",
+        "en_BB": "saozneg (Barbados)",
+        "en_BE": "saozneg (Belgia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "saozneg (Bermuda)",
         "en_BS": "saozneg (Bahamas)",
         "en_BW": "saozneg (Botswana)",
         "en_BZ": "saozneg (Belize)",
         "en_CA": "saozneg (Kanada)",
         "en_CC": "saozneg (Inizi Kokoz)",
+<<<<<<< HEAD
         "en_CH": "saozneg (Suis)",
         "en_CK": "saozneg (Inizi Cook)",
         "en_CM": "saozneg (Kameroun)",
@@ -118,6 +142,14 @@
         "en_DM": "saozneg (Dominica)",
         "en_ER": "saozneg (Eritrea)",
         "en_FI": "saozneg (Finland)",
+=======
+        "en_CK": "saozneg (Inizi Cook)",
+        "en_CM": "saozneg (Kameroun)",
+        "en_CX": "saozneg (Enez Christmas)",
+        "en_DG": "saozneg (Diego Garcia)",
+        "en_DM": "saozneg (Dominica)",
+        "en_ER": "saozneg (Eritrea)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "saozneg (Fidji)",
         "en_FK": "saozneg (Inizi Falkland)",
         "en_FM": "saozneg (Mikronezia)",
@@ -131,7 +163,10 @@
         "en_GY": "saozneg (Guyana)",
         "en_HK": "saozneg (Hong Kong RMD Sina)",
         "en_IE": "saozneg (Iwerzhon)",
+<<<<<<< HEAD
         "en_IL": "saozneg (Israel)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "saozneg (Enez Vanav)",
         "en_IN": "saozneg (India)",
         "en_IO": "saozneg (Tiriad breizhveurat Meurvor Indez)",
@@ -156,7 +191,10 @@
         "en_NA": "saozneg (Namibia)",
         "en_NF": "saozneg (Enez Norfolk)",
         "en_NG": "saozneg (Nigeria)",
+<<<<<<< HEAD
         "en_NL": "saozneg (Izelvroioù)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "saozneg (Nauru)",
         "en_NU": "saozneg (Niue)",
         "en_NZ": "saozneg (Zeland-Nevez)",
@@ -167,6 +205,7 @@
         "en_PR": "saozneg (Puerto Rico)",
         "en_PW": "saozneg (Palau)",
         "en_RW": "saozneg (Rwanda)",
+<<<<<<< HEAD
         "en_SB": "saozneg (Inizi Salomon)",
         "en_SC": "saozneg (Sechelez)",
         "en_SD": "saozneg (Soudan)",
@@ -174,6 +213,13 @@
         "en_SG": "saozneg (Singapour)",
         "en_SH": "saozneg (Saint-Helena)",
         "en_SI": "saozneg (Slovenia)",
+=======
+        "en_SB": "saozneg (Salomon)",
+        "en_SC": "saozneg (Sechelez)",
+        "en_SD": "saozneg (Soudan)",
+        "en_SG": "saozneg (Singapour)",
+        "en_SH": "saozneg (Saint-Helena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "saozneg (Sierra Leone)",
         "en_SS": "saozneg (Susoudan)",
         "en_SX": "saozneg (Sint Maarten)",
@@ -232,7 +278,10 @@
         "fi": "finneg",
         "fi_FI": "finneg (Finland)",
         "fo": "faeroeg",
+<<<<<<< HEAD
         "fo_DK": "faeroeg (Danmark)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "faeroeg (Inizi Faero)",
         "fr": "galleg",
         "fr_BE": "galleg (Belgia)",
@@ -270,7 +319,11 @@
         "fr_NE": "galleg (Niger)",
         "fr_PF": "galleg (Polinezia Cʼhall)",
         "fr_PM": "galleg (Sant-Pêr-ha-Mikelon)",
+<<<<<<< HEAD
         "fr_RE": "galleg (Ar Reünion)",
+=======
+        "fr_RE": "galleg (Reünion)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_RW": "galleg (Rwanda)",
         "fr_SC": "galleg (Sechelez)",
         "fr_SN": "galleg (Senegal)",
@@ -295,6 +348,13 @@
         "gv_IM": "manaveg (Enez Vanav)",
         "ha": "haousa",
         "ha_GH": "haousa (Ghana)",
+<<<<<<< HEAD
+=======
+        "ha_Latn": "haousa (latin)",
+        "ha_Latn_GH": "haousa (latin, Ghana)",
+        "ha_Latn_NE": "haousa (latin, Niger)",
+        "ha_Latn_NG": "haousa (latin, Nigeria)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "haousa (Niger)",
         "ha_NG": "haousa (Nigeria)",
         "he": "hebraeg",
@@ -327,6 +387,11 @@
         "ki": "kikuyu",
         "ki_KE": "kikuyu (Kenya)",
         "kk": "kazak",
+<<<<<<< HEAD
+=======
+        "kk_Cyrl": "kazak (kirillek)",
+        "kk_Cyrl_KZ": "kazak (kirillek, Kazakstan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "kazak (Kazakstan)",
         "km": "khmer",
         "km_KH": "khmer (Kambodja)",
@@ -336,10 +401,20 @@
         "ko_KP": "koreaneg (Korea an Norzh)",
         "ko_KR": "koreaneg (Korea ar Su)",
         "ks": "kashmiri",
+<<<<<<< HEAD
+=======
+        "ks_Arab": "kashmiri (arabek)",
+        "ks_Arab_IN": "kashmiri (arabek, India)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "kashmiri (India)",
         "kw": "kerneveureg",
         "kw_GB": "kerneveureg (Rouantelezh-Unanet)",
         "ky": "kirgiz",
+<<<<<<< HEAD
+=======
+        "ky_Cyrl": "kirgiz (kirillek)",
+        "ky_Cyrl_KG": "kirgiz (kirillek, Kyrgyzstan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "kirgiz (Kyrgyzstan)",
         "lb": "luksembourgeg",
         "lb_LU": "luksembourgeg (Luksembourg)",
@@ -365,11 +440,23 @@
         "ml": "malayalam",
         "ml_IN": "malayalam (India)",
         "mn": "mongoleg",
+<<<<<<< HEAD
+=======
+        "mn_Cyrl": "mongoleg (kirillek)",
+        "mn_Cyrl_MN": "mongoleg (kirillek, Mongolia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongoleg (Mongolia)",
         "mr": "marathi",
         "mr_IN": "marathi (India)",
         "ms": "malayseg",
         "ms_BN": "malayseg (Brunei)",
+<<<<<<< HEAD
+=======
+        "ms_Latn": "malayseg (latin)",
+        "ms_Latn_BN": "malayseg (latin, Brunei)",
+        "ms_Latn_MY": "malayseg (latin, Malaysia)",
+        "ms_Latn_SG": "malayseg (latin, Singapour)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "malayseg (Malaysia)",
         "ms_SG": "malayseg (Singapour)",
         "mt": "malteg",
@@ -387,7 +474,11 @@
         "nl": "nederlandeg",
         "nl_AW": "nederlandeg (Aruba)",
         "nl_BE": "nederlandeg (Belgia)",
+<<<<<<< HEAD
         "nl_BQ": "nederlandeg (Karib Nederlandat)",
+=======
+        "nl_BQ": "nederlandeg (Nederlandat Karib)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nl_CW": "nederlandeg (Curaçao)",
         "nl_NL": "nederlandeg (Izelvroioù)",
         "nl_SR": "nederlandeg (Surinam)",
@@ -415,7 +506,11 @@
         "pt": "portugaleg",
         "pt_AO": "portugaleg (Angola)",
         "pt_BR": "portugaleg (Brazil)",
+<<<<<<< HEAD
         "pt_CV": "portugaleg (Kab-Glas)",
+=======
+        "pt_CV": "portugaleg (Kab Glas)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "pt_GW": "portugaleg (Ginea-Bissau)",
         "pt_MO": "portugaleg (Macau RMD Sina)",
         "pt_MZ": "portugaleg (Mozambik)",
@@ -511,6 +606,11 @@
         "tr_CY": "turkeg (Kiprenez)",
         "tr_TR": "turkeg (Turkia)",
         "ug": "ouigoureg",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "ouigoureg (arabek)",
+        "ug_Arab_CN": "ouigoureg (arabek, Sina)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "ouigoureg (Sina)",
         "uk": "ukraineg",
         "uk_UA": "ukraineg (Ukraina)",

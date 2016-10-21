@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "Version": "2.1.22.93",
+=======
+    "Version": "2.1.13.6",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "Afak": "afaka",
         "Arab": "arabo",
@@ -158,6 +162,10 @@
         "Zsym": "simboli",
         "Zxxx": "non scritto",
         "Zyyy": "comune",
+<<<<<<< HEAD
         "Zzzz": "scrittura sconosciuta"
+=======
+        "Zzzz": "ignoto o non valido"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

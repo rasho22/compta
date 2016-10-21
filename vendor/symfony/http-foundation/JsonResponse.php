@@ -27,7 +27,11 @@ class JsonResponse extends Response
     protected $data;
     protected $callback;
 
+<<<<<<< HEAD
     // Encode <, >, ', &, and " characters in the JSON, making it also safe to be embedded into HTML.
+=======
+    // Encode <, >, ', &, and " for RFC4627-compliant JSON, which may also be embedded into HTML.
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     // 15 === JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT
     protected $encodingOptions = 15;
 
@@ -50,6 +54,7 @@ class JsonResponse extends Response
     }
 
     /**
+<<<<<<< HEAD
      * Factory method for chainability.
      *
      * Example:
@@ -62,6 +67,9 @@ class JsonResponse extends Response
      * @param array $headers An array of response headers
      *
      * @return JsonResponse
+=======
+     * {@inheritdoc}
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public static function create($data = null, $status = 200, $headers = array())
     {
@@ -113,6 +121,7 @@ class JsonResponse extends Response
             $data = json_encode($data, $this->encodingOptions);
         } else {
             try {
+<<<<<<< HEAD
                 if (PHP_VERSION_ID < 50400) {
                     // PHP 5.3 triggers annoying warnings for some
                     // types that can't be serialized as JSON (INF, resources, etc.)
@@ -146,6 +155,14 @@ class JsonResponse extends Response
                     restore_error_handler();
                 }
                 if (PHP_VERSION_ID >= 50400 && 'Exception' === get_class($e) && 0 === strpos($e->getMessage(), 'Failed calling ')) {
+=======
+                // PHP 5.4 and up wrap exceptions thrown by JsonSerializable
+                // objects in a new exception that needs to be removed.
+                // Fortunately, PHP 5.5 and up do not trigger any warning anymore.
+                $data = json_encode($data, $this->encodingOptions);
+            } catch (\Exception $e) {
+                if ('Exception' === get_class($e) && 0 === strpos($e->getMessage(), 'Failed calling ')) {
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     throw $e->getPrevious() ?: $e;
                 }
                 throw $e;

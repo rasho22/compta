@@ -22,7 +22,11 @@ class RememberMeTokenTest extends \PHPUnit_Framework_TestCase
         $token = new RememberMeToken($user, 'fookey', 'foo');
 
         $this->assertEquals('fookey', $token->getProviderKey());
+<<<<<<< HEAD
         $this->assertEquals('foo', $token->getKey());
+=======
+        $this->assertEquals('foo', $token->getSecret());
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->assertEquals(array(new Role('ROLE_FOO')), $token->getRoles());
         $this->assertSame($user, $token->getUser());
         $this->assertTrue($token->isAuthenticated());
@@ -31,7 +35,11 @@ class RememberMeTokenTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \InvalidArgumentException
      */
+<<<<<<< HEAD
     public function testConstructorKeyCannotBeNull()
+=======
+    public function testConstructorSecretCannotBeNull()
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         new RememberMeToken(
             $this->getUser(),
@@ -43,7 +51,11 @@ class RememberMeTokenTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \InvalidArgumentException
      */
+<<<<<<< HEAD
     public function testConstructorKeyCannotBeEmptyString()
+=======
+    public function testConstructorSecretCannotBeEmptyString()
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         new RememberMeToken(
             $this->getUser(),

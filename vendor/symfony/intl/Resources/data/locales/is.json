@@ -48,7 +48,12 @@
         "bg": "búlgarska",
         "bg_BG": "búlgarska (Búlgaría)",
         "bm": "bambara",
+<<<<<<< HEAD
         "bm_ML": "bambara (Malí)",
+=======
+        "bm_Latn": "bambara (latneskt)",
+        "bm_Latn_ML": "bambara (latneskt, Malí)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengalska",
         "bn_BD": "bengalska (Bangladess)",
         "bn_IN": "bengalska (Indland)",
@@ -68,8 +73,11 @@
         "ca_ES": "katalónska (Spánn)",
         "ca_FR": "katalónska (Frakkland)",
         "ca_IT": "katalónska (Ítalía)",
+<<<<<<< HEAD
         "ce": "tsjetsjenska",
         "ce_RU": "tsjetsjenska (Rússland)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "tékkneska",
         "cs_CZ": "tékkneska (Tékkland)",
         "cy": "velska",
@@ -96,17 +104,24 @@
         "en_AG": "enska (Antígva og Barbúda)",
         "en_AI": "enska (Angvilla)",
         "en_AS": "enska (Bandaríska Samóa)",
+<<<<<<< HEAD
         "en_AT": "enska (Austurríki)",
         "en_AU": "enska (Ástralía)",
         "en_BB": "enska (Barbados)",
         "en_BE": "enska (Belgía)",
         "en_BI": "enska (Búrúndí)",
+=======
+        "en_AU": "enska (Ástralía)",
+        "en_BB": "enska (Barbados)",
+        "en_BE": "enska (Belgía)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "enska (Bermúdaeyjar)",
         "en_BS": "enska (Bahamaeyjar)",
         "en_BW": "enska (Botsvana)",
         "en_BZ": "enska (Belís)",
         "en_CA": "enska (Kanada)",
         "en_CC": "enska (Kókoseyjar (Keeling))",
+<<<<<<< HEAD
         "en_CH": "enska (Sviss)",
         "en_CK": "enska (Cooks-eyjar)",
         "en_CM": "enska (Kamerún)",
@@ -119,6 +134,15 @@
         "en_ER": "enska (Erítrea)",
         "en_FI": "enska (Finnland)",
         "en_FJ": "enska (Fídjíeyjar)",
+=======
+        "en_CK": "enska (Cooks-eyjar)",
+        "en_CM": "enska (Kamerún)",
+        "en_CX": "enska (Jólaey)",
+        "en_DG": "enska (Diego Garcia)",
+        "en_DM": "enska (Dóminíka)",
+        "en_ER": "enska (Erítrea)",
+        "en_FJ": "enska (Fídjieyjar)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FK": "enska (Falklandseyjar)",
         "en_FM": "enska (Míkrónesía)",
         "en_GB": "enska (Bretland)",
@@ -131,7 +155,10 @@
         "en_GY": "enska (Gvæjana)",
         "en_HK": "enska (Sjálfstjórnarsvæðið Hong Kong)",
         "en_IE": "enska (Írland)",
+<<<<<<< HEAD
         "en_IL": "enska (Ísrael)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "enska (Mön)",
         "en_IN": "enska (Indland)",
         "en_IO": "enska (Bresku Indlandshafseyjar)",
@@ -156,7 +183,10 @@
         "en_NA": "enska (Namibía)",
         "en_NF": "enska (Norfolkeyja)",
         "en_NG": "enska (Nígería)",
+<<<<<<< HEAD
         "en_NL": "enska (Holland)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "enska (Nárú)",
         "en_NU": "enska (Niue)",
         "en_NZ": "enska (Nýja-Sjáland)",
@@ -170,6 +200,7 @@
         "en_SB": "enska (Salómonseyjar)",
         "en_SC": "enska (Seychelles-eyjar)",
         "en_SD": "enska (Súdan)",
+<<<<<<< HEAD
         "en_SE": "enska (Svíþjóð)",
         "en_SG": "enska (Singapúr)",
         "en_SH": "enska (Sankti Helena)",
@@ -177,6 +208,13 @@
         "en_SL": "enska (Síerra Leóne)",
         "en_SS": "enska (Suður-Súdan)",
         "en_SX": "enska (Sankti Martin)",
+=======
+        "en_SG": "enska (Singapúr)",
+        "en_SH": "enska (Sankti Helena)",
+        "en_SL": "enska (Síerra Leóne)",
+        "en_SS": "enska (Suður-Súdan)",
+        "en_SX": "enska (Sint Maarten)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SZ": "enska (Svasíland)",
         "en_TC": "enska (Turks- og Caicoseyjar)",
         "en_TK": "enska (Tókelá)",
@@ -237,14 +275,21 @@
         "fi": "finnska",
         "fi_FI": "finnska (Finnland)",
         "fo": "færeyska",
+<<<<<<< HEAD
         "fo_DK": "færeyska (Danmörk)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "færeyska (Færeyjar)",
         "fr": "franska",
         "fr_BE": "franska (Belgía)",
         "fr_BF": "franska (Búrkína Fasó)",
         "fr_BI": "franska (Búrúndí)",
         "fr_BJ": "franska (Benín)",
+<<<<<<< HEAD
         "fr_BL": "franska (Sankti Bartólómeusareyjar)",
+=======
+        "fr_BL": "franska (Saint Barthélemy)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_CA": "franska (Kanada)",
         "fr_CD": "franska (Kongó-Kinshasa)",
         "fr_CF": "franska (Mið-Afríkulýðveldið)",
@@ -265,7 +310,11 @@
         "fr_LU": "franska (Lúxemborg)",
         "fr_MA": "franska (Marokkó)",
         "fr_MC": "franska (Mónakó)",
+<<<<<<< HEAD
         "fr_MF": "franska (St. Martin)",
+=======
+        "fr_MF": "franska (Saint Martin)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_MG": "franska (Madagaskar)",
         "fr_ML": "franska (Malí)",
         "fr_MQ": "franska (Martiník)",
@@ -300,6 +349,13 @@
         "gv_IM": "manska (Mön)",
         "ha": "hása",
         "ha_GH": "hása (Gana)",
+<<<<<<< HEAD
+=======
+        "ha_Latn": "hása (latneskt)",
+        "ha_Latn_GH": "hása (latneskt, Gana)",
+        "ha_Latn_NE": "hása (latneskt, Níger)",
+        "ha_Latn_NG": "hása (latneskt, Nígería)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "hása (Níger)",
         "ha_NG": "hása (Nígería)",
         "he": "hebreska",
@@ -332,6 +388,11 @@
         "ki": "kíkújú",
         "ki_KE": "kíkújú (Kenía)",
         "kk": "kasakska",
+<<<<<<< HEAD
+=======
+        "kk_Cyrl": "kasakska (kyrillískt)",
+        "kk_Cyrl_KZ": "kasakska (kyrillískt, Kasakstan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "kasakska (Kasakstan)",
         "kl": "grænlenska",
         "kl_GL": "grænlenska (Grænland)",
@@ -343,10 +404,20 @@
         "ko_KP": "kóreska (Norður-Kórea)",
         "ko_KR": "kóreska (Suður-Kórea)",
         "ks": "kasmírska",
+<<<<<<< HEAD
+=======
+        "ks_Arab": "kasmírska (arabískt)",
+        "ks_Arab_IN": "kasmírska (arabískt, Indland)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "kasmírska (Indland)",
         "kw": "kornbreska",
         "kw_GB": "kornbreska (Bretland)",
         "ky": "kirgiska",
+<<<<<<< HEAD
+=======
+        "ky_Cyrl": "kirgiska (kyrillískt)",
+        "ky_Cyrl_KG": "kirgiska (kyrillískt, Kirgistan)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "kirgiska (Kirgistan)",
         "lb": "lúxemborgíska",
         "lb_LU": "lúxemborgíska (Lúxemborg)",
@@ -372,11 +443,23 @@
         "ml": "malajalam",
         "ml_IN": "malajalam (Indland)",
         "mn": "mongólska",
+<<<<<<< HEAD
+=======
+        "mn_Cyrl": "mongólska (kyrillískt)",
+        "mn_Cyrl_MN": "mongólska (kyrillískt, Mongólía)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongólska (Mongólía)",
         "mr": "maratí",
         "mr_IN": "maratí (Indland)",
         "ms": "malaíska",
         "ms_BN": "malaíska (Brúnei)",
+<<<<<<< HEAD
+=======
+        "ms_Latn": "malaíska (latneskt)",
+        "ms_Latn_BN": "malaíska (latneskt, Brúnei)",
+        "ms_Latn_MY": "malaíska (latneskt, Malasía)",
+        "ms_Latn_SG": "malaíska (latneskt, Singapúr)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "malaíska (Malasía)",
         "ms_SG": "malaíska (Singapúr)",
         "mt": "maltneska",
@@ -398,7 +481,11 @@
         "nl_CW": "hollenska (Curacao)",
         "nl_NL": "hollenska (Holland)",
         "nl_SR": "hollenska (Súrínam)",
+<<<<<<< HEAD
         "nl_SX": "hollenska (Sankti Martin)",
+=======
+        "nl_SX": "hollenska (Sint Maarten)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nn": "nýnorska",
         "nn_NO": "nýnorska (Noregur)",
         "no": "norska",
@@ -521,6 +608,11 @@
         "tr_CY": "tyrkneska (Kýpur)",
         "tr_TR": "tyrkneska (Tyrkland)",
         "ug": "úígúr",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "úígúr (arabískt)",
+        "ug_Arab_CN": "úígúr (arabískt, Kína)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "úígúr (Kína)",
         "uk": "úkraínska",
         "uk_UA": "úkraínska (Úkraína)",

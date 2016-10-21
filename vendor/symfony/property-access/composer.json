@@ -16,7 +16,11 @@
         }
     ],
     "require": {
+<<<<<<< HEAD
         "php": ">=5.3.9"
+=======
+        "php": ">=5.5.9"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     },
     "autoload": {
         "psr-4": { "Symfony\\Component\\PropertyAccess\\": "" },
@@ -27,7 +31,11 @@
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
+<<<<<<< HEAD
             "dev-master": "2.8-dev"
+=======
+            "dev-master": "3.0-dev"
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
     }
 }

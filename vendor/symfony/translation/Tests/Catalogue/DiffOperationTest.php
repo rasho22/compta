@@ -12,6 +12,7 @@
 namespace Symfony\Component\Translation\Tests\Catalogue;
 
 use Symfony\Component\Translation\Catalogue\DiffOperation;
+<<<<<<< HEAD
 use Symfony\Component\Translation\MessageCatalogue;
 use Symfony\Component\Translation\MessageCatalogueInterface;
 
@@ -75,6 +76,15 @@ class DiffOperationTest extends AbstractOperationTest
         );
     }
 
+=======
+use Symfony\Component\Translation\MessageCatalogueInterface;
+
+/**
+ * @group legacy
+ */
+class DiffOperationTest extends TargetOperationTest
+{
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     protected function createOperation(MessageCatalogueInterface $source, MessageCatalogueInterface $target)
     {
         return new DiffOperation($source, $target);

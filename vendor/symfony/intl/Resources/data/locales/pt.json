@@ -48,7 +48,12 @@
         "bg": "búlgaro",
         "bg_BG": "búlgaro (Bulgária)",
         "bm": "bambara",
+<<<<<<< HEAD
         "bm_ML": "bambara (Mali)",
+=======
+        "bm_Latn": "bambara (latim)",
+        "bm_Latn_ML": "bambara (latim, Mali)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengali",
         "bn_BD": "bengali (Bangladesh)",
         "bn_IN": "bengali (Índia)",
@@ -68,8 +73,11 @@
         "ca_ES": "catalão (Espanha)",
         "ca_FR": "catalão (França)",
         "ca_IT": "catalão (Itália)",
+<<<<<<< HEAD
         "ce": "checheno",
         "ce_RU": "checheno (Rússia)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "tcheco",
         "cs_CZ": "tcheco (República Tcheca)",
         "cy": "galês",
@@ -96,17 +104,24 @@
         "en_AG": "inglês (Antígua e Barbuda)",
         "en_AI": "inglês (Anguilla)",
         "en_AS": "inglês (Samoa Americana)",
+<<<<<<< HEAD
         "en_AT": "inglês (Áustria)",
         "en_AU": "inglês (Austrália)",
         "en_BB": "inglês (Barbados)",
         "en_BE": "inglês (Bélgica)",
         "en_BI": "inglês (Burundi)",
+=======
+        "en_AU": "inglês (Austrália)",
+        "en_BB": "inglês (Barbados)",
+        "en_BE": "inglês (Bélgica)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "inglês (Bermudas)",
         "en_BS": "inglês (Bahamas)",
         "en_BW": "inglês (Botsuana)",
         "en_BZ": "inglês (Belize)",
         "en_CA": "inglês (Canadá)",
         "en_CC": "inglês (Ilhas Cocos (Keeling))",
+<<<<<<< HEAD
         "en_CH": "inglês (Suíça)",
         "en_CK": "inglês (Ilhas Cook)",
         "en_CM": "inglês (República dos Camarões)",
@@ -118,6 +133,14 @@
         "en_DM": "inglês (Dominica)",
         "en_ER": "inglês (Eritreia)",
         "en_FI": "inglês (Finlândia)",
+=======
+        "en_CK": "inglês (Ilhas Cook)",
+        "en_CM": "inglês (República dos Camarões)",
+        "en_CX": "inglês (Ilha Christmas)",
+        "en_DG": "inglês (Diego Garcia)",
+        "en_DM": "inglês (Dominica)",
+        "en_ER": "inglês (Eritreia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "inglês (Fiji)",
         "en_FK": "inglês (Ilhas Malvinas)",
         "en_FM": "inglês (Micronésia)",
@@ -131,7 +154,10 @@
         "en_GY": "inglês (Guiana)",
         "en_HK": "inglês (Hong Kong, RAE da China)",
         "en_IE": "inglês (Irlanda)",
+<<<<<<< HEAD
         "en_IL": "inglês (Israel)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "inglês (Ilha de Man)",
         "en_IN": "inglês (Índia)",
         "en_IO": "inglês (Território Britânico do Oceano Índico)",
@@ -156,7 +182,10 @@
         "en_NA": "inglês (Namíbia)",
         "en_NF": "inglês (Ilha Norfolk)",
         "en_NG": "inglês (Nigéria)",
+<<<<<<< HEAD
         "en_NL": "inglês (Holanda)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "inglês (Nauru)",
         "en_NU": "inglês (Niue)",
         "en_NZ": "inglês (Nova Zelândia)",
@@ -170,10 +199,15 @@
         "en_SB": "inglês (Ilhas Salomão)",
         "en_SC": "inglês (Seychelles)",
         "en_SD": "inglês (Sudão)",
+<<<<<<< HEAD
         "en_SE": "inglês (Suécia)",
         "en_SG": "inglês (Cingapura)",
         "en_SH": "inglês (Santa Helena)",
         "en_SI": "inglês (Eslovênia)",
+=======
+        "en_SG": "inglês (Cingapura)",
+        "en_SH": "inglês (Santa Helena)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "inglês (Serra Leoa)",
         "en_SS": "inglês (Sudão do Sul)",
         "en_SX": "inglês (Sint Maarten)",
@@ -237,7 +271,10 @@
         "fi": "finlandês",
         "fi_FI": "finlandês (Finlândia)",
         "fo": "feroês",
+<<<<<<< HEAD
         "fo_DK": "feroês (Dinamarca)",
+=======
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "feroês (Ilhas Faroe)",
         "fr": "francês",
         "fr_BE": "francês (Bélgica)",
@@ -300,6 +337,13 @@
         "gv_IM": "manx (Ilha de Man)",
         "ha": "hauçá",
         "ha_GH": "hauçá (Gana)",
+<<<<<<< HEAD
+=======
+        "ha_Latn": "hauçá (latim)",
+        "ha_Latn_GH": "hauçá (latim, Gana)",
+        "ha_Latn_NE": "hauçá (latim, Níger)",
+        "ha_Latn_NG": "hauçá (latim, Nigéria)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "hauçá (Níger)",
         "ha_NG": "hauçá (Nigéria)",
         "he": "hebraico",
@@ -332,6 +376,11 @@
         "ki": "quicuio",
         "ki_KE": "quicuio (Quênia)",
         "kk": "cazaque",
+<<<<<<< HEAD
+=======
+        "kk_Cyrl": "cazaque (cirílico)",
+        "kk_Cyrl_KZ": "cazaque (cirílico, Cazaquistão)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "cazaque (Cazaquistão)",
         "kl": "groenlandês",
         "kl_GL": "groenlandês (Groenlândia)",
@@ -343,10 +392,20 @@
         "ko_KP": "coreano (Coreia do Norte)",
         "ko_KR": "coreano (Coreia do Sul)",
         "ks": "caxemira",
+<<<<<<< HEAD
+=======
+        "ks_Arab": "caxemira (árabe)",
+        "ks_Arab_IN": "caxemira (árabe, Índia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "caxemira (Índia)",
         "kw": "córnico",
         "kw_GB": "córnico (Reino Unido)",
         "ky": "quirguiz",
+<<<<<<< HEAD
+=======
+        "ky_Cyrl": "quirguiz (cirílico)",
+        "ky_Cyrl_KG": "quirguiz (cirílico, Quirguistão)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "quirguiz (Quirguistão)",
         "lb": "luxemburguês",
         "lb_LU": "luxemburguês (Luxemburgo)",
@@ -372,11 +431,23 @@
         "ml": "malaiala",
         "ml_IN": "malaiala (Índia)",
         "mn": "mongol",
+<<<<<<< HEAD
+=======
+        "mn_Cyrl": "mongol (cirílico)",
+        "mn_Cyrl_MN": "mongol (cirílico, Mongólia)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongol (Mongólia)",
         "mr": "marata",
         "mr_IN": "marata (Índia)",
         "ms": "malaio",
         "ms_BN": "malaio (Brunei)",
+<<<<<<< HEAD
+=======
+        "ms_Latn": "malaio (latim)",
+        "ms_Latn_BN": "malaio (latim, Brunei)",
+        "ms_Latn_MY": "malaio (latim, Malásia)",
+        "ms_Latn_SG": "malaio (latim, Cingapura)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "malaio (Malásia)",
         "ms_SG": "malaio (Cingapura)",
         "mt": "maltês",
@@ -450,8 +521,13 @@
         "ru_MD": "russo (Moldávia)",
         "ru_RU": "russo (Rússia)",
         "ru_UA": "russo (Ucrânia)",
+<<<<<<< HEAD
         "rw": "quiniaruanda",
         "rw_RW": "quiniaruanda (Ruanda)",
+=======
+        "rw": "kinyarwanda",
+        "rw_RW": "kinyarwanda (Ruanda)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "sami do norte",
         "se_FI": "sami do norte (Finlândia)",
         "se_NO": "sami do norte (Noruega)",
@@ -521,6 +597,11 @@
         "tr_CY": "turco (Chipre)",
         "tr_TR": "turco (Turquia)",
         "ug": "uigur",
+<<<<<<< HEAD
+=======
+        "ug_Arab": "uigur (árabe)",
+        "ug_Arab_CN": "uigur (árabe, China)",
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "uigur (China)",
         "uk": "ucraniano",
         "uk_UA": "ucraniano (Ucrânia)",

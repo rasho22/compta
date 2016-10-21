@@ -24,9 +24,25 @@ class CurrencyTypeTest extends TestCase
         parent::setUp();
     }
 
+<<<<<<< HEAD
     public function testCurrenciesAreSelectable()
     {
         $form = $this->factory->create('currency');
+=======
+    /**
+     * @group legacy
+     */
+    public function testLegacyName()
+    {
+        $form = $this->factory->create('currency');
+
+        $this->assertSame('currency', $form->getConfig()->getType()->getName());
+    }
+
+    public function testCurrenciesAreSelectable()
+    {
+        $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\CurrencyType');
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $view = $form->createView();
         $choices = $view->vars['choices'];
 

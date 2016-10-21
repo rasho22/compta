@@ -35,6 +35,14 @@ class NotIdenticalToValidatorTest extends AbstractComparisonValidatorTestCase
         return new NotIdenticalTo($options);
     }
 
+<<<<<<< HEAD
+=======
+    protected function getErrorCode()
+    {
+        return NotIdenticalTo::IS_IDENTICAL_ERROR;
+    }
+
+>>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * {@inheritdoc}
      */
