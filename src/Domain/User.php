@@ -2,7 +2,9 @@
 
 namespace app_compta\Domain;
 
-class User
+use Symfony\Component\Security\Core\User\UserInterface;
+
+class User implements UserInterface
 {
     private $id;
     private $color;
