@@ -1,46 +1,13 @@
 <?php
 
-namespace MicroCMS\Domain;
+namespace app_compta\Domain;
 
-use Symfony\Component\Security\Core\User\UserInterface;
-
-class User implements UserInterface
+class User
 {
-    /**
-     * User id.
-     *
-     * @var integer
-     */
     private $id;
-
-    /**
-     * User name.
-     *
-     * @var string
-     */
-    private $username;
-
-    /**
-     * User password.
-     *
-     * @var string
-     */
-    private $password;
-
-    /**
-     * Salt that was originally used to encode the password.
-     *
-     * @var string
-     */
-    private $salt;
-
-    /**
-     * Role.
-     * Values : ROLE_USER or ROLE_ADMIN.
-     *
-     * @var string
-     */
-    private $role;
+    private $color;
+    private $Pwd;
+    private $pseudo;
 
     public function getId() {
         return $this->id;
@@ -49,29 +16,6 @@ class User implements UserInterface
     public function setId($id) {
         $this->id = $id;
     }
-
-    /**
-     * @inheritDoc
-     */
-    public function getUsername() {
-        return $this->username;
-    }
-
-    public function setUsername($username) {
-        $this->username = $username;
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function getPassword() {
-        return $this->password;
-    }
-
-    public function setPassword($password) {
-        $this->password = $password;
-    }
-
     /**
      * @inheritDoc
      */
@@ -84,54 +28,43 @@ class User implements UserInterface
     {
         $this->salt = $salt;
     }
-
-    public function getRole()
-    {
-        return $this->role;
-    }
-
-    public function setRole($role) {
-        $this->role = $role;
-    }
-
     /**
      * @inheritDoc
      */
-    public function getRoles()
-    {
-        return array($this->getRole());
+    public function getPseudo() {
+        return $this->pseudo;
     }
-
     /**
      * @inheritDoc
      */
-    public function eraseCredentials() {
-        // Nothing to do here
+    public function setPseudo($pseudo) {
+        $this->pseudo = $pseudo;
     }
- // ...
-
-
     /**
-
-     * Comment author.
-
-     *
-
-     * @var \MicroCMS\Domain\User
-
+     * @inheritDoc
      */
 
-    private $author;
-
-
-    // ...
-
-    
-
-    public function setAuthor(User $author) {
-
-        $this->author = $author;
-
+    public function getColor() {
+        return $this->color;
     }
-    
+    /**
+     * @inheritDoc
+     */
+
+    public function setColor($color) {
+        $this->color= $color;
+    }
+    /**
+     * @inheritDoc
+     */
+
+    public function getPwd() {
+        return $this->Pwd;
+    }
+    /**
+     * @inheritDoc
+     */
+    public function setPwd($Pwd) {
+        $this->Pwd= $Pwd;
+    }
 }
