@@ -15,7 +15,7 @@ class UserDAO extends DAO
      * @return array A list of all users.
      */
     public function findAll() {
-        $sql = "select * users order by users_id desc";
+        $sql = "select * from users";
         $result = $this->db->fetchAll($sql);
         
         // Convert query result to an array of domain objects
