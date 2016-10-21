@@ -18,9 +18,6 @@ $app->match('/admin/group/add', "compta\Controller\AdminController::addGroupActi
 // Edit an existing group
 $app->match('/admin/group/{id}/edit', "compta\Controller\AdminController::editGroupAction")->bind('admin_group_edit');
 
-// Remove an group
-$app->get('/admin/group/{id}/delete', "compta\Controller\AdminController::deleteGroupAction")->bind('admin_group_delete');
-
 // Edit an existing depense
 $app->match('/admin/depense/{id}/edit', "compta\Controller\AdminController::editDepenseAction")->bind('admin_depense_edit');
 
