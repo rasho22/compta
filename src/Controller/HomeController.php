@@ -21,11 +21,12 @@ class HomeController {
         $group = $app['dao.group']->find($id_user_group);
         
         if ($app['security.authorization_checker']->isGranted('IS_AUTHENTICATED_FULLY')) {
-            // A user is fully authenticated : he can add comments
+
+            //add depenses
             $depense = new Depense();
             $depense->setGroup($group);
             $user = $app['user'];
-            $depense->setAuthor($user);
+            $depense->setDepense($user);
            
         }
         $depenses = $app['dao.depense']->findAllByGroup($id);
