@@ -32,5 +32,19 @@ class HomeController {
          return $app->json((array('success', 'Details the group.'));
     }
 
+/**
+     * Home page controller.
+     *
+     * @param Application $app Silex application
+     */
+    public function indexAction(Application $app) {
+        $user = $app['dao.user']->findAll()
+        return $app->json(array(
+            'records' => $result,
+            'status' => 'OK'
+        ), 200);
+    
+    }
+
    
 }
