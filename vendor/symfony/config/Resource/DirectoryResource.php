@@ -16,11 +16,7 @@ namespace Symfony\Component\Config\Resource;
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */
-<<<<<<< HEAD
-class DirectoryResource implements ResourceInterface, \Serializable
-=======
 class DirectoryResource implements SelfCheckingResourceInterface, \Serializable
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     private $resource;
     private $pattern;

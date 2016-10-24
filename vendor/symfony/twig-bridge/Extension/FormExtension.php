@@ -21,11 +21,7 @@ use Symfony\Component\Form\Extension\Core\View\ChoiceView;
  * @author Fabien Potencier <fabien@symfony.com>
  * @author Bernhard Schussek <bschussek@gmail.com>
  */
-<<<<<<< HEAD
-class FormExtension extends \Twig_Extension
-=======
 class FormExtension extends \Twig_Extension implements \Twig_Extension_InitRuntimeInterface
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     /**
      * This property is public so that it can be accessed directly from compiled
@@ -101,15 +97,9 @@ class FormExtension extends \Twig_Extension implements \Twig_Extension_InitRunti
     /**
      * Renders a CSRF token.
      *
-<<<<<<< HEAD
-     * @param string $intention The intention of the protected action.
-     *
-     * @return string A CSRF token.
-=======
      * @param string $intention The intention of the protected action
      *
      * @return string A CSRF token
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function renderCsrfToken($intention)
     {
@@ -119,15 +109,9 @@ class FormExtension extends \Twig_Extension implements \Twig_Extension_InitRunti
     /**
      * Makes a technical name human readable.
      *
-<<<<<<< HEAD
-     * @param string $text The text to humanize.
-     *
-     * @return string The humanized text.
-=======
      * @param string $text The text to humanize
      *
      * @return string The humanized text
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function humanize($text)
     {
@@ -150,17 +134,10 @@ class FormExtension extends \Twig_Extension implements \Twig_Extension_InitRunti
      * seems to be much more efficient at executing filters than at executing
      * methods of an object.
      *
-<<<<<<< HEAD
-     * @param ChoiceView   $choice        The choice to check.
-     * @param string|array $selectedValue The selected value to compare.
-     *
-     * @return bool Whether the choice is selected.
-=======
      * @param ChoiceView   $choice        The choice to check
      * @param string|array $selectedValue The selected value to compare
      *
      * @return bool Whether the choice is selected
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *
      * @see ChoiceView::isSelected()
      */

@@ -30,11 +30,7 @@ class Twig_Tests_Node_ModuleTest extends Twig_Test_NodeTestCase
 
     public function getTests()
     {
-<<<<<<< HEAD
-        $twig = new Twig_Environment($this->getMock('Twig_LoaderInterface'));
-=======
         $twig = new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock());
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $tests = array();
 
@@ -50,11 +46,7 @@ class Twig_Tests_Node_ModuleTest extends Twig_Test_NodeTestCase
 <?php
 
 /* foo.twig */
-<<<<<<< HEAD
-class __TwigTemplate_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 extends Twig_Template
-=======
 class __TwigTemplate_%x extends Twig_Template
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     public function __construct(Twig_Environment \$env)
     {
@@ -81,11 +73,6 @@ class __TwigTemplate_%x extends Twig_Template
     {
         return array (  19 => 1,);
     }
-<<<<<<< HEAD
-}
-EOF
-        , $twig);
-=======
 
     public function getSource()
     {
@@ -94,7 +81,6 @@ EOF
 }
 EOF
         , $twig, true);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $import = new Twig_Node_Import(new Twig_Node_Expression_Constant('foo.twig', 1), new Twig_Node_Expression_AssignName('macro', 1), 2);
 
@@ -106,11 +92,7 @@ EOF
 <?php
 
 /* foo.twig */
-<<<<<<< HEAD
-class __TwigTemplate_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 extends Twig_Template
-=======
 class __TwigTemplate_%x extends Twig_Template
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     public function __construct(Twig_Environment \$env)
     {
@@ -149,11 +131,6 @@ class __TwigTemplate_%x extends Twig_Template
     {
         return array (  26 => 1,  24 => 2,  11 => 1,);
     }
-<<<<<<< HEAD
-}
-EOF
-        , $twig);
-=======
 
     public function getSource()
     {
@@ -162,7 +139,6 @@ EOF
 }
 EOF
         , $twig, true);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $set = new Twig_Node_Set(false, new Twig_Node(array(new Twig_Node_Expression_AssignName('foo', 4))), new Twig_Node(array(new Twig_Node_Expression_Constant('foo', 4))), 4);
         $body = new Twig_Node(array($set));
@@ -173,20 +149,12 @@ EOF
                         2
                     );
 
-<<<<<<< HEAD
-        $node = new Twig_Node_Module($body, $extends, $blocks, $macros, $traits, new Twig_Node(array()), $filename);
-=======
         $node = new Twig_Node_Module($body, $extends, $blocks, $macros, $traits, new Twig_Node(array()), $filename, '{{ foo }}');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $tests[] = array($node, <<<EOF
 <?php
 
 /* foo.twig */
-<<<<<<< HEAD
-class __TwigTemplate_e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 extends Twig_Template
-=======
 class __TwigTemplate_%x extends Twig_Template
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     protected function doGetParent(array \$context)
     {
@@ -216,11 +184,6 @@ class __TwigTemplate_%x extends Twig_Template
     {
         return array (  17 => 2,  15 => 4,  9 => 2,);
     }
-<<<<<<< HEAD
-}
-EOF
-        , $twig);
-=======
 
     public function getSource()
     {
@@ -229,7 +192,6 @@ EOF
 }
 EOF
         , $twig, true);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         return $tests;
     }

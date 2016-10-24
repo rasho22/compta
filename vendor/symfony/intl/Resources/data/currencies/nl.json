@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.81",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -267,11 +263,7 @@
         ],
         "CNY": [
             "CN¥",
-<<<<<<< HEAD
-            "Chinese renminbi"
-=======
             "Chinese yuan renminbi"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "COP": [
             "COP",
@@ -423,11 +415,7 @@
         ],
         "GNF": [
             "GNF",
-<<<<<<< HEAD
-            "Guinese frank"
-=======
             "Guinese franc"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "GNS": [
             "GNS",
@@ -575,11 +563,7 @@
         ],
         "KYD": [
             "KYD",
-<<<<<<< HEAD
-            "Kaaimaneilandse dollar"
-=======
             "Caymaneilandse dollar"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KZT": [
             "KZT",
@@ -1051,11 +1035,7 @@
         ],
         "VNN": [
             "VNN",
-<<<<<<< HEAD
-            "Vietnamese dong (1978–1985)"
-=======
             "Oude Vietnamese dong (1978–1985)"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "VUV": [
             "VUV",
@@ -1091,11 +1071,7 @@
         ],
         "XPF": [
             "XPF",
-<<<<<<< HEAD
-            "CFP-frank"
-=======
             "CFP-franc"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XRE": [
             "XRE",

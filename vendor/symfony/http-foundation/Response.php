@@ -1153,10 +1153,7 @@ class Response
     {
         $status = ob_get_status(true);
         $level = count($status);
-<<<<<<< HEAD
-=======
         // PHP_OUTPUT_HANDLER_* are not defined on HHVM 3.3
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $flags = defined('PHP_OUTPUT_HANDLER_REMOVABLE') ? PHP_OUTPUT_HANDLER_REMOVABLE | ($flush ? PHP_OUTPUT_HANDLER_FLUSHABLE : PHP_OUTPUT_HANDLER_CLEANABLE) : -1;
 
         while ($level-- > $targetLevel && ($s = $status[$level]) && (!isset($s['del']) ? !isset($s['flags']) || $flags === ($s['flags'] & $flags) : $s['del'])) {

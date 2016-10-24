@@ -26,8 +26,6 @@
 {{ object.self.foo                is     defined ? 'ok' : 'ko' }}
 {{ object.self.undefinedMethod    is     defined ? 'ko' : 'ok' }}
 {{ object.undefinedMethod.self    is     defined ? 'ko' : 'ok' }}
-<<<<<<< HEAD
-=======
 {{ 0                              is     defined ? 'ok' : 'ko' }}
 {{ "foo"                          is     defined ? 'ok' : 'ko' }}
 {{ true                           is     defined ? 'ok' : 'ko' }}
@@ -35,7 +33,6 @@
 {{ null                           is     defined ? 'ok' : 'ko' }}
 {{ [1, 2]                         is     defined ? 'ok' : 'ko' }}
 {{ { foo: "bar" }                 is     defined ? 'ok' : 'ko' }}
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 --DATA--
 return array(
     'definedVar' => 'defined',
@@ -75,8 +72,6 @@ ok
 ok
 ok
 ok
-<<<<<<< HEAD
-=======
 ok
 ok
 ok
@@ -84,7 +79,6 @@ ok
 ok
 ok
 ok
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 --DATA--
 return array(
     'definedVar' => 'defined',
@@ -126,8 +120,6 @@ ok
 ok
 ok
 ok
-<<<<<<< HEAD
-=======
 ok
 ok
 ok
@@ -135,4 +127,3 @@ ok
 ok
 ok
 ok
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af

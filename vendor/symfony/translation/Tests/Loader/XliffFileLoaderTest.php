@@ -76,12 +76,6 @@ class XliffFileLoaderTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(array('foo' => 'bar', 'extra' => 'extra', 'key' => '', 'test' => 'with'), $catalogue->all('domain1'));
     }
 
-<<<<<<< HEAD
-    /**
-     * @requires extension mbstring
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testEncoding()
     {
         $loader = new XliffFileLoader();
@@ -92,8 +86,6 @@ class XliffFileLoaderTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(array('notes' => array(array('content' => utf8_decode('bäz')))), $catalogue->getMetadata('foo', 'domain1'));
     }
 
-<<<<<<< HEAD
-=======
     public function testTargetAttributesAreStoredCorrectly()
     {
         $loader = new XliffFileLoader();
@@ -103,7 +95,6 @@ class XliffFileLoaderTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('translated', $metadata['target-attributes']['state']);
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * @expectedException \Symfony\Component\Translation\Exception\InvalidResourceException
      */
@@ -171,8 +162,6 @@ class XliffFileLoaderTest extends \PHPUnit_Framework_TestCase
         // message with empty target
         $this->assertEquals(array('notes' => array(array('content' => 'baz'), array('priority' => 2, 'from' => 'bar', 'content' => 'qux'))), $catalogue->getMetadata('key', 'domain1'));
     }
-<<<<<<< HEAD
-=======
 
     public function testLoadVersion2()
     {
@@ -191,5 +180,4 @@ class XliffFileLoaderTest extends \PHPUnit_Framework_TestCase
         // target attributes
         $this->assertEquals(array('target-attributes' => array('order' => 1)), $catalogue->getMetadata('bar', 'domain1'));
     }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

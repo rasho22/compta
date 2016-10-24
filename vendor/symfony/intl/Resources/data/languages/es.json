@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.18",
-=======
     "Version": "2.1.13.21",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afar",
         "ab": "abjasio",
@@ -49,10 +45,6 @@
         "bez": "bena",
         "bfd": "bafut",
         "bg": "búlgaro",
-<<<<<<< HEAD
-        "bgn": "baluchi occidental",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhojpuri",
         "bi": "bislama",
         "bik": "bicol",
@@ -98,11 +90,7 @@
         "cs": "checo",
         "csb": "casubio",
         "cu": "eslavo eclesiástico",
-<<<<<<< HEAD
-        "cv": "chuvasio",
-=======
         "cv": "chuvash",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cy": "galés",
         "da": "danés",
         "dak": "dakota",
@@ -282,10 +270,6 @@
         "lo": "laosiano",
         "lol": "mongo",
         "loz": "lozi",
-<<<<<<< HEAD
-        "lrc": "lorí septentrional",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "lituano",
         "lu": "luba-katanga",
         "lua": "luba-lulua",
@@ -334,18 +318,10 @@
         "my": "birmano",
         "mye": "myene",
         "myv": "erzya",
-<<<<<<< HEAD
-        "mzn": "mazandaraní",
-        "na": "nauruano",
-        "nap": "napolitano",
-        "naq": "nama",
-        "nb": "noruego bokmal",
-=======
         "na": "nauruano",
         "nap": "napolitano",
         "naq": "nama",
         "nb": "bokmal noruego",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nd": "ndebele septentrional",
         "nds": "bajo alemán",
         "ne": "nepalí",
@@ -356,11 +332,7 @@
         "nl": "neerlandés",
         "nl_BE": "flamenco",
         "nmg": "kwasio",
-<<<<<<< HEAD
-        "nn": "noruego nynorsk",
-=======
         "nn": "nynorsk noruego",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nnh": "ngiemboon",
         "no": "noruego",
         "nog": "nogai",
@@ -428,10 +400,6 @@
         "scn": "siciliano",
         "sco": "escocés",
         "sd": "sindhi",
-<<<<<<< HEAD
-        "sdh": "kurdo meridional",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "sami septentrional",
         "see": "seneca",
         "seh": "sena",
@@ -468,15 +436,9 @@
         "sus": "susu",
         "sux": "sumerio",
         "sv": "sueco",
-<<<<<<< HEAD
-        "sw": "suajili",
-        "sw_CD": "suajili del Congo",
-        "swb": "comorense",
-=======
         "sw": "swahili",
         "swb": "comorense",
         "swc": "swahili del Congo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "siríaco clásico",
         "syr": "siriaco",
         "ta": "tamil",
@@ -531,12 +493,7 @@
         "wal": "walamo",
         "war": "waray",
         "was": "washo",
-<<<<<<< HEAD
-        "wbp": "warlpiri",
-        "wo": "wolof",
-=======
         "wo": "wólof",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "xal": "kalmyk",
         "xh": "xhosa",
         "xog": "soga",

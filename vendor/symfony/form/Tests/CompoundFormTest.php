@@ -110,11 +110,7 @@ class CompoundFormTest extends AbstractFormTest
         $factory = Forms::createFormFactoryBuilder()
             ->getFormFactory();
 
-<<<<<<< HEAD
-        $child = $factory->create('file', null, array('auto_initialize' => false));
-=======
         $child = $factory->createNamed('file', 'Symfony\Component\Form\Extension\Core\Type\FileType', null, array('auto_initialize' => false));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $this->form->add($child);
         $this->form->submit(array('file' => null), false);
@@ -176,21 +172,13 @@ class CompoundFormTest extends AbstractFormTest
 
         $this->factory->expects($this->once())
             ->method('createNamed')
-<<<<<<< HEAD
-            ->with('foo', 'text', null, array(
-=======
             ->with('foo', 'Symfony\Component\Form\Extension\Core\Type\TextType', null, array(
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 'bar' => 'baz',
                 'auto_initialize' => false,
             ))
             ->will($this->returnValue($child));
 
-<<<<<<< HEAD
-        $this->form->add('foo', 'text', array('bar' => 'baz'));
-=======
         $this->form->add('foo', 'Symfony\Component\Form\Extension\Core\Type\TextType', array('bar' => 'baz'));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $this->assertTrue($this->form->has('foo'));
         $this->assertSame($this->form, $child->getParent());
@@ -203,22 +191,14 @@ class CompoundFormTest extends AbstractFormTest
 
         $this->factory->expects($this->once())
             ->method('createNamed')
-<<<<<<< HEAD
-            ->with('0', 'text', null, array(
-=======
             ->with('0', 'Symfony\Component\Form\Extension\Core\Type\TextType', null, array(
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 'bar' => 'baz',
                 'auto_initialize' => false,
             ))
             ->will($this->returnValue($child));
 
         // in order to make casting unnecessary
-<<<<<<< HEAD
-        $this->form->add(0, 'text', array('bar' => 'baz'));
-=======
         $this->form->add(0, 'Symfony\Component\Form\Extension\Core\Type\TextType', array('bar' => 'baz'));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $this->assertTrue($this->form->has(0));
         $this->assertSame($this->form, $child->getParent());
@@ -231,11 +211,7 @@ class CompoundFormTest extends AbstractFormTest
 
         $this->factory->expects($this->once())
             ->method('createNamed')
-<<<<<<< HEAD
-            ->with('foo', 'text')
-=======
             ->with('foo', 'Symfony\Component\Form\Extension\Core\Type\TextType')
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->will($this->returnValue($child));
 
         $this->form->add('foo');

@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.10.93",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Enez Ascension",
         "AD": "Andorra",
@@ -35,11 +31,7 @@
         "BM": "Bermuda",
         "BN": "Brunei",
         "BO": "Bolivia",
-<<<<<<< HEAD
-        "BQ": "Karib Nederlandat",
-=======
         "BQ": "Nederlandat Karib",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BR": "Brazil",
         "BS": "Bahamas",
         "BT": "Bhoutan",
@@ -60,11 +52,7 @@
         "CO": "Kolombia",
         "CR": "Costa Rica",
         "CU": "Kuba",
-<<<<<<< HEAD
-        "CV": "Kab-Glas",
-=======
         "CV": "Kab Glas",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CW": "Curaçao",
         "CX": "Enez Christmas",
         "CY": "Kiprenez",
@@ -202,21 +190,13 @@
         "PW": "Palau",
         "PY": "Paraguay",
         "QA": "Qatar",
-<<<<<<< HEAD
-        "RE": "Ar Reünion",
-=======
         "RE": "Reünion",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "RO": "Roumania",
         "RS": "Serbia",
         "RU": "Rusia",
         "RW": "Rwanda",
         "SA": "Arabia Saoudat",
-<<<<<<< HEAD
-        "SB": "Inizi Salomon",
-=======
         "SB": "Salomon",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SC": "Sechelez",
         "SD": "Soudan",
         "SE": "Sveden",

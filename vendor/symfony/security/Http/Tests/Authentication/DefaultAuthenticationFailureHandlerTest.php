@@ -18,26 +18,12 @@ use Symfony\Component\HttpKernel\HttpKernelInterface;
 
 class DefaultAuthenticationFailureHandlerTest extends \PHPUnit_Framework_TestCase
 {
-<<<<<<< HEAD
-    private $httpKernel = null;
-
-    private $httpUtils = null;
-
-    private $logger = null;
-
-    private $request = null;
-
-    private $session = null;
-
-    private $exception = null;
-=======
     private $httpKernel;
     private $httpUtils;
     private $logger;
     private $request;
     private $session;
     private $exception;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     protected function setUp()
     {
@@ -155,11 +141,7 @@ class DefaultAuthenticationFailureHandlerTest extends \PHPUnit_Framework_TestCas
     public function testFailurePathCanBeOverwrittenWithRequest()
     {
         $this->request->expects($this->once())
-<<<<<<< HEAD
-            ->method('get')->with('_failure_path', null, true)
-=======
             ->method('get')->with('_failure_path')
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->will($this->returnValue('/auth/login'));
 
         $this->httpUtils->expects($this->once())
@@ -169,8 +151,6 @@ class DefaultAuthenticationFailureHandlerTest extends \PHPUnit_Framework_TestCas
         $handler->onAuthenticationFailure($this->request, $this->exception);
     }
 
-<<<<<<< HEAD
-=======
     public function testFailurePathCanBeOverwrittenWithNestedAttributeInRequest()
     {
         $this->request->expects($this->once())
@@ -184,17 +164,12 @@ class DefaultAuthenticationFailureHandlerTest extends \PHPUnit_Framework_TestCas
         $handler->onAuthenticationFailure($this->request, $this->exception);
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testFailurePathParameterCanBeOverwritten()
     {
         $options = array('failure_path_parameter' => '_my_failure_path');
 
         $this->request->expects($this->once())
-<<<<<<< HEAD
-            ->method('get')->with('_my_failure_path', null, true)
-=======
             ->method('get')->with('_my_failure_path')
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->will($this->returnValue('/auth/login'));
 
         $this->httpUtils->expects($this->once())

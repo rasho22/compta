@@ -38,20 +38,12 @@ class RangeValidator extends ConstraintValidator
             if ($this->context instanceof ExecutionContextInterface) {
                 $this->context->buildViolation($constraint->invalidMessage)
                     ->setParameter('{{ value }}', $this->formatValue($value, self::PRETTY_DATE))
-<<<<<<< HEAD
-                    ->setCode(Range::INVALID_VALUE_ERROR)
-=======
                     ->setCode(Range::INVALID_CHARACTERS_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             } else {
                 $this->buildViolation($constraint->invalidMessage)
                     ->setParameter('{{ value }}', $this->formatValue($value, self::PRETTY_DATE))
-<<<<<<< HEAD
-                    ->setCode(Range::INVALID_VALUE_ERROR)
-=======
                     ->setCode(Range::INVALID_CHARACTERS_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             }
 
@@ -80,21 +72,13 @@ class RangeValidator extends ConstraintValidator
                 $this->context->buildViolation($constraint->maxMessage)
                     ->setParameter('{{ value }}', $this->formatValue($value, self::PRETTY_DATE))
                     ->setParameter('{{ limit }}', $this->formatValue($max, self::PRETTY_DATE))
-<<<<<<< HEAD
-                    ->setCode(Range::BEYOND_RANGE_ERROR)
-=======
                     ->setCode(Range::TOO_HIGH_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             } else {
                 $this->buildViolation($constraint->maxMessage)
                     ->setParameter('{{ value }}', $this->formatValue($value, self::PRETTY_DATE))
                     ->setParameter('{{ limit }}', $this->formatValue($max, self::PRETTY_DATE))
-<<<<<<< HEAD
-                    ->setCode(Range::BEYOND_RANGE_ERROR)
-=======
                     ->setCode(Range::TOO_HIGH_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             }
 
@@ -106,21 +90,13 @@ class RangeValidator extends ConstraintValidator
                 $this->context->buildViolation($constraint->minMessage)
                     ->setParameter('{{ value }}', $this->formatValue($value, self::PRETTY_DATE))
                     ->setParameter('{{ limit }}', $this->formatValue($min, self::PRETTY_DATE))
-<<<<<<< HEAD
-                    ->setCode(Range::BELOW_RANGE_ERROR)
-=======
                     ->setCode(Range::TOO_LOW_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             } else {
                 $this->buildViolation($constraint->minMessage)
                     ->setParameter('{{ value }}', $this->formatValue($value, self::PRETTY_DATE))
                     ->setParameter('{{ limit }}', $this->formatValue($min, self::PRETTY_DATE))
-<<<<<<< HEAD
-                    ->setCode(Range::BELOW_RANGE_ERROR)
-=======
                     ->setCode(Range::TOO_LOW_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                     ->addViolation();
             }
         }

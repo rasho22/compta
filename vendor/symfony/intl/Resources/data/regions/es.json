@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.18",
-=======
     "Version": "2.1.13.21",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Isla de la Ascensión",
         "AD": "Andorra",
@@ -58,11 +54,7 @@
         "CU": "Cuba",
         "CV": "Cabo Verde",
         "CW": "Curazao",
-<<<<<<< HEAD
-        "CX": "Isla de Navidad",
-=======
         "CX": "Isla de Navidad (Christmas)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CY": "Chipre",
         "CZ": "República Checa",
         "DE": "Alemania",
@@ -110,11 +102,7 @@
         "HR": "Croacia",
         "HT": "Haití",
         "HU": "Hungría",
-<<<<<<< HEAD
-        "IC": "Canarias",
-=======
         "IC": "islas Canarias",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ID": "Indonesia",
         "IE": "Irlanda",
         "IL": "Israel",
@@ -199,11 +187,7 @@
         "PR": "Puerto Rico",
         "PS": "Territorios Palestinos",
         "PT": "Portugal",
-<<<<<<< HEAD
-        "PW": "Palaos",
-=======
         "PW": "Palau",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PY": "Paraguay",
         "QA": "Catar",
         "RE": "Reunión",

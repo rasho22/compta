@@ -8,22 +8,11 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-<<<<<<< HEAD
-class Twig_Extensions_TokenParser_Trans extends Twig_TokenParser
-{
-    /**
-     * Parses a token and returns a node.
-     *
-     * @param Twig_Token $token A Twig_Token instance
-     *
-     * @return Twig_Node A Twig_Node instance
-=======
 
 class Twig_Extensions_TokenParser_Trans extends Twig_TokenParser
 {
     /**
      * {@inheritdoc}
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function parse(Twig_Token $token)
     {
@@ -73,15 +62,7 @@ class Twig_Extensions_TokenParser_Trans extends Twig_TokenParser
     }
 
     /**
-<<<<<<< HEAD
-     * Gets the tag name associated with this token parser.
-     *
-     * @param string The tag name
-     * 
-     * @return string
-=======
      * {@inheritdoc}
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getTag()
     {

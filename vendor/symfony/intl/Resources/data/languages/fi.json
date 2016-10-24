@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.13.33",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afar",
         "ab": "abhaasi",
@@ -46,10 +42,7 @@
         "awa": "awadhi",
         "ay": "aimara",
         "az": "azeri",
-<<<<<<< HEAD
-=======
         "azb": "eteläazeri",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "baškiiri",
         "bal": "belutši",
         "ban": "bali",
@@ -66,10 +59,6 @@
         "bfd": "fut",
         "bfq": "badaga",
         "bg": "bulgaria",
-<<<<<<< HEAD
-        "bgn": "länsibelutši",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhodžpuri",
         "bi": "bislama",
         "bik": "bikol",
@@ -161,11 +150,7 @@
         "eo": "esperanto",
         "es": "espanja",
         "es_419": "amerikanespanja",
-<<<<<<< HEAD
-        "es_ES": "euroopanespanja",
-=======
         "es_ES": "espanjanespanja",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "es_MX": "meksikonespanja",
         "esu": "alaskanjupik",
         "et": "viro",
@@ -333,10 +318,6 @@
         "lo": "lao",
         "lol": "mongo",
         "loz": "lozi",
-<<<<<<< HEAD
-        "lrc": "pohjoisluri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "liettua",
         "ltg": "latgalli",
         "lu": "katanganluba",
@@ -398,10 +379,6 @@
         "nb": "norjan bokmål",
         "nd": "pohjois-ndebele",
         "nds": "alasaksa",
-<<<<<<< HEAD
-        "nds_NL": "alankomaidenalasaksa",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepali",
         "new": "newari",
         "ng": "ndonga",
@@ -457,11 +434,7 @@
         "ps": "paštu",
         "pt": "portugali",
         "pt_BR": "brasilianportugali",
-<<<<<<< HEAD
-        "pt_PT": "euroopanportugali",
-=======
         "pt_PT": "portugalinportugali",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "qu": "ketšua",
         "quc": "kʼicheʼ",
         "qug": "chimborazonylänköketšua",
@@ -499,10 +472,6 @@
         "sco": "skotti",
         "sd": "sindhi",
         "sdc": "sassarinsardi",
-<<<<<<< HEAD
-        "sdh": "eteläkurdi",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "pohjoissaame",
         "see": "seneca",
         "seh": "sena",
@@ -545,13 +514,8 @@
         "sux": "sumeri",
         "sv": "ruotsi",
         "sw": "swahili",
-<<<<<<< HEAD
-        "sw_CD": "kingwana",
-        "swb": "komori",
-=======
         "swb": "komori",
         "swc": "kingwana",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "muinaissyyria",
         "syr": "syyria",
         "szl": "sleesia",
@@ -618,10 +582,6 @@
         "wal": "wolaitta",
         "war": "waray",
         "was": "washo",
-<<<<<<< HEAD
-        "wbp": "warlpiri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "wolof",
         "wuu": "wu-kiina",
         "xal": "kalmukki",

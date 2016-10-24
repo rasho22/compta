@@ -1,8 +1,6 @@
 CHANGELOG
 =========
 
-<<<<<<< HEAD
-=======
 2.8.0
 -----
 
@@ -14,7 +12,6 @@ CHANGELOG
  * moved data trimming logic of TrimListener into StringUtil
  * [BC BREAK] When registering a type extension through the DI extension, the tag alias has to match the actual extended type.
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 2.7.0
 -----
 

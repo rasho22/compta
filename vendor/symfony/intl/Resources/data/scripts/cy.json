@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.10.93",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "Arab": "Arabaidd",
         "Armn": "Armenaidd",
@@ -11,19 +7,11 @@
         "Bopo": "Bopomofo",
         "Brai": "Braille",
         "Cyrl": "Cyrilig",
-<<<<<<< HEAD
-        "Deva": "Devanagari",
-        "Ethi": "Ethiopig",
-        "Geor": "Georgaidd",
-        "Grek": "Groegaidd",
-        "Gujr": "Gwjarataidd",
-=======
         "Deva": "Devanāgarī",
         "Ethi": "Ethiopig",
         "Geor": "Georgaidd",
         "Grek": "Groegaidd",
         "Gujr": "Gujarataidd",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Guru": "Gwrmwci",
         "Hang": "Hangul",
         "Hani": "Han",
@@ -46,13 +34,8 @@
         "Sinh": "Sinhanaidd",
         "Taml": "Tamilaidd",
         "Telu": "Telugu",
-<<<<<<< HEAD
-        "Thaa": "Thaana",
-        "Thai": "Tai",
-=======
         "Thaa": "Thaa",
         "Thai": "Thai",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Tibt": "Tibetaidd",
         "Zsym": "Symbolau",
         "Zxxx": "Anysgrifenedig",

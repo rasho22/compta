@@ -19,19 +19,11 @@ The key-features are...
   may modify the template design.
 
 * *Flexible*: Twig is powered by a flexible lexer and parser. This allows the
-<<<<<<< HEAD
-  developer to define its own custom tags and filters, and create its own DSL.
-
-Twig is used by many Open-Source projects like Symfony, Drupal8, eZPublish,
-phpBB, Piwik, OroCRM, and many frameworks have support for it as well like
-Slim, Yii, Laravel, Codeigniter, and Kohana, just to name a few.
-=======
   developer to define their own custom tags and filters, and to create their own DSL.
 
 Twig is used by many Open-Source projects like Symfony, Drupal8, eZPublish,
 phpBB, Piwik, OroCRM; and many frameworks have support for it as well like
 Slim, Yii, Laravel, Codeigniter and Kohana — just to name a few.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 Prerequisites
 -------------

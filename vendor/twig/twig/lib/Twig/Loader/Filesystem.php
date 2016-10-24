@@ -198,15 +198,7 @@ class Twig_Loader_Filesystem implements Twig_LoaderInterface, Twig_ExistsLoaderI
 
         foreach ($this->paths[$namespace] as $path) {
             if (is_file($path.'/'.$shortname)) {
-<<<<<<< HEAD
-                if (false !== $realpath = realpath($path.'/'.$shortname)) {
-                    return $this->cache[$name] = $realpath;
-                }
-
-                return $this->cache[$name] = $path.'/'.$shortname;
-=======
                 return $this->cache[$name] = $this->normalizePath($path.'/'.$shortname);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
         }
 
@@ -237,11 +229,7 @@ class Twig_Loader_Filesystem implements Twig_LoaderInterface, Twig_ExistsLoaderI
 
     protected function normalizeName($name)
     {
-<<<<<<< HEAD
-        return preg_replace('#/{2,}#', '/', strtr((string) $name, '\\', '/'));
-=======
         return preg_replace('#/{2,}#', '/', str_replace('\\', '/', (string) $name));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     protected function validateName($name)
@@ -265,8 +253,6 @@ class Twig_Loader_Filesystem implements Twig_LoaderInterface, Twig_ExistsLoaderI
             }
         }
     }
-<<<<<<< HEAD
-=======
 
     private function normalizePath($path)
     {
@@ -283,5 +269,4 @@ class Twig_Loader_Filesystem implements Twig_LoaderInterface, Twig_ExistsLoaderI
 
         return implode('/', $new);
     }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

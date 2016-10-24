@@ -1,17 +1,9 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-    "Names": {
-        "AC": "Ascension-sziget",
-        "AD": "Andorra",
-        "AE": "Egyesült Arab Emírségek",
-=======
     "Version": "2.1.12.94",
     "Names": {
         "AC": "Ascension-sziget",
         "AD": "Andorra",
         "AE": "Egyesült Arab Emirátus",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "AF": "Afganisztán",
         "AG": "Antigua és Barbuda",
         "AI": "Anguilla",
@@ -81,11 +73,7 @@
         "ES": "Spanyolország",
         "ET": "Etiópia",
         "FI": "Finnország",
-<<<<<<< HEAD
-        "FJ": "Fidzsi",
-=======
         "FJ": "Fidzsi-szigetek",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "FK": "Falkland-szigetek",
         "FM": "Mikronézia",
         "FO": "Feröer-szigetek",
@@ -107,11 +95,7 @@
         "GS": "Déli-Georgia és Déli-Sandwich-szigetek",
         "GT": "Guatemala",
         "GU": "Guam",
-<<<<<<< HEAD
-        "GW": "Bissau-Guinea",
-=======
         "GW": "Guinea-Bissau",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GY": "Guyana",
         "HK": "Hongkong SAR Kína",
         "HN": "Honduras",

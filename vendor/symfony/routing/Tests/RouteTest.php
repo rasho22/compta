@@ -164,27 +164,6 @@ class RouteTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue($route->hasScheme('httpS'));
     }
 
-<<<<<<< HEAD
-    /**
-     * @group legacy
-     */
-    public function testLegacySchemeRequirement()
-    {
-        $route = new Route('/');
-        $route->setRequirement('_scheme', 'http|https');
-        $this->assertEquals('http|https', $route->getRequirement('_scheme'));
-        $this->assertEquals(array('http', 'https'), $route->getSchemes());
-        $this->assertTrue($route->hasScheme('https'));
-        $this->assertTrue($route->hasScheme('http'));
-        $this->assertFalse($route->hasScheme('ftp'));
-        $route->setSchemes(array('hTTp'));
-        $this->assertEquals('http', $route->getRequirement('_scheme'));
-        $route->setSchemes(array());
-        $this->assertNull($route->getRequirement('_scheme'));
-    }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testMethod()
     {
         $route = new Route('/');
@@ -195,24 +174,6 @@ class RouteTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(array('GET', 'POST'), $route->getMethods(), '->setMethods() accepts an array of methods and uppercases them');
     }
 
-<<<<<<< HEAD
-    /**
-     * @group legacy
-     */
-    public function testLegacyMethodRequirement()
-    {
-        $route = new Route('/');
-        $route->setRequirement('_method', 'GET|POST');
-        $this->assertEquals('GET|POST', $route->getRequirement('_method'));
-        $this->assertEquals(array('GET', 'POST'), $route->getMethods());
-        $route->setMethods(array('gEt'));
-        $this->assertEquals('GET', $route->getRequirement('_method'));
-        $route->setMethods(array());
-        $this->assertNull($route->getRequirement('_method'));
-    }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testCondition()
     {
         $route = new Route('/');
@@ -230,21 +191,6 @@ class RouteTest extends \PHPUnit_Framework_TestCase
         $this->assertNotSame($compiled, $route->compile(), '->compile() recompiles if the route was modified');
     }
 
-<<<<<<< HEAD
-    /**
-     * @group legacy
-     */
-    public function testLegacyPattern()
-    {
-        $route = new Route('/{foo}');
-        $this->assertEquals('/{foo}', $route->getPattern());
-
-        $route->setPattern('/bar');
-        $this->assertEquals('/bar', $route->getPattern());
-    }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testSerialize()
     {
         $route = new Route('/prefix/{foo}', array('foo' => 'default'), array('foo' => '\d+'));

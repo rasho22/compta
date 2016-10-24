@@ -280,11 +280,7 @@ For functions, use ``registerUndefinedFunctionCallback()``::
     // don't try this at home as it's not secure at all!
     $twig->registerUndefinedFunctionCallback(function ($name) {
         if (function_exists($name)) {
-<<<<<<< HEAD
-            return new Twig_Function_Function($name);
-=======
             return new Twig_SimpleFunction($name, $name);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         return false;
@@ -341,26 +337,6 @@ Refreshing modified Templates when OPcache or APC is enabled
 
 When using OPcache with ``opcache.validate_timestamps`` set to ``0`` or APC
 with ``apc.stat`` set to ``0`` and Twig cache enabled, clearing the template
-<<<<<<< HEAD
-cache won't update the cache. To get around this, one can extend
-``Twig_Environment`` and force the update of the cache when Twig rewrites the
-cache::
-
-    class Twig_Environment_APC extends Twig_Environment
-    {
-        protected function writeCacheFile($file, $content)
-        {
-            parent::writeCacheFile($file, $content);
-
-            // Compile cached file into bytecode cache
-            if (extension_loaded('Zend OPcache') && ini_get('opcache.enable')) {
-                opcache_invalidate($file);
-            } elseif (extension_loaded('apc') && ini_get('apc.enabled')) {
-                apc_compile_file($file);
-            }
-        }
-    }
-=======
 cache won't update the cache.
 
 To get around this, force Twig to invalidate the bytecode cache::
@@ -388,7 +364,6 @@ To get around this, force Twig to invalidate the bytecode cache::
                 }
             }
         }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 Reusing a stateful Node Visitor
 -------------------------------
@@ -519,8 +494,6 @@ logical name, and not the path from the filesystem::
 Now that the ``base.twig`` templates is defined in an array loader, you can
 remove it from the database, and everything else will still work as before.
 
-<<<<<<< HEAD
-=======
 Loading a Template from a String
 --------------------------------
 
@@ -578,5 +551,4 @@ include in your templates:
     )));
     ```
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 .. _callback: http://www.php.net/manual/en/function.is-callable.php

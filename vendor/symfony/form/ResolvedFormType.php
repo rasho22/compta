@@ -14,10 +14,7 @@ namespace Symfony\Component\Form;
 use Symfony\Component\Form\Exception\InvalidArgumentException;
 use Symfony\Component\Form\Exception\UnexpectedTypeException;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Form\Util\StringUtil;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
@@ -28,8 +25,6 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 class ResolvedFormType implements ResolvedFormTypeInterface
 {
     /**
-<<<<<<< HEAD
-=======
      * @var string
      */
     private $name;
@@ -40,7 +35,6 @@ class ResolvedFormType implements ResolvedFormTypeInterface
     private $blockPrefix;
 
     /**
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * @var FormTypeInterface
      */
     private $innerType;
@@ -62,13 +56,6 @@ class ResolvedFormType implements ResolvedFormTypeInterface
 
     public function __construct(FormTypeInterface $innerType, array $typeExtensions = array(), ResolvedFormTypeInterface $parent = null)
     {
-<<<<<<< HEAD
-        if (!preg_match('/^[a-z0-9_]*$/i', $innerType->getName())) {
-            throw new InvalidArgumentException(sprintf(
-                'The "%s" form type name ("%s") is not valid. Names must only contain letters, numbers, and "_".',
-                get_class($innerType),
-                $innerType->getName()
-=======
         $fqcn = get_class($innerType);
         $name = $innerType->getName();
         $hasCustomName = $name !== $fqcn;
@@ -103,7 +90,6 @@ class ResolvedFormType implements ResolvedFormTypeInterface
                 'The "%s" form type name ("%s") is not valid. Names must only contain letters, numbers, and "_".',
                 get_class($innerType),
                 $name
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ));
         }
 
@@ -113,11 +99,8 @@ class ResolvedFormType implements ResolvedFormTypeInterface
             }
         }
 
-<<<<<<< HEAD
-=======
         $this->name = $name;
         $this->blockPrefix = $blockPrefix;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->innerType = $innerType;
         $this->typeExtensions = $typeExtensions;
         $this->parent = $parent;
@@ -128,9 +111,6 @@ class ResolvedFormType implements ResolvedFormTypeInterface
      */
     public function getName()
     {
-<<<<<<< HEAD
-        return $this->innerType->getName();
-=======
         return $this->name;
     }
 
@@ -142,7 +122,6 @@ class ResolvedFormType implements ResolvedFormTypeInterface
     public function getBlockPrefix()
     {
         return $this->blockPrefix;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**

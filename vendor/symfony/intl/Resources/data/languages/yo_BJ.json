@@ -1,15 +1,4 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.24.17",
-    "Names": {
-        "da": "Èdè Ilɛ̀ Denmark",
-        "de": "Èdè Ilɛ̀ Gemani",
-        "en": "Èdè Gɛ̀ɛ́sì",
-        "pl": "Èdè Ilɛ̀ Polandi",
-        "pt": "Èdè Pɔtugi",
-        "ru": "Èdè ̣Rɔɔsia",
-        "tr": "Èdè Tɔɔkisi",
-=======
     "Version": "2.1.13.24",
     "Names": {
         "af": "Èdè Afrikani",
@@ -109,7 +98,6 @@
         "yi": "Èdè Yiddishi",
         "yo": "Èdè Yorùbá",
         "zh": "Èdè Mandari",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "zu": "Èdè Shulu"
     }
 }

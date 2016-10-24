@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.90",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Languages": [
         "aa",
         "ab",
@@ -46,11 +42,7 @@
         "awa",
         "ay",
         "az",
-<<<<<<< HEAD
-        "az_Arab",
-=======
         "azb",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba",
         "bal",
         "ban",
@@ -67,10 +59,6 @@
         "bfd",
         "bfq",
         "bg",
-<<<<<<< HEAD
-        "bgn",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho",
         "bi",
         "bik",
@@ -170,10 +158,6 @@
         "ewo",
         "ext",
         "fa",
-<<<<<<< HEAD
-        "fa_AF",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fan",
         "fat",
         "ff",
@@ -334,10 +318,6 @@
         "lo",
         "lol",
         "loz",
-<<<<<<< HEAD
-        "lrc",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt",
         "ltg",
         "lu",
@@ -399,10 +379,6 @@
         "nb",
         "nd",
         "nds",
-<<<<<<< HEAD
-        "nds_NL",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne",
         "new",
         "ng",
@@ -496,10 +472,6 @@
         "sco",
         "sd",
         "sdc",
-<<<<<<< HEAD
-        "sdh",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se",
         "see",
         "seh",
@@ -542,13 +514,8 @@
         "sux",
         "sv",
         "sw",
-<<<<<<< HEAD
-        "sw_CD",
-        "swb",
-=======
         "swb",
         "swc",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc",
         "syr",
         "szl",

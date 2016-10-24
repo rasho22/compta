@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.7",
-=======
     "Version": "2.1.6.71",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AD": "Andorra",
         "AF": "Afganistán",
@@ -18,11 +14,7 @@
         "BD": "Bangladesh",
         "BE": "Bélgica",
         "BG": "Bulgaria",
-<<<<<<< HEAD
-        "BH": "Baréin",
-=======
         "BH": "Bahréin",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BI": "Burundi",
         "BJ": "Benín",
         "BN": "Brunéi",
@@ -37,11 +29,7 @@
         "CD": "Congo (RDC)",
         "CG": "Congo",
         "CH": "Suiza",
-<<<<<<< HEAD
-        "CI": "Côte d’Ivoire",
-=======
         "CI": "Côte dʼIvoire",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CL": "Chile",
         "CM": "Camerún",
         "CN": "China",
@@ -68,11 +56,7 @@
         "FR": "Francia",
         "GA": "Gabón",
         "GB": "Reino Unido",
-<<<<<<< HEAD
-        "GG": "Guernesey",
-=======
         "GG": "Guernsey",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GH": "Ghana",
         "GM": "Gambia",
         "GN": "Guinea",
@@ -80,11 +64,7 @@
         "GR": "Grecia",
         "GT": "Guatemala",
         "GU": "Guam",
-<<<<<<< HEAD
-        "GW": "Guinea-Bisáu",
-=======
         "GW": "Guinea-Bissau",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GY": "Guyana",
         "HK": "Hong Kong (RAE)",
         "HN": "Honduras",
@@ -93,11 +73,7 @@
         "ID": "Indonesia",
         "IL": "Israel",
         "IN": "India",
-<<<<<<< HEAD
-        "IQ": "Irak",
-=======
         "IQ": "Iraq",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "IR": "Irán",
         "IS": "Islandia",
         "IT": "Italia",
@@ -112,11 +88,7 @@
         "KP": "Corea del Norte",
         "KR": "Corea del Sur",
         "KW": "Kuwait",
-<<<<<<< HEAD
-        "KZ": "Kazajistán",
-=======
         "KZ": "Kazajistan",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LA": "Laos",
         "LB": "Líbano",
         "LI": "Liechtenstein",
@@ -192,11 +164,7 @@
         "SY": "Siria",
         "SZ": "Suazilandia",
         "TD": "Chad",
-<<<<<<< HEAD
-        "TF": "Territorios Australes Franceses",
-=======
         "TF": "Tierras Australes y Antárticas Francesas",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TG": "Togo",
         "TH": "Tailandia",
         "TJ": "Tayikistán",
@@ -216,11 +184,7 @@
         "VI": "EE.UU. Islas Vírgenes",
         "VN": "Vietnam",
         "VU": "Vanuatu",
-<<<<<<< HEAD
-        "WF": "Wallis y Futuna",
-=======
         "WF": "Wallis, Futuna",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "WS": "Samoa",
         "YE": "Yemen",
         "ZA": "Sudáfrica",

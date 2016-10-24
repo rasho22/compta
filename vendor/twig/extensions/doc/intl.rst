@@ -50,8 +50,6 @@ Arguments
 * ``format``: Optional pattern to use when formatting or parsing. Possible
   patterns are documented in the `ICU user guide`_.
 
-<<<<<<< HEAD
-=======
 * ``calendar``: Calendar to use for formatting. The default value is 'gregorian',
   which corresponds to IntlDateFormatter::GREGORIAN. Choose one of these formats:
 
@@ -74,7 +72,6 @@ Also for non-Gregorian calendars need to be specified in locale.
 Examples might include locale="fa_IR@calendar=PERSIAN".
 
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 ``localizednumber``
 -------------------
 

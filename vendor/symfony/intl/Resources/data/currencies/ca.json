@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -388,11 +384,7 @@
         ],
         "GBP": [
             "£",
-<<<<<<< HEAD
-            "lliura esterlina britànica"
-=======
             "lliura britànica"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "GEK": [
             "GEK",
@@ -1067,11 +1059,7 @@
             "franc UIC francès"
         ],
         "XOF": [
-<<<<<<< HEAD
-            "CFA",
-=======
             "XOF",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             "franc CFA BCEAO"
         ],
         "XPF": [

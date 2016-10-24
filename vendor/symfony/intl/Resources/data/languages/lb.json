@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.7",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "Afar",
         "ab": "Abchasesch",
@@ -30,11 +26,7 @@
         "ar": "Arabesch",
         "ar_001": "Modernt Héicharabesch",
         "arc": "Aramäesch",
-<<<<<<< HEAD
-        "arn": "Mapudungun",
-=======
         "arn": "Araukanesch",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "aro": "Araona",
         "arp": "Arapaho-Sprooch",
         "arq": "Algerescht Arabesch",
@@ -50,10 +42,7 @@
         "awa": "Awadhi",
         "ay": "Aymara",
         "az": "Aserbaidschanesch",
-<<<<<<< HEAD
-=======
         "azb": "Süd-Aserbaidschanesch",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "Baschkiresch",
         "bal": "Belutschesch",
         "ban": "Balinesesch",
@@ -525,13 +514,8 @@
         "sux": "Sumeresch",
         "sv": "Schwedesch",
         "sw": "Suaheli",
-<<<<<<< HEAD
-        "sw_CD": "Kongo-Swahili",
-        "swb": "Komoresch",
-=======
         "swb": "Komoresch",
         "swc": "Kongo-Swahili",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "Alsyresch",
         "syr": "Syresch",
         "szl": "Schlesesch",

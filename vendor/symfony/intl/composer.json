@@ -24,20 +24,11 @@
         }
     ],
     "require": {
-<<<<<<< HEAD
-        "php": ">=5.3.9",
-        "symfony/polyfill-intl-icu": "~1.0",
-        "symfony/polyfill-php54": "~1.0"
-    },
-    "require-dev": {
-        "symfony/filesystem": "~2.1|~3.0.0"
-=======
         "php": ">=5.5.9",
         "symfony/polyfill-intl-icu": "~1.0"
     },
     "require-dev": {
         "symfony/filesystem": "~2.8|~3.0"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     },
     "suggest": {
         "ext-intl": "to use the component with locales other than \"en\""
@@ -52,11 +43,7 @@
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-<<<<<<< HEAD
-            "dev-master": "2.8-dev"
-=======
             "dev-master": "3.0-dev"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
     }
 }

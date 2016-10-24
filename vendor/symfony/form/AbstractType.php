@@ -11,10 +11,7 @@
 
 namespace Symfony\Component\Form;
 
-<<<<<<< HEAD
-=======
 use Symfony\Component\Form\Util\StringUtil;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
@@ -68,11 +65,6 @@ abstract class AbstractType implements FormTypeInterface
     /**
      * {@inheritdoc}
      */
-<<<<<<< HEAD
-    public function getParent()
-    {
-        return 'form';
-=======
     public function getName()
     {
         // As of Symfony 2.8, the name defaults to the fully-qualified class name
@@ -102,6 +94,5 @@ abstract class AbstractType implements FormTypeInterface
     public function getParent()
     {
         return 'Symfony\Component\Form\Extension\Core\Type\FormType';
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

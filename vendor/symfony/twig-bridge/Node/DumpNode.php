@@ -20,16 +20,12 @@ class DumpNode extends \Twig_Node
 
     public function __construct($varPrefix, \Twig_Node $values = null, $lineno, $tag = null)
     {
-<<<<<<< HEAD
-        parent::__construct(array('values' => $values), array(), $lineno, $tag);
-=======
         $nodes = array();
         if (null !== $values) {
             $nodes['values'] = $values;
         }
 
         parent::__construct($nodes, array(), $lineno, $tag);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->varPrefix = $varPrefix;
     }
 
@@ -42,13 +38,7 @@ class DumpNode extends \Twig_Node
             ->write("if (\$this->env->isDebug()) {\n")
             ->indent();
 
-<<<<<<< HEAD
-        $values = $this->getNode('values');
-
-        if (null === $values) {
-=======
         if (!$this->hasNode('values')) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             // remove embedded templates (macros) from the context
             $compiler
                 ->write(sprintf('$%svars = array();'."\n", $this->varPrefix))
@@ -63,11 +53,7 @@ class DumpNode extends \Twig_Node
                 ->write("}\n")
                 ->addDebugInfo($this)
                 ->write(sprintf('\Symfony\Component\VarDumper\VarDumper::dump($%svars);'."\n", $this->varPrefix));
-<<<<<<< HEAD
-        } elseif (1 === $values->count()) {
-=======
         } elseif (($values = $this->getNode('values')) && 1 === $values->count()) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $compiler
                 ->addDebugInfo($this)
                 ->write('\Symfony\Component\VarDumper\VarDumper::dump(')

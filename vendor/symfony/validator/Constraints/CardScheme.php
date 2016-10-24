@@ -24,13 +24,8 @@ use Symfony\Component\Validator\Constraint;
  */
 class CardScheme extends Constraint
 {
-<<<<<<< HEAD
-    const NOT_NUMERIC_ERROR = 1;
-    const INVALID_FORMAT_ERROR = 2;
-=======
     const NOT_NUMERIC_ERROR = 'a2ad9231-e827-485f-8a1e-ef4d9a6d5c2e';
     const INVALID_FORMAT_ERROR = 'a8faedbf-1c2f-4695-8d22-55783be8efed';
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     protected static $errorNames = array(
         self::NOT_NUMERIC_ERROR => 'NOT_NUMERIC_ERROR',

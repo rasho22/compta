@@ -84,9 +84,6 @@ class XmlReferenceDumper
 
             // render prototyped nodes
             if ($node instanceof PrototypedArrayNode) {
-<<<<<<< HEAD
-                array_unshift($rootComments, 'prototype');
-=======
                 $prototype = $node->getPrototype();
 
                 $info = 'prototype';
@@ -94,17 +91,11 @@ class XmlReferenceDumper
                     $info .= ': '.$prototype->getInfo();
                 }
                 array_unshift($rootComments, $info);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
                 if ($key = $node->getKeyAttribute()) {
                     $rootAttributes[$key] = str_replace('-', ' ', $rootName).' '.$key;
                 }
 
-<<<<<<< HEAD
-                $prototype = $node->getPrototype();
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 if ($prototype instanceof ArrayNode) {
                     $children = $prototype->getChildren();
                 } else {

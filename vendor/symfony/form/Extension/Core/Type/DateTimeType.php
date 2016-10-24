@@ -116,10 +116,7 @@ class DateTimeType extends AbstractType
                 'days',
                 'empty_value',
                 'placeholder',
-<<<<<<< HEAD
-=======
                 'choice_translation_domain',
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 'required',
                 'translation_domain',
                 'html5',
@@ -135,10 +132,7 @@ class DateTimeType extends AbstractType
                 'with_seconds',
                 'empty_value',
                 'placeholder',
-<<<<<<< HEAD
-=======
                 'choice_translation_domain',
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 'required',
                 'translation_domain',
                 'html5',
@@ -169,13 +163,8 @@ class DateTimeType extends AbstractType
                         'time' => $timeParts,
                     )),
                 )))
-<<<<<<< HEAD
-                ->add('date', 'date', $dateOptions)
-                ->add('time', 'time', $timeOptions)
-=======
                 ->add('date', __NAMESPACE__.'\DateType', $dateOptions)
                 ->add('time', __NAMESPACE__.'\TimeType', $timeOptions)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ;
         }
 
@@ -258,10 +247,7 @@ class DateTimeType extends AbstractType
         $resolver->setDefined(array(
             'empty_value', // deprecated
             'placeholder',
-<<<<<<< HEAD
-=======
             'choice_translation_domain',
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'years',
             'months',
             'days',
@@ -302,8 +288,6 @@ class DateTimeType extends AbstractType
      */
     public function getName()
     {
-<<<<<<< HEAD
-=======
         return $this->getBlockPrefix();
     }
 
@@ -312,7 +296,6 @@ class DateTimeType extends AbstractType
      */
     public function getBlockPrefix()
     {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return 'datetime';
     }
 }

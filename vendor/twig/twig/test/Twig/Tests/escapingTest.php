@@ -144,15 +144,9 @@ class Twig_Test_EscapingTest extends PHPUnit_Framework_TestCase
 
     protected $env;
 
-<<<<<<< HEAD
-    public function setUp()
-    {
-        $this->env = new Twig_Environment($this->getMock('Twig_LoaderInterface'));
-=======
     protected function setUp()
     {
         $this->env = new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock());
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function testHtmlEscapingConvertsSpecialChars()
@@ -256,11 +250,7 @@ class Twig_Test_EscapingTest extends PHPUnit_Framework_TestCase
                 .chr($codepoint >> 6 & 0x3f | 0x80)
                 .chr($codepoint & 0x3f | 0x80);
         }
-<<<<<<< HEAD
-        throw new Exception('Codepoint requested outside of Unicode range');
-=======
         throw new Exception('Codepoint requested outside of Unicode range.');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function testJavascriptEscapingEscapesOwaspRecommendedRanges()

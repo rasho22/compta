@@ -25,16 +25,6 @@
  */
 class Twig_TokenParser_Use extends Twig_TokenParser
 {
-<<<<<<< HEAD
-    /**
-     * Parses a token and returns a node.
-     *
-     * @param Twig_Token $token A Twig_Token instance
-     *
-     * @return Twig_NodeInterface A Twig_NodeInterface instance
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function parse(Twig_Token $token)
     {
         $template = $this->parser->getExpressionParser()->parseExpression();
@@ -67,14 +57,6 @@ class Twig_TokenParser_Use extends Twig_TokenParser
         $this->parser->addTrait(new Twig_Node(array('template' => $template, 'targets' => new Twig_Node($targets))));
     }
 
-<<<<<<< HEAD
-    /**
-     * Gets the tag name associated with this token parser.
-     *
-     * @return string The tag name
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getTag()
     {
         return 'use';

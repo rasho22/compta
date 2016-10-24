@@ -78,8 +78,6 @@ interface EventDispatcherInterface
     public function getListeners($eventName = null);
 
     /**
-<<<<<<< HEAD
-=======
      * Gets the listener priority for a specific event.
      *
      * Returns null if the event or the listener does not exist.
@@ -92,7 +90,6 @@ interface EventDispatcherInterface
     public function getListenerPriority($eventName, $listener);
 
     /**
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * Checks whether an event has any registered listeners.
      *
      * @param string $eventName The name of the event

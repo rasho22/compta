@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -227,11 +223,7 @@
         ],
         "CNY": [
             "CN¥",
-<<<<<<< HEAD
-            "kitajski juan"
-=======
             "kitajski juan renminbi"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "COP": [
             "COP",
@@ -995,11 +987,7 @@
         ],
         "XOF": [
             "CFA",
-<<<<<<< HEAD
-            "zahodnoafriški frank CFA"
-=======
             "CFA frank BCEAO"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XPF": [
             "CFPF",

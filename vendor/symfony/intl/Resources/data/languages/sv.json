@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.66",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afar",
         "ab": "abchaziska",
@@ -19,10 +15,6 @@
         "ain": "ainu",
         "ak": "akan",
         "akk": "akkadiska",
-<<<<<<< HEAD
-        "akz": "Alabama-muskogee",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ale": "aleutiska",
         "aln": "gegiska",
         "alt": "sydaltaiska",
@@ -49,20 +41,13 @@
         "awa": "awadhi",
         "ay": "aymara",
         "az": "azerbajdzjanska",
-<<<<<<< HEAD
-=======
         "azb": "sydazerbadjanska",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "basjkiriska",
         "bal": "baluchiska",
         "ban": "balinesiska",
         "bar": "bayerska",
         "bas": "basa",
         "bax": "bamunska",
-<<<<<<< HEAD
-        "bbc": "batak-toba",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bbj": "ghomala",
         "be": "vitryska",
         "bej": "beja",
@@ -72,10 +57,6 @@
         "bfd": "bafut",
         "bfq": "bagada",
         "bg": "bulgariska",
-<<<<<<< HEAD
-        "bgn": "västbaluchiska",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhojpuri",
         "bi": "bislama",
         "bik": "bikol",
@@ -120,10 +101,6 @@
         "ckb": "soranisk kurdiska",
         "co": "korsikanska",
         "cop": "koptiska",
-<<<<<<< HEAD
-        "cps": "kapisnon",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cr": "cree",
         "crh": "krimtatariska",
         "cs": "tjeckiska",
@@ -145,10 +122,6 @@
         "dje": "zarma",
         "doi": "dogri",
         "dsb": "lågsorbiska",
-<<<<<<< HEAD
-        "dtp": "centraldusun",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "dua": "duala",
         "dum": "medelnederländska",
         "dv": "divehi",
@@ -175,17 +148,9 @@
         "es_419": "latinamerikansk spanska",
         "es_ES": "europeisk spanska",
         "es_MX": "mexikansk spanska",
-<<<<<<< HEAD
-        "esu": "centralalaskisk jupiska",
         "et": "estniska",
         "eu": "baskiska",
         "ewo": "ewondo",
-        "ext": "extremaduriska",
-=======
-        "et": "estniska",
-        "eu": "baskiska",
-        "ewo": "ewondo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fa": "persiska",
         "fan": "fang",
         "fat": "fanti",
@@ -230,11 +195,6 @@
         "grc": "forngrekiska",
         "gsw": "schweizertyska",
         "gu": "gujarati",
-<<<<<<< HEAD
-        "guc": "wayuu",
-        "gur": "farefare",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "guz": "gusii",
         "gv": "manx",
         "gwi": "gwichin",
@@ -293,24 +253,13 @@
         "kcg": "tyap",
         "kde": "makonde",
         "kea": "kapverdiska",
-<<<<<<< HEAD
-        "ken": "kenjang",
         "kfo": "koro",
         "kg": "kikongo",
-        "kgp": "kaingang",
-=======
-        "kfo": "koro",
-        "kg": "kikongo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kha": "khasi",
         "kho": "khotanesiska",
         "khq": "Timbuktu-songhoy",
         "khw": "khowar",
         "ki": "kikuyu",
-<<<<<<< HEAD
-        "kiu": "kirmanjki",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kj": "kuanyama",
         "kk": "kazakiska",
         "kkj": "mkako",
@@ -326,11 +275,6 @@
         "kpe": "kpelle",
         "kr": "kanuri",
         "krc": "karachay-balkar",
-<<<<<<< HEAD
-        "kri": "krio",
-        "krj": "kinaray-a",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "krl": "karelska",
         "kru": "kurukh",
         "ks": "kashmiriska",
@@ -350,10 +294,6 @@
         "lam": "lamba",
         "lb": "luxemburgiska",
         "lez": "lezghien",
-<<<<<<< HEAD
-        "lfn": "lingua franca nova",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lg": "luganda",
         "li": "limburgiska",
         "lij": "liguriska",
@@ -364,10 +304,6 @@
         "lo": "laotiska",
         "lol": "mongo",
         "loz": "lozi",
-<<<<<<< HEAD
-        "lrc": "nordluri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "litauiska",
         "ltg": "lettgalliska",
         "lu": "luba-katanga",
@@ -378,11 +314,6 @@
         "lus": "lushai",
         "luy": "luhya",
         "lv": "lettiska",
-<<<<<<< HEAD
-        "lzh": "litterär kineiska",
-        "lzz": "laziska",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mad": "maduresiska",
         "maf": "mafa",
         "mag": "magahi",
@@ -420,10 +351,6 @@
         "mus": "muskogee",
         "mwl": "mirandesiska",
         "mwr": "marwari",
-<<<<<<< HEAD
-        "mwv": "mentawai",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "my": "burmesiska",
         "mye": "myene",
         "myv": "erjya",
@@ -435,19 +362,11 @@
         "nb": "norskt bokmål",
         "nd": "nordndebele",
         "nds": "lågtyska",
-<<<<<<< HEAD
-        "nds_NL": "lågsaxiska",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepalesiska",
         "new": "newariska",
         "ng": "ndonga",
         "nia": "nias",
         "niu": "niueanska",
-<<<<<<< HEAD
-        "njo": "ao-naga",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nl": "nederländska",
         "nl_BE": "flamländska",
         "nmg": "kwasio",
@@ -456,10 +375,6 @@
         "no": "norska",
         "nog": "nogai",
         "non": "fornnordiska",
-<<<<<<< HEAD
-        "nov": "novial",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nqo": "n-kå",
         "nr": "sydndebele",
         "nso": "nordsotho",
@@ -502,11 +417,7 @@
         "pt_BR": "brasiliansk portugisiska",
         "pt_PT": "europeisk portugisiska",
         "qu": "quechua",
-<<<<<<< HEAD
-        "quc": "quiché",
-=======
         "quc": "kʼicheʼ",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "qug": "Chimborazo-höglandskichwa",
         "raj": "rajasthani",
         "rap": "rapanui",
@@ -542,17 +453,9 @@
         "sco": "skotska",
         "sd": "sindhi",
         "sdc": "sassaresisk sardiska",
-<<<<<<< HEAD
-        "sdh": "sydkurdiska",
         "se": "nordsamiska",
         "see": "seneca",
         "seh": "sena",
-        "sei": "seri",
-=======
-        "se": "nordsamiska",
-        "see": "seneca",
-        "seh": "sena",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sel": "selkup",
         "ses": "Gao-songhay",
         "sg": "sango",
@@ -567,10 +470,6 @@
         "sk": "slovakiska",
         "sl": "slovenska",
         "sli": "lågsilesiska",
-<<<<<<< HEAD
-        "sly": "selayar",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sm": "samoanska",
         "sma": "sydsamiska",
         "smj": "lulesamiska",
@@ -594,13 +493,8 @@
         "sux": "sumeriska",
         "sv": "svenska",
         "sw": "swahili",
-<<<<<<< HEAD
-        "sw_CD": "Kongo-swahili",
-        "swb": "shimaoré",
-=======
         "swb": "shimaoré",
         "swc": "Kongo-swahili",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "klassisk syriska",
         "syr": "syriska",
         "szl": "silesiska",
@@ -618,10 +512,6 @@
         "tiv": "tivi",
         "tk": "turkmeniska",
         "tkl": "tokelauiska",
-<<<<<<< HEAD
-        "tkr": "tsakhur",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tl": "tagalog",
         "tlh": "klingonska",
         "tli": "tlingit",
@@ -632,19 +522,11 @@
         "tog": "nyasatonganska",
         "tpi": "tok pisin",
         "tr": "turkiska",
-<<<<<<< HEAD
-        "tru": "turoyo",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "trv": "taroko",
         "ts": "tsonga",
         "tsd": "tsakodiska",
         "tsi": "tsimshian",
         "tt": "tatariska",
-<<<<<<< HEAD
-        "ttt": "muslimsk tatariska",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tum": "tumbuka",
         "tvl": "tuvaluanska",
         "tw": "twi",
@@ -676,18 +558,10 @@
         "wal": "walamo",
         "war": "waray",
         "was": "washo",
-<<<<<<< HEAD
-        "wbp": "warlpiri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "wolof",
         "wuu": "wu",
         "xal": "kalmuckiska",
         "xh": "xhosa",
-<<<<<<< HEAD
-        "xmf": "mingrelianska",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "xog": "lusoga",
         "yao": "kiyao",
         "yap": "japetiska",
@@ -695,10 +569,6 @@
         "ybb": "bamileké-jemba",
         "yi": "jiddisch",
         "yo": "yoruba",
-<<<<<<< HEAD
-        "yrl": "nheengatu",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "yue": "kantonesiska",
         "za": "zhuang",
         "zap": "zapotek",

@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.7",
-=======
     "Version": "2.1.10.93",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AD": "Andorra",
         "AE": "Emirati Għarab Maqgħuda",
@@ -50,11 +46,7 @@
         "CL": "Ċili",
         "CM": "Kamerun",
         "CN": "Iċ-Ċina",
-<<<<<<< HEAD
-        "CO": "Kolombja",
-=======
         "CO": "Kolumbja",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CR": "Kosta Rika",
         "CU": "Kuba",
         "CV": "Kape Verde",
@@ -71,11 +63,7 @@
         "EE": "Estonja",
         "EG": "Eġittu",
         "EH": "Sahara tal-Punent",
-<<<<<<< HEAD
-        "ER": "Eritrea",
-=======
         "ER": "Eritreja",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ES": "Spanja",
         "ET": "Etijopja",
         "FI": "Finlandja",
@@ -87,21 +75,13 @@
         "GA": "Gabon",
         "GB": "L-Ingilterra",
         "GD": "Grenada",
-<<<<<<< HEAD
-        "GE": "Ġeorġja",
-=======
         "GE": "Ġorġja",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GF": "Gujana Franċiża",
         "GH": "Gana",
         "GI": "Gibraltar",
         "GL": "Grinlandja",
         "GM": "Gambja",
-<<<<<<< HEAD
-        "GN": "Ginea",
-=======
         "GN": "Gineja",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GP": "Gwadelupe",
         "GQ": "Ginea Ekwatorjali",
         "GR": "Greċja",
@@ -152,11 +132,7 @@
         "LY": "Libja",
         "MA": "Marokk",
         "MC": "Monako",
-<<<<<<< HEAD
-        "MD": "Moldova",
-=======
         "MD": "Maldova",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MG": "Madagaskar",
         "MH": "Gżejjer ta’ Marshall",
         "MK": "Maċedonja",

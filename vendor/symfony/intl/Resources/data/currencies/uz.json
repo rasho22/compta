@@ -1,31 +1,4 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-    "Names": {
-        "AED": [
-            "AED",
-            "Birlashgan Arab Amirliklari dirhami"
-        ],
-        "AFN": [
-            "AFN",
-            "Afg‘oniston afg‘oni"
-        ],
-        "ALL": [
-            "ALL",
-            "Albaniya leki"
-        ],
-        "AMD": [
-            "AMD",
-            "Armaniston drami"
-        ],
-        "ANG": [
-            "ANG",
-            "Niderland antil guldeni"
-        ],
-        "AOA": [
-            "AOA",
-            "Angola kvanzasi"
-=======
     "Version": "2.1.12.94",
     "Names": {
         "AED": [
@@ -51,7 +24,6 @@
         "AOA": [
             "AOA",
             "AOA"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ARS": [
             "ARS",
@@ -67,19 +39,11 @@
         ],
         "AZN": [
             "AZN",
-<<<<<<< HEAD
-            "Ozarbayjon manati"
-        ],
-        "BAM": [
-            "BAM",
-            "Bosniya va Gertsegovina ayirboshlash markasi"
-=======
             "AZN"
         ],
         "BAM": [
             "BAM",
             "Bosniya va Gertsogovina ayriboshlash markasi"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BBD": [
             "BBD",
@@ -87,11 +51,7 @@
         ],
         "BDT": [
             "BDT",
-<<<<<<< HEAD
-            "Bangladesh takasi"
-=======
             "BDT"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BGN": [
             "BGN",
@@ -99,19 +59,11 @@
         ],
         "BHD": [
             "BHD",
-<<<<<<< HEAD
-            "Bahrayn dinori"
-        ],
-        "BIF": [
-            "BIF",
-            "Burundi franki"
-=======
             "BHD"
         ],
         "BIF": [
             "BIF",
             "BIF"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BMD": [
             "BMD",
@@ -119,17 +71,6 @@
         ],
         "BND": [
             "BND",
-<<<<<<< HEAD
-            "Bruney dollari"
-        ],
-        "BOB": [
-            "BOB",
-            "Boliviya bolivianosi"
-        ],
-        "BRL": [
-            "R$",
-            "Braziliya reali"
-=======
             "BND"
         ],
         "BOB": [
@@ -139,7 +80,6 @@
         "BRL": [
             "R$",
             "Brazil reali"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BSD": [
             "BSD",
@@ -147,19 +87,11 @@
         ],
         "BTN": [
             "BTN",
-<<<<<<< HEAD
-            "Butan ngultrumi"
-        ],
-        "BWP": [
-            "BWP",
-            "Botsvana pulasi"
-=======
             "BTN"
         ],
         "BWP": [
             "BWP",
             "BWP"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BYR": [
             "BYR",
@@ -175,19 +107,11 @@
         ],
         "CDF": [
             "CDF",
-<<<<<<< HEAD
-            "Kongo franki"
-        ],
-        "CHF": [
-            "CHF",
-            "Shveytsariya franki"
-=======
             "CDF"
         ],
         "CHF": [
             "CHF",
             "Shvetsariya franki"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CLP": [
             "CLP",
@@ -207,11 +131,7 @@
         ],
         "CUC": [
             "CUC",
-<<<<<<< HEAD
-            "Kuba ayirboshlash pesosi"
-=======
             "Kuba Ayirboshlash pesosi"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CUP": [
             "CUP",
@@ -219,17 +139,6 @@
         ],
         "CVE": [
             "CVE",
-<<<<<<< HEAD
-            "Kabo-Verde eskudosi"
-        ],
-        "CZK": [
-            "CZK",
-            "Chexiya kronasi"
-        ],
-        "DJF": [
-            "DJF",
-            "Jibuti franki"
-=======
             "CVE"
         ],
         "CZK": [
@@ -239,7 +148,6 @@
         "DJF": [
             "DJF",
             "DJF"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "DKK": [
             "DKK",
@@ -259,19 +167,11 @@
         ],
         "ERN": [
             "ERN",
-<<<<<<< HEAD
-            "Eritreya nakfasi"
-        ],
-        "ETB": [
-            "ETB",
-            "Efiopiya biri"
-=======
             "ERN"
         ],
         "ETB": [
             "ETB",
             "ETB"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "EUR": [
             "€",
@@ -279,25 +179,6 @@
         ],
         "FJD": [
             "FJD",
-<<<<<<< HEAD
-            "Fiji dollari"
-        ],
-        "FKP": [
-            "FKP",
-            "Folklend orollari funti"
-        ],
-        "GBP": [
-            "£",
-            "Angliya funt sterlingi"
-        ],
-        "GEL": [
-            "GEL",
-            "Gruziya larisi"
-        ],
-        "GHS": [
-            "GHS",
-            "Gana sedisi"
-=======
             "FJD"
         ],
         "FKP": [
@@ -315,7 +196,6 @@
         "GHS": [
             "GHS",
             "GHS"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "GIP": [
             "GIP",
@@ -323,17 +203,6 @@
         ],
         "GMD": [
             "GMD",
-<<<<<<< HEAD
-            "Gambiya dalasisi"
-        ],
-        "GNF": [
-            "GNF",
-            "Gvineya franki"
-        ],
-        "GTQ": [
-            "GTQ",
-            "Gvatemala ketsali"
-=======
             "GMD"
         ],
         "GNF": [
@@ -343,7 +212,6 @@
         "GTQ": [
             "GTQ",
             "Gvatemala kvetzali"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "GYD": [
             "GYD",
@@ -359,11 +227,7 @@
         ],
         "HRK": [
             "HRK",
-<<<<<<< HEAD
-            "Xorvatiya kunasi"
-=======
             "Horvat kunasi"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "HTG": [
             "HTG",
@@ -379,21 +243,6 @@
         ],
         "ILS": [
             "₪",
-<<<<<<< HEAD
-            "Isroil yangi shekeli"
-        ],
-        "INR": [
-            "₹",
-            "Hindiston rupiyasi"
-        ],
-        "IQD": [
-            "IQD",
-            "Iroq dinori"
-        ],
-        "IRR": [
-            "IRR",
-            "Eron riali"
-=======
             "ILS"
         ],
         "INR": [
@@ -407,7 +256,6 @@
         "IRR": [
             "IRR",
             "IRR"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ISK": [
             "ISK",
@@ -419,33 +267,6 @@
         ],
         "JOD": [
             "JOD",
-<<<<<<< HEAD
-            "Iordaniya dinori"
-        ],
-        "JPY": [
-            "JP¥",
-            "Yaponiya iyenasi"
-        ],
-        "KES": [
-            "KES",
-            "Keniya shillingi"
-        ],
-        "KGS": [
-            "KGS",
-            "Qirg‘iziston so‘mi"
-        ],
-        "KHR": [
-            "KHR",
-            "Kamboja rieli"
-        ],
-        "KMF": [
-            "KMF",
-            "Komor orollari franki"
-        ],
-        "KPW": [
-            "KPW",
-            "Shimoliy Koreya voni"
-=======
             "JOD"
         ],
         "JPY": [
@@ -471,7 +292,6 @@
         "KPW": [
             "KPW",
             "KPW"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KRW": [
             "₩",
@@ -479,33 +299,6 @@
         ],
         "KWD": [
             "KWD",
-<<<<<<< HEAD
-            "Quvayt dinori"
-        ],
-        "KYD": [
-            "KYD",
-            "Kayman orollari dollari"
-        ],
-        "KZT": [
-            "KZT",
-            "Qozog‘iston tengesi"
-        ],
-        "LAK": [
-            "LAK",
-            "Laos kipi"
-        ],
-        "LBP": [
-            "LBP",
-            "Livan funti"
-        ],
-        "LKR": [
-            "LKR",
-            "Shri-Lanka rupiyasi"
-        ],
-        "LRD": [
-            "LRD",
-            "Liberiya dollari"
-=======
             "KWD"
         ],
         "KYD": [
@@ -531,7 +324,6 @@
         "LRD": [
             "LRD",
             "LRD"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "LTL": [
             "LTL",
@@ -551,19 +343,11 @@
         ],
         "MDL": [
             "MDL",
-<<<<<<< HEAD
-            "Moldova leyi"
-        ],
-        "MGA": [
-            "MGA",
-            "Malagasi ariarisi"
-=======
             "Moldova leusi"
         ],
         "MGA": [
             "MGA",
             "MGA"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MKD": [
             "MKD",
@@ -571,33 +355,6 @@
         ],
         "MMK": [
             "MMK",
-<<<<<<< HEAD
-            "Myanma kyati"
-        ],
-        "MNT": [
-            "MNT",
-            "Mongoliya tugriki"
-        ],
-        "MOP": [
-            "MOP",
-            "Makao patakasi"
-        ],
-        "MRO": [
-            "MRO",
-            "Mavritaniya ugiyasi"
-        ],
-        "MUR": [
-            "MUR",
-            "Mavritaniya rupiyasi"
-        ],
-        "MVR": [
-            "MVR",
-            "Maldiv rupiyasi"
-        ],
-        "MWK": [
-            "MWK",
-            "Malavi kvachasi"
-=======
             "MMK"
         ],
         "MNT": [
@@ -623,7 +380,6 @@
         "MWK": [
             "MWK",
             "MWK"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MXN": [
             "MX$",
@@ -631,21 +387,6 @@
         ],
         "MYR": [
             "MYR",
-<<<<<<< HEAD
-            "Malayziya ringgiti"
-        ],
-        "MZN": [
-            "MZN",
-            "Mozambik metikali"
-        ],
-        "NAD": [
-            "NAD",
-            "Nambiya dollari"
-        ],
-        "NGN": [
-            "NGN",
-            "Nigeriya nayrasi"
-=======
             "MYR"
         ],
         "MZN": [
@@ -659,7 +400,6 @@
         "NGN": [
             "NGN",
             "NGN"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "NIO": [
             "NIO",
@@ -671,17 +411,6 @@
         ],
         "NPR": [
             "NPR",
-<<<<<<< HEAD
-            "Nepal rupiyasi"
-        ],
-        "NZD": [
-            "NZ$",
-            "Yangi Zelandiya dollari"
-        ],
-        "OMR": [
-            "OMR",
-            "Ummon riali"
-=======
             "NPR"
         ],
         "NZD": [
@@ -691,7 +420,6 @@
         "OMR": [
             "OMR",
             "OMR"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "PAB": [
             "PAB",
@@ -699,21 +427,6 @@
         ],
         "PEN": [
             "PEN",
-<<<<<<< HEAD
-            "Peru yangi soli"
-        ],
-        "PGK": [
-            "PGK",
-            "Papua – Yangi Gvineya kinasi"
-        ],
-        "PHP": [
-            "PHP",
-            "Filippin pesosi"
-        ],
-        "PKR": [
-            "PKR",
-            "Pokiston rupiyasi"
-=======
             "Peru noyvo soli"
         ],
         "PGK": [
@@ -727,7 +440,6 @@
         "PKR": [
             "PKR",
             "PKR"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "PLN": [
             "PLN",
@@ -735,17 +447,6 @@
         ],
         "PYG": [
             "PYG",
-<<<<<<< HEAD
-            "Paragvay guaranisi"
-        ],
-        "QAR": [
-            "QAR",
-            "Qatar riali"
-        ],
-        "RON": [
-            "RON",
-            "Ruminiya leyi"
-=======
             "Paragvay guarani"
         ],
         "QAR": [
@@ -755,7 +456,6 @@
         "RON": [
             "RON",
             "Rumin leusi"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "RSD": [
             "RSD",
@@ -763,19 +463,11 @@
         ],
         "RUB": [
             "RUB",
-<<<<<<< HEAD
-            "Rossiya rubli"
-        ],
-        "RWF": [
-            "RWF",
-            "Ruanda franki"
-=======
             "Rus rubli"
         ],
         "RWF": [
             "RWF",
             "RWF"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SAR": [
             "SAR",
@@ -783,19 +475,11 @@
         ],
         "SBD": [
             "SBD",
-<<<<<<< HEAD
-            "Solomon orollari dollari"
-        ],
-        "SCR": [
-            "SCR",
-            "Seyshel rupiyasi"
-=======
             "SBD"
         ],
         "SCR": [
             "SCR",
             "SCR"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SDG": [
             "SDG",
@@ -807,21 +491,6 @@
         ],
         "SGD": [
             "SGD",
-<<<<<<< HEAD
-            "Singapur dollari"
-        ],
-        "SHP": [
-            "SHP",
-            "Muqaddas Yelena oroli funti"
-        ],
-        "SLL": [
-            "SLL",
-            "Syerra-Leone leonesi"
-        ],
-        "SOS": [
-            "SOS",
-            "Somali shillingi"
-=======
             "SGD"
         ],
         "SHP": [
@@ -835,7 +504,6 @@
         "SOS": [
             "SOS",
             "SOS"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SRD": [
             "SRD",
@@ -847,29 +515,6 @@
         ],
         "STD": [
             "STD",
-<<<<<<< HEAD
-            "San-Tome va Prinsipi dobrasi"
-        ],
-        "SYP": [
-            "SYP",
-            "Suriya funti"
-        ],
-        "SZL": [
-            "SZL",
-            "Svazilend lilangenisi"
-        ],
-        "THB": [
-            "THB",
-            "Tailand bati"
-        ],
-        "TJS": [
-            "TJS",
-            "Tojikiston somoniysi"
-        ],
-        "TMT": [
-            "TMT",
-            "Turkmaniston manati"
-=======
             "STD"
         ],
         "SYP": [
@@ -891,7 +536,6 @@
         "TMT": [
             "TMT",
             "TMT"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "TND": [
             "TND",
@@ -899,11 +543,7 @@
         ],
         "TOP": [
             "TOP",
-<<<<<<< HEAD
-            "Tonga pangasi"
-=======
             "TOP"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "TRY": [
             "TRY",
@@ -919,17 +559,6 @@
         ],
         "TZS": [
             "TZS",
-<<<<<<< HEAD
-            "Tanzaniya shillingi"
-        ],
-        "UAH": [
-            "UAH",
-            "Ukraina grivnasi"
-        ],
-        "UGX": [
-            "UGX",
-            "Uganda shillingi"
-=======
             "TZS"
         ],
         "UAH": [
@@ -939,7 +568,6 @@
         "UGX": [
             "UGX",
             "UGX"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "USD": [
             "US$",
@@ -951,11 +579,7 @@
         ],
         "UZS": [
             "soʻm",
-<<<<<<< HEAD
-            "Oʻzbekiston soʻmi"
-=======
             "Oʻzbekiston soʻm"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "VEF": [
             "VEF",
@@ -963,21 +587,6 @@
         ],
         "VND": [
             "₫",
-<<<<<<< HEAD
-            "Vyetnam dongi"
-        ],
-        "VUV": [
-            "VUV",
-            "Vanuatu vatusi"
-        ],
-        "WST": [
-            "WST",
-            "Samoa talasi"
-        ],
-        "XAF": [
-            "FCFA",
-            "Markaziy Afrika CFA franki"
-=======
             "VND"
         ],
         "VUV": [
@@ -991,7 +600,6 @@
         "XAF": [
             "FCFA",
             "XAF"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XCD": [
             "EC$",
@@ -999,25 +607,6 @@
         ],
         "XOF": [
             "CFA",
-<<<<<<< HEAD
-            "G‘arbiy Afrika CFA franki"
-        ],
-        "XPF": [
-            "CFPF",
-            "Fransuz Polineziyasi franki"
-        ],
-        "YER": [
-            "YER",
-            "Yaman riali"
-        ],
-        "ZAR": [
-            "ZAR",
-            "Janubiy Afrika rendi"
-        ],
-        "ZMW": [
-            "ZMW",
-            "Zambiya kvachasi"
-=======
             "XOF"
         ],
         "XPF": [
@@ -1035,7 +624,6 @@
         "ZMW": [
             "ZMW",
             "ZMW"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ]
     }
 }

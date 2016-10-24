@@ -21,14 +21,11 @@ use Symfony\Component\Validator\Constraint;
  */
 class IsNull extends Constraint
 {
-<<<<<<< HEAD
-=======
     const NOT_NULL_ERROR = '60d2f30b-8cfa-4372-b155-9656634de120';
 
     protected static $errorNames = array(
         self::NOT_NULL_ERROR => 'NOT_NULL_ERROR',
     );
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public $message = 'This value should be null.';
 }

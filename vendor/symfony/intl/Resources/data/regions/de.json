@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.13.4",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Ascension",
         "AD": "Andorra",
@@ -239,11 +235,7 @@
         "TZ": "Tansania",
         "UA": "Ukraine",
         "UG": "Uganda",
-<<<<<<< HEAD
-        "UM": "Amerikanische Überseeinseln",
-=======
         "UM": "Amerikanisch-Ozeanien",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "US": "Vereinigte Staaten",
         "UY": "Uruguay",
         "UZ": "Usbekistan",

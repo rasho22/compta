@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.13.6",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afar",
         "ab": "abcaso",
@@ -46,10 +42,7 @@
         "awa": "awadhi",
         "ay": "aymara",
         "az": "azerbaigiano",
-<<<<<<< HEAD
-=======
         "azb": "azero meridionale",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "baschiro",
         "bal": "beluci",
         "ban": "balinese",
@@ -66,10 +59,6 @@
         "bfd": "bafut",
         "bfq": "badaga",
         "bg": "bulgaro",
-<<<<<<< HEAD
-        "bgn": "beluci occidentale",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhojpuri",
         "bi": "bislama",
         "bik": "bicol",
@@ -120,11 +109,7 @@
         "cs": "ceco",
         "csb": "kashubian",
         "cu": "slavo della Chiesa",
-<<<<<<< HEAD
-        "cv": "ciuvascio",
-=======
         "cv": "chuvash",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cy": "gallese",
         "da": "danese",
         "dak": "dakota",
@@ -218,11 +203,7 @@
         "gu": "gujarati",
         "guc": "wayuu",
         "guz": "gusii",
-<<<<<<< HEAD
-        "gv": "mannese",
-=======
         "gv": "manx",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "gwi": "gwichʼin",
         "ha": "hausa",
         "hai": "haida",
@@ -291,11 +272,7 @@
         "kj": "kuanyama",
         "kk": "kazako",
         "kkj": "kako",
-<<<<<<< HEAD
-        "kl": "groenlandese",
-=======
         "kl": "kalaallisut",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kln": "kalenjin",
         "km": "khmer",
         "kmb": "kimbundu",
@@ -337,10 +314,6 @@
         "lo": "lao",
         "lol": "lolo bantu",
         "loz": "lozi",
-<<<<<<< HEAD
-        "lrc": "luri settentrionale",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "lituano",
         "ltg": "letgallo",
         "lu": "luba-katanga",
@@ -402,10 +375,6 @@
         "nb": "norvegese bokmål",
         "nd": "ndebele del nord",
         "nds": "basso tedesco",
-<<<<<<< HEAD
-        "nds_NL": "basso tedesco olandese",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepalese",
         "new": "newari",
         "ng": "ndonga",
@@ -498,10 +467,6 @@
         "sco": "scozzese",
         "sd": "sindhi",
         "sdc": "sassarese",
-<<<<<<< HEAD
-        "sdh": "curdo meridionale",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "sami del nord",
         "see": "seneca",
         "seh": "sena",
@@ -544,13 +509,8 @@
         "sux": "sumero",
         "sv": "svedese",
         "sw": "swahili",
-<<<<<<< HEAD
-        "sw_CD": "congo swahili",
-        "swb": "comoriano",
-=======
         "swb": "comoriano",
         "swc": "congo swahili",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "siriaco classico",
         "syr": "siriaco",
         "szl": "slesiano",
@@ -616,10 +576,6 @@
         "wal": "walamo",
         "war": "waray",
         "was": "washo",
-<<<<<<< HEAD
-        "wbp": "warlpiri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "wolof",
         "wuu": "wu",
         "xal": "kalmyk",

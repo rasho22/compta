@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.18",
-=======
     "Version": "2.1.13.21",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -27,11 +23,7 @@
         ],
         "AMD": [
             "AMD",
-<<<<<<< HEAD
-            "dram"
-=======
             "dram armenio"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ANG": [
             "ANG",
@@ -315,11 +307,7 @@
         ],
         "ERN": [
             "ERN",
-<<<<<<< HEAD
-            "nakfa"
-=======
             "nakfa eritreo"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ESA": [
             "ESA",

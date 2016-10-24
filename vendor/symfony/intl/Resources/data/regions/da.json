@@ -1,17 +1,9 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.87",
-    "Names": {
-        "AC": "Ascensionøen",
-        "AD": "Andorra",
-        "AE": "De Forenede Arabiske Emirater",
-=======
     "Version": "2.1.12.94",
     "Names": {
         "AC": "Ascensionøen",
         "AD": "Andorra",
         "AE": "Forenede Arabiske Emirater",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "AF": "Afghanistan",
         "AG": "Antigua og Barbuda",
         "AI": "Anguilla",
@@ -39,11 +31,7 @@
         "BM": "Bermuda",
         "BN": "Brunei",
         "BO": "Bolivia",
-<<<<<<< HEAD
-        "BQ": "De Nederlandske Antiller",
-=======
         "BQ": "Nederlandske antiller",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BR": "Brasilien",
         "BS": "Bahamas",
         "BT": "Bhutan",
@@ -53,11 +41,7 @@
         "CA": "Canada",
         "CC": "Cocosøerne",
         "CD": "Congo-Kinshasa",
-<<<<<<< HEAD
-        "CF": "Den Centralafrikanske Republik",
-=======
         "CF": "Centralafrikanske Republik",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CG": "Congo-Brazzaville",
         "CH": "Schweiz",
         "CI": "Elfenbenskysten",
@@ -227,11 +211,7 @@
         "SO": "Somalia",
         "SR": "Surinam",
         "SS": "Sydsudan",
-<<<<<<< HEAD
-        "ST": "São Tomé og Príncipe",
-=======
         "ST": "Sao Tome og Principe",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SV": "El Salvador",
         "SX": "Sint Maarten",
         "SY": "Syrien",

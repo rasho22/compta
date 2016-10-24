@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ab": "abkasíska",
         "ace": "akkíska",
@@ -42,10 +38,6 @@
         "bem": "bemba",
         "bez": "bena",
         "bg": "búlgarska",
-<<<<<<< HEAD
-        "bgn": "vesturbalotsí",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bojpúrí",
         "bi": "bíslama",
         "bik": "bíkol",
@@ -122,11 +114,7 @@
         "enm": "miðenska",
         "eo": "esperantó",
         "es": "spænska",
-<<<<<<< HEAD
-        "es_419": "rómönsk-amerísk spænska",
-=======
         "es_419": "rómanskamerísk spænska",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "es_ES": "evrópsk spænska",
         "es_MX": "mexíkósk spænska",
         "et": "eistneska",
@@ -260,10 +248,6 @@
         "lo": "laó",
         "lol": "mongó",
         "loz": "lozi",
-<<<<<<< HEAD
-        "lrc": "norðurlúrí",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "litháíska",
         "lu": "lúbakatanga",
         "lua": "luba-lulua",
@@ -308,20 +292,12 @@
         "mwr": "marvarí",
         "my": "burmneska",
         "myv": "ersja",
-<<<<<<< HEAD
-        "mzn": "masanderaní",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "na": "nárúska",
         "nap": "napólíska",
         "naq": "nama",
         "nb": "norskt bókmál",
         "nd": "norður-ndebele",
         "nds": "lágþýska; lágsaxneska",
-<<<<<<< HEAD
-        "nds_NL": "lágsaxneska",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepalska",
         "new": "nevarí",
         "ng": "ndonga",
@@ -394,10 +370,6 @@
         "scn": "sikileyska",
         "sco": "skoska",
         "sd": "sindí",
-<<<<<<< HEAD
-        "sdh": "suðurkúrdíska",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "norðursamíska",
         "seh": "sena",
         "sel": "selkúp",
@@ -431,11 +403,7 @@
         "sux": "súmerska",
         "sv": "sænska",
         "sw": "svahílí",
-<<<<<<< HEAD
-        "sw_CD": "Kongó-svahílí",
-=======
         "swc": "Kongó-svahílí",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "klassísk sýrlenska",
         "syr": "sýrlenska",
         "ta": "tamílska",
@@ -487,10 +455,6 @@
         "wal": "valamó",
         "war": "varaí",
         "was": "vasjó",
-<<<<<<< HEAD
-        "wbp": "varlpiri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "volof",
         "xal": "kalmúkska",
         "xh": "sósa",

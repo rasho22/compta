@@ -37,10 +37,6 @@ class IpUtilsTest extends \PHPUnit_Framework_TestCase
             array(true, '1.2.3.4', '0.0.0.0/0'),
             array(true, '1.2.3.4', '192.168.1.0/0'),
             array(false, '1.2.3.4', '256.256.256/0'), // invalid CIDR notation
-<<<<<<< HEAD
-            array(false, 'an_invalid_ip', '192.168.1.0/24'),
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         );
     }
 

@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afar",
         "ab": "abhază",
@@ -27,11 +23,7 @@
         "ar": "arabă",
         "ar_001": "arabă standard modernă",
         "arc": "aramaică",
-<<<<<<< HEAD
-        "arn": "mapuche",
-=======
         "arn": "araucaniană",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "arp": "arapaho",
         "arw": "arawak",
         "as": "asameză",
@@ -53,10 +45,6 @@
         "bez": "bena",
         "bfd": "bafut",
         "bg": "bulgară",
-<<<<<<< HEAD
-        "bgn": "baluchi occidentală",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhojpuri",
         "bi": "bislama",
         "bik": "bikol",
@@ -282,10 +270,6 @@
         "lo": "laoțiană",
         "lol": "mongo",
         "loz": "lozi",
-<<<<<<< HEAD
-        "lrc": "luri de nord",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "lituaniană",
         "lu": "luba-katanga",
         "lua": "luba-lulua",
@@ -334,30 +318,18 @@
         "my": "birmaneză",
         "mye": "myene",
         "myv": "erzya",
-<<<<<<< HEAD
-        "mzn": "mazanderani",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "na": "nauru",
         "nap": "napolitană",
         "naq": "nama",
         "nb": "norvegiană bokmål",
         "nd": "ndebele de nord",
         "nds": "germana de jos",
-<<<<<<< HEAD
-        "nds_NL": "saxona de jos",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepaleză",
         "new": "newari",
         "ng": "ndonga",
         "nia": "nias",
         "niu": "niueană",
-<<<<<<< HEAD
-        "nl": "neerlandeză",
-=======
         "nl": "olandeză",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nl_BE": "flamandă",
         "nmg": "kwasio",
         "nn": "norvegiană nynorsk",
@@ -400,11 +372,7 @@
         "pt_BR": "portugheză braziliană",
         "pt_PT": "portugheză europeană",
         "qu": "quechua",
-<<<<<<< HEAD
-        "quc": "quiché",
-=======
         "quc": "kʼicheʼ",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "raj": "rajasthani",
         "rap": "rapanui",
         "rar": "rarotongan",
@@ -432,10 +400,6 @@
         "scn": "siciliană",
         "sco": "scots",
         "sd": "sindhi",
-<<<<<<< HEAD
-        "sdh": "kurdă de sud",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "sami de nord",
         "see": "seneca",
         "seh": "sena",
@@ -473,13 +437,8 @@
         "sux": "sumeriană",
         "sv": "suedeză",
         "sw": "swahili",
-<<<<<<< HEAD
-        "sw_CD": "swahili Congo",
-        "swb": "comoreză",
-=======
         "swb": "comoreză",
         "swc": "swahili Congo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "siriacă clasică",
         "syr": "siriacă",
         "ta": "tamilă",
@@ -534,10 +493,6 @@
         "wal": "walamo",
         "war": "waray",
         "was": "washo",
-<<<<<<< HEAD
-        "wbp": "warlpiri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "wolof",
         "xal": "calmucă",
         "xh": "xhosa",

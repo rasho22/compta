@@ -21,14 +21,6 @@ class Twig_Node_Import extends Twig_Node
         parent::__construct(array('expr' => $expr, 'var' => $var), array(), $lineno, $tag);
     }
 
-<<<<<<< HEAD
-    /**
-     * Compiles the node to PHP.
-     *
-     * @param Twig_Compiler $compiler A Twig_Compiler instance
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function compile(Twig_Compiler $compiler)
     {
         $compiler
@@ -45,11 +37,7 @@ class Twig_Node_Import extends Twig_Node
                 ->raw('$this->loadTemplate(')
                 ->subcompile($this->getNode('expr'))
                 ->raw(', ')
-<<<<<<< HEAD
-                ->repr($compiler->getFilename())
-=======
                 ->repr($this->getFilename())
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 ->raw(', ')
                 ->repr($this->getLine())
                 ->raw(')')

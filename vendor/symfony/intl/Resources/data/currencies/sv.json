@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.66",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -230,11 +226,7 @@
             "belizisk dollar"
         ],
         "CAD": [
-<<<<<<< HEAD
-            "CA$",
-=======
             "CAN$",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             "kanadensisk dollar"
         ],
         "CDF": [
@@ -683,11 +675,7 @@
         ],
         "MRO": [
             "MRO",
-<<<<<<< HEAD
-            "mauretansk ouguiya"
-=======
             "mauretansk ouquiya"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MTL": [
             "MTL",

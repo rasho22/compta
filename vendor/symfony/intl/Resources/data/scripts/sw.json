@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "Arab": "Kiarabu",
         "Armn": "Kiarmenia",
@@ -31,11 +27,7 @@
         "Laoo": "Kilaosi",
         "Latn": "Kilatini",
         "Mlym": "Kimalayalam",
-<<<<<<< HEAD
-        "Mong": "Kimongolia",
-=======
         "Mong": "Mongolia",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Mymr": "Myama",
         "Orya": "Kioriya",
         "Sinh": "Kisinhala",

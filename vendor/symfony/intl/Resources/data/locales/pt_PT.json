@@ -4,66 +4,30 @@
         "af_NA": "africânder (Namíbia)",
         "af_ZA": "africânder (África do Sul)",
         "ar_BH": "árabe (Barém)",
-<<<<<<< HEAD
-        "ar_DJ": "árabe (Jibuti)",
-        "ar_PS": "árabe (Territórios palestinianos)",
-        "ar_YE": "árabe (Iémen)",
-        "bn_BD": "bengali (Bangladeche)",
-        "cs": "checo",
-        "cs_CZ": "checo (República Checa)",
-        "da_GL": "dinamarquês (Gronelândia)",
-        "de_LI": "alemão (Listenstaine)",
-=======
         "ar_PS": "árabe (Territórios palestinianos)",
         "ar_YE": "árabe (Iémen)",
         "cs": "checo",
         "cs_CZ": "checo (República Checa)",
         "da_GL": "dinamarquês (Gronelândia)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ee": "ewe",
         "ee_GH": "ewe (Gana)",
         "ee_TG": "ewe (Togo)",
         "en_AI": "inglês (Anguila)",
-<<<<<<< HEAD
-        "en_BS": "inglês (Baamas)",
-        "en_CC": "inglês (Ilhas dos Cocos (Keeling))",
         "en_CM": "inglês (Camarões)",
-        "en_CX": "inglês (Ilha do Natal)",
-=======
-        "en_CM": "inglês (Camarões)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_DM": "inglês (Domínica)",
         "en_FK": "inglês (Ilhas Falkland)",
         "en_GU": "inglês (Guame)",
         "en_KE": "inglês (Quénia)",
-<<<<<<< HEAD
-        "en_KN": "inglês (São Cristóvão e Neves)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_KY": "inglês (Ilhas Caimão)",
         "en_MG": "inglês (Madagáscar)",
         "en_MS": "inglês (Monserrate)",
         "en_MU": "inglês (Maurícia)",
-<<<<<<< HEAD
-        "en_MW": "inglês (Maláui)",
-        "en_NL": "inglês (Países Baixos)",
-        "en_SC": "inglês (Seicheles)",
-        "en_SG": "inglês (Singapura)",
-        "en_SI": "inglês (Eslovénia)",
-        "en_TC": "inglês (Ilhas Turcas e Caicos)",
-        "en_TK": "inglês (Toquelau)",
-        "en_TT": "inglês (Trindade e Tobago)",
-        "en_UM": "inglês (Ilhas Menores Afastadas dos EUA)",
-        "en_ZW": "inglês (Zimbabué)",
-        "es_SV": "espanhol (Salvador)",
-=======
         "en_PN": "inglês (Pitcairn)",
         "en_SC": "inglês (Seicheles)",
         "en_SG": "inglês (Singapura)",
         "en_TK": "inglês (Toquelau)",
         "en_TT": "inglês (Trindade e Tobago)",
         "en_ZW": "inglês (Zimbabué)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "et": "estónio",
         "et_EE": "estónio (Estónia)",
         "fa_IR": "persa (Irão)",
@@ -73,23 +37,10 @@
         "fr_CD": "francês (Congo-Kinshasa)",
         "fr_CG": "francês (Congo-Brazzaville)",
         "fr_CM": "francês (Camarões)",
-<<<<<<< HEAD
-        "fr_DJ": "francês (Jibuti)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fr_MC": "francês (Mónaco)",
         "fr_MG": "francês (Madagáscar)",
         "fr_MU": "francês (Maurícia)",
         "fr_NC": "francês (Nova Caledónia)",
-<<<<<<< HEAD
-        "fr_PM": "francês (São Pedro e Miquelão)",
-        "fr_SC": "francês (Seicheles)",
-        "fr_YT": "francês (Maiote)",
-        "fy": "frísico ocidental",
-        "fy_NL": "frísico ocidental (Países Baixos)",
-        "ha": "haúça",
-        "ha_GH": "haúça (Gana)",
-=======
         "fr_SC": "francês (Seicheles)",
         "fr_YT": "francês (Maiote)",
         "fy": "frísico ocidental",
@@ -100,7 +51,6 @@
         "ha_Latn_GH": "haúça (latim, Gana)",
         "ha_Latn_NE": "haúça (latim, Níger)",
         "ha_Latn_NG": "haúça (latim, Nigéria)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "haúça (Níger)",
         "ha_NG": "haúça (Nigéria)",
         "hi": "hindi",
@@ -109,11 +59,7 @@
         "hy_AM": "arménio (Arménia)",
         "ig": "igbo",
         "ig_NG": "igbo (Nigéria)",
-<<<<<<< HEAD
-        "it_SM": "italiano (São Marinho)",
-=======
         "it_SM": "italiano (São Marino)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ki_KE": "quicuio (Quénia)",
         "kl_GL": "groenlandês (Gronelândia)",
         "kn": "canarim",
@@ -127,20 +73,13 @@
         "mg_MG": "malgaxe (Madagáscar)",
         "mk": "macedónio",
         "mk_MK": "macedónio (Macedónia)",
-<<<<<<< HEAD
-=======
         "ms_Latn_SG": "malaio (latim, Singapura)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_SG": "malaio (Singapura)",
         "nb": "norueguês bokmål",
         "nb_NO": "norueguês bokmål (Noruega)",
         "nb_SJ": "norueguês bokmål (Svalbard e Jan Mayen)",
         "nd_ZW": "ndebele do norte (Zimbabué)",
         "nl_CW": "holandês (Curaçau)",
-<<<<<<< HEAD
-        "nl_NL": "holandês (Países Baixos)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nn": "norueguês nynorsk",
         "nn_NO": "norueguês nynorsk (Noruega)",
         "om_KE": "oromo (Quénia)",
@@ -152,26 +91,6 @@
         "ps": "pastó",
         "ps_AF": "pastó (Afeganistão)",
         "ro_RO": "romeno (Roménia)",
-<<<<<<< HEAD
-        "rw": "kinyarwanda",
-        "rw_RW": "kinyarwanda (Ruanda)",
-        "si_LK": "cingalês (Sri Lanca)",
-        "sl_SI": "esloveno (Eslovénia)",
-        "sn_ZW": "shona (Zimbabué)",
-        "so_DJ": "somali (Jibuti)",
-        "so_KE": "somali (Quénia)",
-        "sq_MK": "albanês (Macedónia)",
-        "sv_AX": "sueco (Alanda)",
-        "sw_CD": "suaíli (Congo-Kinshasa)",
-        "sw_KE": "suaíli (Quénia)",
-        "ta_LK": "tâmil (Sri Lanca)",
-        "ta_SG": "tâmil (Singapura)",
-        "to": "tonga",
-        "to_TO": "tonga (Tonga)",
-        "uz_Cyrl_UZ": "usbeque (cirílico, Usbequistão)",
-        "uz_Latn_UZ": "usbeque (latim, Usbequistão)",
-        "uz_UZ": "usbeque (Usbequistão)",
-=======
         "sl_SI": "esloveno (Eslovénia)",
         "sn_ZW": "shona (Zimbabué)",
         "so_KE": "somali (Quénia)",
@@ -181,7 +100,6 @@
         "ta_SG": "tâmil (Singapura)",
         "to": "tonga",
         "to_TO": "tonga (Tonga)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "vi_VN": "vietnamita (Vietname)",
         "yo_BJ": "ioruba (Benim)",
         "zh_Hans_SG": "chinês (simplificado, Singapura)",

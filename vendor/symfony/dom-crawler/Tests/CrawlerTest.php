@@ -63,8 +63,6 @@ class CrawlerTest extends \PHPUnit_Framework_TestCase
         $crawler->add(1);
     }
 
-<<<<<<< HEAD
-=======
     /**
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage Attaching DOM nodes from multiple documents in the same crawler is forbidden.
@@ -75,7 +73,6 @@ class CrawlerTest extends \PHPUnit_Framework_TestCase
         $crawler->addHtmlContent('<html><div class="foo"></html>', 'UTF-8');
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testAddHtmlContent()
     {
         $crawler = new Crawler();
@@ -497,19 +494,6 @@ EOF
         $this->assertCount(0, $crawler->filterXPath('self::_root'), '->filterXPath() returns an empty result if the XPath references the fake root node');
     }
 
-<<<<<<< HEAD
-    /** @group legacy */
-    public function testLegacyFilterXPathWithFakeRoot()
-    {
-        $crawler = $this->createTestCrawler();
-        $this->assertCount(0, $crawler->filterXPath('/_root'), '->filterXPath() returns an empty result if the XPath references the fake root node');
-
-        $crawler = $this->createTestCrawler()->filterXPath('//body');
-        $this->assertCount(1, $crawler->filterXPath('/_root/body'));
-    }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testFilterXPathWithAncestorAxis()
     {
         $crawler = $this->createTestCrawler()->filterXPath('//form');

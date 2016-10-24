@@ -209,11 +209,7 @@ class NumberToLocalizedStringTransformer implements DataTransformerInterface
             $result = $float;
         }
 
-<<<<<<< HEAD
-        if (function_exists('mb_detect_encoding') && false !== $encoding = mb_detect_encoding($value, null, true)) {
-=======
         if (false !== $encoding = mb_detect_encoding($value, null, true)) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $length = mb_strlen($value, $encoding);
             $remainder = mb_substr($value, $position, $length, $encoding);
         } else {

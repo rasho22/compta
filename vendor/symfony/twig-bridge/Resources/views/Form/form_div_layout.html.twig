@@ -52,20 +52,12 @@
 {%- endblock choice_widget_expanded -%}
 
 {%- block choice_widget_collapsed -%}
-<<<<<<< HEAD
-    {%- if required and placeholder is none and not placeholder_in_choices and not multiple -%}
-=======
     {%- if required and placeholder is none and not placeholder_in_choices and not multiple and (attr.size is not defined or attr.size <= 1) -%}
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         {% set required = false %}
     {%- endif -%}
     <select {{ block('widget_attributes') }}{% if multiple %} multiple="multiple"{% endif %}>
         {%- if placeholder is not none -%}
-<<<<<<< HEAD
-            <option value=""{% if required and value is empty %} selected="selected"{% endif %}>{{ placeholder != '' ? placeholder|trans({}, translation_domain) }}</option>
-=======
             <option value=""{% if required and value is empty %} selected="selected"{% endif %}>{{ placeholder != '' ? (translation_domain is same as(false) ? placeholder : placeholder|trans({}, translation_domain)) }}</option>
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         {%- endif -%}
         {%- if preferred_choices|length > 0 -%}
             {% set options = preferred_choices %}
@@ -87,12 +79,7 @@
                 {{- block('choice_widget_options') -}}
             </optgroup>
         {%- else -%}
-<<<<<<< HEAD
-            {% set attr = choice.attr %}
-            <option value="{{ choice.value }}" {{ block('attributes') }}{% if choice is selectedchoice(value) %} selected="selected"{% endif %}>{{ choice_translation_domain is same as(false) ? choice.label : choice.label|trans({}, choice_translation_domain) }}</option>
-=======
             <option value="{{ choice.value }}"{% if choice.attr %} {% set attr = choice.attr %}{{ block('attributes') }}{% endif %}{% if choice is selectedchoice(value) %} selected="selected"{% endif %}>{{ choice_translation_domain is same as(false) ? choice.label : choice.label|trans({}, choice_translation_domain) }}</option>
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         {%- endif -%}
     {% endfor %}
 {%- endblock choice_widget_options -%}
@@ -188,14 +175,11 @@
     {{ block('form_widget_simple') }}
 {%- endblock email_widget -%}
 
-<<<<<<< HEAD
-=======
 {%- block range_widget -%}
     {% set type = type|default('range') %}
     {{- block('form_widget_simple') -}}
 {%- endblock range_widget %}
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {%- block button_widget -%}
     {%- if label is empty -%}
         {%- if label_format is not empty -%}
@@ -207,11 +191,7 @@
             {% set label = name|humanize %}
         {%- endif -%}
     {%- endif -%}
-<<<<<<< HEAD
-    <button type="{{ type|default('button') }}" {{ block('button_attributes') }}>{{ label|trans({}, translation_domain) }}</button>
-=======
     <button type="{{ type|default('button') }}" {{ block('button_attributes') }}>{{ translation_domain is same as(false) ? label : label|trans({}, translation_domain) }}</button>
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {%- endblock button_widget -%}
 
 {%- block submit_widget -%}
@@ -293,11 +273,7 @@
     {%- else -%}
         {% set form_method = "POST" %}
     {%- endif -%}
-<<<<<<< HEAD
-    <form name="{{ name }}" method="{{ form_method|lower }}" action="{{ action }}"{% for attrname, attrvalue in attr %} {{ attrname }}="{{ attrvalue }}"{% endfor %}{% if multipart %} enctype="multipart/form-data"{% endif %}>
-=======
     <form name="{{ name }}" method="{{ form_method|lower }}"{% if action != '' %} action="{{ action }}"{% endif %}{% for attrname, attrvalue in attr %} {{ attrname }}="{{ attrvalue }}"{% endfor %}{% if multipart %} enctype="multipart/form-data"{% endif %}>
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {%- if form_method != method -%}
         <input type="hidden" name="_method" value="{{ method }}" />
     {%- endif -%}
@@ -342,15 +318,6 @@
 
 {%- block widget_attributes -%}
     id="{{ id }}" name="{{ full_name }}"
-<<<<<<< HEAD
-    {%- if read_only and attr.readonly is not defined %} readonly="readonly"{% endif -%}
-    {%- if disabled %} disabled="disabled"{% endif -%}
-    {%- if required %} required="required"{% endif -%}
-    {%- for attrname, attrvalue in attr -%}
-        {{- " " -}}
-        {%- if attrname in ['placeholder', 'title'] -%}
-            {{- attrname }}="{{ attrvalue|trans({}, translation_domain) }}"
-=======
     {%- if read_only %} readonly="readonly"{% endif -%}
     {%- if disabled %} disabled="disabled"{% endif -%}
     {%- if required %} required="required"{% endif -%}
@@ -358,7 +325,6 @@
         {{- " " -}}
         {%- if attrname in ['placeholder', 'title'] -%}
             {{- attrname }}="{{ translation_domain is same as(false) ? attrvalue : attrvalue|trans({}, translation_domain) }}"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         {%- elseif attrvalue is same as(true) -%}
             {{- attrname }}="{{ attrname }}"
         {%- elseif attrvalue is not same as(false) -%}
@@ -372,11 +338,7 @@
     {%- for attrname, attrvalue in attr -%}
         {{- " " -}}
         {%- if attrname in ['placeholder', 'title'] -%}
-<<<<<<< HEAD
-            {{- attrname }}="{{ attrvalue|trans({}, translation_domain) }}"
-=======
             {{- attrname }}="{{ translation_domain is same as(false) ? attrvalue : attrvalue|trans({}, translation_domain) }}"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         {%- elseif attrvalue is same as(true) -%}
             {{- attrname }}="{{ attrname }}"
         {%- elseif attrvalue is not same as(false) -%}
@@ -390,11 +352,7 @@
     {%- for attrname, attrvalue in attr -%}
         {{- " " -}}
         {%- if attrname in ['placeholder', 'title'] -%}
-<<<<<<< HEAD
-            {{- attrname }}="{{ attrvalue|trans({}, translation_domain) }}"
-=======
             {{- attrname }}="{{ translation_domain is same as(false) ? attrvalue : attrvalue|trans({}, translation_domain) }}"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         {%- elseif attrvalue is same as(true) -%}
             {{- attrname }}="{{ attrname }}"
         {%- elseif attrvalue is not same as(false) -%}
@@ -407,11 +365,7 @@
     {%- for attrname, attrvalue in attr -%}
         {{- " " -}}
         {%- if attrname in ['placeholder', 'title'] -%}
-<<<<<<< HEAD
-            {{- attrname }}="{{ attrvalue|trans({}, translation_domain) }}"
-=======
             {{- attrname }}="{{ translation_domain is same as(false) ? attrvalue : attrvalue|trans({}, translation_domain) }}"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         {%- elseif attrvalue is same as(true) -%}
             {{- attrname }}="{{ attrname }}"
         {%- elseif attrvalue is not same as(false) -%}

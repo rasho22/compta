@@ -15,11 +15,8 @@
  * This class is used by Twig_Environment as a staging area and must not be used directly.
  *
  * @author Fabien Potencier <fabien@symfony.com>
-<<<<<<< HEAD
-=======
  *
  * @internal
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  */
 class Twig_Extension_Staging extends Twig_Extension
 {
@@ -35,12 +32,6 @@ class Twig_Extension_Staging extends Twig_Extension
         $this->functions[$name] = $function;
     }
 
-<<<<<<< HEAD
-    /**
-     * {@inheritdoc}
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getFunctions()
     {
         return $this->functions;
@@ -51,12 +42,6 @@ class Twig_Extension_Staging extends Twig_Extension
         $this->filters[$name] = $filter;
     }
 
-<<<<<<< HEAD
-    /**
-     * {@inheritdoc}
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getFilters()
     {
         return $this->filters;
@@ -67,12 +52,6 @@ class Twig_Extension_Staging extends Twig_Extension
         $this->visitors[] = $visitor;
     }
 
-<<<<<<< HEAD
-    /**
-     * {@inheritdoc}
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getNodeVisitors()
     {
         return $this->visitors;
@@ -83,12 +62,6 @@ class Twig_Extension_Staging extends Twig_Extension
         $this->tokenParsers[] = $parser;
     }
 
-<<<<<<< HEAD
-    /**
-     * {@inheritdoc}
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getTokenParsers()
     {
         return $this->tokenParsers;
@@ -99,12 +72,6 @@ class Twig_Extension_Staging extends Twig_Extension
         $this->globals[$name] = $value;
     }
 
-<<<<<<< HEAD
-    /**
-     * {@inheritdoc}
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getGlobals()
     {
         return $this->globals;
@@ -115,23 +82,11 @@ class Twig_Extension_Staging extends Twig_Extension
         $this->tests[$name] = $test;
     }
 
-<<<<<<< HEAD
-    /**
-     * {@inheritdoc}
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getTests()
     {
         return $this->tests;
     }
 
-<<<<<<< HEAD
-    /**
-     * {@inheritdoc}
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getName()
     {
         return 'staging';

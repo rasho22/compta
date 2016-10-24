@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.7",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Ascension ƒudomekpo nutome",
         "AD": "Andorra nutome",
@@ -41,11 +37,7 @@
         "BW": "Botswana nutome",
         "BY": "Belarus nutome",
         "BZ": "Belize nutome",
-<<<<<<< HEAD
-        "CA": "Canada nutome",
-=======
         "CA": "Kanada nutome",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CC": "Kokos (Kiling) fudomekpo nutome",
         "CD": "Kongo Kinshasa nutome",
         "CF": "Titina Afrika repɔblik nutome",
@@ -76,22 +68,14 @@
         "EG": "Egypte nutome",
         "EH": "Ɣetoɖoƒe Sahara nutome",
         "ER": "Eritrea nutome",
-<<<<<<< HEAD
-        "ES": "Spain nutome",
-=======
         "ES": "Spania nutome",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ET": "Etiopia nutome",
         "FI": "Finland nutome",
         "FJ": "Fidzi nutome",
         "FK": "Falkland ƒudomekpowo nutome",
         "FM": "Mikronesia nutome",
         "FO": "Faroe ƒudomekpowo nutome",
-<<<<<<< HEAD
-        "FR": "France nutome",
-=======
         "FR": "Frans nutome",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GA": "Gabɔn nutome",
         "GB": "United Kingdom nutome",
         "GD": "Grenada nutome",
@@ -105,11 +89,7 @@
         "GN": "Guini nutome",
         "GP": "Guadelupe nutome",
         "GQ": "Ekuatorial Guini nutome",
-<<<<<<< HEAD
-        "GR": "Greece nutome",
-=======
         "GR": "Grisi nutome",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GS": "Anyiehe Georgia kple Anyiehe Sandwich ƒudomekpowo nutome",
         "GT": "Guatemala nutome",
         "GU": "Guam nutome",
@@ -177,11 +157,7 @@
         "MU": "mauritiusdukɔ",
         "MV": "maldivesdukɔ",
         "MW": "Malawi nutome",
-<<<<<<< HEAD
-        "MX": "Mexico nutome",
-=======
         "MX": "Meksico nutome",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MY": "Malaysia nutome",
         "MZ": "Mozambiki nutome",
         "NA": "Namibia nutome",
@@ -190,11 +166,7 @@
         "NF": "Norfolk ƒudomekpo nutome",
         "NG": "Nigeria nutome",
         "NI": "Nicaraguadukɔ",
-<<<<<<< HEAD
-        "NL": "Netherlands nutome",
-=======
         "NL": "Nedalands nutome",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "NO": "Norway nutome",
         "NP": "Nepal nutome",
         "NR": "Nauru nutome",
@@ -244,11 +216,7 @@
         "TD": "Tsad nutome",
         "TF": "Anyiehe Franseme nutome",
         "TG": "Togo nutome",
-<<<<<<< HEAD
-        "TH": "Thailand nutome",
-=======
         "TH": "Tailand nutome",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TJ": "Tajikistan nutome",
         "TK": "Tokelau nutome",
         "TL": "Timor-Leste nutome",
@@ -277,11 +245,7 @@
         "WS": "Samoa nutome",
         "YE": "Yemen nutome",
         "YT": "Mayotte nutome",
-<<<<<<< HEAD
-        "ZA": "Anyiehe Africa nutome",
-=======
         "ZA": "Anyiehe Afrika nutome",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ZM": "Zambia nutome",
         "ZW": "Zimbabwe nutome"
     }

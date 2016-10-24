@@ -36,10 +36,6 @@ class Twig_Compiler implements Twig_CompilerInterface
         $this->env = $env;
     }
 
-<<<<<<< HEAD
-    public function getFilename()
-    {
-=======
     /**
      * @deprecated since 1.25 (to be removed in 2.0)
      */
@@ -47,7 +43,6 @@ class Twig_Compiler implements Twig_CompilerInterface
     {
         @trigger_error(sprintf('The %s() method is deprecated since version 1.25 and will be removed in 2.0.', __FUNCTION__), E_USER_DEPRECATED);
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return $this->filename;
     }
 
@@ -90,12 +85,9 @@ class Twig_Compiler implements Twig_CompilerInterface
         $this->indentation = $indentation;
 
         if ($node instanceof Twig_Node_Module) {
-<<<<<<< HEAD
-=======
             $node->setFilename($node->getAttribute('filename'));
 
             // to be removed in 2.0
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $this->filename = $node->getAttribute('filename');
         }
 
@@ -278,11 +270,7 @@ class Twig_Compiler implements Twig_CompilerInterface
     {
         // can't outdent by more steps than the current indentation level
         if ($this->indentation < $step) {
-<<<<<<< HEAD
-            throw new LogicException('Unable to call outdent() as the indentation would become negative');
-=======
             throw new LogicException('Unable to call outdent() as the indentation would become negative.');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         $this->indentation -= $step;

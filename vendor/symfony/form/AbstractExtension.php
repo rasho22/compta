@@ -156,9 +156,6 @@ abstract class AbstractExtension implements FormExtensionInterface
                 throw new UnexpectedTypeException($type, 'Symfony\Component\Form\FormTypeInterface');
             }
 
-<<<<<<< HEAD
-            $this->types[$type->getName()] = $type;
-=======
             // Since Symfony 3.0 types are identified by their FQCN
             $fqcn = get_class($type);
             $legacyName = $type->getName();
@@ -168,7 +165,6 @@ abstract class AbstractExtension implements FormExtensionInterface
             if ($legacyName) {
                 $this->types[$legacyName] = $type;
             }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
     }
 

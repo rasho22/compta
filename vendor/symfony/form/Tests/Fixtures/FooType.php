@@ -15,14 +15,6 @@ use Symfony\Component\Form\AbstractType;
 
 class FooType extends AbstractType
 {
-<<<<<<< HEAD
-    public function getName()
-    {
-        return 'foo';
-    }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getParent()
     {
     }

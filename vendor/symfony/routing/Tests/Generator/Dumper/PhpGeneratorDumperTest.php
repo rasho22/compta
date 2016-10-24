@@ -77,17 +77,10 @@ class PhpGeneratorDumperTest extends \PHPUnit_Framework_TestCase
         $relativeUrlWithParameter = $projectUrlGenerator->generate('Test', array('foo' => 'bar'), UrlGeneratorInterface::ABSOLUTE_PATH);
         $relativeUrlWithoutParameter = $projectUrlGenerator->generate('Test2', array(), UrlGeneratorInterface::ABSOLUTE_PATH);
 
-<<<<<<< HEAD
-        $this->assertEquals('http://localhost/app.php/testing/bar', $absoluteUrlWithParameter);
-        $this->assertEquals('http://localhost/app.php/testing2', $absoluteUrlWithoutParameter);
-        $this->assertEquals('/app.php/testing/bar', $relativeUrlWithParameter);
-        $this->assertEquals('/app.php/testing2', $relativeUrlWithoutParameter);
-=======
         $this->assertEquals($absoluteUrlWithParameter, 'http://localhost/app.php/testing/bar');
         $this->assertEquals($absoluteUrlWithoutParameter, 'http://localhost/app.php/testing2');
         $this->assertEquals($relativeUrlWithParameter, '/app.php/testing/bar');
         $this->assertEquals($relativeUrlWithoutParameter, '/app.php/testing2');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function testDumpWithTooManyRoutes()
@@ -115,17 +108,10 @@ class PhpGeneratorDumperTest extends \PHPUnit_Framework_TestCase
         $relativeUrlWithParameter = $projectUrlGenerator->generate('Test', array('foo' => 'bar'), UrlGeneratorInterface::ABSOLUTE_PATH);
         $relativeUrlWithoutParameter = $projectUrlGenerator->generate('Test2', array(), UrlGeneratorInterface::ABSOLUTE_PATH);
 
-<<<<<<< HEAD
-        $this->assertEquals('http://localhost/app.php/testing/bar', $absoluteUrlWithParameter);
-        $this->assertEquals('http://localhost/app.php/testing2', $absoluteUrlWithoutParameter);
-        $this->assertEquals('/app.php/testing/bar', $relativeUrlWithParameter);
-        $this->assertEquals('/app.php/testing2', $relativeUrlWithoutParameter);
-=======
         $this->assertEquals($absoluteUrlWithParameter, 'http://localhost/app.php/testing/bar');
         $this->assertEquals($absoluteUrlWithoutParameter, 'http://localhost/app.php/testing2');
         $this->assertEquals($relativeUrlWithParameter, '/app.php/testing/bar');
         $this->assertEquals($relativeUrlWithoutParameter, '/app.php/testing2');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -165,11 +151,7 @@ class PhpGeneratorDumperTest extends \PHPUnit_Framework_TestCase
         $projectUrlGenerator = new \DefaultRoutesUrlGenerator(new RequestContext());
         $url = $projectUrlGenerator->generate('Test', array());
 
-<<<<<<< HEAD
-        $this->assertEquals('/testing', $url);
-=======
         $this->assertEquals($url, '/testing');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function testDumpWithSchemeRequirement()
@@ -184,25 +166,15 @@ class PhpGeneratorDumperTest extends \PHPUnit_Framework_TestCase
         $absoluteUrl = $projectUrlGenerator->generate('Test1', array(), UrlGeneratorInterface::ABSOLUTE_URL);
         $relativeUrl = $projectUrlGenerator->generate('Test1', array(), UrlGeneratorInterface::ABSOLUTE_PATH);
 
-<<<<<<< HEAD
-        $this->assertEquals('ftp://localhost/app.php/testing', $absoluteUrl);
-        $this->assertEquals('ftp://localhost/app.php/testing', $relativeUrl);
-=======
         $this->assertEquals($absoluteUrl, 'ftp://localhost/app.php/testing');
         $this->assertEquals($relativeUrl, 'ftp://localhost/app.php/testing');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $projectUrlGenerator = new \SchemeUrlGenerator(new RequestContext('/app.php', 'GET', 'localhost', 'https'));
 
         $absoluteUrl = $projectUrlGenerator->generate('Test1', array(), UrlGeneratorInterface::ABSOLUTE_URL);
         $relativeUrl = $projectUrlGenerator->generate('Test1', array(), UrlGeneratorInterface::ABSOLUTE_PATH);
 
-<<<<<<< HEAD
-        $this->assertEquals('https://localhost/app.php/testing', $absoluteUrl);
-        $this->assertEquals('/app.php/testing', $relativeUrl);
-=======
         $this->assertEquals($absoluteUrl, 'https://localhost/app.php/testing');
         $this->assertEquals($relativeUrl, '/app.php/testing');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

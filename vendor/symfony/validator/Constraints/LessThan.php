@@ -16,11 +16,6 @@ namespace Symfony\Component\Validator\Constraints;
  * @Target({"PROPERTY", "METHOD", "ANNOTATION"})
  *
  * @author Daniel Holmes <daniel@danielholmes.org>
-<<<<<<< HEAD
- */
-class LessThan extends AbstractComparison
-{
-=======
  * @author Bernhard Schussek <bschussek@gmail.com>
  */
 class LessThan extends AbstractComparison
@@ -31,6 +26,5 @@ class LessThan extends AbstractComparison
         self::TOO_HIGH_ERROR => 'TOO_HIGH_ERROR',
     );
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public $message = 'This value should be less than {{ compared_value }}.';
 }

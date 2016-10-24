@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.7",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afāru",
         "ab": "abhāzu",
@@ -37,10 +33,6 @@
         "awa": "avadhu",
         "ay": "aimaru",
         "az": "azerbaidžāņu",
-<<<<<<< HEAD
-        "az_Arab": "dienvidazerbaidžāņu",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "baškīru",
         "bal": "beludžu",
         "ban": "baliešu",
@@ -53,10 +45,6 @@
         "bez": "bena",
         "bfd": "bafutu",
         "bg": "bulgāru",
-<<<<<<< HEAD
-        "bgn": "rietumbeludžu",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhodžpūru",
         "bi": "bišlamā",
         "bik": "bikolu",
@@ -282,10 +270,6 @@
         "lo": "laosiešu",
         "lol": "mongu",
         "loz": "lozu",
-<<<<<<< HEAD
-        "lrc": "ziemeļluru",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "lietuviešu",
         "lu": "lubakatanga",
         "lua": "lubalulva",
@@ -334,20 +318,12 @@
         "my": "birmiešu",
         "mye": "mjenu",
         "myv": "erzju",
-<<<<<<< HEAD
-        "mzn": "mazanderāņu",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "na": "nauruiešu",
         "nap": "neapoliešu",
         "naq": "nama",
         "nb": "norvēģu bukmols",
         "nd": "ziemeļndebelu",
         "nds": "lejasvācu",
-<<<<<<< HEAD
-        "nds_NL": "lejassakšu",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepāliešu",
         "new": "nevaru",
         "ng": "ndongu",
@@ -424,10 +400,6 @@
         "scn": "sicīliešu",
         "sco": "skotu",
         "sd": "sindhu",
-<<<<<<< HEAD
-        "sdh": "dienvidkurdu",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "ziemeļsāmu",
         "see": "seneku",
         "seh": "senu",
@@ -465,13 +437,8 @@
         "sux": "šumeru",
         "sv": "zviedru",
         "sw": "svahili",
-<<<<<<< HEAD
-        "sw_CD": "Kongo svahili",
-        "swb": "komoru",
-=======
         "swb": "komoru",
         "swc": "Kongo svahili",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "klasiskā sīriešu",
         "syr": "sīriešu",
         "ta": "tamilu",
@@ -526,10 +493,6 @@
         "wal": "valamu",
         "war": "varaju",
         "was": "vašo",
-<<<<<<< HEAD
-        "wbp": "varlpirī",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "volofu",
         "xal": "kalmiku",
         "xh": "khosu",

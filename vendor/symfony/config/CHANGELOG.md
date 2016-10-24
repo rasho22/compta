@@ -1,8 +1,6 @@
 CHANGELOG
 =========
 
-<<<<<<< HEAD
-=======
 2.8.0
 -----
 
@@ -30,7 +28,6 @@ After: the code will work as expected and it will restrict the values of the
    level as you need to know about the particular type of resource at hand to understand the
    semantics of the returned value.
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 2.7.0
 -----
 

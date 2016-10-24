@@ -51,19 +51,13 @@ class TypeValidator extends ConstraintValidator
             $this->context->buildViolation($constraint->message)
                 ->setParameter('{{ value }}', $this->formatValue($value))
                 ->setParameter('{{ type }}', $constraint->type)
-<<<<<<< HEAD
-=======
                 ->setCode(Type::INVALID_TYPE_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 ->addViolation();
         } else {
             $this->buildViolation($constraint->message)
                 ->setParameter('{{ value }}', $this->formatValue($value))
                 ->setParameter('{{ type }}', $constraint->type)
-<<<<<<< HEAD
-=======
                 ->setCode(Type::INVALID_TYPE_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 ->addViolation();
         }
     }

@@ -17,8 +17,6 @@
  */
 class Twig_Error_Syntax extends Twig_Error
 {
-<<<<<<< HEAD
-=======
     /**
      * Tweaks the error message to include suggestions.
      *
@@ -52,5 +50,4 @@ class Twig_Error_Syntax extends Twig_Error
 
         return array_keys($alternatives);
     }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

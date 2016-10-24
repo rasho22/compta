@@ -8,27 +8,14 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-<<<<<<< HEAD
-=======
 
 require_once __DIR__.'/../../../../lib/Twig/Extensions/Extension/Text.php';
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 class Twig_Tests_Extension_TextTest extends PHPUnit_Framework_TestCase
 {
     /** @var TwigEnvironment */
     private $env;
 
-<<<<<<< HEAD
-    public static function setUpBeforeClass()
-    {
-        if (!class_exists('Twig_Extensions_Extension_Text')) {
-            self::markTestSkipped('Unable to find class Twig_Extensions_Extension_Text.');
-        }
-    }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function setUp()
     {
         $this->env = $this->getMockBuilder('Twig_Environment')->disableOriginalConstructor()->getMock();

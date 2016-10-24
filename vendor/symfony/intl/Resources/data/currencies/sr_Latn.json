@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.24.17",
-=======
     "Version": "2.1.13.24",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -135,11 +131,7 @@
         ],
         "BOB": [
             "BOB",
-<<<<<<< HEAD
-            "Bolivijski bolivijano"
-=======
             "Bolivijski Boliviano"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BOP": [
             "BOP",
@@ -331,11 +323,7 @@
         ],
         "ETB": [
             "ETB",
-<<<<<<< HEAD
-            "Etiopski bir"
-=======
             "Etiopijski bir"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "EUR": [
             "€",
@@ -599,11 +587,7 @@
         ],
         "MGA": [
             "MGA",
-<<<<<<< HEAD
-            "Madagaskarski ariari"
-=======
             "Malagasijski ariari"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MGF": [
             "MGF",
@@ -627,11 +611,7 @@
         ],
         "MOP": [
             "MOP",
-<<<<<<< HEAD
-            "Makaoska pataka"
-=======
             "Makaniška pataka"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MRO": [
             "MRO",
@@ -671,11 +651,7 @@
         ],
         "MYR": [
             "MYR",
-<<<<<<< HEAD
-            "Malezijski ringit"
-=======
             "Malezijski ringgit"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MZE": [
             "MZE",
@@ -687,11 +663,7 @@
         ],
         "MZN": [
             "MZN",
-<<<<<<< HEAD
-            "Mozambički metikal"
-=======
             "Mozambijski metikal"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "NAD": [
             "NAD",
@@ -739,11 +711,7 @@
         ],
         "PEN": [
             "PEN",
-<<<<<<< HEAD
-            "Peruanski novi sol"
-=======
             "Peruanski nuevo sol"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "PES": [
             "PES",
@@ -855,11 +823,7 @@
         ],
         "SLL": [
             "SLL",
-<<<<<<< HEAD
-            "Sijeraleonski leone"
-=======
             "Sijera-leonški leone"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SOS": [
             "SOS",
@@ -879,11 +843,7 @@
         ],
         "STD": [
             "STD",
-<<<<<<< HEAD
-            "Saotomska dobra"
-=======
             "Sao Tome i Principe dobra"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SUR": [
             "SUR",
@@ -899,11 +859,7 @@
         ],
         "SZL": [
             "SZL",
-<<<<<<< HEAD
-            "Svazilendski lilangeni"
-=======
             "Svazi lilangeni"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "THB": [
             "THB",
@@ -931,11 +887,7 @@
         ],
         "TOP": [
             "TOP",
-<<<<<<< HEAD
-            "Tonganska panga"
-=======
             "Tongonška Panga"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "TPE": [
             "TPE",
@@ -963,11 +915,7 @@
         ],
         "UAH": [
             "UAH",
-<<<<<<< HEAD
-            "Ukrajinska hrivnja"
-=======
             "Ukrajinska grivna"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "UAK": [
             "UAK",
@@ -1091,11 +1039,7 @@
         ],
         "ZAR": [
             "ZAR",
-<<<<<<< HEAD
-            "Južnoafrički rand"
-=======
             "Južno-afrički rand"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ZMK": [
             "ZMK",

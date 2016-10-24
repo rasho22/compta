@@ -14,10 +14,7 @@ namespace Symfony\Component\Security\Http\Authentication;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Security\Http\HttpUtils;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Security\Http\ParameterBagUtils;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * Class with the default authentication success handling logic.
@@ -112,11 +109,7 @@ class DefaultAuthenticationSuccessHandler implements AuthenticationSuccessHandle
             return $this->options['default_target_path'];
         }
 
-<<<<<<< HEAD
-        if ($targetUrl = $request->get($this->options['target_path_parameter'], null, true)) {
-=======
         if ($targetUrl = ParameterBagUtils::getRequestParameterValue($request, $this->options['target_path_parameter'])) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             return $targetUrl;
         }
 

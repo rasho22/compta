@@ -15,11 +15,7 @@ abstract class AbstractBootstrap3HorizontalLayoutTest extends AbstractBootstrap3
 {
     public function testLabelOnForm()
     {
-<<<<<<< HEAD
-        $form = $this->factory->createNamed('name', 'date');
-=======
         $form = $this->factory->createNamed('name', 'Symfony\Component\Form\Extension\Core\Type\DateType');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $view = $form->createView();
         $this->renderWidget($view, array('label' => 'foo'));
         $html = $this->renderLabel($view);
@@ -34,11 +30,7 @@ abstract class AbstractBootstrap3HorizontalLayoutTest extends AbstractBootstrap3
 
     public function testLabelDoesNotRenderFieldAttributes()
     {
-<<<<<<< HEAD
-        $form = $this->factory->createNamed('name', 'text');
-=======
         $form = $this->factory->createNamed('name', 'Symfony\Component\Form\Extension\Core\Type\TextType');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $html = $this->renderLabel($form->createView(), null, array(
             'attr' => array(
                 'class' => 'my&class',
@@ -55,11 +47,7 @@ abstract class AbstractBootstrap3HorizontalLayoutTest extends AbstractBootstrap3
 
     public function testLabelWithCustomAttributesPassedDirectly()
     {
-<<<<<<< HEAD
-        $form = $this->factory->createNamed('name', 'text');
-=======
         $form = $this->factory->createNamed('name', 'Symfony\Component\Form\Extension\Core\Type\TextType');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $html = $this->renderLabel($form->createView(), null, array(
             'label_attr' => array(
                 'class' => 'my&class',
@@ -76,11 +64,7 @@ abstract class AbstractBootstrap3HorizontalLayoutTest extends AbstractBootstrap3
 
     public function testLabelWithCustomTextAndCustomAttributesPassedDirectly()
     {
-<<<<<<< HEAD
-        $form = $this->factory->createNamed('name', 'text');
-=======
         $form = $this->factory->createNamed('name', 'Symfony\Component\Form\Extension\Core\Type\TextType');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $html = $this->renderLabel($form->createView(), 'Custom label', array(
             'label_attr' => array(
                 'class' => 'my&class',
@@ -98,11 +82,7 @@ abstract class AbstractBootstrap3HorizontalLayoutTest extends AbstractBootstrap3
 
     public function testLabelWithCustomTextAsOptionAndCustomAttributesPassedDirectly()
     {
-<<<<<<< HEAD
-        $form = $this->factory->createNamed('name', 'text', null, array(
-=======
         $form = $this->factory->createNamed('name', 'Symfony\Component\Form\Extension\Core\Type\TextType', null, array(
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'label' => 'Custom label',
         ));
         $html = $this->renderLabel($form->createView(), null, array(
@@ -122,11 +102,7 @@ abstract class AbstractBootstrap3HorizontalLayoutTest extends AbstractBootstrap3
 
     public function testStartTag()
     {
-<<<<<<< HEAD
-        $form = $this->factory->create('form', null, array(
-=======
         $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\FormType', null, array(
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'method' => 'get',
             'action' => 'http://example.com/directory',
         ));
@@ -138,11 +114,7 @@ abstract class AbstractBootstrap3HorizontalLayoutTest extends AbstractBootstrap3
 
     public function testStartTagWithOverriddenVars()
     {
-<<<<<<< HEAD
-        $form = $this->factory->create('form', null, array(
-=======
         $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\FormType', null, array(
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'method' => 'put',
             'action' => 'http://example.com/directory',
         ));
@@ -157,19 +129,11 @@ abstract class AbstractBootstrap3HorizontalLayoutTest extends AbstractBootstrap3
 
     public function testStartTagForMultipartForm()
     {
-<<<<<<< HEAD
-        $form = $this->factory->createBuilder('form', null, array(
-                'method' => 'get',
-                'action' => 'http://example.com/directory',
-            ))
-            ->add('file', 'file')
-=======
         $form = $this->factory->createBuilder('Symfony\Component\Form\Extension\Core\Type\FormType', null, array(
                 'method' => 'get',
                 'action' => 'http://example.com/directory',
             ))
             ->add('file', 'Symfony\Component\Form\Extension\Core\Type\FileType')
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->getForm();
 
         $html = $this->renderStart($form->createView());
@@ -179,11 +143,7 @@ abstract class AbstractBootstrap3HorizontalLayoutTest extends AbstractBootstrap3
 
     public function testStartTagWithExtraAttributes()
     {
-<<<<<<< HEAD
-        $form = $this->factory->create('form', null, array(
-=======
         $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\FormType', null, array(
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'method' => 'get',
             'action' => 'http://example.com/directory',
         ));

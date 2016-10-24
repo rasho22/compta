@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.24.16",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ab": "Abkhazia",
         "ach": "Akoli",
@@ -26,15 +22,9 @@
         "av": "Avaric",
         "ay": "Aymara",
         "az": "Azerbaijan",
-<<<<<<< HEAD
-        "ba": "Bashkir",
-        "bal": "Baluchi",
-        "bas": "Basaa",
-=======
         "azb": "Azerbaijan Selatan",
         "ba": "Bashkir",
         "bal": "Baluchi",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bax": "Bamun",
         "bbj": "Ghomala",
         "be": "Belarus",
@@ -43,10 +33,6 @@
         "bez": "Bena",
         "bfd": "Bafut",
         "bg": "Bulgaria",
-<<<<<<< HEAD
-        "bgn": "Balochi Barat",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bkm": "Kom",
         "bm": "Bambara",
         "bn": "Benggala",
@@ -103,10 +89,6 @@
         "es_MX": "Sepanyol Mexico",
         "et": "Estonia",
         "eu": "Basque",
-<<<<<<< HEAD
-        "ewo": "Ewondo",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fa": "Parsi",
         "fi": "Finland",
         "fil": "Filipina",
@@ -115,11 +97,7 @@
         "fr": "Perancis",
         "fr_CA": "Perancis Kanada",
         "fr_CH": "Perancis Switzerland",
-<<<<<<< HEAD
-        "fy": "Frisian Barat",
-=======
         "fy": "Frisian",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ga": "Ireland",
         "gaa": "Ga",
         "gag": "Gagauz",
@@ -138,11 +116,7 @@
         "haw": "Hawaii",
         "he": "Ibrani",
         "hi": "Hindi",
-<<<<<<< HEAD
-        "hr": "Croatia",
-=======
         "hr": "Croat",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hsb": "Upper Sorbian",
         "ht": "Haiti",
         "hu": "Hungary",
@@ -195,10 +169,6 @@
         "ln": "Lingala",
         "lo": "Laos",
         "loz": "Lozi",
-<<<<<<< HEAD
-        "lrc": "Luri Utara",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "Lithuania",
         "lu": "Luba-Katanga",
         "lua": "Luba-Lulua",
@@ -230,20 +200,11 @@
         "naq": "Nama",
         "nb": "Bokmål Norway",
         "nd": "Ndebele Utara",
-<<<<<<< HEAD
-        "nds": "Jerman Rendah",
-        "nds_NL": "Saxon Rendah",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "Nepal",
         "nl": "Belanda",
         "nl_BE": "Flemish",
         "nmg": "Kwasio",
         "nn": "Nynorsk Norway",
-<<<<<<< HEAD
-        "nnh": "Ngiemboon",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "no": "Norway",
         "nqo": "N’ko",
         "nso": "Sotho Utara",
@@ -275,10 +236,6 @@
         "sba": "Ngambay",
         "sbp": "Sangu",
         "sd": "Sindhi",
-<<<<<<< HEAD
-        "sdh": "Kurdish Selatan",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "Sami Utara",
         "see": "Seneca",
         "seh": "Sena",
@@ -305,13 +262,8 @@
         "su": "Sunda",
         "sv": "Sweden",
         "sw": "Swahili",
-<<<<<<< HEAD
-        "sw_CD": "Congo Swahili",
-        "swb": "Comoria",
-=======
         "swb": "Comoria",
         "swc": "Congo Swahili",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ta": "Tamil",
         "te": "Telugu",
         "teo": "Teso",
@@ -344,10 +296,6 @@
         "vi": "Vietnam",
         "vun": "Vunjo",
         "wae": "Walser",
-<<<<<<< HEAD
-        "wbp": "Warlpiri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "Wolof",
         "xh": "Xhosa",
         "xog": "Soga",

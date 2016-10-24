@@ -42,10 +42,6 @@ class LanguageBundle extends LanguageDataProvider implements LanguageBundleInter
      * @param string                     $path
      * @param BundleEntryReaderInterface $reader
      * @param LocaleDataProvider         $localeProvider
-<<<<<<< HEAD
-     * @param ScriptDataProvider         $scriptProvider
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function __construct($path, BundleEntryReaderInterface $reader, LocaleDataProvider $localeProvider, ScriptDataProvider $scriptProvider)
     {

@@ -22,15 +22,12 @@ use Symfony\Component\Validator\Constraint;
  */
 class Expression extends Constraint
 {
-<<<<<<< HEAD
-=======
     const EXPRESSION_FAILED_ERROR = '6b3befbc-2f01-4ddf-be21-b57898905284';
 
     protected static $errorNames = array(
         self::EXPRESSION_FAILED_ERROR => 'EXPRESSION_FAILED_ERROR',
     );
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public $message = 'This value is not valid.';
     public $expression;
 

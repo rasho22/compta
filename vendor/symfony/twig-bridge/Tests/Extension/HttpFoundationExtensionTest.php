@@ -14,10 +14,7 @@ namespace Symfony\Bridge\Twig\Tests\Extension;
 use Symfony\Bridge\Twig\Extension\HttpFoundationExtension;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Request;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Routing\RequestContext;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 class HttpFoundationExtensionTest extends \PHPUnit_Framework_TestCase
 {
@@ -47,8 +44,6 @@ class HttpFoundationExtensionTest extends \PHPUnit_Framework_TestCase
         );
     }
 
-<<<<<<< HEAD
-=======
     /**
      * @dataProvider getGenerateAbsoluteUrlRequestContextData
      */
@@ -92,7 +87,6 @@ class HttpFoundationExtensionTest extends \PHPUnit_Framework_TestCase
         );
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testGenerateAbsoluteUrlWithScriptFileName()
     {
         $request = Request::create('http://localhost/app/web/app_dev.php');

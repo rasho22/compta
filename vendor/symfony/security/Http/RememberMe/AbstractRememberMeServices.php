@@ -23,10 +23,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Cookie;
 use Psr\Log\LoggerInterface;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Security\Http\ParameterBagUtils;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * Base class implementing the RememberMeServicesInterface.
@@ -43,39 +40,24 @@ abstract class AbstractRememberMeServices implements RememberMeServicesInterface
         'httponly' => true,
     );
     private $providerKey;
-<<<<<<< HEAD
-    private $key;
-=======
     private $secret;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     private $userProviders;
 
     /**
      * Constructor.
      *
      * @param array           $userProviders
-<<<<<<< HEAD
-     * @param string          $key
-=======
      * @param string          $secret
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * @param string          $providerKey
      * @param array           $options
      * @param LoggerInterface $logger
      *
      * @throws \InvalidArgumentException
      */
-<<<<<<< HEAD
-    public function __construct(array $userProviders, $key, $providerKey, array $options = array(), LoggerInterface $logger = null)
-    {
-        if (empty($key)) {
-            throw new \InvalidArgumentException('$key must not be empty.');
-=======
     public function __construct(array $userProviders, $secret, $providerKey, array $options = array(), LoggerInterface $logger = null)
     {
         if (empty($secret)) {
             throw new \InvalidArgumentException('$secret must not be empty.');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
         if (empty($providerKey)) {
             throw new \InvalidArgumentException('$providerKey must not be empty.');
@@ -85,11 +67,7 @@ abstract class AbstractRememberMeServices implements RememberMeServicesInterface
         }
 
         $this->userProviders = $userProviders;
-<<<<<<< HEAD
-        $this->key = $key;
-=======
         $this->secret = $secret;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->providerKey = $providerKey;
         $this->options = array_merge($this->options, $options);
         $this->logger = $logger;
@@ -107,13 +85,6 @@ abstract class AbstractRememberMeServices implements RememberMeServicesInterface
     }
 
     /**
-<<<<<<< HEAD
-     * @return string
-     */
-    public function getKey()
-    {
-        return $this->key;
-=======
      * @deprecated Since version 2.8, to be removed in 3.0. Use getSecret() instead.
      */
     public function getKey()
@@ -129,7 +100,6 @@ abstract class AbstractRememberMeServices implements RememberMeServicesInterface
     public function getSecret()
     {
         return $this->secret;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -166,11 +136,7 @@ abstract class AbstractRememberMeServices implements RememberMeServicesInterface
                 $this->logger->info('Remember-me cookie accepted.');
             }
 
-<<<<<<< HEAD
-            return new RememberMeToken($user, $this->providerKey, $this->key);
-=======
             return new RememberMeToken($user, $this->providerKey, $this->secret);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         } catch (CookieTheftException $e) {
             $this->cancelCookie($request);
 
@@ -357,11 +323,7 @@ abstract class AbstractRememberMeServices implements RememberMeServicesInterface
             return true;
         }
 
-<<<<<<< HEAD
-        $parameter = $request->get($this->options['remember_me_parameter'], null, true);
-=======
         $parameter = ParameterBagUtils::getRequestParameterValue($request, $this->options['remember_me_parameter']);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         if (null === $parameter && null !== $this->logger) {
             $this->logger->debug('Did not send remember-me cookie.', array('parameter' => $this->options['remember_me_parameter']));

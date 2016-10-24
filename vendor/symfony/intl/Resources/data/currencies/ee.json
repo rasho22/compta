@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.7",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -78,13 +74,8 @@
             "ɔstriaga schilling"
         ],
         "AUD": [
-<<<<<<< HEAD
-            "AU$",
-            "Australiaga dollar"
-=======
             "A$",
             "australiaga dollar"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "AWG": [
             "AWG",
@@ -192,11 +183,7 @@
         ],
         "BRL": [
             "R$",
-<<<<<<< HEAD
-            "Braziliaga real"
-=======
             "brazilga real"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BRN": [
             "BRN",
@@ -240,11 +227,7 @@
         ],
         "CAD": [
             "CA$",
-<<<<<<< HEAD
-            "Canadaga dollar"
-=======
             "kanadaga dollar"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CDF": [
             "CDF",
@@ -256,11 +239,7 @@
         ],
         "CHF": [
             "CHF",
-<<<<<<< HEAD
-            "Swissga franc"
-=======
             "swissga franc"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CHW": [
             "CHW",
@@ -284,11 +263,7 @@
         ],
         "CNY": [
             "CN¥",
-<<<<<<< HEAD
-            "Chinesega yuan"
-=======
             "tsainaga yuan"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "COP": [
             "COP",
@@ -344,11 +319,7 @@
         ],
         "DKK": [
             "DKK",
-<<<<<<< HEAD
-            "Denmarkga krone"
-=======
             "danemarkga krone"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "DOP": [
             "DOP",
@@ -396,11 +367,7 @@
         ],
         "EUR": [
             "€",
-<<<<<<< HEAD
-            "EUR"
-=======
             "euro"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "FIM": [
             "FIM",
@@ -420,11 +387,7 @@
         ],
         "GBP": [
             "£",
-<<<<<<< HEAD
-            "Britishga pound"
-=======
             "britainga pound"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "GEK": [
             "GEK",
@@ -484,11 +447,7 @@
         ],
         "HKD": [
             "HK$",
-<<<<<<< HEAD
-            "Hong Kongga dollar"
-=======
             "hong kongga dollar"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "HNL": [
             "HNL",
@@ -512,11 +471,7 @@
         ],
         "IDR": [
             "IDR",
-<<<<<<< HEAD
-            "Indonesiaga rupiah"
-=======
             "indinesiaga rupiah"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "IEP": [
             "IEP",
@@ -536,11 +491,7 @@
         ],
         "INR": [
             "₹",
-<<<<<<< HEAD
-            "Indiaga rupee"
-=======
             "indiaga rupee"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "IQD": [
             "IQD",
@@ -572,11 +523,7 @@
         ],
         "JPY": [
             "JP¥",
-<<<<<<< HEAD
-            "Japanesega yen"
-=======
             "dzapanga yen"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KES": [
             "KES",
@@ -608,11 +555,7 @@
         ],
         "KRW": [
             "₩",
-<<<<<<< HEAD
-            "South Koreaga won"
-=======
             "anyiehe koreaga won"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KWD": [
             "KWD",
@@ -752,11 +695,7 @@
         ],
         "MXN": [
             "MX$",
-<<<<<<< HEAD
-            "Mexicoga peso"
-=======
             "meksikoga peso"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MYR": [
             "MYR",
@@ -780,11 +719,7 @@
         ],
         "NOK": [
             "NOK",
-<<<<<<< HEAD
-            "Norwayga krone"
-=======
             "norwayga krone"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "NPR": [
             "NPR",
@@ -864,11 +799,7 @@
         ],
         "RUB": [
             "RUB",
-<<<<<<< HEAD
-            "Russiaga ruble"
-=======
             "rɔtsiaga ruble"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "RUR": [
             "RUR",
@@ -880,11 +811,7 @@
         ],
         "SAR": [
             "SAR",
-<<<<<<< HEAD
-            "Saudi Arabiaga riyal"
-=======
             "saudiga riyal"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SBD": [
             "SBD",
@@ -908,11 +835,7 @@
         ],
         "SEK": [
             "SEK",
-<<<<<<< HEAD
-            "Swedishga krone"
-=======
             "swedenga krona"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SGD": [
             "SGD",
@@ -967,13 +890,8 @@
             "swaziga lilangeni"
         ],
         "THB": [
-<<<<<<< HEAD
-            "฿",
-            "Thailandga baht"
-=======
             "THB",
             "thaiga baht"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "TJR": [
             "TJR",
@@ -1009,11 +927,7 @@
         ],
         "TRY": [
             "TRY",
-<<<<<<< HEAD
-            "Turkishga lira"
-=======
             "tɛkiiga lira"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "TTD": [
             "TTD",
@@ -1021,11 +935,7 @@
         ],
         "TWD": [
             "NT$",
-<<<<<<< HEAD
-            "Taiwanga dollar"
-=======
             "taiwanga yeye dollar"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "TZS": [
             "TZS",
@@ -1049,11 +959,7 @@
         ],
         "USD": [
             "US$",
-<<<<<<< HEAD
-            "US ga dollar"
-=======
             "us ga dollar"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "USN": [
             "USN",
@@ -1165,11 +1071,7 @@
         ],
         "ZAR": [
             "ZAR",
-<<<<<<< HEAD
-            "South Africaga rand"
-=======
             "anyiehe afrikaga rand"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ZMK": [
             "ZMK",

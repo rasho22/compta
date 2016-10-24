@@ -1,17 +1,9 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.24.11",
-    "Names": {
-        "ADP": [
-            "ADP",
-            "andorská peseta"
-=======
     "Version": "2.1.12.94",
     "Names": {
         "ADP": [
             "ADP",
             "Andorská peseta"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "AED": [
             "AED",
@@ -39,11 +31,7 @@
         ],
         "AOK": [
             "AOK",
-<<<<<<< HEAD
-            "angolská kwanza (1977–1990)"
-=======
             "Angolská kwanza (1977–1990)"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "AON": [
             "AON",
@@ -51,17 +39,6 @@
         ],
         "AOR": [
             "AOR",
-<<<<<<< HEAD
-            "angolská kwanza reajustado (1995–1999)"
-        ],
-        "ARA": [
-            "ARA",
-            "argentínsky austral"
-        ],
-        "ARP": [
-            "ARP",
-            "argentínske peso (1983 – 1985)"
-=======
             "Angolská kwanza Reajustado (1995–1999)"
         ],
         "ARA": [
@@ -71,7 +48,6 @@
         "ARP": [
             "ARP",
             "Argentinské peso (1983–1985)"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ARS": [
             "ARS",
@@ -79,11 +55,7 @@
         ],
         "ATS": [
             "ATS",
-<<<<<<< HEAD
-            "rakúsky šiling"
-=======
             "Rakúsky šiling"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "AUD": [
             "AUD",
@@ -95,11 +67,7 @@
         ],
         "AZM": [
             "AZM",
-<<<<<<< HEAD
-            "azerbajdžanský manat (1993–2006)"
-=======
             "Azerbajdžanský manat (1993–2006)"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "AZN": [
             "AZN",
@@ -107,11 +75,7 @@
         ],
         "BAD": [
             "BAD",
-<<<<<<< HEAD
-            "bosniansko-hercegovinský dinár (1992–1994)"
-=======
             "Bosnianský dinár"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BAM": [
             "BAM",
@@ -127,21 +91,6 @@
         ],
         "BEC": [
             "BEC",
-<<<<<<< HEAD
-            "belgický frank (konvertibilný)"
-        ],
-        "BEF": [
-            "BEF",
-            "belgický frank"
-        ],
-        "BEL": [
-            "BEL",
-            "belgický frank (finančný)"
-        ],
-        "BGL": [
-            "BGL",
-            "bulharský tvrdý lev"
-=======
             "Belgický frank (konvertibilný)"
         ],
         "BEF": [
@@ -155,7 +104,6 @@
         "BGL": [
             "BGL",
             "Bulharský leva"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BGN": [
             "BGN",
@@ -183,25 +131,6 @@
         ],
         "BOP": [
             "BOP",
-<<<<<<< HEAD
-            "bolívijské peso"
-        ],
-        "BOV": [
-            "BOV",
-            "bolívijské MVDOL"
-        ],
-        "BRB": [
-            "BRB",
-            "brazílske cruzeiro novo (1967–1986)"
-        ],
-        "BRC": [
-            "BRC",
-            "brazílske cruzado (1986 – 1989)"
-        ],
-        "BRE": [
-            "BRE",
-            "brazílske cruzeiro (1990 – 1993)"
-=======
             "Bolivíjske peso"
         ],
         "BOV": [
@@ -219,7 +148,6 @@
         "BRE": [
             "BRE",
             "Bolivíjske cruzeiro (1990–1993)"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BRL": [
             "BRL",

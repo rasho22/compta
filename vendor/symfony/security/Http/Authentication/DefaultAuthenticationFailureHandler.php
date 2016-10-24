@@ -17,10 +17,7 @@ use Psr\Log\LoggerInterface;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
 use Symfony\Component\Security\Core\Security;
 use Symfony\Component\Security\Http\HttpUtils;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Security\Http\ParameterBagUtils;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * Class with the default authentication failure handling logic.
@@ -86,11 +83,7 @@ class DefaultAuthenticationFailureHandler implements AuthenticationFailureHandle
      */
     public function onAuthenticationFailure(Request $request, AuthenticationException $exception)
     {
-<<<<<<< HEAD
-        if ($failureUrl = $request->get($this->options['failure_path_parameter'], null, true)) {
-=======
         if ($failureUrl = ParameterBagUtils::getRequestParameterValue($request, $this->options['failure_path_parameter'])) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $this->options['failure_path'] = $failureUrl;
         }
 

@@ -41,23 +41,15 @@ class DependencyInjectionExtension implements FormExtensionInterface
 
         $type = $this->container->get($this->typeServiceIds[$name]);
 
-<<<<<<< HEAD
-        if ($type->getName() !== $name) {
-=======
         // BC: validate result of getName() for legacy names (non-FQCN)
         if ($name !== get_class($type) && $type->getName() !== $name) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new InvalidArgumentException(
                 sprintf('The type name specified for the service "%s" does not match the actual name. Expected "%s", given "%s"',
                     $this->typeServiceIds[$name],
                     $name,
                     $type->getName()
-<<<<<<< HEAD
-                ));
-=======
                 )
             );
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         return $type;
@@ -74,9 +66,6 @@ class DependencyInjectionExtension implements FormExtensionInterface
 
         if (isset($this->typeExtensionServiceIds[$name])) {
             foreach ($this->typeExtensionServiceIds[$name] as $serviceId) {
-<<<<<<< HEAD
-                $extensions[] = $this->container->get($serviceId);
-=======
                 $extensions[] = $extension = $this->container->get($serviceId);
 
                 // validate result of getExtendedType() to ensure it is consistent with the service definition
@@ -89,7 +78,6 @@ class DependencyInjectionExtension implements FormExtensionInterface
                         )
                     );
                 }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
         }
 

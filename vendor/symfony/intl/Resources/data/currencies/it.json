@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.13.6",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -31,11 +27,7 @@
         ],
         "ANG": [
             "ANG",
-<<<<<<< HEAD
-            "fiorino delle Antille olandesi"
-=======
             "fiorino delle Antille Olandesi"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "AOA": [
             "AOA",
@@ -91,11 +83,7 @@
         ],
         "BAM": [
             "BAM",
-<<<<<<< HEAD
-            "marco convertibile della Bosnia-Herzegovina"
-=======
             "marco conv. Bosnia-Erzegovina"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BBD": [
             "BBD",
@@ -183,11 +171,7 @@
         ],
         "BTN": [
             "BTN",
-<<<<<<< HEAD
-            "ngultrum bhutanese"
-=======
             "ngultrum butanese"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BUK": [
             "BUK",
@@ -259,11 +243,7 @@
         ],
         "CVE": [
             "CVE",
-<<<<<<< HEAD
-            "escudo capoverdiano"
-=======
             "escudo del Capo Verde"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CYP": [
             "CYP",
@@ -283,11 +263,7 @@
         ],
         "DJF": [
             "DJF",
-<<<<<<< HEAD
-            "franco di Gibuti"
-=======
             "franco gibutiano"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "DKK": [
             "DKK",
@@ -335,11 +311,7 @@
         ],
         "ETB": [
             "ETB",
-<<<<<<< HEAD
-            "birr etiope"
-=======
             "birr etiopico"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "EUR": [
             "€",
@@ -363,11 +335,7 @@
         ],
         "GBP": [
             "£",
-<<<<<<< HEAD
-            "sterlina britannica"
-=======
             "sterlina inglese"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "GEK": [
             "GEK",
@@ -391,11 +359,7 @@
         ],
         "GMD": [
             "GMD",
-<<<<<<< HEAD
-            "dalasi gambiano"
-=======
             "dalasi del Gambia"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "GNF": [
             "GNF",
@@ -508,11 +472,7 @@
         ],
         "KGS": [
             "KGS",
-<<<<<<< HEAD
-            "som kirghiso"
-=======
             "som Kirghiso"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KHR": [
             "KHR",
@@ -520,11 +480,7 @@
         ],
         "KMF": [
             "KMF",
-<<<<<<< HEAD
-            "franco comoriano"
-=======
             "franco Comoriano"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KPW": [
             "KPW",
@@ -620,11 +576,7 @@
         ],
         "MKD": [
             "MKD",
-<<<<<<< HEAD
-            "denar macedone"
-=======
             "dinaro macedone"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MLF": [
             "MLF",
@@ -680,11 +632,7 @@
         ],
         "MYR": [
             "MYR",
-<<<<<<< HEAD
-            "ringgit malese"
-=======
             "ringgit della Malesia"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "MZE": [
             "MZE",
@@ -728,19 +676,11 @@
         ],
         "OMR": [
             "OMR",
-<<<<<<< HEAD
-            "rial omanita"
-        ],
-        "PAB": [
-            "PAB",
-            "balboa panamense"
-=======
             "rial dell’Oman"
         ],
         "PAB": [
             "PAB",
             "balboa di Panama"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "PEI": [
             "PEI",
@@ -748,11 +688,7 @@
         ],
         "PEN": [
             "PEN",
-<<<<<<< HEAD
-            "nuovo sol peruviano"
-=======
             "sol nuevo peruviano"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "PES": [
             "PES",
@@ -760,17 +696,6 @@
         ],
         "PGK": [
             "PGK",
-<<<<<<< HEAD
-            "kina papuana"
-        ],
-        "PHP": [
-            "PHP",
-            "peso filippino"
-        ],
-        "PKR": [
-            "PKR",
-            "rupia pakistana"
-=======
             "kina della Papua Nuova Guinea"
         ],
         "PHP": [
@@ -780,7 +705,6 @@
         "PKR": [
             "PKR",
             "rupia del Pakistan"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "PLN": [
             "PLN",
@@ -796,19 +720,11 @@
         ],
         "PYG": [
             "PYG",
-<<<<<<< HEAD
-            "guaraní paraguayano"
-        ],
-        "QAR": [
-            "QAR",
-            "rial qatariano"
-=======
             "guaraní del Paraguay"
         ],
         "QAR": [
             "QAR",
             "rial del Qatar"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "RHD": [
             "RHD",
@@ -844,11 +760,7 @@
         ],
         "SBD": [
             "SBD",
-<<<<<<< HEAD
-            "dollaro delle Isole Salomone"
-=======
             "dollaro delle Isole Solomon"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SCR": [
             "SCR",
@@ -892,11 +804,7 @@
         ],
         "SRD": [
             "SRD",
-<<<<<<< HEAD
-            "dollaro del Suriname"
-=======
             "dollaro surinamese"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SRG": [
             "SRG",
@@ -904,11 +812,7 @@
         ],
         "SSP": [
             "SSP",
-<<<<<<< HEAD
-            "sterlina sud-sudanese"
-=======
             "sterlina sudsudanese"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "STD": [
             "STD",
@@ -940,11 +844,7 @@
         ],
         "TJS": [
             "TJS",
-<<<<<<< HEAD
-            "somoni tagiko"
-=======
             "somoni del Tajikistan"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "TMM": [
             "TMM",
@@ -960,11 +860,7 @@
         ],
         "TOP": [
             "TOP",
-<<<<<<< HEAD
-            "paʻanga tongano"
-=======
             "paʻanga di Tonga"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "TPE": [
             "TPE",
@@ -1028,19 +924,11 @@
         ],
         "UYU": [
             "UYU",
-<<<<<<< HEAD
-            "peso uruguayano"
-        ],
-        "UZS": [
-            "UZS",
-            "sum uzbeco"
-=======
             "peso uruguaiano"
         ],
         "UZS": [
             "UZS",
             "sum dell’Uzbekistan"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "VEB": [
             "VEB",
@@ -1060,11 +948,7 @@
         ],
         "WST": [
             "WST",
-<<<<<<< HEAD
-            "tala samoano"
-=======
             "tala della Samoa Occidentale"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XAF": [
             "FCFA",
@@ -1072,11 +956,7 @@
         ],
         "XCD": [
             "EC$",
-<<<<<<< HEAD
-            "dollaro dei Caraibi orientali"
-=======
             "dollaro dei Caraibi Orientali"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XFO": [
             "XFO",

@@ -26,10 +26,7 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
         $collector->trans('bar');
         $collector->transChoice('choice', 0);
         $collector->trans('bar_ru');
-<<<<<<< HEAD
-=======
         $collector->trans('bar_ru', array('foo' => 'bar'));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $expectedMessages = array();
         $expectedMessages[] = array(
@@ -38,11 +35,8 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
               'locale' => 'en',
               'domain' => 'messages',
               'state' => DataCollectorTranslator::MESSAGE_DEFINED,
-<<<<<<< HEAD
-=======
               'parameters' => array(),
               'transChoiceNumber' => null,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         );
         $expectedMessages[] = array(
               'id' => 'bar',
@@ -50,11 +44,8 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
               'locale' => 'fr',
               'domain' => 'messages',
               'state' => DataCollectorTranslator::MESSAGE_EQUALS_FALLBACK,
-<<<<<<< HEAD
-=======
               'parameters' => array(),
               'transChoiceNumber' => null,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         );
         $expectedMessages[] = array(
               'id' => 'choice',
@@ -62,11 +53,8 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
               'locale' => 'en',
               'domain' => 'messages',
               'state' => DataCollectorTranslator::MESSAGE_MISSING,
-<<<<<<< HEAD
-=======
               'parameters' => array(),
               'transChoiceNumber' => 0,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         );
         $expectedMessages[] = array(
               'id' => 'bar_ru',
@@ -74,8 +62,6 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
               'locale' => 'ru',
               'domain' => 'messages',
               'state' => DataCollectorTranslator::MESSAGE_EQUALS_FALLBACK,
-<<<<<<< HEAD
-=======
               'parameters' => array(),
               'transChoiceNumber' => null,
         );
@@ -87,7 +73,6 @@ class DataCollectorTranslatorTest extends \PHPUnit_Framework_TestCase
               'state' => DataCollectorTranslator::MESSAGE_EQUALS_FALLBACK,
               'parameters' => array('foo' => 'bar'),
               'transChoiceNumber' => null,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         );
 
         $this->assertEquals($expectedMessages, $collector->getCollectedMessages());

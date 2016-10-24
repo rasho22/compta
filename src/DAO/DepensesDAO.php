@@ -6,17 +6,6 @@ use app_compta\Domain\Depenses;
 
 class DepensesDAO extends DAO {
 
-<<<<<<< HEAD
-    private $userDAO;
-
-    public function setUserDAO(UserDAO $userDAO) {
-        $this->userDAO = $userDAO;
-    }
-
-
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 	public function findAll() {
 		$sql = "select * from depenses order by date desc";
 		$result = $this->getDb()->fetchAll($sql);
@@ -85,18 +74,7 @@ class DepensesDAO extends DAO {
         $depense->setMontant($row['montant']);
         $depense->setDate($row['date']);
         $depense->setDescription($row['description']);
-<<<<<<< HEAD
-
-        if (array_key_exists('id_users', $row)) {
-            $userID = $row["id_users"];
-            $user = $this->userDAO->find($userID);
-            $depense->setIdUsers($user);
-
-        }
-
-=======
         $depense->setIdUsers($row['id_users']);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return $depense;
     }
 

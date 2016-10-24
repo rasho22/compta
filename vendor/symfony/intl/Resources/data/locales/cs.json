@@ -48,12 +48,8 @@
         "bg": "bulharština",
         "bg_BG": "bulharština (Bulharsko)",
         "bm": "bambarština",
-<<<<<<< HEAD
-        "bm_ML": "bambarština (Mali)",
-=======
         "bm_Latn": "bambarština (latinka)",
         "bm_Latn_ML": "bambarština (latinka, Mali)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "bengálština",
         "bn_BD": "bengálština (Bangladéš)",
         "bn_IN": "bengálština (Indie)",
@@ -73,11 +69,6 @@
         "ca_ES": "katalánština (Španělsko)",
         "ca_FR": "katalánština (Francie)",
         "ca_IT": "katalánština (Itálie)",
-<<<<<<< HEAD
-        "ce": "čečenština",
-        "ce_RU": "čečenština (Rusko)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "čeština",
         "cs_CZ": "čeština (Česká republika)",
         "cy": "velština",
@@ -104,43 +95,21 @@
         "en_AG": "angličtina (Antigua a Barbuda)",
         "en_AI": "angličtina (Anguilla)",
         "en_AS": "angličtina (Americká Samoa)",
-<<<<<<< HEAD
-        "en_AT": "angličtina (Rakousko)",
         "en_AU": "angličtina (Austrálie)",
         "en_BB": "angličtina (Barbados)",
         "en_BE": "angličtina (Belgie)",
-        "en_BI": "angličtina (Burundi)",
-=======
-        "en_AU": "angličtina (Austrálie)",
-        "en_BB": "angličtina (Barbados)",
-        "en_BE": "angličtina (Belgie)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "angličtina (Bermudy)",
         "en_BS": "angličtina (Bahamy)",
         "en_BW": "angličtina (Botswana)",
         "en_BZ": "angličtina (Belize)",
         "en_CA": "angličtina (Kanada)",
         "en_CC": "angličtina (Kokosové ostrovy)",
-<<<<<<< HEAD
-        "en_CH": "angličtina (Švýcarsko)",
-        "en_CK": "angličtina (Cookovy ostrovy)",
-        "en_CM": "angličtina (Kamerun)",
-        "en_CX": "angličtina (Vánoční ostrov)",
-        "en_CY": "angličtina (Kypr)",
-        "en_DE": "angličtina (Německo)",
-        "en_DG": "angličtina (Diego García)",
-        "en_DK": "angličtina (Dánsko)",
-        "en_DM": "angličtina (Dominika)",
-        "en_ER": "angličtina (Eritrea)",
-        "en_FI": "angličtina (Finsko)",
-=======
         "en_CK": "angličtina (Cookovy ostrovy)",
         "en_CM": "angličtina (Kamerun)",
         "en_CX": "angličtina (Vánoční ostrov)",
         "en_DG": "angličtina (Diego García)",
         "en_DM": "angličtina (Dominika)",
         "en_ER": "angličtina (Eritrea)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "angličtina (Fidži)",
         "en_FK": "angličtina (Falklandské ostrovy)",
         "en_FM": "angličtina (Mikronésie)",
@@ -154,10 +123,6 @@
         "en_GY": "angličtina (Guyana)",
         "en_HK": "angličtina (Hongkong – ZAO Číny)",
         "en_IE": "angličtina (Irsko)",
-<<<<<<< HEAD
-        "en_IL": "angličtina (Izrael)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "angličtina (Ostrov Man)",
         "en_IN": "angličtina (Indie)",
         "en_IO": "angličtina (Britské indickooceánské území)",
@@ -182,10 +147,6 @@
         "en_NA": "angličtina (Namibie)",
         "en_NF": "angličtina (Norfolk)",
         "en_NG": "angličtina (Nigérie)",
-<<<<<<< HEAD
-        "en_NL": "angličtina (Nizozemsko)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "angličtina (Nauru)",
         "en_NU": "angličtina (Niue)",
         "en_NZ": "angličtina (Nový Zéland)",
@@ -199,15 +160,8 @@
         "en_SB": "angličtina (Šalamounovy ostrovy)",
         "en_SC": "angličtina (Seychely)",
         "en_SD": "angličtina (Súdán)",
-<<<<<<< HEAD
-        "en_SE": "angličtina (Švédsko)",
         "en_SG": "angličtina (Singapur)",
         "en_SH": "angličtina (Svatá Helena)",
-        "en_SI": "angličtina (Slovinsko)",
-=======
-        "en_SG": "angličtina (Singapur)",
-        "en_SH": "angličtina (Svatá Helena)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "angličtina (Sierra Leone)",
         "en_SS": "angličtina (Jižní Súdán)",
         "en_SX": "angličtina (Svatý Martin (Nizozemsko))",
@@ -271,10 +225,6 @@
         "fi": "finština",
         "fi_FI": "finština (Finsko)",
         "fo": "faerština",
-<<<<<<< HEAD
-        "fo_DK": "faerština (Dánsko)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "faerština (Faerské ostrovy)",
         "fr": "francouzština",
         "fr_BE": "francouzština (Belgie)",
@@ -337,13 +287,10 @@
         "gv_IM": "manština (Ostrov Man)",
         "ha": "hauština",
         "ha_GH": "hauština (Ghana)",
-<<<<<<< HEAD
-=======
         "ha_Latn": "hauština (latinka)",
         "ha_Latn_GH": "hauština (latinka, Ghana)",
         "ha_Latn_NE": "hauština (latinka, Niger)",
         "ha_Latn_NG": "hauština (latinka, Nigérie)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "hauština (Niger)",
         "ha_NG": "hauština (Nigérie)",
         "he": "hebrejština",
@@ -361,13 +308,8 @@
         "id_ID": "indonéština (Indonésie)",
         "ig": "igboština",
         "ig_NG": "igboština (Nigérie)",
-<<<<<<< HEAD
-        "ii": "iština (sečuánská)",
-        "ii_CN": "iština (Čína)",
-=======
         "ii": "s’-čchuan i",
         "ii_CN": "s’-čchuan i (Čína)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "is": "islandština",
         "is_IS": "islandština (Island)",
         "it": "italština",
@@ -381,11 +323,8 @@
         "ki": "kikujština",
         "ki_KE": "kikujština (Keňa)",
         "kk": "kazaština",
-<<<<<<< HEAD
-=======
         "kk_Cyrl": "kazaština (cyrilice)",
         "kk_Cyrl_KZ": "kazaština (cyrilice, Kazachstán)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "kazaština (Kazachstán)",
         "kl": "grónština",
         "kl_GL": "grónština (Grónsko)",
@@ -397,20 +336,14 @@
         "ko_KP": "korejština (Severní Korea)",
         "ko_KR": "korejština (Jižní Korea)",
         "ks": "kašmírština",
-<<<<<<< HEAD
-=======
         "ks_Arab": "kašmírština (arabské)",
         "ks_Arab_IN": "kašmírština (arabské, Indie)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "kašmírština (Indie)",
         "kw": "kornština",
         "kw_GB": "kornština (Velká Británie)",
         "ky": "kyrgyzština",
-<<<<<<< HEAD
-=======
         "ky_Cyrl": "kyrgyzština (cyrilice)",
         "ky_Cyrl_KG": "kyrgyzština (cyrilice, Kyrgyzstán)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "kyrgyzština (Kyrgyzstán)",
         "lb": "lucemburština",
         "lb_LU": "lucemburština (Lucembursko)",
@@ -436,23 +369,17 @@
         "ml": "malajálamština",
         "ml_IN": "malajálamština (Indie)",
         "mn": "mongolština",
-<<<<<<< HEAD
-=======
         "mn_Cyrl": "mongolština (cyrilice)",
         "mn_Cyrl_MN": "mongolština (cyrilice, Mongolsko)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "mongolština (Mongolsko)",
         "mr": "maráthština",
         "mr_IN": "maráthština (Indie)",
         "ms": "malajština",
         "ms_BN": "malajština (Brunej)",
-<<<<<<< HEAD
-=======
         "ms_Latn": "malajština (latinka)",
         "ms_Latn_BN": "malajština (latinka, Brunej)",
         "ms_Latn_MY": "malajština (latinka, Malajsie)",
         "ms_Latn_SG": "malajština (latinka, Singapur)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "malajština (Malajsie)",
         "ms_SG": "malajština (Singapur)",
         "mt": "maltština",
@@ -597,11 +524,8 @@
         "tr_CY": "turečtina (Kypr)",
         "tr_TR": "turečtina (Turecko)",
         "ug": "ujgurština",
-<<<<<<< HEAD
-=======
         "ug_Arab": "ujgurština (arabské)",
         "ug_Arab_CN": "ujgurština (arabské, Čína)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "ujgurština (Čína)",
         "uk": "ukrajinština",
         "uk_UA": "ukrajinština (Ukrajina)",

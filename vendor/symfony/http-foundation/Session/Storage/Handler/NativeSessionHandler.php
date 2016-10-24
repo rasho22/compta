@@ -11,18 +11,6 @@
 
 namespace Symfony\Component\HttpFoundation\Session\Storage\Handler;
 
-<<<<<<< HEAD
-// Adds SessionHandler functionality if available.
-// @see http://php.net/sessionhandler
-if (PHP_VERSION_ID >= 50400) {
-    class NativeSessionHandler extends \SessionHandler
-    {
-    }
-} else {
-    class NativeSessionHandler
-    {
-    }
-=======
 /**
  * Adds SessionHandler functionality if available.
  *
@@ -30,5 +18,4 @@ if (PHP_VERSION_ID >= 50400) {
  */
 class NativeSessionHandler extends \SessionHandler
 {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

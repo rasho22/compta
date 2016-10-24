@@ -38,17 +38,6 @@ class PreloadedExtension implements FormExtensionInterface
     /**
      * Creates a new preloaded extension.
      *
-<<<<<<< HEAD
-     * @param FormTypeInterface[]                 $types          The types that the extension should support
-     * @param array[FormTypeExtensionInterface[]] $typeExtensions The type extensions that the extension should support
-     * @param FormTypeGuesserInterface|null       $typeGuesser    The guesser that the extension should support
-     */
-    public function __construct(array $types, array $typeExtensions, FormTypeGuesserInterface $typeGuesser = null)
-    {
-        $this->types = $types;
-        $this->typeExtensions = $typeExtensions;
-        $this->typeGuesser = $typeGuesser;
-=======
      * @param FormTypeInterface[]            $types          The types that the extension should support
      * @param FormTypeExtensionInterface[][] $typeExtensions The type extensions that the extension should support
      * @param FormTypeGuesserInterface|null  $typeGuesser    The guesser that the extension should support
@@ -65,7 +54,6 @@ class PreloadedExtension implements FormExtensionInterface
             // Since Symfony 2.8, types are identified by their FQCN
             $this->types[get_class($type)] = $type;
         }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**

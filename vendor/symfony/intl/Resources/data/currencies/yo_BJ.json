@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.24.17",
-=======
     "Version": "2.1.13.24",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AED": [
             "AED",
@@ -69,13 +65,10 @@
             "ETB",
             "Biri ti Orílɛ́ède Eutopia"
         ],
-<<<<<<< HEAD
-=======
         "EUR": [
             "€",
             "Uro"
         ],
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GBP": [
             "£",
             "Pɔɔn ti Orílɛ́ède Bírítísì"
@@ -176,13 +169,10 @@
             "SHP",
             "Pɔɔun ti Orílɛ́ède ̣Elena"
         ],
-<<<<<<< HEAD
-=======
         "SLL": [
             "SLL",
             "Lioni"
         ],
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SOS": [
             "SOS",
             "Sile ti Orílɛ́ède Somali"
@@ -191,13 +181,10 @@
             "STD",
             "Dobira ti Orílɛ́ède Sao tome Ati Pirisipe"
         ],
-<<<<<<< HEAD
-=======
         "SZL": [
             "SZL",
             "Lilangeni"
         ],
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TND": [
             "TND",
             "Dina ti Orílɛ́ède Tunisia"

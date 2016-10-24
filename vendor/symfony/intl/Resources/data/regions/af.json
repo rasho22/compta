@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Ascensioneiland",
         "AD": "Andorra",
@@ -46,11 +42,7 @@
         "CC": "Kokos-eilande",
         "CD": "Demokratiese Republiek van die Kongo",
         "CF": "Sentraal-Afrikaanse Republiek",
-<<<<<<< HEAD
-        "CG": "Kongo - Brazzaville",
-=======
         "CG": "Republiek van die Kongo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CH": "Switserland",
         "CI": "Ivoorkus",
         "CK": "Cookeilande",
@@ -151,11 +143,7 @@
         "MC": "Monaco",
         "MD": "Moldowa",
         "ME": "Montenegro",
-<<<<<<< HEAD
-        "MF": "St. Martin",
-=======
         "MF": "Sint Martin",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MG": "Madagaskar",
         "MH": "Marshalleilande",
         "MK": "Macedonië",

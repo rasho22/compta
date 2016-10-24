@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afarština",
         "ab": "abcházština",
@@ -46,10 +42,7 @@
         "awa": "awadhština",
         "ay": "ajmarština",
         "az": "ázerbájdžánština",
-<<<<<<< HEAD
-=======
         "azb": "ázerbájdžánština (jižní)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "baškirština",
         "bal": "balúčština",
         "ban": "balijština",
@@ -66,10 +59,6 @@
         "bfd": "bafut",
         "bfq": "badagština",
         "bg": "bulharština",
-<<<<<<< HEAD
-        "bgn": "balúčština (západní)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhojpurština",
         "bi": "bislamština",
         "bik": "bikolština",
@@ -234,11 +223,7 @@
         "id": "indonéština",
         "ie": "interlingue",
         "ig": "igboština",
-<<<<<<< HEAD
-        "ii": "iština (sečuánská)",
-=======
         "ii": "s’-čchuan i",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ik": "inupiakština",
         "ilo": "ilokánština",
         "inh": "inguština",
@@ -325,10 +310,6 @@
         "lo": "laoština",
         "lol": "mongština",
         "loz": "lozština",
-<<<<<<< HEAD
-        "lrc": "lúrština (severní)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "litevština",
         "ltg": "latgalština",
         "lu": "lubu-katanžština",
@@ -390,10 +371,6 @@
         "nb": "norština (bokmål)",
         "nd": "ndebele (Zimbabwe)",
         "nds": "dolnoněmčina",
-<<<<<<< HEAD
-        "nds_NL": "dolnosaština",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepálština",
         "new": "névárština",
         "ng": "ndondština",
@@ -463,10 +440,6 @@
         "ro_MD": "moldavština",
         "rof": "rombo",
         "rom": "romština",
-<<<<<<< HEAD
-        "root": "kořen",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "rtm": "rotumanština",
         "ru": "ruština",
         "rue": "rusínština",
@@ -489,10 +462,6 @@
         "sco": "skotština",
         "sd": "sindhština",
         "sdc": "sassarština",
-<<<<<<< HEAD
-        "sdh": "kurdština (jižní)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "sámština (severní)",
         "see": "seneca",
         "seh": "sena",
@@ -535,13 +504,8 @@
         "sux": "sumerština",
         "sv": "švédština",
         "sw": "svahilština",
-<<<<<<< HEAD
-        "sw_CD": "svahilština (Kongo)",
-        "swb": "komorština",
-=======
         "swb": "komorština",
         "swc": "svahilština (Kongo)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "syrština (klasická)",
         "syr": "syrština",
         "szl": "slezština",
@@ -608,10 +572,6 @@
         "wal": "wolajtština",
         "war": "warajština",
         "was": "waština",
-<<<<<<< HEAD
-        "wbp": "warlpiri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "wolofština",
         "wuu": "čínština (dialekty Wu)",
         "xal": "kalmyčtina",

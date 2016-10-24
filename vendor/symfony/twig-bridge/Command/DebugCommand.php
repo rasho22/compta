@@ -16,10 +16,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Console\Style\SymfonyStyle;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * Lists twig functions, filters, globals and tests present in the current project.
@@ -86,18 +83,11 @@ EOF
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-<<<<<<< HEAD
-        $twig = $this->getTwigEnvironment();
-
-        if (null === $twig) {
-            $output->writeln('<error>The Twig environment needs to be set.</error>');
-=======
         $io = new SymfonyStyle($input, $output);
         $twig = $this->getTwigEnvironment();
 
         if (null === $twig) {
             $io->error('The Twig environment needs to be set.');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
             return 1;
         }
@@ -112,11 +102,7 @@ EOF
                 }
             }
             $data['tests'] = array_keys($data['tests']);
-<<<<<<< HEAD
-            $output->writeln(json_encode($data));
-=======
             $io->writeln(json_encode($data));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
             return 0;
         }
@@ -134,22 +120,11 @@ EOF
             if (!$items) {
                 continue;
             }
-<<<<<<< HEAD
-            if ($index > 0) {
-                $output->writeln('');
-            }
-            $output->writeln('<info>'.ucfirst($type).'</info>');
-            ksort($items);
-            foreach ($items as $item) {
-                $output->writeln('  '.$item);
-            }
-=======
 
             $io->section(ucfirst($type));
 
             ksort($items);
             $io->listing($items);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         return 0;
@@ -164,10 +139,6 @@ EOF
             return;
         }
         if ($type === 'functions' || $type === 'filters') {
-<<<<<<< HEAD
-            $args = array();
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $cb = $entity->getCallable();
             if (is_null($cb)) {
                 return;

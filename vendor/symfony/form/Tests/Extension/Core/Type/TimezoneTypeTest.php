@@ -15,11 +15,6 @@ use Symfony\Component\Form\ChoiceList\View\ChoiceView;
 
 class TimezoneTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
 {
-<<<<<<< HEAD
-    public function testTimezonesAreSelectable()
-    {
-        $form = $this->factory->create('timezone');
-=======
     /**
      * @group legacy
      */
@@ -33,7 +28,6 @@ class TimezoneTypeTest extends \Symfony\Component\Form\Test\TypeTestCase
     public function testTimezonesAreSelectable()
     {
         $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\TimezoneType');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $view = $form->createView();
         $choices = $view->vars['choices'];
 

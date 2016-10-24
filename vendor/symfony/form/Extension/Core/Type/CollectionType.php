@@ -27,11 +27,6 @@ class CollectionType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         if ($options['allow_add'] && $options['prototype']) {
-<<<<<<< HEAD
-            $prototype = $builder->create($options['prototype_name'], $options['type'], array_replace(array(
-                'label' => $options['prototype_name'].'label__',
-            ), $options['options']));
-=======
             $prototypeOptions = array_replace(array(
                 'required' => $options['required'],
                 'label' => $options['prototype_name'].'label__',
@@ -42,18 +37,12 @@ class CollectionType extends AbstractType
             }
 
             $prototype = $builder->create($options['prototype_name'], $options['entry_type'], $prototypeOptions);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $builder->setAttribute('prototype', $prototype->getForm());
         }
 
         $resizeListener = new ResizeFormListener(
-<<<<<<< HEAD
-            $options['type'],
-            $options['options'],
-=======
             $options['entry_type'],
             $options['entry_options'],
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $options['allow_add'],
             $options['allow_delete'],
             $options['delete_empty']
@@ -93,17 +82,11 @@ class CollectionType extends AbstractType
      */
     public function configureOptions(OptionsResolver $resolver)
     {
-<<<<<<< HEAD
-        $optionsNormalizer = function (Options $options, $value) {
-=======
         $entryOptionsNormalizer = function (Options $options, $value) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $value['block_name'] = 'entry';
 
             return $value;
         };
-<<<<<<< HEAD
-=======
         $optionsNormalizer = function (Options $options, $value) use ($entryOptionsNormalizer) {
             if (null !== $value) {
                 @trigger_error('The form option "options" is deprecated since version 2.8 and will be removed in 3.0. Use "entry_options" instead.', E_USER_DEPRECATED);
@@ -132,21 +115,11 @@ class CollectionType extends AbstractType
 
             return $options['options'];
         };
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $resolver->setDefaults(array(
             'allow_add' => false,
             'allow_delete' => false,
             'prototype' => true,
-<<<<<<< HEAD
-            'prototype_name' => '__name__',
-            'type' => 'text',
-            'options' => array(),
-            'delete_empty' => false,
-        ));
-
-        $resolver->setNormalizer('options', $optionsNormalizer);
-=======
             'prototype_data' => null,
             'prototype_name' => '__name__',
             // deprecated as of Symfony 2.8, to be removed in Symfony 3.0. Use entry_type instead
@@ -161,7 +134,6 @@ class CollectionType extends AbstractType
         $resolver->setNormalizer('type', $typeNormalizer);
         $resolver->setNormalizer('options', $optionsNormalizer);
         $resolver->setNormalizer('entry_options', $entryOptionsNormalizer);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -169,8 +141,6 @@ class CollectionType extends AbstractType
      */
     public function getName()
     {
-<<<<<<< HEAD
-=======
         return $this->getBlockPrefix();
     }
 
@@ -179,7 +149,6 @@ class CollectionType extends AbstractType
      */
     public function getBlockPrefix()
     {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return 'collection';
     }
 }

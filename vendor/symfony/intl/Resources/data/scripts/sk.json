@@ -1,20 +1,12 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.24.11",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "Arab": "arabské",
         "Armn": "arménske",
         "Bali": "balijský",
         "Beng": "bengálske",
         "Bopo": "bopomofo",
-<<<<<<< HEAD
-        "Brai": "braillovo",
-=======
         "Brai": "braillovo písmo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Cyrl": "cyrilika",
         "Deva": "dévanágarí",
         "Egyp": "egyptské hieroglyfy",
@@ -26,11 +18,7 @@
         "Gujr": "gudžarátí",
         "Guru": "gurmukhi",
         "Hang": "hangul",
-<<<<<<< HEAD
-        "Hani": "čínske",
-=======
         "Hani": "han",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Hans": "zjednodušené",
         "Hant": "tradičné",
         "Hebr": "hebrejské",

@@ -11,11 +11,8 @@
 
 namespace Symfony\Component\Form\Tests;
 
-<<<<<<< HEAD
-=======
 use Symfony\Component\Form\FormTypeExtensionInterface;
 use Symfony\Component\Form\FormTypeInterface;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\Form\ResolvedFormType;
 use Symfony\Component\Form\FormBuilder;
 use Symfony\Component\OptionsResolver\OptionsResolver;
@@ -39,13 +36,6 @@ class ResolvedFormTypeTest extends \PHPUnit_Framework_TestCase
      * @var \PHPUnit_Framework_MockObject_MockObject
      */
     private $dataMapper;
-<<<<<<< HEAD
-    private $parentType;
-    private $type;
-    private $extension1;
-    private $extension2;
-    private $parentResolvedType;
-=======
 
     /**
      * @var \PHPUnit_Framework_MockObject_MockObject|FormTypeInterface
@@ -75,7 +65,6 @@ class ResolvedFormTypeTest extends \PHPUnit_Framework_TestCase
     /**
      * @var ResolvedFormType
      */
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     private $resolvedType;
 
     protected function setUp()
@@ -343,13 +332,6 @@ class ResolvedFormTypeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-<<<<<<< HEAD
-     * @return \PHPUnit_Framework_MockObject_MockObject
-     */
-    private function getMockFormType()
-    {
-        return $this->getMock('Symfony\Component\Form\AbstractType', array('getName', 'configureOptions', 'finishView', 'buildView', 'buildForm'));
-=======
      * @dataProvider provideValidNames
      */
     public function testGetName($name)
@@ -450,7 +432,6 @@ class ResolvedFormTypeTest extends \PHPUnit_Framework_TestCase
     private function getMockFormType($typeClass = 'Symfony\Component\Form\AbstractType')
     {
         return $this->getMock($typeClass, array('getName', 'getBlockPrefix', 'configureOptions', 'finishView', 'buildView', 'buildForm'));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**

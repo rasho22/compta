@@ -78,28 +78,16 @@ The following options are available:
   ``__toString()`` method that you can use to display the generated nodes
   (default to ``false``).
 
-<<<<<<< HEAD
-* ``charset`` *string (default to ``utf-8``)*
-
-  The charset used by the templates.
-
-* ``base_template_class`` *string (default to ``Twig_Template``)*
-=======
 * ``charset`` *string* (defaults to ``utf-8``)
 
   The charset used by the templates.
 
 * ``base_template_class`` *string* (defaults to ``Twig_Template``)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
   The base template class to use for generated
   templates.
 
-<<<<<<< HEAD
-* ``cache`` *string|false*
-=======
 * ``cache`` *string* or ``false``
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
   An absolute path where to store the compiled templates, or
   ``false`` to disable caching (which is the default).
@@ -118,11 +106,7 @@ The following options are available:
   replace them with a ``null`` value. When set to ``true``, Twig throws an
   exception instead (default to ``false``).
 
-<<<<<<< HEAD
-* ``autoescape`` *string|boolean*
-=======
 * ``autoescape`` *string* or *boolean*
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
   If set to ``true``, HTML auto-escaping will be enabled by
   default for all templates (default to ``true``).

@@ -69,11 +69,7 @@ class FormExtensionDivLayoutTest extends AbstractDivLayoutTest
     public function testThemeBlockInheritanceUsingUse()
     {
         $view = $this->factory
-<<<<<<< HEAD
-            ->createNamed('name', 'email')
-=======
             ->createNamed('name', 'Symfony\Component\Form\Extension\Core\Type\EmailType')
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->createView()
         ;
 
@@ -88,11 +84,7 @@ class FormExtensionDivLayoutTest extends AbstractDivLayoutTest
     public function testThemeBlockInheritanceUsingExtend()
     {
         $view = $this->factory
-<<<<<<< HEAD
-            ->createNamed('name', 'email')
-=======
             ->createNamed('name', 'Symfony\Component\Form\Extension\Core\Type\EmailType')
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->createView()
         ;
 
@@ -107,11 +99,7 @@ class FormExtensionDivLayoutTest extends AbstractDivLayoutTest
     public function testThemeBlockInheritanceUsingDynamicExtend()
     {
         $view = $this->factory
-<<<<<<< HEAD
-            ->createNamed('name', 'email')
-=======
             ->createNamed('name', 'Symfony\Component\Form\Extension\Core\Type\EmailType')
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->createView()
         ;
 
@@ -153,8 +141,6 @@ class FormExtensionDivLayoutTest extends AbstractDivLayoutTest
         $this->assertSame($expected, $this->extension->isSelectedChoice($choice, $value));
     }
 
-<<<<<<< HEAD
-=======
     public function testStartTagHasNoActionAttributeWhenActionIsEmpty()
     {
         $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\FormType', null, array(
@@ -179,7 +165,6 @@ class FormExtensionDivLayoutTest extends AbstractDivLayoutTest
         $this->assertSame('<form name="form" method="get" action="0">', $html);
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     protected function renderForm(FormView $view, array $vars = array())
     {
         return (string) $this->extension->renderer->renderBlock($view, 'form', $vars);
@@ -247,17 +232,4 @@ class FormExtensionDivLayoutTest extends AbstractDivLayoutTest
             array(array('parent_label.html.twig'), array('child_label.html.twig')),
         );
     }
-<<<<<<< HEAD
-
-    public function testRange()
-    {
-        // No-op for forward compatibility with AbstractLayoutTest 2.8
-    }
-
-    public function testRangeWithMinMaxValues()
-    {
-        // No-op for forward compatibility with AbstractLayoutTest 2.8
-    }
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

@@ -1,18 +1,10 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.21.97",
-=======
     "Version": "2.1.11.52",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ak": "Kiakan",
         "bn": "Kibangla",
         "cs": "Kichecki",
         "en": "Kingereza",
-<<<<<<< HEAD
-        "sw_CD": "Kiswahili ya Kongo"
-=======
         "swc": "Kiswahili ya Kongo"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

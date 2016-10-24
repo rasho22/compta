@@ -21,24 +21,6 @@ use Symfony\Component\Translation\MessageCatalogue;
 class XliffFileDumper extends FileDumper
 {
     /**
-<<<<<<< HEAD
-     * @var string
-     */
-    private $defaultLocale;
-
-    /**
-     * {@inheritdoc}
-     */
-    public function dump(MessageCatalogue $messages, $options = array())
-    {
-        if (array_key_exists('default_locale', $options)) {
-            $this->defaultLocale = $options['default_locale'];
-        } else {
-            $this->defaultLocale = \Locale::getDefault();
-        }
-
-        parent::dump($messages, $options);
-=======
      * {@inheritdoc}
      */
     public function formatCatalogue(MessageCatalogue $messages, $domain, array $options = array())
@@ -62,7 +44,6 @@ class XliffFileDumper extends FileDumper
         }
 
         throw new \InvalidArgumentException(sprintf('No support implemented for dumping XLIFF version "%s".', $xliffVersion));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -70,8 +51,6 @@ class XliffFileDumper extends FileDumper
      */
     protected function format(MessageCatalogue $messages, $domain)
     {
-<<<<<<< HEAD
-=======
         @trigger_error('The '.__METHOD__.' method is deprecated since version 2.8 and will be removed in 3.0. Use the formatCatalogue() method instead.', E_USER_DEPRECATED);
 
         return $this->formatCatalogue($messages, $domain);
@@ -92,7 +71,6 @@ class XliffFileDumper extends FileDumper
             $toolInfo = array_merge($toolInfo, $options['tool_info']);
         }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $dom = new \DOMDocument('1.0', 'utf-8');
         $dom->formatOutput = true;
 
@@ -101,24 +79,17 @@ class XliffFileDumper extends FileDumper
         $xliff->setAttribute('xmlns', 'urn:oasis:names:tc:xliff:document:1.2');
 
         $xliffFile = $xliff->appendChild($dom->createElement('file'));
-<<<<<<< HEAD
-        $xliffFile->setAttribute('source-language', str_replace('_', '-', $this->defaultLocale));
-=======
         $xliffFile->setAttribute('source-language', str_replace('_', '-', $defaultLocale));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $xliffFile->setAttribute('target-language', str_replace('_', '-', $messages->getLocale()));
         $xliffFile->setAttribute('datatype', 'plaintext');
         $xliffFile->setAttribute('original', 'file.ext');
 
-<<<<<<< HEAD
-=======
         $xliffHead = $xliffFile->appendChild($dom->createElement('header'));
         $xliffTool = $xliffHead->appendChild($dom->createElement('tool'));
         foreach ($toolInfo as $id => $value) {
             $xliffTool->setAttribute($id, $value);
         }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $xliffBody = $xliffFile->appendChild($dom->createElement('body'));
         foreach ($messages->all($domain) as $source => $target) {
             $translation = $dom->createElement('trans-unit');
@@ -132,13 +103,6 @@ class XliffFileDumper extends FileDumper
             // Does the target contain characters requiring a CDATA section?
             $text = 1 === preg_match('/[&<>]/', $target) ? $dom->createCDATASection($target) : $dom->createTextNode($target);
 
-<<<<<<< HEAD
-            $t = $translation->appendChild($dom->createElement('target'));
-            $t->appendChild($text);
-
-            $metadata = $messages->getMetadata($source, $domain);
-            if (null !== $metadata && array_key_exists('notes', $metadata) && is_array($metadata['notes'])) {
-=======
             $targetElement = $dom->createElement('target');
             $metadata = $messages->getMetadata($source, $domain);
             if ($this->hasMetadataArrayInfo('target-attributes', $metadata)) {
@@ -150,7 +114,6 @@ class XliffFileDumper extends FileDumper
             $t->appendChild($text);
 
             if ($this->hasMetadataArrayInfo('notes', $metadata)) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 foreach ($metadata['notes'] as $note) {
                     if (!isset($note['content'])) {
                         continue;
@@ -175,14 +138,6 @@ class XliffFileDumper extends FileDumper
         return $dom->saveXML();
     }
 
-<<<<<<< HEAD
-    /**
-     * {@inheritdoc}
-     */
-    protected function getExtension()
-    {
-        return 'xlf';
-=======
     private function dumpXliff2($defaultLocale, MessageCatalogue $messages, $domain, array $options = array())
     {
         $dom = new \DOMDocument('1.0', 'utf-8');
@@ -234,6 +189,5 @@ class XliffFileDumper extends FileDumper
     private function hasMetadataArrayInfo($key, $metadata = null)
     {
         return null !== $metadata && array_key_exists($key, $metadata) && ($metadata[$key] instanceof \Traversable || is_array($metadata[$key]));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

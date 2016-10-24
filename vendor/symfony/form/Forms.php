@@ -24,20 +24,12 @@ use Symfony\Component\Form\Extension\Core\CoreExtension;
  * $formFactory = Forms::createFormFactory();
  *
  * $form = $formFactory->createBuilder()
-<<<<<<< HEAD
- *     ->add('firstName', 'text')
- *     ->add('lastName', 'text')
- *     ->add('age', 'integer')
- *     ->add('gender', 'choice', array(
- *         'choices' => array('m' => 'Male', 'f' => 'Female'),
-=======
  *     ->add('firstName', 'Symfony\Component\Form\Extension\Core\Type\TextType')
  *     ->add('lastName', 'Symfony\Component\Form\Extension\Core\Type\TextType')
  *     ->add('age', 'Symfony\Component\Form\Extension\Core\Type\IntegerType')
  *     ->add('gender', 'Symfony\Component\Form\Extension\Core\Type\ChoiceType', array(
  *         'choices' => array('Male' => 'm', 'Female' => 'f'),
  *         'choices_as_values' => true,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  *     ))
  *     ->getForm();
  * </code>

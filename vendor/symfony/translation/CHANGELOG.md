@@ -1,8 +1,6 @@
 CHANGELOG
 =========
 
-<<<<<<< HEAD
-=======
 2.8.0
 -----
 
@@ -19,7 +17,6 @@ CHANGELOG
    so the class name is misleading. The `TargetOperation` class should be used for
    this use-case instead.
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 2.7.0
 -----
 

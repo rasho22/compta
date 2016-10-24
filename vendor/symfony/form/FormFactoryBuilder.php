@@ -78,11 +78,7 @@ class FormFactoryBuilder implements FormFactoryBuilderInterface
      */
     public function addType(FormTypeInterface $type)
     {
-<<<<<<< HEAD
-        $this->types[$type->getName()] = $type;
-=======
         $this->types[] = $type;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         return $this;
     }
@@ -93,11 +89,7 @@ class FormFactoryBuilder implements FormFactoryBuilderInterface
     public function addTypes(array $types)
     {
         foreach ($types as $type) {
-<<<<<<< HEAD
-            $this->types[$type->getName()] = $type;
-=======
             $this->types[] = $type;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         return $this;

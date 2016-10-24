@@ -25,17 +25,10 @@ class AbstractRememberMeServicesTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('foo', $service->getRememberMeParameter());
     }
 
-<<<<<<< HEAD
-    public function testGetKey()
-    {
-        $service = $this->getService();
-        $this->assertEquals('fookey', $service->getKey());
-=======
     public function testGetSecret()
     {
         $service = $this->getService();
         $this->assertEquals('foosecret', $service->getSecret());
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function testAutoLoginReturnsNullWhenNoCookie()
@@ -85,11 +78,7 @@ class AbstractRememberMeServicesTest extends \PHPUnit_Framework_TestCase
         $returnedToken = $service->autoLogin($request);
 
         $this->assertSame($user, $returnedToken->getUser());
-<<<<<<< HEAD
-        $this->assertSame('fookey', $returnedToken->getKey());
-=======
         $this->assertSame('foosecret', $returnedToken->getSecret());
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->assertSame('fookey', $returnedToken->getProviderKey());
     }
 
@@ -295,11 +284,7 @@ class AbstractRememberMeServicesTest extends \PHPUnit_Framework_TestCase
         }
 
         return $this->getMockForAbstractClass('Symfony\Component\Security\Http\RememberMe\AbstractRememberMeServices', array(
-<<<<<<< HEAD
-            array($userProvider), 'fookey', 'fookey', $options, $logger,
-=======
             array($userProvider), 'foosecret', 'fookey', $options, $logger,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ));
     }
 

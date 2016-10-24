@@ -44,11 +44,7 @@ class PasswordType extends AbstractType
      */
     public function getParent()
     {
-<<<<<<< HEAD
-        return 'text';
-=======
         return __NAMESPACE__.'\TextType';
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -56,8 +52,6 @@ class PasswordType extends AbstractType
      */
     public function getName()
     {
-<<<<<<< HEAD
-=======
         return $this->getBlockPrefix();
     }
 
@@ -66,7 +60,6 @@ class PasswordType extends AbstractType
      */
     public function getBlockPrefix()
     {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return 'password';
     }
 }

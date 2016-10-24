@@ -48,11 +48,7 @@ class DataCollectorTranslator implements TranslatorInterface, TranslatorBagInter
     public function trans($id, array $parameters = array(), $domain = null, $locale = null)
     {
         $trans = $this->translator->trans($id, $parameters, $domain, $locale);
-<<<<<<< HEAD
-        $this->collectMessage($locale, $domain, $id, $trans);
-=======
         $this->collectMessage($locale, $domain, $id, $trans, $parameters);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         return $trans;
     }
@@ -63,11 +59,7 @@ class DataCollectorTranslator implements TranslatorInterface, TranslatorBagInter
     public function transChoice($id, $number, array $parameters = array(), $domain = null, $locale = null)
     {
         $trans = $this->translator->transChoice($id, $number, $parameters, $domain, $locale);
-<<<<<<< HEAD
-        $this->collectMessage($locale, $domain, $id, $trans);
-=======
         $this->collectMessage($locale, $domain, $id, $trans, $parameters, $number);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         return $trans;
     }
@@ -117,15 +109,10 @@ class DataCollectorTranslator implements TranslatorInterface, TranslatorBagInter
      * @param string|null $domain
      * @param string      $id
      * @param string      $translation
-<<<<<<< HEAD
-     */
-    private function collectMessage($locale, $domain, $id, $translation)
-=======
      * @param array|null  $parameters
      * @param int|null    $number
      */
     private function collectMessage($locale, $domain, $id, $translation, $parameters = array(), $number = null)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         if (null === $domain) {
             $domain = 'messages';
@@ -157,11 +144,8 @@ class DataCollectorTranslator implements TranslatorInterface, TranslatorBagInter
             'domain' => $domain,
             'id' => $id,
             'translation' => $translation,
-<<<<<<< HEAD
-=======
             'parameters' => $parameters,
             'transChoiceNumber' => $number,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'state' => $state,
         );
     }

@@ -16,12 +16,9 @@ use Symfony\Component\Security\Core\Authorization\Voter\VoterInterface;
 
 class AccessDecisionManagerTest extends \PHPUnit_Framework_TestCase
 {
-<<<<<<< HEAD
-=======
     /**
      * @group legacy
      */
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testSupportsClass()
     {
         $manager = new AccessDecisionManager(array(
@@ -37,12 +34,9 @@ class AccessDecisionManagerTest extends \PHPUnit_Framework_TestCase
         $this->assertFalse($manager->supportsClass('FooClass'));
     }
 
-<<<<<<< HEAD
-=======
     /**
      * @group legacy
      */
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testSupportsAttribute()
     {
         $manager = new AccessDecisionManager(array(
@@ -61,17 +55,6 @@ class AccessDecisionManagerTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \InvalidArgumentException
      */
-<<<<<<< HEAD
-    public function testSetVotersEmpty()
-    {
-        $manager = new AccessDecisionManager(array());
-    }
-
-    /**
-     * @expectedException \InvalidArgumentException
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testSetUnsupportedStrategy()
     {
         new AccessDecisionManager(array($this->getVoter(VoterInterface::ACCESS_GRANTED)), 'fooBar');

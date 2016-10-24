@@ -1,16 +1,8 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.24.18",
-    "Names": {
-        "Afak": "Afaka",
-        "Aghb": "Caucasian Albanian",
-        "Ahom": "Ahom",
-=======
     "Version": "2.1.13.48",
     "Names": {
         "Afak": "Afaka",
         "Aghb": "Caucasian Albanian",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Arab": "Arabic",
         "Armi": "Imperial Aramaic",
         "Armn": "Armenian",
@@ -57,10 +49,6 @@
         "Hano": "Hanunoo",
         "Hans": "Simplified",
         "Hant": "Traditional",
-<<<<<<< HEAD
-        "Hatr": "Hatran",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Hebr": "Hebrew",
         "Hira": "Hiragana",
         "Hluw": "Anatolian Hieroglyphs",
@@ -107,10 +95,6 @@
         "Moon": "Moon",
         "Mroo": "Mro",
         "Mtei": "Meitei Mayek",
-<<<<<<< HEAD
-        "Mult": "Multani",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Mymr": "Myanmar",
         "Narb": "Old North Arabian",
         "Nbat": "Nabataean",
@@ -177,10 +161,6 @@
         "Yiii": "Yi",
         "Zinh": "Inherited",
         "Zmth": "Mathematical Notation",
-<<<<<<< HEAD
-        "Zsye": "Emoji",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Zsym": "Symbols",
         "Zxxx": "Unwritten",
         "Zyyy": "Common",

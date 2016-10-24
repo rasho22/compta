@@ -25,11 +25,7 @@ class Twig_Tests_Node_Expression_TestTest extends Twig_Test_NodeTestCase
 
     public function getTests()
     {
-<<<<<<< HEAD
-        $environment = new Twig_Environment($this->getMock('Twig_LoaderInterface'));
-=======
         $environment = new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock());
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $environment->addTest(new Twig_SimpleTest('barbar', 'twig_tests_test_barbar', array('is_variadic' => true, 'need_context' => true)));
 
         $tests = array();

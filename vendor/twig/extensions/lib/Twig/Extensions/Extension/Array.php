@@ -13,13 +13,7 @@
 class Twig_Extensions_Extension_Array extends Twig_Extension
 {
     /**
-<<<<<<< HEAD
-     * Returns a list of filters.
-     *
-     * @return array
-=======
      * {@inheritdoc}
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getFilters()
     {
@@ -29,16 +23,9 @@ class Twig_Extensions_Extension_Array extends Twig_Extension
 
         return $filters;
     }
-<<<<<<< HEAD
-    /**
-     * Name of this extension.
-     *
-     * @return string
-=======
 
     /**
      * {@inheritdoc}
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getName()
     {

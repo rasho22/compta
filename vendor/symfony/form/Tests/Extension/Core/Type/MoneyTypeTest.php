@@ -25,8 +25,6 @@ class MoneyTypeTest extends TestCase
         parent::setUp();
     }
 
-<<<<<<< HEAD
-=======
     /**
      * @group legacy
      */
@@ -37,16 +35,11 @@ class MoneyTypeTest extends TestCase
         $this->assertSame('money', $form->getConfig()->getType()->getName());
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testPassMoneyPatternToView()
     {
         \Locale::setDefault('de_DE');
 
-<<<<<<< HEAD
-        $form = $this->factory->create('money');
-=======
         $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\MoneyType');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $view = $form->createView();
 
         $this->assertSame('{{ widget }} €', $view->vars['money_pattern']);
@@ -56,11 +49,7 @@ class MoneyTypeTest extends TestCase
     {
         \Locale::setDefault('en_US');
 
-<<<<<<< HEAD
-        $form = $this->factory->create('money', null, array('currency' => 'JPY'));
-=======
         $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\MoneyType', null, array('currency' => 'JPY'));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $view = $form->createView();
         $this->assertTrue((bool) strstr($view->vars['money_pattern'], '¥'));
     }
@@ -70,13 +59,8 @@ class MoneyTypeTest extends TestCase
     {
         \Locale::setDefault('de_DE');
 
-<<<<<<< HEAD
-        $form1 = $this->factory->create('money', null, array('currency' => 'GBP'));
-        $form2 = $this->factory->create('money', null, array('currency' => 'EUR'));
-=======
         $form1 = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\MoneyType', null, array('currency' => 'GBP'));
         $form2 = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\MoneyType', null, array('currency' => 'EUR'));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $view1 = $form1->createView();
         $view2 = $form2->createView();
 

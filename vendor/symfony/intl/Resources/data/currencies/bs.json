@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.7",
-=======
     "Version": "2.1.13.46",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ADP": [
             "ADP",
@@ -983,11 +979,7 @@
         ],
         "UZS": [
             "UZS",
-<<<<<<< HEAD
-            "uzbekistanski som"
-=======
             "Uzbekistanski som"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "VEB": [
             "VEB",
@@ -1015,11 +1007,7 @@
         ],
         "XAF": [
             "FCFA",
-<<<<<<< HEAD
-            "centralnoafrički franak CFA"
-=======
             "CFA franak BEAC"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XCD": [
             "XCD",
@@ -1039,11 +1027,7 @@
         ],
         "XOF": [
             "CFA",
-<<<<<<< HEAD
-            "zapadnoafrički franak CFA"
-=======
             "CFA franak BCEAO"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "XPF": [
             "XPF",

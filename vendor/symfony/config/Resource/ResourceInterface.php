@@ -21,9 +21,6 @@ interface ResourceInterface
     /**
      * Returns a string representation of the Resource.
      *
-<<<<<<< HEAD
-     * @return string A string representation of the Resource
-=======
      * This method is necessary to allow for resource de-duplication, for example by means
      * of array_unique(). The string returned need not have a particular meaning, but has
      * to be identical for different ResourceInterface instances referring to the same
@@ -31,7 +28,6 @@ interface ResourceInterface
      * resource instances.
      *
      * @return string A string representation unique to the underlying Resource
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function __toString();
 
@@ -41,12 +37,9 @@ interface ResourceInterface
      * @param int $timestamp The last time the resource was loaded
      *
      * @return bool True if the resource has not been updated, false otherwise
-<<<<<<< HEAD
-=======
      *
      * @deprecated since 2.8, to be removed in 3.0. If your resource can check itself for
      *             freshness implement the SelfCheckingResourceInterface instead.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function isFresh($timestamp);
 
@@ -54,15 +47,12 @@ interface ResourceInterface
      * Returns the tied resource.
      *
      * @return mixed The resource
-<<<<<<< HEAD
-=======
      *
      * @deprecated since 2.8, to be removed in 3.0. As there are many different kinds of resource,
      *             a single getResource() method does not make sense at the interface level. You
      *             can still call getResource() on implementing classes, probably after performing
      *             a type check. If you know the concrete type of Resource at hand, the return value
      *             of this method may make sense to you.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function getResource();
 }

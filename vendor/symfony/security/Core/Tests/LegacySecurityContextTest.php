@@ -11,13 +11,9 @@
 
 namespace Symfony\Component\Security\Core\Tests;
 
-<<<<<<< HEAD
-use Symfony\Component\Security\Core\SecurityContext;
-=======
 use Symfony\Component\Security\Core\Security;
 use Symfony\Component\Security\Core\SecurityContext;
 use Symfony\Component\Security\Core\SecurityContextInterface;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * @group legacy
@@ -123,8 +119,6 @@ class LegacySecurityContextTest extends \PHPUnit_Framework_TestCase
             array(true, null),
         );
     }
-<<<<<<< HEAD
-=======
 
     /**
      * Test if the BC Layer is working as intended.
@@ -135,5 +129,4 @@ class LegacySecurityContextTest extends \PHPUnit_Framework_TestCase
         $this->assertSame(Security::AUTHENTICATION_ERROR, SecurityContextInterface::AUTHENTICATION_ERROR);
         $this->assertSame(Security::LAST_USERNAME, SecurityContextInterface::LAST_USERNAME);
     }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

@@ -67,12 +67,6 @@ class FormTypeValidatorExtension extends BaseValidatorExtension
             return is_object($constraints) ? array($constraints) : (array) $constraints;
         };
 
-<<<<<<< HEAD
-        $resolver->setDefaults(array(
-            'error_mapping' => array(),
-            'constraints' => array(),
-            'cascade_validation' => false,
-=======
         $cascadeValidationNormalizer = function (Options $options, $cascadeValidation) {
             if (null !== $cascadeValidation) {
                 @trigger_error('The "cascade_validation" option is deprecated since version 2.8 and will be removed in 3.0. Use "constraints" with a Valid constraint instead.', E_USER_DEPRECATED);
@@ -85,7 +79,6 @@ class FormTypeValidatorExtension extends BaseValidatorExtension
             'error_mapping' => array(),
             'constraints' => array(),
             'cascade_validation' => null,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'invalid_message' => 'This value is not valid.',
             'invalid_message_parameters' => array(),
             'allow_extra_fields' => false,
@@ -93,10 +86,7 @@ class FormTypeValidatorExtension extends BaseValidatorExtension
         ));
 
         $resolver->setNormalizer('constraints', $constraintsNormalizer);
-<<<<<<< HEAD
-=======
         $resolver->setNormalizer('cascade_validation', $cascadeValidationNormalizer);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -104,10 +94,6 @@ class FormTypeValidatorExtension extends BaseValidatorExtension
      */
     public function getExtendedType()
     {
-<<<<<<< HEAD
-        return 'form';
-=======
         return 'Symfony\Component\Form\Extension\Core\Type\FormType';
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

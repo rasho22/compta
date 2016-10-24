@@ -116,11 +116,7 @@ class FormTypeCsrfExtension extends AbstractTypeExtension
             $tokenId = $options['csrf_token_id'] ?: ($form->getName() ?: get_class($form->getConfig()->getType()->getInnerType()));
             $data = (string) $options['csrf_token_manager']->getToken($tokenId);
 
-<<<<<<< HEAD
-            $csrfForm = $factory->createNamed($options['csrf_field_name'], 'hidden', $data, array(
-=======
             $csrfForm = $factory->createNamed($options['csrf_field_name'], 'Symfony\Component\Form\Extension\Core\Type\HiddenType', $data, array(
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 'mapped' => false,
             ));
 
@@ -135,13 +131,10 @@ class FormTypeCsrfExtension extends AbstractTypeExtension
     {
         // BC clause for the "intention" option
         $csrfTokenId = function (Options $options) {
-<<<<<<< HEAD
-=======
             if (null !== $options['intention']) {
                 @trigger_error('The form option "intention" is deprecated since version 2.8 and will be removed in 3.0. Use "csrf_token_id" instead.', E_USER_DEPRECATED);
             }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             return $options['intention'];
         };
 
@@ -156,8 +149,6 @@ class FormTypeCsrfExtension extends AbstractTypeExtension
                 : new CsrfProviderAdapter($options['csrf_provider']);
         };
 
-<<<<<<< HEAD
-=======
         $defaultTokenManager = $this->defaultTokenManager;
         $csrfProviderNormalizer = function (Options $options, $csrfProvider) use ($defaultTokenManager) {
             if (null !== $csrfProvider) {
@@ -169,24 +160,17 @@ class FormTypeCsrfExtension extends AbstractTypeExtension
             return $defaultTokenManager;
         };
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $resolver->setDefaults(array(
             'csrf_protection' => $this->defaultEnabled,
             'csrf_field_name' => $this->defaultFieldName,
             'csrf_message' => 'The CSRF token is invalid. Please try to resubmit the form.',
             'csrf_token_manager' => $csrfTokenManager,
             'csrf_token_id' => $csrfTokenId,
-<<<<<<< HEAD
-            'csrf_provider' => $this->defaultTokenManager,
-            'intention' => null,
-        ));
-=======
             'csrf_provider' => null, // deprecated
             'intention' => null, // deprecated
         ));
 
         $resolver->setNormalizer('csrf_provider', $csrfProviderNormalizer);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -194,10 +178,6 @@ class FormTypeCsrfExtension extends AbstractTypeExtension
      */
     public function getExtendedType()
     {
-<<<<<<< HEAD
-        return 'form';
-=======
         return 'Symfony\Component\Form\Extension\Core\Type\FormType';
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

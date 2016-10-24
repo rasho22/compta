@@ -82,19 +82,13 @@ abstract class FileDumper implements DumperInterface
                 }
             }
             // save file
-<<<<<<< HEAD
-            file_put_contents($fullpath, $this->format($messages, $domain));
-=======
             file_put_contents($fullpath, $this->formatCatalogue($messages, $domain, $options));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
     }
 
     /**
      * Transforms a domain of a message catalogue to its string representation.
      *
-<<<<<<< HEAD
-=======
      * Override this function in child class if $options is used for message formatting.
      *
      * @param MessageCatalogue $messages
@@ -113,15 +107,10 @@ abstract class FileDumper implements DumperInterface
     /**
      * Transforms a domain of a message catalogue to its string representation.
      *
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * @param MessageCatalogue $messages
      * @param string           $domain
      *
      * @return string representation
-<<<<<<< HEAD
-     */
-    abstract protected function format(MessageCatalogue $messages, $domain);
-=======
      *
      * @deprecated since version 2.8, to be removed in 3.0. Overwrite formatCatalogue() instead.
      */
@@ -129,7 +118,6 @@ abstract class FileDumper implements DumperInterface
     {
         throw new \LogicException('The "FileDumper::format" method needs to be overwritten, you should implement either "format" or "formatCatalogue".');
     }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     /**
      * Gets the file extension of the dumper.

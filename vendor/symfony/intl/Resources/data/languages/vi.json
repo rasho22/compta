@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.12",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "Tiếng Afar",
         "ab": "Tiếng Abkhazia",
@@ -18,13 +14,7 @@
         "ain": "Tiếng Ainu",
         "ak": "Tiếng Akan",
         "akk": "Tiếng Akkadia",
-<<<<<<< HEAD
-        "akz": "Tiếng Alabama",
         "ale": "Tiếng Aleut",
-        "aln": "Tiếng Gheg Albani",
-=======
-        "ale": "Tiếng Aleut",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "alt": "Tiếng Altai Miền Nam",
         "am": "Tiếng Amharic",
         "an": "Tiếng Aragon",
@@ -34,21 +24,10 @@
         "ar_001": "Tiếng Ả Rập Hiện đại",
         "arc": "Tiếng Aramaic",
         "arn": "Tiếng Araucanian",
-<<<<<<< HEAD
-        "aro": "Tiếng Araona",
-        "arp": "Tiếng Arapaho",
-        "arq": "Tiếng Ả Rập Algeria",
-        "arw": "Tiếng Arawak",
-        "arz": "Tiếng Ả Rập Ai Cập",
-        "as": "Tiếng Assam",
-        "asa": "Tiếng Asu",
-        "ase": "Ngôn ngữ Ký hiệu Mỹ",
-=======
         "arp": "Tiếng Arapaho",
         "arw": "Tiếng Arawak",
         "as": "Tiếng Assam",
         "asa": "Tiếng Asu",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ast": "Tiếng Asturias",
         "av": "Tiếng Avaric",
         "awa": "Tiếng Awadhi",
@@ -57,54 +36,26 @@
         "ba": "Tiếng Bashkir",
         "bal": "Tiếng Baluchi",
         "ban": "Tiếng Bali",
-<<<<<<< HEAD
-        "bar": "Tiếng Bavaria",
         "bas": "Tiếng Basaa",
         "bax": "Tiếng Bamun",
-        "bbc": "Tiếng Batak Toba",
-=======
-        "bas": "Tiếng Basaa",
-        "bax": "Tiếng Bamun",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bbj": "Tiếng Ghomala",
         "be": "Tiếng Belarus",
         "bej": "Tiếng Beja",
         "bem": "Tiếng Bemba",
-<<<<<<< HEAD
-        "bew": "Tiếng Betawi",
-        "bez": "Tiếng Bena",
-        "bfd": "Tiếng Bafut",
-        "bfq": "Tiếng Badaga",
-        "bg": "Tiếng Bulgaria",
-        "bgn": "Tiếng Tây Balochi",
-=======
         "bez": "Tiếng Bena",
         "bfd": "Tiếng Bafut",
         "bg": "Tiếng Bulgaria",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "Tiếng Bhojpuri",
         "bi": "Tiếng Bislama",
         "bik": "Tiếng Bikol",
         "bin": "Tiếng Bini",
-<<<<<<< HEAD
-        "bjn": "Tiếng Banjar",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bkm": "Tiếng Kom",
         "bla": "Tiếng Siksika",
         "bm": "Tiếng Bambara",
         "bn": "Tiếng Bengali",
         "bo": "Tiếng Tây Tạng",
-<<<<<<< HEAD
-        "bpy": "Tiếng Bishnupriya",
-        "bqi": "Tiếng Bakhtiari",
         "br": "Tiếng Breton",
         "bra": "Tiếng Braj",
-        "brh": "Tiếng Brahui",
-=======
-        "br": "Tiếng Breton",
-        "bra": "Tiếng Braj",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "brx": "Tiếng Bodo",
         "bs": "Tiếng Nam Tư",
         "bss": "Tiếng Akoose",
@@ -131,16 +82,9 @@
         "chp": "Tiếng Chipewyan",
         "chr": "Tiếng Cherokee",
         "chy": "Tiếng Cheyenne",
-<<<<<<< HEAD
-        "ckb": "Tiếng Kurd Miền Trung",
-        "co": "Tiếng Corsica",
-        "cop": "Tiếng Coptic",
-        "cps": "Tiếng Capiznon",
-=======
         "ckb": "Tiếng Kurd Sorani",
         "co": "Tiếng Corsica",
         "cop": "Tiếng Coptic",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cr": "Tiếng Cree",
         "crh": "Tiếng Thổ Nhĩ Kỳ Crimean",
         "cs": "Tiếng Séc",
@@ -161,10 +105,6 @@
         "dje": "Tiếng Zarma",
         "doi": "Tiếng Dogri",
         "dsb": "Tiếng Hạ Sorbia",
-<<<<<<< HEAD
-        "dtp": "Tiếng Dusun Miền Trung",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "dua": "Tiếng Duala",
         "dum": "Tiếng Hà Lan Trung cổ",
         "dv": "Tiếng Divehi",
@@ -175,10 +115,6 @@
         "ebu": "Tiếng Embu",
         "ee": "Tiếng Ewe",
         "efi": "Tiếng Efik",
-<<<<<<< HEAD
-        "egl": "Tiếng Emilia",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "egy": "Tiếng Ai Cập cổ",
         "eka": "Tiếng Ekajuk",
         "el": "Tiếng Hy Lạp",
@@ -190,18 +126,9 @@
         "eo": "Tiếng Quốc Tế Ngữ",
         "es": "Tiếng Tây Ban Nha",
         "es_419": "Tiếng Tây Ban Nha (Mỹ La tinh)",
-<<<<<<< HEAD
-        "es_ES": "Tiếng Tây Ban Nha (Châu Âu)",
-        "esu": "Tiếng Yupik Miền Trung",
         "et": "Tiếng Estonia",
         "eu": "Tiếng Basque",
         "ewo": "Tiếng Ewondo",
-        "ext": "Tiếng Extremadura",
-=======
-        "et": "Tiếng Estonia",
-        "eu": "Tiếng Basque",
-        "ewo": "Tiếng Ewondo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fa": "Tiếng Ba Tư",
         "fan": "Tiếng Fang",
         "fat": "Tiếng Fanti",
@@ -212,15 +139,8 @@
         "fo": "Tiếng Faore",
         "fon": "Tiếng Fon",
         "fr": "Tiếng Pháp",
-<<<<<<< HEAD
-        "frc": "Tiếng Pháp Cajun",
         "frm": "Tiếng Pháp Trung cổ",
         "fro": "Tiếng Pháp cổ",
-        "frp": "Tiếng Arpitan",
-=======
-        "frm": "Tiếng Pháp Trung cổ",
-        "fro": "Tiếng Pháp cổ",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "frr": "Tiếng Frisian Miền Bắc",
         "frs": "Tiếng Frisian Miền Đông",
         "fur": "Tiếng Friulian",
@@ -234,17 +154,9 @@
         "gez": "Tiếng Geez",
         "gil": "Tiếng Gilbert",
         "gl": "Tiếng Galician",
-<<<<<<< HEAD
-        "glk": "Tiếng Gilaki",
         "gmh": "Tiếng Thượng Giéc-man Trung cổ",
         "gn": "Tiếng Guarani",
         "goh": "Tiếng Thượng Giéc-man cổ",
-        "gom": "Tiếng Goan Konkani",
-=======
-        "gmh": "Tiếng Thượng Giéc-man Trung cổ",
-        "gn": "Tiếng Guarani",
-        "goh": "Tiếng Thượng Giéc-man cổ",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "gon": "Tiếng Gondi",
         "gor": "Tiếng Gorontalo",
         "got": "Tiếng Gô-tích",
@@ -252,26 +164,14 @@
         "grc": "Tiếng Hy Lạp cổ",
         "gsw": "Tiếng Đức (Thụy Sĩ)",
         "gu": "Tiếng Gujarati",
-<<<<<<< HEAD
-        "gur": "Tiếng Frafra",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "guz": "Tiếng Gusii",
         "gv": "Tiếng Manx",
         "gwi": "Tiếng Gwichʼin",
         "ha": "Tiếng Hausa",
         "hai": "Tiếng Haida",
-<<<<<<< HEAD
-        "hak": "Tiếng Trung Hakka",
         "haw": "Tiếng Hawaii",
         "he": "Tiếng Do Thái",
         "hi": "Tiếng Hindi",
-        "hif": "Tiếng Fiji Hindi",
-=======
-        "haw": "Tiếng Hawaii",
-        "he": "Tiếng Do Thái",
-        "hi": "Tiếng Hindi",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hil": "Tiếng Hiligaynon",
         "hit": "Tiếng Hittite",
         "hmn": "Tiếng Hmông",
@@ -297,22 +197,12 @@
         "is": "Tiếng Iceland",
         "it": "Tiếng Ý",
         "iu": "Tiếng Inuktitut",
-<<<<<<< HEAD
-        "izh": "Tiếng Ingria",
         "ja": "Tiếng Nhật",
-        "jam": "Tiếng Anh Jamaica Creole",
-=======
-        "ja": "Tiếng Nhật",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "jbo": "Tiếng Lojban",
         "jgo": "Tiếng Ngomba",
         "jmc": "Tiếng Machame",
         "jpr": "Tiếng Judeo-Ba Tư",
         "jrb": "Tiếng Judeo-Ả Rập",
-<<<<<<< HEAD
-        "jut": "Tiếng Jutish",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "jv": "Tiếng Java",
         "ka": "Tiếng Gruzia",
         "kaa": "Tiếng Kara-Kalpak",
@@ -373,10 +263,6 @@
         "lo": "Tiếng Lào",
         "lol": "Tiếng Mongo",
         "loz": "Tiếng Lozi",
-<<<<<<< HEAD
-        "lrc": "Tiếng Bắc Luri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "Tiếng Lít-va",
         "lu": "Tiếng Luba-Katanga",
         "lua": "Tiếng Luba-Lulua",
@@ -425,29 +311,17 @@
         "my": "Tiếng Miến Điện",
         "mye": "Tiếng Myene",
         "myv": "Tiếng Erzya",
-<<<<<<< HEAD
-        "mzn": "Tiếng Mazanderani",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "na": "Tiếng Nauru",
         "nap": "Tiếng Napoli",
         "naq": "Tiếng Nama",
         "nb": "Tiếng Na Uy (Bokmål)",
         "nd": "Tiếng Ndebele Miền Bắc",
         "nds": "Tiếng Hạ Giéc-man",
-<<<<<<< HEAD
-        "nds_NL": "Tiếng Hạ Saxon",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "Tiếng Nepal",
         "new": "Tiếng Newari",
         "ng": "Tiếng Ndonga",
         "nia": "Tiếng Nias",
         "niu": "Tiếng Niuean",
-<<<<<<< HEAD
-        "njo": "Tiếng Ao Naga",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nl": "Tiếng Hà Lan",
         "nl_BE": "Tiếng Flemish",
         "nmg": "Tiếng Kwasio",
@@ -489,15 +363,8 @@
         "ps": "Tiếng Pashto",
         "pt": "Tiếng Bồ Đào Nha",
         "pt_BR": "Tiếng Bồ Đào Nha (Braxin)",
-<<<<<<< HEAD
-        "pt_PT": "Tiếng Bồ Đào Nha (Châu Âu)",
         "qu": "Tiếng Quechua",
         "quc": "Tiếng Kʼicheʼ",
-        "qug": "Tiếng Quechua ở Cao nguyên Chimborazo",
-=======
-        "qu": "Tiếng Quechua",
-        "quc": "Tiếng Kʼicheʼ",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "raj": "Tiếng Rajasthani",
         "rap": "Tiếng Rapanui",
         "rar": "Tiếng Rarotongan",
@@ -525,10 +392,6 @@
         "scn": "Tiếng Sicilia",
         "sco": "Tiếng Scots",
         "sd": "Tiếng Sindhi",
-<<<<<<< HEAD
-        "sdh": "Tiếng Kurd Miền Nam",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "Tiếng Sami Miền Bắc",
         "see": "Tiếng Seneca",
         "seh": "Tiếng Sena",
@@ -560,23 +423,14 @@
         "ss": "Tiếng Swati",
         "ssy": "Tiếng Saho",
         "st": "Tiếng Sesotho",
-<<<<<<< HEAD
-        "su": "Tiếng Sunda",
-=======
         "su": "Tiếng Sudan",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "suk": "Tiếng Sukuma",
         "sus": "Tiếng Susu",
         "sux": "Tiếng Sumeria",
         "sv": "Tiếng Thụy Điển",
         "sw": "Tiếng Swahili",
-<<<<<<< HEAD
-        "sw_CD": "Tiếng Swahili Congo",
-        "swb": "Tiếng Cômo",
-=======
         "swb": "Tiếng Cômo",
         "swc": "Tiếng Swahili Congo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "Tiếng Syria Cổ điển",
         "syr": "Tiếng Syriac",
         "ta": "Tiếng Tamil",
@@ -631,10 +485,6 @@
         "wal": "Tiếng Walamo",
         "war": "Tiếng Waray",
         "was": "Tiếng Washo",
-<<<<<<< HEAD
-        "wbp": "Tiếng Warlpiri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "Tiếng Wolof",
         "xal": "Tiếng Kalmyk",
         "xh": "Tiếng Xhosa",

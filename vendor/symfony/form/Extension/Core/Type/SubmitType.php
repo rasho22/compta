@@ -33,11 +33,7 @@ class SubmitType extends AbstractType implements SubmitButtonTypeInterface
      */
     public function getParent()
     {
-<<<<<<< HEAD
-        return 'button';
-=======
         return __NAMESPACE__.'\ButtonType';
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -45,8 +41,6 @@ class SubmitType extends AbstractType implements SubmitButtonTypeInterface
      */
     public function getName()
     {
-<<<<<<< HEAD
-=======
         return $this->getBlockPrefix();
     }
 
@@ -55,7 +49,6 @@ class SubmitType extends AbstractType implements SubmitButtonTypeInterface
      */
     public function getBlockPrefix()
     {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return 'submit';
     }
 }

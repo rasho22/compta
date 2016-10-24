@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "Arab": "Arabies",
         "Armn": "Armeens",
@@ -36,11 +32,7 @@
         "Orya": "Oriya",
         "Sinh": "Sinhala",
         "Taml": "Tamil",
-<<<<<<< HEAD
-        "Telu": "Teloegoe",
-=======
         "Telu": "Telugu",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Thaa": "Thaana",
         "Thai": "Thai",
         "Tibt": "Tibettaans",

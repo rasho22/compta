@@ -22,11 +22,8 @@ class Twig_Node implements Twig_NodeInterface
     protected $lineno;
     protected $tag;
 
-<<<<<<< HEAD
-=======
     private $filename;
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * Constructor.
      *
@@ -40,14 +37,11 @@ class Twig_Node implements Twig_NodeInterface
      */
     public function __construct(array $nodes = array(), array $attributes = array(), $lineno = 0, $tag = null)
     {
-<<<<<<< HEAD
-=======
         foreach ($nodes as $name => $node) {
             if (!$node instanceof Twig_NodeInterface) {
                 @trigger_error(sprintf('Using "%s" for the value of node "%s" of "%s" is deprecated since version 1.25 and will be removed in 2.0.', is_object($node) ? get_class($node) : null === $node ? 'null' : gettype($node), $name, get_class($this)), E_USER_DEPRECATED);
             }
         }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->nodes = $nodes;
         $this->attributes = $attributes;
         $this->lineno = $lineno;
@@ -87,11 +81,7 @@ class Twig_Node implements Twig_NodeInterface
      */
     public function toXml($asDom = false)
     {
-<<<<<<< HEAD
-        @trigger_error(sprintf('%s is deprecated.', __METHOD__), E_USER_DEPRECATED);
-=======
         @trigger_error(sprintf('%s is deprecated since version 1.16.1 and will be removed in 2.0.', __METHOD__), E_USER_DEPRECATED);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $dom = new DOMDocument('1.0', 'UTF-8');
         $dom->formatOutput = true;
@@ -118,11 +108,7 @@ class Twig_Node implements Twig_NodeInterface
             $node->appendChild($child);
         }
 
-<<<<<<< HEAD
-        return $asDom ? $dom : $dom->saveXml();
-=======
         return $asDom ? $dom : $dom->saveXML();
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function compile(Twig_Compiler $compiler)
@@ -227,13 +213,10 @@ class Twig_Node implements Twig_NodeInterface
      */
     public function setNode($name, $node = null)
     {
-<<<<<<< HEAD
-=======
         if (!$node instanceof Twig_NodeInterface) {
             @trigger_error(sprintf('Using "%s" for the value of node "%s" of "%s" is deprecated since version 1.25 and will be removed in 2.0.', is_object($node) ? get_class($node) : null === $node ? 'null' : gettype($node), $name, get_class($this)), E_USER_DEPRECATED);
         }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->nodes[$name] = $node;
     }
 
@@ -256,8 +239,6 @@ class Twig_Node implements Twig_NodeInterface
     {
         return new ArrayIterator($this->nodes);
     }
-<<<<<<< HEAD
-=======
 
     public function setFilename($filename)
     {
@@ -273,5 +254,4 @@ class Twig_Node implements Twig_NodeInterface
     {
         return $this->filename;
     }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

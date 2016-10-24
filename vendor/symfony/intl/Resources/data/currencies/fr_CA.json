@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.24.13",
-=======
     "Version": "2.1.13.23",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "ARS": [
             "ARS",
@@ -69,13 +65,10 @@
             "ILS",
             "nouveau shekel israélien"
         ],
-<<<<<<< HEAD
-=======
         "INR": [
             "INR",
             "roupie indienne"
         ],
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "JPY": [
             "¥",
             "yen japonais"
@@ -108,19 +101,9 @@
             "$ SG",
             "dollar de Singapour"
         ],
-<<<<<<< HEAD
-        "SRD": [
-            "SRD",
-            "dollar surinamais"
-        ],
-        "TOP": [
-            "TOP",
-            "pa’anga"
-=======
         "THB": [
             "THB",
             "baht thaïlandais"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "TTD": [
             "TTD",

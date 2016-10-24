@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-    "Names": {
-        "AC": "Illa de l’Ascensió",
-=======
     "Version": "2.1.12.94",
     "Names": {
         "AC": "illa de l’Ascensió",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "AD": "Andorra",
         "AE": "Emirats Àrabs Units",
         "AF": "Afganistan",
@@ -22,11 +16,7 @@
         "AT": "Àustria",
         "AU": "Austràlia",
         "AW": "Aruba",
-<<<<<<< HEAD
-        "AX": "Illes Åland",
-=======
         "AX": "illes Åland",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "AZ": "Azerbaidjan",
         "BA": "Bòsnia i Hercegovina",
         "BB": "Barbados",
@@ -46,27 +36,16 @@
         "BS": "Bahames",
         "BT": "Bhutan",
         "BW": "Botswana",
-<<<<<<< HEAD
-        "BY": "Belarús",
-        "BZ": "Belize",
-        "CA": "Canadà",
-        "CC": "Illes Cocos",
-=======
         "BY": "Bielorússia",
         "BZ": "Belize",
         "CA": "Canadà",
         "CC": "illes Cocos",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CD": "Congo - Kinshasa",
         "CF": "República Centreafricana",
         "CG": "Congo - Brazzaville",
         "CH": "Suïssa",
         "CI": "Costa d’Ivori",
-<<<<<<< HEAD
-        "CK": "Illes Cook",
-=======
         "CK": "illes Cook",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CL": "Xile",
         "CM": "Camerun",
         "CN": "Xina",
@@ -75,11 +54,7 @@
         "CU": "Cuba",
         "CV": "Cap Verd",
         "CW": "Curaçao",
-<<<<<<< HEAD
-        "CX": "Illa Christmas",
-=======
         "CX": "illa Christmas",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CY": "Xipre",
         "CZ": "República Txeca",
         "DE": "Alemanya",
@@ -101,11 +76,7 @@
         "FJ": "Fiji",
         "FK": "Illes Malvines",
         "FM": "Micronèsia",
-<<<<<<< HEAD
-        "FO": "Illes Fèroe",
-=======
         "FO": "illes Fèroe",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "FR": "França",
         "GA": "Gabon",
         "GB": "Regne Unit",
@@ -121,11 +92,7 @@
         "GP": "Guadeloupe",
         "GQ": "Guinea Equatorial",
         "GR": "Grècia",
-<<<<<<< HEAD
-        "GS": "Illes Geòrgia del Sud i Sandwich del Sud",
-=======
         "GS": "illes Geòrgia del Sud i Sandwich del Sud",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GT": "Guatemala",
         "GU": "Guam",
         "GW": "Guinea Bissau",
@@ -135,19 +102,11 @@
         "HR": "Croàcia",
         "HT": "Haití",
         "HU": "Hongria",
-<<<<<<< HEAD
-        "IC": "Illes Canàries",
-        "ID": "Indonèsia",
-        "IE": "Irlanda",
-        "IL": "Israel",
-        "IM": "Illa de Man",
-=======
         "IC": "illes Canàries",
         "ID": "Indonèsia",
         "IE": "Irlanda",
         "IL": "Israel",
         "IM": "illa de Man",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "IN": "Índia",
         "IO": "Territori Britànic de l’Oceà Índic",
         "IQ": "Iraq",
@@ -186,21 +145,13 @@
         "ME": "Montenegro",
         "MF": "Saint Martin",
         "MG": "Madagascar",
-<<<<<<< HEAD
-        "MH": "Illes Marshall",
-=======
         "MH": "illes Marshall",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MK": "Macedònia",
         "ML": "Mali",
         "MM": "Myanmar (Birmània)",
         "MN": "Mongòlia",
         "MO": "Macau (RAE Xina)",
-<<<<<<< HEAD
-        "MP": "Illes Mariannes del Nord",
-=======
         "MP": "illes Mariannes del Nord",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MQ": "Martinica",
         "MR": "Mauritània",
         "MS": "Montserrat",
@@ -232,11 +183,7 @@
         "PK": "Pakistan",
         "PL": "Polònia",
         "PM": "Saint-Pierre-et-Miquelon",
-<<<<<<< HEAD
-        "PN": "Illes Pitcairn",
-=======
         "PN": "illes Pitcairn",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PR": "Puerto Rico",
         "PS": "Palestina",
         "PT": "Portugal",
@@ -249,11 +196,7 @@
         "RU": "Rússia",
         "RW": "Ruanda",
         "SA": "Aràbia Saudita",
-<<<<<<< HEAD
-        "SB": "Illes Salomó",
-=======
         "SB": "illes Salomó",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SC": "Seychelles",
         "SD": "Sudan",
         "SE": "Suècia",
@@ -292,11 +235,7 @@
         "TZ": "Tanzània",
         "UA": "Ucraïna",
         "UG": "Uganda",
-<<<<<<< HEAD
-        "UM": "Illes Perifèriques Menors dels EUA",
-=======
         "UM": "illes Perifèriques Menors dels EUA",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "US": "Estats Units",
         "UY": "Uruguai",
         "UZ": "Uzbekistan",

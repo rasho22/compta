@@ -87,12 +87,6 @@ class LengthValidatorTest extends AbstractConstraintValidatorTest
         );
     }
 
-<<<<<<< HEAD
-    /**
-     * @requires extension mbstring
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getOneCharset()
     {
         return array(
@@ -243,10 +237,7 @@ class LengthValidatorTest extends AbstractConstraintValidatorTest
                 ->setParameter('{{ value }}', '"'.$value.'"')
                 ->setParameter('{{ charset }}', $charset)
                 ->setInvalidValue($value)
-<<<<<<< HEAD
-=======
                 ->setCode(Length::INVALID_CHARACTERS_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 ->assertRaised();
         }
     }

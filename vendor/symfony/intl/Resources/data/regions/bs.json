@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.7",
-=======
     "Version": "2.1.13.46",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Ostrvo Asension",
         "AD": "Andora",
@@ -31,11 +27,7 @@
         "BH": "Bahrein",
         "BI": "Burundi",
         "BJ": "Benin",
-<<<<<<< HEAD
-        "BL": "Sveti Bartolomej",
-=======
         "BL": "Sv. Bartolomej",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BM": "Bermuda",
         "BN": "Brunej",
         "BO": "Bolivija",
@@ -47,11 +39,7 @@
         "BY": "Bjelorusija",
         "BZ": "Belize",
         "CA": "Kanada",
-<<<<<<< HEAD
-        "CC": "Kokosova (Kilingova) ostrva",
-=======
         "CC": "Kokos (Keling) Ostrva",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CD": "Demokratska Republika Kongo",
         "CF": "Centralnoafrička Republika",
         "CG": "Kongo",
@@ -142,11 +130,7 @@
         "KZ": "Kazahstan",
         "LA": "Laos",
         "LB": "Liban",
-<<<<<<< HEAD
-        "LC": "Sveta Lucija",
-=======
         "LC": "Sent Lucija",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LI": "Lihtenštajn",
         "LK": "Šri Lanka",
         "LR": "Liberija",
@@ -198,11 +182,7 @@
         "PH": "Filipini",
         "PK": "Pakistan",
         "PL": "Poljska",
-<<<<<<< HEAD
-        "PM": "Sveti Petar i Mikelon",
-=======
         "PM": "Sen Pjer i Mikelon",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PN": "Pitkern",
         "PR": "Porto Riko",
         "PS": "Palestinska Teritorija",
@@ -223,11 +203,7 @@
         "SG": "Singapur",
         "SH": "Sveta Helena",
         "SI": "Slovenija",
-<<<<<<< HEAD
-        "SJ": "Svalbard i Jan Majen",
-=======
         "SJ": "Svalbard i Janmajen Ostrva",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SK": "Slovačka",
         "SL": "Sijera Leone",
         "SM": "San Marino",
@@ -241,11 +217,7 @@
         "SY": "Sirija",
         "SZ": "Svazilend",
         "TA": "Tristan da Kunja",
-<<<<<<< HEAD
-        "TC": "Ostrva Turks i Caicos",
-=======
         "TC": "Turks i Kajkos Ostrva",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TD": "Čad",
         "TF": "Francuske Južne Teritorije",
         "TG": "Togo",
@@ -263,30 +235,18 @@
         "TZ": "Tanzanija",
         "UA": "Ukrajina",
         "UG": "Uganda",
-<<<<<<< HEAD
-        "UM": "Udaljena ostrva SAD",
-=======
         "UM": "Manja Udaljena Ostrva SAD",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "US": "Sjedinjene Američke Države",
         "UY": "Urugvaj",
         "UZ": "Uzbekistan",
         "VA": "Vatikan",
-<<<<<<< HEAD
-        "VC": "Sveti Vincent i Grenadini",
-=======
         "VC": "Sent Vinsent i Grenadini",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "VE": "Venecuela",
         "VG": "Britanska Djevičanska Ostrva",
         "VI": "Djevičanska Ostrva SAD",
         "VN": "Vijetnam",
         "VU": "Vanuatu",
-<<<<<<< HEAD
-        "WF": "Wallis i Futuna",
-=======
         "WF": "Valis i Futuna Ostrva",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "WS": "Samoa",
         "XK": "Kosovo",
         "YE": "Jemen",

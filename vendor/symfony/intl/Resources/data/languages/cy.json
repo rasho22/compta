@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.10.93",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "Affareg",
         "ab": "Abchaseg",
@@ -26,10 +22,6 @@
         "am": "Amhareg",
         "an": "Aragoneg",
         "ang": "Hen Saesneg",
-<<<<<<< HEAD
-        "anp": "Angika",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ar": "Arabeg",
         "ar_001": "Arabeg Modern Safonol",
         "arc": "Aramaeg",
@@ -41,21 +33,10 @@
         "ary": "Arabeg Moroco",
         "arz": "Arabeg yr Aifft",
         "as": "Asameg",
-<<<<<<< HEAD
-        "asa": "Asw",
-        "ase": "Iaith Arwyddion America",
-        "ast": "Astwrianeg",
-        "av": "Afareg",
-        "awa": "Awadhi",
-        "ay": "Aymareg",
-        "az": "Aserbaijaneg",
-        "az_Arab": "Aserbaijaneg Deheuol",
-=======
         "ase": "Iaith Arwyddion America",
         "av": "Afareg",
         "az": "Aserbaijaneg",
         "azb": "Aserbaijaneg Deheuol",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "Bashcorteg",
         "bal": "Balwtsi",
         "ban": "Balïeg",
@@ -65,31 +46,15 @@
         "bej": "Bejäeg",
         "bem": "Bembeg",
         "bez": "Bena",
-<<<<<<< HEAD
-        "bfd": "Baffwteg",
-        "bfq": "Badaga",
-        "bg": "Bwlgareg",
-        "bgn": "Balochi Gorllewinol",
-        "bi": "Bislama",
-        "bkm": "Comeg",
-        "bla": "Siksika",
-=======
         "bg": "Bwlgareg",
         "bi": "Bislama",
         "bkm": "Comeg",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bm": "Bambareg",
         "bn": "Bengaleg",
         "bo": "Tibeteg",
         "br": "Llydaweg",
         "brh": "Brahui",
-<<<<<<< HEAD
-        "brx": "Bodo",
         "bs": "Bosnieg",
-        "bss": "Acwseg",
-=======
-        "bs": "Bosnieg",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bua": "Bwriateg",
         "bum": "Bwlw",
         "ca": "Catalaneg",
@@ -97,10 +62,6 @@
         "car": "Caribeg",
         "cch": "Atsameg",
         "ce": "Tsietsieneg",
-<<<<<<< HEAD
-        "cgg": "Tsiga",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ch": "Tsiamorro",
         "chm": "Marieg",
         "cho": "Siocto",
@@ -113,18 +74,10 @@
         "crh": "Tyrceg y Crimea",
         "cs": "Tsieceg",
         "cu": "Hen Slafoneg",
-<<<<<<< HEAD
-        "cv": "Tshwfasheg",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cy": "Cymraeg",
         "da": "Daneg",
         "dak": "Dacotaeg",
         "dar": "Dargwa",
-<<<<<<< HEAD
-        "dav": "Taita",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "de": "Almaeneg",
         "de_AT": "Almaeneg Awstria",
         "de_CH": "Almaeneg Safonol y Swistir",
@@ -132,16 +85,8 @@
         "dje": "Zarmaeg",
         "doi": "Dogri",
         "dsb": "Sorbeg Isaf",
-<<<<<<< HEAD
-        "dua": "Diwaleg",
         "dum": "Iseldireg Canol",
         "dv": "Difehi",
-        "dyo": "Jola-Fonyi",
-        "dz": "Dzongkha",
-=======
-        "dum": "Iseldireg Canol",
-        "dv": "Difehi",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ebu": "Embw",
         "ee": "Ewe",
         "egy": "Hen Eiffteg",
@@ -176,19 +121,11 @@
         "frc": "Ffrangeg Cajwn",
         "frm": "Ffrangeg Canol",
         "fro": "Hen Ffrangeg",
-<<<<<<< HEAD
-        "frp": "Arpitaneg",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "frr": "Ffriseg y Gogledd",
         "frs": "Ffriseg y Dwyrain",
         "fur": "Ffriwleg",
         "fy": "Ffriseg y Gorllewin",
         "ga": "Gwyddeleg",
-<<<<<<< HEAD
-        "gag": "Gagauz",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "gay": "Gaio",
         "gba": "Gbaia",
         "gbz": "Dareg y Zoroastriaid",
@@ -202,10 +139,6 @@
         "grc": "Hen Roeg",
         "gsw": "Almaeneg y Swistir",
         "gu": "Gwjarati",
-<<<<<<< HEAD
-        "guz": "Gusii",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "gv": "Manaweg",
         "ha": "Hawsa",
         "hai": "Haida",
@@ -234,10 +167,6 @@
         "it": "Eidaleg",
         "iu": "Inwctitwt",
         "ja": "Japaneeg",
-<<<<<<< HEAD
-        "jgo": "Ngomba",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "jmc": "Matsiame",
         "jpr": "Iddew-Bersieg",
         "jrb": "Iddew-Arabeg",
@@ -247,40 +176,19 @@
         "kab": "Cabileg",
         "kam": "Camba",
         "kbd": "Circaseg Dwyreiniol",
-<<<<<<< HEAD
-        "kcg": "Tyapeg",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kde": "Macondeg",
         "kea": "Caboferdianeg",
         "kg": "Congo",
         "kha": "Càseg",
-<<<<<<< HEAD
-        "khq": "Koyra Chiini",
-        "khw": "Chowareg",
-        "ki": "Kikuyu",
-        "kk": "Casacheg",
-        "kl": "Kalaallisut",
-        "kln": "Kalenjin",
-        "km": "Chmereg",
-        "kn": "Kannada",
-        "ko": "Coreeg",
-        "koi": "Komi-Permyak",
-=======
         "ki": "ki",
         "kk": "Casacheg",
         "km": "Chmereg",
         "kn": "Kannada",
         "ko": "Coreeg",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kok": "Concani",
         "kr": "Canwri",
         "krl": "Careleg",
         "ks": "Cashmireg",
-<<<<<<< HEAD
-        "ksb": "Shambala",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ksf": "Baffia",
         "ksh": "Cwleneg",
         "ku": "Cwrdeg",
@@ -297,24 +205,13 @@
         "lez": "Lezgheg",
         "lg": "Ganda",
         "li": "Limbwrgeg",
-<<<<<<< HEAD
-        "lkt": "Lakota",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lmo": "Lombardeg",
         "ln": "Lingala",
         "lo": "Laoeg",
         "lol": "Mongo",
         "loz": "Lozi",
-<<<<<<< HEAD
-        "lrc": "Luri Gogleddol",
-        "lt": "Lithwaneg",
-        "ltg": "Latgaleg",
-        "lu": "Luba-Katanga",
-=======
         "lt": "Lithwaneg",
         "ltg": "Latgalieg",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lun": "Lwnda",
         "luo": "Lŵo",
         "lus": "Lwshaieg",
@@ -330,16 +227,8 @@
         "mdr": "Mandareg",
         "men": "Mendeg",
         "mer": "Mêrw",
-<<<<<<< HEAD
-        "mfe": "Morisyen",
         "mg": "Malagaseg",
         "mga": "Gwyddeleg Canol",
-        "mgh": "Makhuwa-Meetto",
-        "mgo": "Meta",
-=======
-        "mg": "Malagaseg",
-        "mga": "Gwyddeleg Canol",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mh": "Marsialeg",
         "mi": "Maori",
         "mic": "Micmaceg",
@@ -351,41 +240,13 @@
         "moh": "Mohoceg",
         "mos": "Mosi",
         "mr": "Marathi",
-<<<<<<< HEAD
-        "mrj": "Mari Gorllewinol",
-        "ms": "Maleieg",
-        "mt": "Malteg",
-        "mua": "Mundang",
-=======
         "ms": "Maleieg",
         "mt": "Malteg",
         "mua": "Mas",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mul": "mwy nag un iaith",
         "mwl": "Mirandeg",
         "mwr": "Marwari",
         "my": "Byrmaneg",
-<<<<<<< HEAD
-        "mzn": "Masanderani",
-        "na": "Nawrŵeg",
-        "nap": "Naplieg",
-        "naq": "Nama",
-        "nb": "Norwyeg Bokmål",
-        "nd": "Ndebele Gogleddol",
-        "nds": "Isel Almaeneg",
-        "nds_NL": "Sacsoneg Isel",
-        "ne": "Nepaleg",
-        "new": "Newaeg",
-        "ng": "Ndonga",
-        "njo": "Ao Naga",
-        "nl": "Iseldireg",
-        "nl_BE": "Fflemeg",
-        "nmg": "Kwasio",
-        "nn": "Norwyeg Nynorsk",
-        "no": "Norwyeg",
-        "non": "Hen Norseg",
-        "nqo": "N’Ko",
-=======
         "na": "Nawrŵeg",
         "nap": "Naplieg",
         "nb": "Norwyeg Bokmål",
@@ -399,7 +260,6 @@
         "nn": "Norwyeg Nynorsk",
         "no": "Norwyeg",
         "non": "Hen Norseg",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nr": "Ndebele Deheuol",
         "nso": "Sotho Gogleddol",
         "nus": "Nŵereg",
@@ -429,10 +289,6 @@
         "pi": "Pali",
         "pl": "Pwyleg",
         "pms": "Piedmonteg",
-<<<<<<< HEAD
-        "pnt": "Ponteg",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "pon": "Pohnpeianeg",
         "prg": "Prwseg",
         "pro": "Hen Brofensaleg",
@@ -445,11 +301,7 @@
         "raj": "Rajasthaneg",
         "rap": "Rapanŵi",
         "rar": "Raratongeg",
-<<<<<<< HEAD
-        "rm": "Románsh",
-=======
         "rm": "Romaunsch",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "rn": "Rwndi",
         "ro": "Rwmaneg",
         "ro_MD": "Moldofeg",
@@ -474,27 +326,12 @@
         "sco": "Sgoteg",
         "sd": "Sindhi",
         "sdc": "Sasareseg Sardinia",
-<<<<<<< HEAD
-        "sdh": "Cwrdeg Deheuol",
-        "se": "Sami Gogleddol",
-        "see": "Seneca",
-        "seh": "Sena",
-        "sei": "Seri",
-        "sel": "Selcypeg",
-        "ses": "Koyraboro Senni",
-        "sg": "Sango",
-        "sga": "Hen Wyddeleg",
-        "sgs": "Samogiteg",
-        "sh": "Serbo-Croateg",
-        "shi": "Tachelhit",
-=======
         "se": "Sami Gogleddol",
         "see": "Seneca",
         "sel": "Selcypeg",
         "sg": "Sango",
         "sga": "Hen Wyddeleg",
         "sh": "Serbo-Croateg",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "shu": "Arabeg Chad",
         "si": "Sinhaleg",
         "sid": "Sidamo",
@@ -506,36 +343,20 @@
         "smj": "Sami Lwle",
         "smn": "Sami Inari",
         "sms": "Sami Scolt",
-<<<<<<< HEAD
-        "sn": "Shona",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "snk": "Soninceg",
         "so": "Somaleg",
         "sog": "Sogdeg",
         "sq": "Albaneg",
         "sr": "Serbeg",
-<<<<<<< HEAD
-        "srr": "Serereg",
-        "ss": "Swati",
         "st": "Sesotheg",
-        "stq": "Ffriseg Saterland",
-=======
-        "st": "Sesotheg",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "su": "Swndaneg",
         "suk": "Swcwma",
         "sus": "Swsŵeg",
         "sux": "Swmereg",
         "sv": "Swedeg",
         "sw": "Swahili",
-<<<<<<< HEAD
-        "sw_CD": "Swahili’r Congo",
-        "swb": "Comoreg",
-=======
         "swb": "Comoreg",
         "swc": "Swahili’r Congo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "Hen Syrieg",
         "syr": "Syrieg",
         "szl": "Silesieg",
@@ -543,40 +364,10 @@
         "tcy": "Tulu",
         "te": "Telugu",
         "tem": "Timneg",
-<<<<<<< HEAD
-        "teo": "Teso",
-        "ter": "Terena",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "tet": "Tetumeg",
         "tg": "Tajiceg",
         "th": "Thai",
         "ti": "Tigrinya",
-<<<<<<< HEAD
-        "tig": "Tigreg",
-        "tiv": "Tifeg",
-        "tk": "Twrcmeneg",
-        "tkl": "Tocelaweg",
-        "tkr": "Tsakhureg",
-        "tl": "Tagalog",
-        "tlh": "Klingon",
-        "tli": "Llingit",
-        "tly": "Talysheg",
-        "tmh": "Tamasheceg",
-        "tn": "Tswana",
-        "to": "Tongeg",
-        "tpi": "Tok Pisin",
-        "tr": "Tyrceg",
-        "trv": "Taroko",
-        "ts": "Tsongaeg",
-        "tsd": "Tsaconeg",
-        "tt": "Tatareg",
-        "tum": "Twmbwca",
-        "tvl": "Twfalweg",
-        "tw": "Twi",
-        "twq": "Tasawaq",
-        "tzm": "Tamaseit Canolbarth Moroco",
-=======
         "tk": "Twrcmeneg",
         "tl": "Tagalog",
         "tlh": "Klingon",
@@ -587,7 +378,6 @@
         "ts": "Tsongaeg",
         "tt": "Tatareg",
         "tvl": "Twfalweg",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "udm": "Fotiaceg",
         "ug": "Uighur",
         "uga": "Wgariteg",
@@ -599,23 +389,6 @@
         "vai": "Faieg",
         "ve": "Fendeg",
         "vec": "Feniseg",
-<<<<<<< HEAD
-        "vep": "Feps",
-        "vi": "Fietnameg",
-        "vls": "Fflemeg Gorllewinol",
-        "vot": "Foteg",
-        "vun": "Funjo",
-        "wa": "Walwneg",
-        "wae": "Walsereg",
-        "wal": "Walamo",
-        "war": "Winarayeg",
-        "was": "Washo",
-        "wbp": "Warlpiri",
-        "wo": "Woloff",
-        "xal": "Calmyceg",
-        "xh": "Xhosa",
-        "xog": "Soga",
-=======
         "vi": "Fietnameg",
         "vls": "Fflemeg Gorllewinol",
         "wa": "Walwneg",
@@ -623,7 +396,6 @@
         "wo": "Woloff",
         "xal": "Calmyceg",
         "xh": "Xhosa",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ybb": "Iembaeg",
         "yi": "Iddew-Almaeneg",
         "yo": "Iorwba",
@@ -631,11 +403,7 @@
         "zap": "Zapoteceg",
         "zbl": "Blisssymbols",
         "zea": "Zêlandeg",
-<<<<<<< HEAD
-        "zgh": "Tamaseit Safonol",
-=======
         "zgh": "Tamazight Safonol Moroco",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "zh": "Tsieineeg",
         "zh_Hans": "Tsieineeg Symledig",
         "zh_Hant": "Tsieineeg Traddodiadol",

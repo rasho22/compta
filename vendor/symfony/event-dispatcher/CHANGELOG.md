@@ -1,8 +1,6 @@
 CHANGELOG
 =========
 
-<<<<<<< HEAD
-=======
 3.0.0
 -----
 
@@ -12,7 +10,6 @@ CHANGELOG
     and `Event::getName()` have been removed.
     The event dispatcher and the event name are passed to the listener call.
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 2.5.0
 -----
 

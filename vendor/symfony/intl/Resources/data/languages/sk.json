@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.24.11",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afarčina",
         "ab": "abcházčina",
@@ -49,10 +45,6 @@
         "bez": "bena",
         "bfd": "bafut",
         "bg": "bulharčina",
-<<<<<<< HEAD
-        "bgn": "západná balúčtina",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "bhódžpurčina",
         "bi": "bislama",
         "bik": "bikol",
@@ -122,11 +114,7 @@
         "dz": "dzongkä",
         "dzg": "dazaga",
         "ebu": "embu",
-<<<<<<< HEAD
-        "ee": "eweština",
-=======
         "ee": "ewe",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "efi": "efik",
         "egy": "staroegyptský",
         "eka": "ekadžuk",
@@ -174,11 +162,7 @@
         "gil": "kiribatčina",
         "gl": "galícijčina",
         "gmh": "stredná horná nemčina",
-<<<<<<< HEAD
-        "gn": "guaraníjčina",
-=======
         "gn": "guaraní",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "goh": "stará horná nemčina",
         "gon": "góndčina",
         "gor": "gorontalo",
@@ -286,14 +270,8 @@
         "lo": "laoština",
         "lol": "mongo",
         "loz": "lozi",
-<<<<<<< HEAD
-        "lrc": "severné luri",
-        "lt": "litovčina",
-        "lu": "lubčina (katanžská)",
-=======
         "lt": "litovčina",
         "lu": "luba-katanga",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lua": "luba-luluánčina",
         "lui": "luiseňo",
         "lun": "lunda",
@@ -340,23 +318,12 @@
         "my": "barmčina",
         "mye": "myene",
         "myv": "erzjančina",
-<<<<<<< HEAD
-        "mzn": "mázandaránčina",
-        "na": "nauru",
-        "nap": "neapolčina",
-        "naq": "nama",
-        "nb": "nórčina (bokmål)",
-        "nd": "severné ndebele",
-        "nds": "dolná nemčina",
-        "nds_NL": "dolná saština",
-=======
         "na": "nauru",
         "nap": "neapolčina",
         "naq": "nama",
         "nb": "nórsky bokmål",
         "nd": "severné ndebele",
         "nds": "dolná nemčina",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepálčina",
         "new": "nevárčina",
         "ng": "ndonga",
@@ -365,11 +332,7 @@
         "nl": "holandčina",
         "nl_BE": "flámčina",
         "nmg": "kwasio",
-<<<<<<< HEAD
-        "nn": "nórčina (nynorsk)",
-=======
         "nn": "nórsky nynorsk",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "nnh": "ngiemboon",
         "no": "nórčina",
         "nog": "nogajčina",
@@ -409,11 +372,7 @@
         "pt_BR": "portugalčina (brazílska)",
         "pt_PT": "portugalčina (európska)",
         "qu": "kečuánčina",
-<<<<<<< HEAD
-        "quc": "kičé",
-=======
         "quc": "kʼicheʼ",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "raj": "radžastančina",
         "rap": "rapanujčina",
         "rar": "rarotongan",
@@ -441,12 +400,7 @@
         "scn": "sicílčina",
         "sco": "škótčina",
         "sd": "sindhčina",
-<<<<<<< HEAD
-        "sdh": "kurdčina (južná)",
-        "se": "lapončina (severná)",
-=======
         "se": "severné sami",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "see": "seneca",
         "seh": "sena",
         "sel": "selkupčina",
@@ -462,17 +416,10 @@
         "sk": "slovenčina",
         "sl": "slovinčina",
         "sm": "samojčina",
-<<<<<<< HEAD
-        "sma": "lapončina (južná)",
-        "smj": "lapončina (lulská)",
-        "smn": "lapončina (inarijská)",
-        "sms": "lapončina (skoltská)",
-=======
         "sma": "južné sami",
         "smj": "sami (lule)",
         "smn": "sami (inari)",
         "sms": "sami (skolt)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "sn": "šončina",
         "snk": "soninke",
         "so": "somálčina",
@@ -490,13 +437,8 @@
         "sux": "sumerčina",
         "sv": "švédčina",
         "sw": "svahilčina",
-<<<<<<< HEAD
-        "sw_CD": "svahilčina (konžská)",
-        "swb": "komorčina",
-=======
         "swb": "komorčina",
         "swc": "svahilčina (konžská)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "klasická sýrčina",
         "syr": "sýrčina",
         "ta": "tamilčina",
@@ -551,16 +493,9 @@
         "wal": "walamo",
         "war": "waray",
         "was": "washo",
-<<<<<<< HEAD
-        "wbp": "warlpiri",
-        "wo": "wolofčina",
-        "xal": "kalmyčtina",
-        "xh": "xhoština",
-=======
         "wo": "wolof",
         "xal": "kalmyčtina",
         "xh": "xhosa",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "xog": "soga",
         "yao": "jao",
         "yap": "japčina",

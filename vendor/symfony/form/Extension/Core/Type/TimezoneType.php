@@ -47,11 +47,7 @@ class TimezoneType extends AbstractType
      */
     public function getParent()
     {
-<<<<<<< HEAD
-        return 'choice';
-=======
         return __NAMESPACE__.'\ChoiceType';
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -59,8 +55,6 @@ class TimezoneType extends AbstractType
      */
     public function getName()
     {
-<<<<<<< HEAD
-=======
         return $this->getBlockPrefix();
     }
 
@@ -69,7 +63,6 @@ class TimezoneType extends AbstractType
      */
     public function getBlockPrefix()
     {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         return 'timezone';
     }
 
@@ -82,11 +75,6 @@ class TimezoneType extends AbstractType
      * overhead.
      *
      * @return array The timezone choices
-<<<<<<< HEAD
-     */
-    public static function getTimezones()
-    {
-=======
      *
      * @deprecated Deprecated since version 2.8
      */
@@ -94,7 +82,6 @@ class TimezoneType extends AbstractType
     {
         @trigger_error('The TimezoneType::getTimezones() method is deprecated since version 2.8 and will be removed in 3.0.', E_USER_DEPRECATED);
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         if (null === static::$timezones) {
             static::$timezones = array();
 

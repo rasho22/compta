@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AED": [
             "AED",
@@ -11,11 +7,7 @@
         ],
         "AFN": [
             "AFN",
-<<<<<<< HEAD
-            "Afghani ya Afghanistan"
-=======
             "Afghani ya Afuganistani"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "ALL": [
             "ALL",
@@ -67,11 +59,7 @@
         ],
         "BHD": [
             "BHD",
-<<<<<<< HEAD
-            "Dinar ya Bahareni"
-=======
             "Dinari ya Bahareni"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "BIF": [
             "BIF",
@@ -151,11 +139,7 @@
         ],
         "CVE": [
             "CVE",
-<<<<<<< HEAD
-            "Eskudo ya Cape Verde"
-=======
             "Eskudo ya Kepuvede"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "CZK": [
             "CZK",
@@ -187,11 +171,7 @@
         ],
         "ETB": [
             "ETB",
-<<<<<<< HEAD
-            "Birr ya Uhabeshi"
-=======
             "Nirr ya Uhabeshi"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "EUR": [
             "€",
@@ -279,11 +259,7 @@
         ],
         "IQD": [
             "IQD",
-<<<<<<< HEAD
-            "Dinar ya Iraki"
-=======
             "Dinari ya Iraki"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "IRR": [
             "IRR",
@@ -291,11 +267,7 @@
         ],
         "ISK": [
             "ISK",
-<<<<<<< HEAD
-            "Krona ya Aisilandi"
-=======
             "Krona ya Isilandi"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "JMD": [
             "JMD",
@@ -303,11 +275,7 @@
         ],
         "JOD": [
             "JOD",
-<<<<<<< HEAD
-            "Dinar ya Yordani"
-=======
             "Dinari ya Yordani"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "JPY": [
             "JP¥",
@@ -319,11 +287,7 @@
         ],
         "KGS": [
             "KGS",
-<<<<<<< HEAD
-            "Som ya Kyrgystani"
-=======
             "Som ya Kirigistani"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KHR": [
             "KHR",
@@ -343,11 +307,7 @@
         ],
         "KWD": [
             "KWD",
-<<<<<<< HEAD
-            "Dinar ya Kuwaiti"
-=======
             "Dinari ya Kuwaiti"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "KYD": [
             "KYD",
@@ -367,11 +327,7 @@
         ],
         "LKR": [
             "LKR",
-<<<<<<< HEAD
-            "Rupia ya Sri Lanka"
-=======
             "Rupia ya Sirilanka"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "LRD": [
             "LRD",
@@ -511,11 +467,7 @@
         ],
         "QAR": [
             "QAR",
-<<<<<<< HEAD
-            "Rial ya Qatari"
-=======
             "Rial ya Katari"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "RON": [
             "RON",
@@ -567,11 +519,7 @@
         ],
         "SLL": [
             "SLL",
-<<<<<<< HEAD
-            "Leone"
-=======
             "Leoni"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "SOS": [
             "SOS",
@@ -659,11 +607,7 @@
         ],
         "VND": [
             "₫",
-<<<<<<< HEAD
-            "Dong ya Vietnam"
-=======
             "Dong ya Vietinamu"
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         ],
         "VUV": [
             "VUV",

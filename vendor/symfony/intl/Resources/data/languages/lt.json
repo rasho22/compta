@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.13.46",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "aa": "afarų",
         "ab": "abchazų",
@@ -46,10 +42,7 @@
         "awa": "avadhi",
         "ay": "aimarų",
         "az": "azerbaidžaniečių",
-<<<<<<< HEAD
-=======
         "azb": "pietų Azerbaidžano",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ba": "baškirų",
         "bal": "baluči",
         "ban": "balinezų",
@@ -66,10 +59,6 @@
         "bfd": "bafutų",
         "bfq": "badaga",
         "bg": "bulgarų",
-<<<<<<< HEAD
-        "bgn": "vakarų beludžių",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bho": "baučpuri",
         "bi": "bislama",
         "bik": "bikolų",
@@ -329,10 +318,6 @@
         "lo": "laosiečių",
         "lol": "mongo",
         "loz": "lozi",
-<<<<<<< HEAD
-        "lrc": "šiaurės luri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "lt": "lietuvių",
         "ltg": "latgalių",
         "lu": "luba katanga",
@@ -394,10 +379,6 @@
         "nb": "Norvegijos rašytinė – būkmolų",
         "nd": "šiaurės ndebelų",
         "nds": "Žemutinės Vokietijos",
-<<<<<<< HEAD
-        "nds_NL": "Žemutinės Saksonijos (Nyderlandai)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ne": "nepaliečių",
         "new": "nevari",
         "ng": "ndongų",
@@ -491,10 +472,6 @@
         "sco": "škotų",
         "sd": "sindų",
         "sdc": "sasaresų sardinų",
-<<<<<<< HEAD
-        "sdh": "pietų kurdų",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "se": "šiaurės samių",
         "see": "senecų",
         "seh": "senų",
@@ -537,13 +514,8 @@
         "sux": "šumerų",
         "sv": "švedų",
         "sw": "suahilių",
-<<<<<<< HEAD
-        "sw_CD": "Kongo suahilių",
-        "swb": "Komorų",
-=======
         "swb": "Komorų",
         "swc": "Kongo suahilių",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "syc": "klasikinė siriečių",
         "syr": "sirų",
         "szl": "sileziečių",
@@ -610,10 +582,6 @@
         "wal": "valamo",
         "war": "varai",
         "was": "vašo",
-<<<<<<< HEAD
-        "wbp": "valrpiri",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "wo": "volofų",
         "wuu": "kinų kalbos vu tarmė",
         "xal": "kalmukų",

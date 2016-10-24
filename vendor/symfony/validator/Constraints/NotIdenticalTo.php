@@ -16,11 +16,6 @@ namespace Symfony\Component\Validator\Constraints;
  * @Target({"PROPERTY", "METHOD", "ANNOTATION"})
  *
  * @author Daniel Holmes <daniel@danielholmes.org>
-<<<<<<< HEAD
- */
-class NotIdenticalTo extends AbstractComparison
-{
-=======
  * @author Bernhard Schussek <bschussek@gmail.com>
  */
 class NotIdenticalTo extends AbstractComparison
@@ -31,6 +26,5 @@ class NotIdenticalTo extends AbstractComparison
         self::IS_IDENTICAL_ERROR => 'IS_IDENTICAL_ERROR',
     );
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public $message = 'This value should not be identical to {{ compared_value_type }} {{ compared_value }}.';
 }

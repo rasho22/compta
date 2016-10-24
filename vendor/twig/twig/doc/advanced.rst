@@ -136,9 +136,6 @@ Creating a filter is as simple as associating a name with a PHP callable::
     // or a simple PHP function
     $filter = new Twig_SimpleFilter('rot13', 'str_rot13');
 
-<<<<<<< HEAD
-    // or a class method
-=======
     // or a class static method
     $filter = new Twig_SimpleFilter('rot13', array('SomeClass', 'rot13Filter'));
     $filter = new Twig_SimpleFilter('rot13', 'SomeClass::rot13Filter');
@@ -146,7 +143,6 @@ Creating a filter is as simple as associating a name with a PHP callable::
     // or a class method
     $filter = new Twig_SimpleFilter('rot13', array($this, 'rot13Filter'));
     // the one below needs a runtime implementation (see below for more information)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     $filter = new Twig_SimpleFilter('rot13', array('SomeClass', 'rot13Filter'));
 
 The first argument passed to the ``Twig_SimpleFilter`` constructor is the name
@@ -535,13 +531,6 @@ reusable class like adding support for internationalization. An extension can
 define tags, filters, tests, operators, global variables, functions, and node
 visitors.
 
-<<<<<<< HEAD
-Creating an extension also makes for a better separation of code that is
-executed at compilation time and code needed at runtime. As such, it makes
-your code faster.
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 Most of the time, it is useful to create a single extension for your project,
 to host all the specific tags and filters you want to add to Twig.
 
@@ -566,11 +555,8 @@ An extension is a class that implements the following interface::
          * This is where you can load some file that contains filter functions for instance.
          *
          * @param Twig_Environment $environment The current Twig_Environment instance
-<<<<<<< HEAD
-=======
          *
          * @deprecated since 1.23 (to be removed in 2.0), implement Twig_Extension_InitRuntimeInterface instead
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
          */
         function initRuntime(Twig_Environment $environment);
 
@@ -620,11 +606,8 @@ An extension is a class that implements the following interface::
          * Returns a list of global variables to add to the existing list.
          *
          * @return array An array of global variables
-<<<<<<< HEAD
-=======
          *
          * @deprecated since 1.23 (to be removed in 2.0), implement Twig_Extension_GlobalsInterface instead
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
          */
         function getGlobals();
 
@@ -632,39 +615,12 @@ An extension is a class that implements the following interface::
          * Returns the name of the extension.
          *
          * @return string The extension name
-<<<<<<< HEAD
-=======
          *
          * @deprecated since 1.26 (to be removed in 2.0), not used anymore internally
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
          */
         function getName();
     }
 
-<<<<<<< HEAD
-To keep your extension class clean and lean, it can inherit from the built-in
-``Twig_Extension`` class instead of implementing the whole interface. That
-way, you just need to implement the ``getName()`` method as the
-``Twig_Extension`` provides empty implementations for all other methods.
-
-The ``getName()`` method must return a unique identifier for your extension.
-
-Now, with this information in mind, let's create the most basic extension
-possible::
-
-    class Project_Twig_Extension extends Twig_Extension
-    {
-        public function getName()
-        {
-            return 'project';
-        }
-    }
-
-.. note::
-
-    Of course, this extension does nothing for now. We will customize it in
-    the next sections.
-=======
 To keep your extension class clean and lean, inherit from the built-in
 ``Twig_Extension`` class instead of implementing the interface as it provides
 empty implementations for all methods:
@@ -680,7 +636,6 @@ next sections.
 
     Prior to Twig 1.26, you must implement the ``getName()`` method which must
     return a unique identifier for the extension.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 Twig does not care where you save your extension on the filesystem, as all
 extensions must be registered explicitly to be available in your templates.
@@ -691,18 +646,9 @@ main ``Environment`` object::
     $twig = new Twig_Environment($loader);
     $twig->addExtension(new Project_Twig_Extension());
 
-<<<<<<< HEAD
-Of course, you need to first load the extension file by either using
-``require_once()`` or by using an autoloader (see `spl_autoload_register()`_).
-
-.. tip::
-
-    The bundled extensions are great examples of how extensions work.
-=======
 .. tip::
 
     The Twig core extensions are great examples of how extensions work.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 Globals
 ~~~~~~~
@@ -710,11 +656,7 @@ Globals
 Global variables can be registered in an extension via the ``getGlobals()``
 method::
 
-<<<<<<< HEAD
-    class Project_Twig_Extension extends Twig_Extension
-=======
     class Project_Twig_Extension extends Twig_Extension implements Twig_Extension_GlobalsInterface
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         public function getGlobals()
         {
@@ -825,8 +767,6 @@ The ``getTests()`` method lets you add new test functions::
         // ...
     }
 
-<<<<<<< HEAD
-=======
 Definition vs Runtime
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -922,7 +862,6 @@ It is now possible to move the runtime logic to a new
         }
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 Overloading
 -----------
 
@@ -943,14 +882,6 @@ possible** (order matters)::
         {
             // do something different from the built-in date filter
         }
-<<<<<<< HEAD
-
-        public function getName()
-        {
-            return 'project';
-        }
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     $twig = new Twig_Environment($loader);
@@ -958,11 +889,7 @@ possible** (order matters)::
 
 Here, we have overloaded the built-in ``date`` filter with a custom one.
 
-<<<<<<< HEAD
-If you do the same on the Twig_Environment itself, beware that it takes
-=======
 If you do the same on the ``Twig_Environment`` itself, beware that it takes
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 precedence over any other registered extensions::
 
     $twig = new Twig_Environment($loader);
@@ -1027,10 +954,6 @@ Testing the node visitors can be complex, so extend your test cases from
 ``Twig_Test_NodeTestCase``. Examples can be found in the Twig repository
 `tests/Twig/Node`_ directory.
 
-<<<<<<< HEAD
-.. _`spl_autoload_register()`: http://www.php.net/spl_autoload_register
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 .. _`rot13`:                   http://www.php.net/manual/en/function.str-rot13.php
 .. _`tests/Twig/Fixtures`:     https://github.com/twigphp/Twig/tree/master/test/Twig/Tests/Fixtures
 .. _`tests/Twig/Node`:         https://github.com/twigphp/Twig/tree/master/test/Twig/Tests/Node

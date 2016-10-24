@@ -144,10 +144,7 @@ class UrlValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', '"'.$url.'"')
-<<<<<<< HEAD
-=======
             ->setCode(Url::INVALID_URL_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -217,10 +214,7 @@ class UrlValidatorTest extends AbstractConstraintValidatorTest
         } else {
             $this->buildViolation('myMessage')
                 ->setParameter('{{ value }}', '"example.com"')
-<<<<<<< HEAD
-=======
                 ->setCode(Url::INVALID_URL_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 ->assertRaised();
         }
     }

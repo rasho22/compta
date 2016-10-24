@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Ishulli Asenshion",
         "AD": "Andorrë",
@@ -26,20 +22,12 @@
         "BB": "Barbados",
         "BD": "Bangladesh",
         "BE": "Belgjikë",
-<<<<<<< HEAD
-        "BF": "Burkina-Faso",
-=======
         "BF": "Burkina Faso",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BG": "Bullgari",
         "BH": "Bahrein",
         "BI": "Burund",
         "BJ": "Benin",
-<<<<<<< HEAD
-        "BL": "Shën-Bartolemeo",
-=======
         "BL": "Shën Bartolemeo",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BM": "Bermudë",
         "BN": "Brunej",
         "BO": "Bolivi",
@@ -47,19 +35,11 @@
         "BR": "Brazil",
         "BS": "Bahamas",
         "BT": "Butan",
-<<<<<<< HEAD
-        "BW": "Botsuanë",
-        "BY": "Bjellorusi",
-        "BZ": "Belizë",
-        "CA": "Kanada",
-        "CC": "Ishujt Kokosë",
-=======
         "BW": "Botsvanë",
         "BY": "Bjellorusi",
         "BZ": "Belizë",
         "CA": "Kanada",
         "CC": "Ishujt Kokos",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CD": "Kongo-Kinshasa",
         "CF": "Republika Afrikano-Qendrore",
         "CG": "Kongo-Brazavilë",
@@ -70,11 +50,7 @@
         "CM": "Kamerun",
         "CN": "Kinë",
         "CO": "Kolumbi",
-<<<<<<< HEAD
-        "CR": "Kosta-Rikë",
-=======
         "CR": "Kosta Rikë",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "CU": "Kubë",
         "CV": "Kepi i Gjelbër",
         "CW": "Kuraçao",
@@ -82,11 +58,7 @@
         "CY": "Qipro",
         "CZ": "Republika Çeke",
         "DE": "Gjermani",
-<<<<<<< HEAD
-        "DG": "Diego-Garsia",
-=======
         "DG": "Diego Garsia",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "DJ": "Xhibut",
         "DK": "Danimarkë",
         "DM": "Dominikë",
@@ -120,11 +92,7 @@
         "GP": "Guadalupe",
         "GQ": "Guineja Ekuatoriale",
         "GR": "Greqi",
-<<<<<<< HEAD
-        "GS": "Xhorxha Jugore dhe Ishujt Senduiçë të Jugut",
-=======
         "GS": "Xhorxha Jugore dhe Ishujt Senduiç të Jugut",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "GT": "Guatemalë",
         "GU": "Guam",
         "GW": "Guine-Bisau",
@@ -154,11 +122,7 @@
         "KH": "Kamboxhia",
         "KI": "Qiribati",
         "KM": "Komore",
-<<<<<<< HEAD
-        "KN": "Shën-Kits dhe Nevis",
-=======
         "KN": "Shën Kits e Nevis",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "KP": "Koreja e Veriut",
         "KR": "Koreja e Jugut",
         "KW": "Kuvajt",
@@ -166,15 +130,9 @@
         "KZ": "Kazakistan",
         "LA": "Laos",
         "LB": "Liban",
-<<<<<<< HEAD
-        "LC": "Shën-Luçia",
-        "LI": "Lihtënshtajn",
-        "LK": "Sri-Lankë",
-=======
         "LC": "Shën Luçia",
         "LI": "Lihtënshtajn",
         "LK": "Sri Lankë",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LR": "Liberi",
         "LS": "Lesoto",
         "LT": "Lituani",
@@ -185,11 +143,7 @@
         "MC": "Monako",
         "MD": "Moldavi",
         "ME": "Mali i Zi",
-<<<<<<< HEAD
-        "MF": "Shën-Martin",
-=======
         "MF": "Shën Martin",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MG": "Madagaskar",
         "MH": "Ishujt Marshallë",
         "MK": "Maqedoni",
@@ -211,11 +165,7 @@
         "NA": "Namibi",
         "NC": "Kaledonia e Re",
         "NE": "Niger",
-<<<<<<< HEAD
-        "NF": "Ishulli Norfolk",
-=======
         "NF": "Ishujt Norfolkë",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "NG": "Nigeri",
         "NI": "Nikaragua",
         "NL": "Holandë",
@@ -232,15 +182,9 @@
         "PH": "Filipine",
         "PK": "Pakistan",
         "PL": "Poloni",
-<<<<<<< HEAD
-        "PM": "Shën-Peir dhe Mikuelon",
-        "PN": "Ishujt Pitkernë",
-        "PR": "Porto-Riko",
-=======
         "PM": "Shën Peir dhe Mikuelon",
         "PN": "Ishujt Pitkernë",
         "PR": "Porto Riko",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "PS": "Territoret Palestineze",
         "PT": "Portugali",
         "PW": "Palau",
@@ -257,40 +201,22 @@
         "SD": "Sudan",
         "SE": "Suedi",
         "SG": "Singapor",
-<<<<<<< HEAD
-        "SH": "Shën-Helena",
-        "SI": "Slloveni",
-        "SJ": "Svalbard e Zhan-Majen",
-        "SK": "Sllovaki",
-        "SL": "Siera-Leone",
-        "SM": "San-Marino",
-=======
         "SH": "Shën Helena",
         "SI": "Slloveni",
         "SJ": "Svalbard e Zhan Majen",
         "SK": "Sllovaki",
         "SL": "Siera Leone",
         "SM": "San Marino",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SN": "Senegali",
         "SO": "Somali",
         "SR": "Surinami",
         "SS": "Sudani i Jugut",
-<<<<<<< HEAD
-        "ST": "Sao-Tome e Prinsipe",
-        "SV": "El Salvador",
-        "SX": "Shën-Martin (Sint Maarten - pjesa e Mbretërisë së Holandës)",
-        "SY": "Siri",
-        "SZ": "Suazilandë",
-        "TA": "Tristan-da-Kuna",
-=======
         "ST": "Sao Tome e Prinsipe",
         "SV": "El Salvador",
         "SX": "Shën Martin (Sint Maarten-pjesa e Mbretërisë së Holandës)",
         "SY": "Siri",
         "SZ": "Svazilandë",
         "TA": "Tristan da Kuna",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "TC": "Ishujt Turke dhe Kaike",
         "TD": "Çad",
         "TF": "Territoret Australiane Franceze",
@@ -314,11 +240,7 @@
         "UY": "Uruguai",
         "UZ": "Uzbekistan",
         "VA": "Vatikan",
-<<<<<<< HEAD
-        "VC": "Shën-Vinsent dhe Grenadinet",
-=======
         "VC": "Shën Vinsent dhe Grenadinet",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "VE": "Venezuelë",
         "VG": "Ishujt e Virgjër Britanikë",
         "VI": "Ishujt e Virgjër Amerikanë",

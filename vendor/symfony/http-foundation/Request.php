@@ -312,11 +312,7 @@ class Request
             'SERVER_NAME' => 'localhost',
             'SERVER_PORT' => 80,
             'HTTP_HOST' => 'localhost',
-<<<<<<< HEAD
-            'HTTP_USER_AGENT' => 'Symfony/2.X',
-=======
             'HTTP_USER_AGENT' => 'Symfony/3.X',
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'HTTP_ACCEPT_LANGUAGE' => 'en-us,en;q=0.5',
             'HTTP_ACCEPT_CHARSET' => 'ISO-8859-1,utf-8;q=0.7,*;q=0.7',
@@ -705,45 +701,6 @@ class Request
     }
 
     /**
-<<<<<<< HEAD
-     * Gets a "parameter" value.
-     *
-     * This method is mainly useful for libraries that want to provide some flexibility.
-     *
-     * Order of precedence: GET, PATH, POST
-     *
-     * Avoid using this method in controllers:
-     *
-     *  * slow
-     *  * prefer to get from a "named" source
-     *
-     * It is better to explicitly get request parameters from the appropriate
-     * public property instead (query, attributes, request).
-     *
-     * Note: Finding deep items is deprecated since version 2.8, to be removed in 3.0.
-     *
-     * @param string $key     the key
-     * @param mixed  $default the default value if the parameter key does not exist
-     * @param bool   $deep    is parameter deep in multidimensional array
-     *
-     * @return mixed
-     */
-    public function get($key, $default = null, $deep = false)
-    {
-        if ($deep) {
-            @trigger_error('Using paths to find deeper items in '.__METHOD__.' is deprecated since version 2.8 and will be removed in 3.0. Filter the returned value in your own code instead.', E_USER_DEPRECATED);
-        }
-
-        if ($this !== $result = $this->query->get($key, $this, $deep)) {
-            return $result;
-        }
-
-        if ($this !== $result = $this->attributes->get($key, $this, $deep)) {
-            return $result;
-        }
-
-        if ($this !== $result = $this->request->get($key, $this, $deep)) {
-=======
      * Gets a "parameter" value from any bag.
      *
      * This method is mainly useful for libraries that want to provide some flexibility. If you don't need the
@@ -768,7 +725,6 @@ class Request
         }
 
         if ($this !== $result = $this->request->get($key, $this)) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             return $result;
         }
 
@@ -1408,11 +1364,7 @@ class Request
      * Here is the process to determine the format:
      *
      *  * format defined by the user (with setRequestFormat())
-<<<<<<< HEAD
-     *  * _format request parameter
-=======
      *  * _format request attribute
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *  * $default
      *
      * @param string $default The default format
@@ -1422,11 +1374,7 @@ class Request
     public function getRequestFormat($default = 'html')
     {
         if (null === $this->format) {
-<<<<<<< HEAD
-            $this->format = $this->get('_format', $default);
-=======
             $this->format = $this->attributes->get('_format', $default);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         return $this->format;
@@ -1561,11 +1509,7 @@ class Request
             return stream_get_contents($this->content);
         }
 
-<<<<<<< HEAD
-        if (null === $this->content || false === $this->content) {
-=======
         if (null === $this->content) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $this->content = file_get_contents('php://input');
         }
 

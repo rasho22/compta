@@ -15,11 +15,8 @@ use Symfony\Component\Security\Core\Util\StringUtils;
 
 /**
  * Data from PHP.net's hash_equals tests.
-<<<<<<< HEAD
-=======
  *
  * @group legacy
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  */
 class StringUtilsTest extends \PHPUnit_Framework_TestCase
 {

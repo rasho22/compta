@@ -1,22 +1,12 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.7",
-    "Names": {
-        "Arab": "Arabiagbeŋɔŋlɔ",
-=======
     "Version": "2.1.12.94",
     "Names": {
         "Arab": "arabiagbeŋɔŋlɔ",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Armn": "armeniagbeŋɔŋlɔ",
         "Beng": "bengaligbeŋɔŋlɔ",
         "Bopo": "bopomfogbeŋɔŋlɔ",
         "Brai": "braillegbeŋɔŋlɔ",
-<<<<<<< HEAD
-        "Cyrl": "Cyrillicgbeŋɔŋlɔ",
-=======
         "Cyrl": "syrilliagbeŋɔŋlɔ",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Deva": "devanagarigbeŋɔŋlɔ",
         "Ethi": "ethiopiagbeŋɔŋlɔ",
         "Geor": "gɔgiagbeŋɔŋlɔ",
@@ -25,19 +15,6 @@
         "Guru": "gurmukhigbeŋɔŋlɔ",
         "Hang": "hangulgbeŋɔŋlɔ",
         "Hani": "hangbeŋɔŋlɔ",
-<<<<<<< HEAD
-        "Hans": "Chinesegbeŋɔŋlɔ",
-        "Hant": "Blema Chinesegbeŋɔŋlɔ",
-        "Hebr": "hebrigbeŋɔŋlɔ",
-        "Hira": "hiraganagbeŋɔŋlɔ",
-        "Jpan": "Japanesegbeŋɔŋlɔ",
-        "Kana": "katakanagbeŋɔŋlɔ",
-        "Khmr": "khmergbeŋɔŋlɔ",
-        "Knda": "kannadagbeŋɔŋlɔ",
-        "Kore": "Koreagbeŋɔŋlɔ",
-        "Laoo": "laogbeŋɔŋlɔ",
-        "Latn": "Latingbeŋɔŋlɔ",
-=======
         "Hans": "tsainagbeŋɔŋlɔ",
         "Hant": "blema tsainagbeŋɔŋlɔ",
         "Hebr": "hebrigbeŋɔŋlɔ",
@@ -49,7 +26,6 @@
         "Kore": "koreagbeŋɔŋlɔ",
         "Laoo": "laogbeŋɔŋlɔ",
         "Latn": "latingbeŋɔŋlɔ",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "Mlym": "malayagbeŋɔŋlɔ",
         "Mong": "mongoliagbeŋɔŋlɔ",
         "Mymr": "myanmargbeŋɔŋlɔ",

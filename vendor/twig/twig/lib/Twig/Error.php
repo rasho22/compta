@@ -155,8 +155,6 @@ class Twig_Error extends Exception
         throw new BadMethodCallException(sprintf('Method "Twig_Error::%s()" does not exist.', $method));
     }
 
-<<<<<<< HEAD
-=======
     public function appendMessage($rawMessage)
     {
         $this->rawMessage .= $rawMessage;
@@ -166,7 +164,6 @@ class Twig_Error extends Exception
     /**
      * @internal
      */
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     protected function updateRepr()
     {
         $this->message = $this->rawMessage;
@@ -177,15 +174,12 @@ class Twig_Error extends Exception
             $dot = true;
         }
 
-<<<<<<< HEAD
-=======
         $questionMark = false;
         if ('?' === substr($this->message, -1)) {
             $this->message = substr($this->message, 0, -1);
             $questionMark = true;
         }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         if ($this->filename) {
             if (is_string($this->filename) || (is_object($this->filename) && method_exists($this->filename, '__toString'))) {
                 $filename = sprintf('"%s"', $this->filename);
@@ -202,10 +196,6 @@ class Twig_Error extends Exception
         if ($dot) {
             $this->message .= '.';
         }
-<<<<<<< HEAD
-    }
-
-=======
 
         if ($questionMark) {
             $this->message .= '?';
@@ -215,7 +205,6 @@ class Twig_Error extends Exception
     /**
      * @internal
      */
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     protected function guessTemplateInfo()
     {
         $template = null;

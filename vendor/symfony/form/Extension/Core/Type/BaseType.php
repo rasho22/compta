@@ -15,10 +15,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\Form\FormView;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Form\Util\StringUtil;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
@@ -81,9 +78,6 @@ abstract class BaseType extends AbstractType
 
         $blockPrefixes = array();
         for ($type = $form->getConfig()->getType(); null !== $type; $type = $type->getParent()) {
-<<<<<<< HEAD
-            array_unshift($blockPrefixes, $type->getName());
-=======
             if (method_exists($type, 'getBlockPrefix')) {
                 array_unshift($blockPrefixes, $type->getBlockPrefix());
             } else {
@@ -95,7 +89,6 @@ abstract class BaseType extends AbstractType
 
                 array_unshift($blockPrefixes, $hasCustomName ? $name : StringUtil::fqcnToBlockPrefix($fqcn));
             }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
         $blockPrefixes[] = $uniqueBlockPrefix;
 

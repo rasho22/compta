@@ -30,22 +30,6 @@ class IntlDateFormatterTest extends AbstractIntlDateFormatterTest
         parent::setUp();
     }
 
-<<<<<<< HEAD
-    /**
-     * It seems IntlDateFormatter caches the timezone id when not explicitly set via constructor or by the
-     * setTimeZoneId() method. Since testFormatWithDefaultTimezoneIntl() runs using the default environment
-     * time zone, this test would use it too if not running in a separated process.
-     *
-     * @runInSeparateProcess
-     * @preserveGlobalState disabled
-     */
-    public function testFormatWithTimezoneFromEnvironmentVariable()
-    {
-        parent::testFormatWithTimezoneFromEnvironmentVariable();
-    }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     protected function getDateFormatter($locale, $datetype, $timetype, $timezone = null, $calendar = IntlDateFormatter::GREGORIAN, $pattern = null)
     {
         if (!$formatter = new \IntlDateFormatter($locale, $datetype, $timetype, $timezone, $calendar, $pattern)) {

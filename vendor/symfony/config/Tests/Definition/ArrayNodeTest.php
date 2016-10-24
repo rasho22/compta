@@ -12,10 +12,7 @@
 namespace Symfony\Component\Config\Tests\Definition;
 
 use Symfony\Component\Config\Definition\ArrayNode;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 use Symfony\Component\Config\Definition\ScalarNode;
 
 class ArrayNodeTest extends \PHPUnit_Framework_TestCase
@@ -39,21 +36,6 @@ class ArrayNodeTest extends \PHPUnit_Framework_TestCase
         $node->normalize(array('foo' => 'bar'));
     }
 
-<<<<<<< HEAD
-    /**
-     * Tests that no exception is thrown for an unrecognized child if the
-     * ignoreExtraKeys option is set to true.
-     *
-     * Related to testExceptionThrownOnUnrecognizedChild
-     */
-    public function testIgnoreExtraKeysNoException()
-    {
-        $node = new ArrayNode('roo');
-        $node->setIgnoreExtraKeys(true);
-
-        $node->normalize(array('foo' => 'bar'));
-        $this->assertTrue(true, 'No exception was thrown when setIgnoreExtraKeys is true');
-=======
     public function ignoreAndRemoveMatrixProvider()
     {
         $unrecognizedOptionException = new InvalidConfigurationException('Unrecognized option "foo" under "root"');
@@ -78,7 +60,6 @@ class ArrayNodeTest extends \PHPUnit_Framework_TestCase
         $node->setIgnoreExtraKeys($ignore, $remove);
         $result = $node->normalize(array('foo' => 'bar'));
         $this->assertSame($expected, $result, $message);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**

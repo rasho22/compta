@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.22.93",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Insula Ascension",
         "AD": "Andorra",
@@ -164,20 +160,12 @@
         "MV": "Maldive",
         "MW": "Malawi",
         "MX": "Mexic",
-<<<<<<< HEAD
-        "MY": "Malaysia",
-=======
         "MY": "Malaezia",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MZ": "Mozambic",
         "NA": "Namibia",
         "NC": "Noua Caledonie",
         "NE": "Niger",
-<<<<<<< HEAD
-        "NF": "Insula Norfolk",
-=======
         "NF": "Insulele Norfolk",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "NG": "Nigeria",
         "NI": "Nicaragua",
         "NL": "Țările de Jos",
@@ -221,11 +209,7 @@
         "SM": "San Marino",
         "SN": "Senegal",
         "SO": "Somalia",
-<<<<<<< HEAD
-        "SR": "Suriname",
-=======
         "SR": "Surinam",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SS": "Sudanul de Sud",
         "ST": "Sao Tome și Principe",
         "SV": "El Salvador",
@@ -256,11 +240,7 @@
         "UY": "Uruguay",
         "UZ": "Uzbekistan",
         "VA": "Statul Cetății Vaticanului",
-<<<<<<< HEAD
-        "VC": "Saint Vincent și Grenadinele",
-=======
         "VC": "Saint Vincent și Grenadine",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "VE": "Venezuela",
         "VG": "Insulele Virgine Britanice",
         "VI": "Insulele Virgine S.U.A.",

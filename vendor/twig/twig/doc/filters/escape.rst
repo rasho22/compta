@@ -97,14 +97,10 @@ used in the ``escape`` call) and the second one must be a valid PHP callable:
 .. code-block:: php
 
     $twig = new Twig_Environment($loader);
-<<<<<<< HEAD
-    $twig->getExtension('core')->setEscaper('csv', 'csv_escaper'));
-=======
     $twig->getExtension('Twig_Extension_Core')->setEscaper('csv', 'csv_escaper');
 
     // before Twig 1.26
     $twig->getExtension('core')->setEscaper('csv', 'csv_escaper');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 When called by Twig, the callable receives the Twig environment instance, the
 string to escape, and the charset.

@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "Version": "2.1.23.12",
-=======
     "Version": "2.1.12.94",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     "Names": {
         "AC": "Đảo Ascension",
         "AD": "Andorra",
@@ -31,11 +27,7 @@
         "BH": "Bahrain",
         "BI": "Burundi",
         "BJ": "Benin",
-<<<<<<< HEAD
-        "BL": "St. Barthélemy",
-=======
         "BL": "Saint Barthélemy",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "BM": "Bermuda",
         "BN": "Brunei",
         "BO": "Bolivia",
@@ -105,11 +97,7 @@
         "GU": "Guam",
         "GW": "Guinea-Bissau",
         "GY": "Guyana",
-<<<<<<< HEAD
-        "HK": "Hồng Kông, Trung Quốc",
-=======
         "HK": "Đặc khu hành chính Hồng Kông - Trung Quốc",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "HN": "Honduras",
         "HR": "Croatia",
         "HT": "Haiti",
@@ -134,11 +122,7 @@
         "KH": "Campuchia",
         "KI": "Kiribati",
         "KM": "Comoros",
-<<<<<<< HEAD
-        "KN": "St. Kitts và Nevis",
-=======
         "KN": "Saint Kitts và Nevis",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "KP": "Triều Tiên",
         "KR": "Hàn Quốc",
         "KW": "Cô-oét",
@@ -146,11 +130,7 @@
         "KZ": "Kazakhstan",
         "LA": "Lào",
         "LB": "Li-băng",
-<<<<<<< HEAD
-        "LC": "St. Lucia",
-=======
         "LC": "Saint Lucia",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "LI": "Liechtenstein",
         "LK": "Sri Lanka",
         "LR": "Liberia",
@@ -163,22 +143,14 @@
         "MC": "Monaco",
         "MD": "Moldova",
         "ME": "Montenegro",
-<<<<<<< HEAD
-        "MF": "St. Martin",
-=======
         "MF": "Saint Martin",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MG": "Madagascar",
         "MH": "Quần đảo Marshall",
         "MK": "Macedonia",
         "ML": "Mali",
         "MM": "Myanmar (Miến Điện)",
         "MN": "Mông Cổ",
-<<<<<<< HEAD
-        "MO": "Macao, Trung Quốc",
-=======
         "MO": "Đặc khu hành chính Macao - Trung Quốc",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "MP": "Quần đảo Bắc Mariana",
         "MQ": "Martinique",
         "MR": "Mauritania",
@@ -229,11 +201,7 @@
         "SD": "Sudan",
         "SE": "Thụy Điển",
         "SG": "Singapore",
-<<<<<<< HEAD
-        "SH": "St. Helena",
-=======
         "SH": "Saint Helena",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "SI": "Slovenia",
         "SJ": "Svalbard và Jan Mayen",
         "SK": "Slovakia",
@@ -272,11 +240,7 @@
         "UY": "Uruguay",
         "UZ": "Uzbekistan",
         "VA": "Thành Vatican",
-<<<<<<< HEAD
-        "VC": "St. Vincent và Grenadines",
-=======
         "VC": "Saint Vincent và Grenadines",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "VE": "Venezuela",
         "VG": "Quần đảo Virgin thuộc Anh",
         "VI": "Quần đảo Virgin thuộc Mỹ",

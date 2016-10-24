@@ -48,12 +48,8 @@
         "bg": "Bulgaria",
         "bg_BG": "Bulgaria (Bulgaria)",
         "bm": "Bambara",
-<<<<<<< HEAD
-        "bm_ML": "Bambara (Mali)",
-=======
         "bm_Latn": "Bambara (Latin)",
         "bm_Latn_ML": "Bambara (Latin, Mali)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "bn": "Benggala",
         "bn_BD": "Benggala (Bangladesh)",
         "bn_IN": "Benggala (India)",
@@ -73,11 +69,6 @@
         "ca_ES": "Catalonia (Sepanyol)",
         "ca_FR": "Catalonia (Perancis)",
         "ca_IT": "Catalonia (Itali)",
-<<<<<<< HEAD
-        "ce": "Chechen",
-        "ce_RU": "Chechen (Rusia)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "cs": "Czech",
         "cs_CZ": "Czech (Republik Czech)",
         "cy": "Wales",
@@ -99,52 +90,26 @@
         "ee_TG": "Ewe (Togo)",
         "el": "Greek",
         "el_CY": "Greek (Cyprus)",
-<<<<<<< HEAD
-        "el_GR": "Greek (Greece)",
-=======
         "el_GR": "Greek (Yunani)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en": "Inggeris",
         "en_AG": "Inggeris (Antigua dan Barbuda)",
         "en_AI": "Inggeris (Anguilla)",
         "en_AS": "Inggeris (Samoa Amerika)",
-<<<<<<< HEAD
-        "en_AT": "Inggeris (Austria)",
         "en_AU": "Inggeris (Australia)",
         "en_BB": "Inggeris (Barbados)",
         "en_BE": "Inggeris (Belgium)",
-        "en_BI": "Inggeris (Burundi)",
-=======
-        "en_AU": "Inggeris (Australia)",
-        "en_BB": "Inggeris (Barbados)",
-        "en_BE": "Inggeris (Belgium)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_BM": "Inggeris (Bermuda)",
         "en_BS": "Inggeris (Bahamas)",
         "en_BW": "Inggeris (Botswana)",
         "en_BZ": "Inggeris (Belize)",
         "en_CA": "Inggeris (Kanada)",
         "en_CC": "Inggeris (Kepulauan Cocos (Keeling))",
-<<<<<<< HEAD
-        "en_CH": "Inggeris (Switzerland)",
-        "en_CK": "Inggeris (Kepulauan Cook)",
-        "en_CM": "Inggeris (Cameroon)",
-        "en_CX": "Inggeris (Pulau Krismas)",
-        "en_CY": "Inggeris (Cyprus)",
-        "en_DE": "Inggeris (Jerman)",
-        "en_DG": "Inggeris (Diego Garcia)",
-        "en_DK": "Inggeris (Denmark)",
-        "en_DM": "Inggeris (Dominica)",
-        "en_ER": "Inggeris (Eritrea)",
-        "en_FI": "Inggeris (Finland)",
-=======
         "en_CK": "Inggeris (Kepulauan Cook)",
         "en_CM": "Inggeris (Cameroon)",
         "en_CX": "Inggeris (Pulau Krismas)",
         "en_DG": "Inggeris (Diego Garcia)",
         "en_DM": "Inggeris (Dominica)",
         "en_ER": "Inggeris (Eritrea)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_FJ": "Inggeris (Fiji)",
         "en_FK": "Inggeris (Kepulauan Falkland)",
         "en_FM": "Inggeris (Micronesia)",
@@ -158,10 +123,6 @@
         "en_GY": "Inggeris (Guyana)",
         "en_HK": "Inggeris (Hong Kong SAR China)",
         "en_IE": "Inggeris (Ireland)",
-<<<<<<< HEAD
-        "en_IL": "Inggeris (Israel)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_IM": "Inggeris (Isle of Man)",
         "en_IN": "Inggeris (India)",
         "en_IO": "Inggeris (Wilayah Lautan Hindi British)",
@@ -186,10 +147,6 @@
         "en_NA": "Inggeris (Namibia)",
         "en_NF": "Inggeris (Pulau Norfolk)",
         "en_NG": "Inggeris (Nigeria)",
-<<<<<<< HEAD
-        "en_NL": "Inggeris (Belanda)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_NR": "Inggeris (Nauru)",
         "en_NU": "Inggeris (Niue)",
         "en_NZ": "Inggeris (New Zealand)",
@@ -203,15 +160,8 @@
         "en_SB": "Inggeris (Kepulauan Solomon)",
         "en_SC": "Inggeris (Seychelles)",
         "en_SD": "Inggeris (Sudan)",
-<<<<<<< HEAD
-        "en_SE": "Inggeris (Sweden)",
         "en_SG": "Inggeris (Singapura)",
         "en_SH": "Inggeris (Saint Helena)",
-        "en_SI": "Inggeris (Slovenia)",
-=======
-        "en_SG": "Inggeris (Singapura)",
-        "en_SH": "Inggeris (Saint Helena)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "en_SL": "Inggeris (Sierra Leone)",
         "en_SS": "Inggeris (Sudan Selatan)",
         "en_SX": "Inggeris (Sint Maarten)",
@@ -270,10 +220,6 @@
         "fi": "Finland",
         "fi_FI": "Finland (Finland)",
         "fo": "Faroe",
-<<<<<<< HEAD
-        "fo_DK": "Faroe (Denmark)",
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "fo_FO": "Faroe (Kepulauan Faroe)",
         "fr": "Perancis",
         "fr_BE": "Perancis (Belgium)",
@@ -322,13 +268,8 @@
         "fr_VU": "Perancis (Vanuatu)",
         "fr_WF": "Perancis (Wallis dan Futuna)",
         "fr_YT": "Perancis (Mayotte)",
-<<<<<<< HEAD
-        "fy": "Frisian Barat",
-        "fy_NL": "Frisian Barat (Belanda)",
-=======
         "fy": "Frisian",
         "fy_NL": "Frisian (Belanda)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ga": "Ireland",
         "ga_IE": "Ireland (Ireland)",
         "gd": "Scots Gaelic",
@@ -341,28 +282,19 @@
         "gv_IM": "Manx (Isle of Man)",
         "ha": "Hausa",
         "ha_GH": "Hausa (Ghana)",
-<<<<<<< HEAD
-=======
         "ha_Latn": "Hausa (Latin)",
         "ha_Latn_GH": "Hausa (Latin, Ghana)",
         "ha_Latn_NE": "Hausa (Latin, Niger)",
         "ha_Latn_NG": "Hausa (Latin, Nigeria)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ha_NE": "Hausa (Niger)",
         "ha_NG": "Hausa (Nigeria)",
         "he": "Ibrani",
         "he_IL": "Ibrani (Israel)",
         "hi": "Hindi",
         "hi_IN": "Hindi (India)",
-<<<<<<< HEAD
-        "hr": "Croatia",
-        "hr_BA": "Croatia (Bosnia dan Herzegovina)",
-        "hr_HR": "Croatia (Croatia)",
-=======
         "hr": "Croat",
         "hr_BA": "Croat (Bosnia dan Herzegovina)",
         "hr_HR": "Croat (Croatia)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "hu": "Hungary",
         "hu_HU": "Hungary (Hungary)",
         "hy": "Armenia",
@@ -386,11 +318,8 @@
         "ki": "Kikuya",
         "ki_KE": "Kikuya (Kenya)",
         "kk": "Kazakhstan",
-<<<<<<< HEAD
-=======
         "kk_Cyrl": "Kazakhstan (Cyril)",
         "kk_Cyrl_KZ": "Kazakhstan (Cyril, Kazakhstan)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "kk_KZ": "Kazakhstan (Kazakhstan)",
         "kl": "Kalaallisut",
         "kl_GL": "Kalaallisut (Greenland)",
@@ -402,20 +331,14 @@
         "ko_KP": "Korea (Korea Utara)",
         "ko_KR": "Korea (Korea Selatan)",
         "ks": "Kashmir",
-<<<<<<< HEAD
-=======
         "ks_Arab": "Kashmir (Arab)",
         "ks_Arab_IN": "Kashmir (Arab, India)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ks_IN": "Kashmir (India)",
         "kw": "Cornish",
         "kw_GB": "Cornish (United Kingdom)",
         "ky": "Kirghiz",
-<<<<<<< HEAD
-=======
         "ky_Cyrl": "Kirghiz (Cyril)",
         "ky_Cyrl_KG": "Kirghiz (Cyril, Kyrgyzstan)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ky_KG": "Kirghiz (Kyrgyzstan)",
         "lb": "Luxembourg",
         "lb_LU": "Luxembourg (Luxembourg)",
@@ -441,23 +364,17 @@
         "ml": "Malayalam",
         "ml_IN": "Malayalam (India)",
         "mn": "Mongolia",
-<<<<<<< HEAD
-=======
         "mn_Cyrl": "Mongolia (Cyril)",
         "mn_Cyrl_MN": "Mongolia (Cyril, Mongolia)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "mn_MN": "Mongolia (Mongolia)",
         "mr": "Marathi",
         "mr_IN": "Marathi (India)",
         "ms": "Bahasa Melayu",
         "ms_BN": "Bahasa Melayu (Brunei)",
-<<<<<<< HEAD
-=======
         "ms_Latn": "Bahasa Melayu (Latin)",
         "ms_Latn_BN": "Bahasa Melayu (Latin, Brunei)",
         "ms_Latn_MY": "Bahasa Melayu (Latin, Malaysia)",
         "ms_Latn_SG": "Bahasa Melayu (Latin, Singapura)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ms_MY": "Bahasa Melayu (Malaysia)",
         "ms_SG": "Bahasa Melayu (Singapura)",
         "mt": "Malta",
@@ -600,11 +517,8 @@
         "tr_CY": "Turki (Cyprus)",
         "tr_TR": "Turki (Turki)",
         "ug": "Uyghur",
-<<<<<<< HEAD
-=======
         "ug_Arab": "Uyghur (Arab)",
         "ug_Arab_CN": "Uyghur (Arab, China)",
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         "ug_CN": "Uyghur (China)",
         "uk": "Ukraine",
         "uk_UA": "Ukraine (Ukraine)",
