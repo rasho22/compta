@@ -10,6 +10,7 @@ use compta\Domain\Depenses;
 
 class AdminController {
 
+
     public function loginAction(Request $request, Application $app) {
         return $app->render('/login', array(
             'error'         => $app['security.last_error']($request),
@@ -17,9 +18,9 @@ class AdminController {
         ));
     }
 
+    /**
+     * Admin home page controller.
 
-        /**
-     * Add user controller.
      *
      * @param Request $request Incoming request
      * @param Application $app Silex application

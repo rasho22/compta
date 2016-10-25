@@ -4,34 +4,28 @@ namespace compta\Controller;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
-<<<<<<< HEAD
-use compta\Domain\Depenses;
-use compta\Domain\User;
 use compta\Domain\UserGroup;
+use compta\Domain\User;
+use compta\Domain\Depenses;
 
-=======
-use compta\Domain\UserGroup;
-use compta\Domain\User;
-use compta\Domain\Depenses;
->>>>>>> 96f9626674bd8e4a9ed927ca1c0ad38b10f01a31
 
 class HomeController {
 
     /**
-<<<<<<< HEAD
+
      * Home page controller.
      *
      * @param Application $app Silex application
      */
     public function indexAction(Application $app) {
+          $user = $app['dao.user']->findAll()
+        return $app->json(array(
+            'records' => $result,
+            'status' => 'OK'
+        ), 200);
 
-=======
-     * group details controller.
-     *
-     * @param integer $id group id
-     * @param Request $request Incoming request
-     * @param Application $app Silex application
-     */
+    }
+
     public function groupAction($id_user_group, Request $request, Application $app) {
         $group = $app['dao.group']->find($id_user_group);
         
@@ -48,20 +42,15 @@ class HomeController {
          return $app->json((array('success', 'Details the group.'));
     }
 
-/**
-     * Home page controller.
-     *
-     * @param Application $app Silex application
-     */
-    public function indexAction(Application $app) {
->>>>>>> 96f9626674bd8e4a9ed927ca1c0ad38b10f01a31
-        $user = $app['dao.user']->findAll()
-        return $app->json(array(
-            'records' => $result,
-            'status' => 'OK'
-        ), 200);
-    
-    }
+
+    public function loginAction(Request $request, Application $app) {
+       return $app->render('/login', array(
+            'error'         => $app['security.last_error']($request),
+            'last_username' => $app['session']->get('_security.last_username'),
+            ));
+
+
 
    
+}
 }
