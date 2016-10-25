@@ -9,22 +9,36 @@ use compta\Domain\Depenses;
 
 
 class AdminController {
-<<<<<<< Updated upstream
 
     public function loginAction(Request $request, Application $app) {
-        return $app->render('/login', array(
-            'error'         => $app['security.last_error']($request),
-            'last_username' => $app['session']->get('_security.last_username'),
-        ));
+        $app['security.firewalls'] = array(
+            'login' => array(
+                'pattern' => '^/login$',
+            ),
+            'secured' => array(
+                'pattern' => '^.*$',
+                'form' => array('login_path' => '/login', 'check_path' => '/login_check'),
+
+            ),
+        );
     }
 
+    public function logoutAction (Request $request, Application $app)
+    {
+        $app['security.firewalls'] = array(
+            'secured' => array(
+                'pattern' => '^/admin/',
+                'form' => array('login_path' => '/login', 'check_path' => '/admin/login_check'),
 
+
+            ),
+        );
+    }
         /**
      * Add user controller.
-=======
     /**
      * Admin home page controller.
->>>>>>> Stashed changes
+
      *
      * @param Request $request Incoming request
      * @param Application $app Silex application
