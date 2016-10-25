@@ -50,6 +50,14 @@ $app['dao.user'] = $app->share(function ($app) {
     return new compta\DAO\UserDAO($app['db']);
 });
 
+$app['dao.group'] = $app->share(function ($app) {
+    return new compta\DAO\GroupDAO($app['db']);
+});
+
+$app['dao.depense'] = $app->share(function ($app) {
+   return new compta\DAO\DepenseDAO($app['db']);
+});
+
 // Register error handler
 $app->error(function (\Exception $e, $code) use ($app) {
     switch ($code) {
