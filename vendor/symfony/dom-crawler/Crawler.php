@@ -18,11 +18,7 @@ use Symfony\Component\CssSelector\CssSelectorConverter;
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */
-<<<<<<< HEAD
-class Crawler extends \SplObjectStorage
-=======
 class Crawler implements \Countable, \IteratorAggregate
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     /**
      * @var string The current URI
@@ -50,14 +46,11 @@ class Crawler implements \Countable, \IteratorAggregate
     private $document;
 
     /**
-<<<<<<< HEAD
-=======
      * @var \DOMElement[]
      */
     private $nodes = array();
 
     /**
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * Whether the Crawler contains HTML or XML content (used when converting CSS to XPath).
      *
      * @var bool
@@ -84,11 +77,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function clear()
     {
-<<<<<<< HEAD
-        parent::removeAll($this);
-=======
         $this->nodes = array();
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->document = null;
     }
 
@@ -310,38 +299,19 @@ class Crawler implements \Countable, \IteratorAggregate
         }
 
         if (null !== $this->document && $this->document !== $node->ownerDocument) {
-<<<<<<< HEAD
-            @trigger_error('Attaching DOM nodes from multiple documents in a Crawler is deprecated as of 2.8 and will be forbidden in 3.0.', E_USER_DEPRECATED);
-=======
             throw new \InvalidArgumentException('Attaching DOM nodes from multiple documents in the same crawler is forbidden.');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         if (null === $this->document) {
             $this->document = $node->ownerDocument;
         }
 
-<<<<<<< HEAD
-        parent::attach($node);
-    }
-
-    // Serializing and unserializing a crawler creates DOM objects in a corrupted state. DOM elements are not properly serializable.
-    public function unserialize($serialized)
-    {
-        throw new \BadMethodCallException('A Crawler cannot be serialized.');
-    }
-
-    public function serialize()
-    {
-        throw new \BadMethodCallException('A Crawler cannot be serialized.');
-=======
         // Don't add duplicate nodes in the Crawler
         if (in_array($node, $this->nodes, true)) {
             return;
         }
 
         $this->nodes[] = $node;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -353,15 +323,8 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function eq($position)
     {
-<<<<<<< HEAD
-        foreach ($this as $i => $node) {
-            if ($i == $position) {
-                return $this->createSubCrawler($node);
-            }
-=======
         if (isset($this->nodes[$position])) {
             return $this->createSubCrawler($this->nodes[$position]);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
 
         return $this->createSubCrawler(null);
@@ -386,11 +349,7 @@ class Crawler implements \Countable, \IteratorAggregate
     public function each(\Closure $closure)
     {
         $data = array();
-<<<<<<< HEAD
-        foreach ($this as $i => $node) {
-=======
         foreach ($this->nodes as $i => $node) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $data[] = $closure($this->createSubCrawler($node), $i);
         }
 
@@ -405,15 +364,9 @@ class Crawler implements \Countable, \IteratorAggregate
      *
      * @return Crawler A Crawler instance with the sliced nodes
      */
-<<<<<<< HEAD
-    public function slice($offset = 0, $length = -1)
-    {
-        return $this->createSubCrawler(iterator_to_array(new \LimitIterator($this, $offset, $length)));
-=======
     public function slice($offset = 0, $length = null)
     {
         return $this->createSubCrawler(array_slice($this->nodes, $offset, $length));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -428,11 +381,7 @@ class Crawler implements \Countable, \IteratorAggregate
     public function reduce(\Closure $closure)
     {
         $nodes = array();
-<<<<<<< HEAD
-        foreach ($this as $i => $node) {
-=======
         foreach ($this->nodes as $i => $node) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             if (false !== $closure($this->createSubCrawler($node), $i)) {
                 $nodes[] = $node;
             }
@@ -458,11 +407,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function last()
     {
-<<<<<<< HEAD
-        return $this->eq(count($this) - 1);
-=======
         return $this->eq(count($this->nodes) - 1);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -474,11 +419,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function siblings()
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -494,11 +435,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function nextAll()
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -514,11 +451,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function previousAll()
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -534,11 +467,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function parents()
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -563,11 +492,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function children()
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -587,11 +512,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function attr($attribute)
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -609,11 +530,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function nodeName()
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -629,11 +546,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function text()
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -649,11 +562,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function html()
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -684,11 +593,7 @@ class Crawler implements \Countable, \IteratorAggregate
         $count = count($attributes);
 
         $data = array();
-<<<<<<< HEAD
-        foreach ($this as $node) {
-=======
         foreach ($this->nodes as $node) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $elements = array();
             foreach ($attributes as $attribute) {
                 if ('_text' === $attribute) {
@@ -794,11 +699,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function link($method = 'get')
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -821,11 +722,7 @@ class Crawler implements \Countable, \IteratorAggregate
     public function links()
     {
         $links = array();
-<<<<<<< HEAD
-        foreach ($this as $node) {
-=======
         foreach ($this->nodes as $node) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             if (!$node instanceof \DOMElement) {
                 throw new \InvalidArgumentException(sprintf('The current node list should contain only DOMElement instances, "%s" found.', get_class($node)));
             }
@@ -848,11 +745,7 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function form(array $values = null, $method = null)
     {
-<<<<<<< HEAD
-        if (!count($this)) {
-=======
         if (!$this->nodes) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             throw new \InvalidArgumentException('The current node list is empty.');
         }
 
@@ -938,129 +831,6 @@ class Crawler implements \Countable, \IteratorAggregate
     }
 
     /**
-<<<<<<< HEAD
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function attach($object, $data = null)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        parent::attach($object, $data);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function detach($object)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        parent::detach($object);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function contains($object)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        return parent::contains($object);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function addAll($storage)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        parent::addAll($storage);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function removeAll($storage)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        parent::removeAll($storage);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function removeAllExcept($storage)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        parent::removeAllExcept($storage);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function getInfo()
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        return parent::getInfo();
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function setInfo($data)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        parent::setInfo($data);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function offsetExists($object)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        return parent::offsetExists($object);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function offsetSet($object, $data = null)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        parent::offsetSet($object, $data);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function offsetUnset($object)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        parent::offsetUnset($object);
-    }
-
-    /**
-     * @deprecated Using the SplObjectStorage API on the Crawler is deprecated as of 2.8 and will be removed in 3.0.
-     */
-    public function offsetGet($object)
-    {
-        $this->triggerDeprecation(__METHOD__);
-
-        return parent::offsetGet($object);
-    }
-
-    /**
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * Filters the list of nodes with an XPath expression.
      *
      * The XPath expression should already be processed to apply it in the context of each node.
@@ -1075,11 +845,7 @@ class Crawler implements \Countable, \IteratorAggregate
 
         $crawler = $this->createSubCrawler(null);
 
-<<<<<<< HEAD
-        foreach ($this as $node) {
-=======
         foreach ($this->nodes as $node) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $domxpath = $this->createDOMXPath($node->ownerDocument, $prefixes);
             $crawler->add($domxpath->query($xpath, $node));
         }
@@ -1118,16 +884,7 @@ class Crawler implements \Countable, \IteratorAggregate
                 $expression = substr($expression, strlen($parenthesis));
             }
 
-<<<<<<< HEAD
-            // BC for Symfony 2.4 and lower were elements were adding in a fake _root parent
-            if (0 === strpos($expression, '/_root/')) {
-                @trigger_error('XPath expressions referencing the fake root node are deprecated since version 2.8 and will be unsupported in 3.0. Please use "./" instead of "/_root/".', E_USER_DEPRECATED);
-
-                $expression = './'.substr($expression, 7);
-            } elseif (0 === strpos($expression, 'self::*/')) {
-=======
             if (0 === strpos($expression, 'self::*/')) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 $expression = './'.substr($expression, 8);
             }
 
@@ -1142,16 +899,7 @@ class Crawler implements \Countable, \IteratorAggregate
                 $expression = 'self::'.substr($expression, 2);
             } elseif (0 === strpos($expression, 'child::')) {
                 $expression = 'self::'.substr($expression, 7);
-<<<<<<< HEAD
-            } elseif ('/' === $expression[0] || 0 === strpos($expression, 'self::')) {
-                // the only direct child in Symfony 2.4 and lower is _root, which is already handled previously
-                // so let's drop the expression entirely
-                $expression = $nonMatchingExpression;
-            } elseif ('.' === $expression[0]) {
-                // '.' is the fake root element in Symfony 2.4 and lower, which is excluded from results
-=======
             } elseif ('/' === $expression[0] || '.' === $expression[0] || 0 === strpos($expression, 'self::')) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 $expression = $nonMatchingExpression;
             } elseif (0 === strpos($expression, 'descendant::')) {
                 $expression = 'descendant-or-self::'.substr($expression, strlen('descendant::'));
@@ -1174,21 +922,12 @@ class Crawler implements \Countable, \IteratorAggregate
      */
     public function getNode($position)
     {
-<<<<<<< HEAD
-        foreach ($this as $i => $node) {
-            if ($i == $position) {
-                return $node;
-            }
-=======
         if (isset($this->nodes[$position])) {
             return $this->nodes[$position];
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         }
     }
 
     /**
-<<<<<<< HEAD
-=======
      * @return int
      */
     public function count()
@@ -1205,7 +944,6 @@ class Crawler implements \Countable, \IteratorAggregate
     }
 
     /**
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * @param \DOMElement $node
      * @param string      $siblingDir
      *
@@ -1298,26 +1036,4 @@ class Crawler implements \Countable, \IteratorAggregate
 
         return $crawler;
     }
-<<<<<<< HEAD
-
-    private function triggerDeprecation($methodName, $useTrace = false)
-    {
-        if ($useTrace || defined('HHVM_VERSION')) {
-            if (PHP_VERSION_ID >= 50400) {
-                $trace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 3);
-            } else {
-                $trace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
-            }
-
-            // The SplObjectStorage class performs calls to its own methods. These
-            // method calls must not lead to triggered deprecation notices.
-            if (isset($trace[2]['class']) && 'SplObjectStorage' === $trace[2]['class']) {
-                return;
-            }
-        }
-
-        @trigger_error('The '.$methodName.' method is deprecated since version 2.8 and will be removed in 3.0.', E_USER_DEPRECATED);
-    }
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

@@ -37,11 +37,8 @@ interface AccessDecisionManagerInterface
      * @param string $attribute An attribute
      *
      * @return bool true if this decision manager supports the attribute, false otherwise
-<<<<<<< HEAD
-=======
      *
      * @deprecated since version 2.8, to be removed in 3.0.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function supportsAttribute($attribute);
 
@@ -51,11 +48,8 @@ interface AccessDecisionManagerInterface
      * @param string $class A class name
      *
      * @return true if this decision manager can process the class
-<<<<<<< HEAD
-=======
      *
      * @deprecated since version 2.8, to be removed in 3.0.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function supportsClass($class);
 }

@@ -46,11 +46,8 @@ class TranslationDataCollectorTest extends \PHPUnit_Framework_TestCase
                   'locale' => 'en',
                   'domain' => 'messages',
                   'state' => DataCollectorTranslator::MESSAGE_DEFINED,
-<<<<<<< HEAD
-=======
                   'parameters' => array(),
                   'transChoiceNumber' => null,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ),
             array(
                   'id' => 'bar',
@@ -58,11 +55,8 @@ class TranslationDataCollectorTest extends \PHPUnit_Framework_TestCase
                   'locale' => 'fr',
                   'domain' => 'messages',
                   'state' => DataCollectorTranslator::MESSAGE_EQUALS_FALLBACK,
-<<<<<<< HEAD
-=======
                   'parameters' => array(),
                   'transChoiceNumber' => null,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ),
             array(
                   'id' => 'choice',
@@ -70,11 +64,8 @@ class TranslationDataCollectorTest extends \PHPUnit_Framework_TestCase
                   'locale' => 'en',
                   'domain' => 'messages',
                   'state' => DataCollectorTranslator::MESSAGE_MISSING,
-<<<<<<< HEAD
-=======
                   'parameters' => array('%count%' => 3),
                   'transChoiceNumber' => 3,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ),
             array(
                   'id' => 'choice',
@@ -82,8 +73,6 @@ class TranslationDataCollectorTest extends \PHPUnit_Framework_TestCase
                   'locale' => 'en',
                   'domain' => 'messages',
                   'state' => DataCollectorTranslator::MESSAGE_MISSING,
-<<<<<<< HEAD
-=======
                   'parameters' => array('%count%' => 3),
                   'transChoiceNumber' => 3,
             ),
@@ -95,7 +84,6 @@ class TranslationDataCollectorTest extends \PHPUnit_Framework_TestCase
                   'state' => DataCollectorTranslator::MESSAGE_MISSING,
                   'parameters' => array('%count%' => 4, '%foo%' => 'bar'),
                   'transChoiceNumber' => 4,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ),
         );
         $expectedMessages = array(
@@ -106,11 +94,8 @@ class TranslationDataCollectorTest extends \PHPUnit_Framework_TestCase
                   'domain' => 'messages',
                   'state' => DataCollectorTranslator::MESSAGE_DEFINED,
                   'count' => 1,
-<<<<<<< HEAD
-=======
                   'parameters' => array(),
                   'transChoiceNumber' => null,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ),
             array(
                   'id' => 'bar',
@@ -119,11 +104,8 @@ class TranslationDataCollectorTest extends \PHPUnit_Framework_TestCase
                   'domain' => 'messages',
                   'state' => DataCollectorTranslator::MESSAGE_EQUALS_FALLBACK,
                   'count' => 1,
-<<<<<<< HEAD
-=======
                   'parameters' => array(),
                   'transChoiceNumber' => null,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ),
             array(
                   'id' => 'choice',
@@ -131,9 +113,6 @@ class TranslationDataCollectorTest extends \PHPUnit_Framework_TestCase
                   'locale' => 'en',
                   'domain' => 'messages',
                   'state' => DataCollectorTranslator::MESSAGE_MISSING,
-<<<<<<< HEAD
-                  'count' => 2,
-=======
                   'count' => 3,
                   'parameters' => array(
                       array('%count%' => 3),
@@ -141,7 +120,6 @@ class TranslationDataCollectorTest extends \PHPUnit_Framework_TestCase
                       array('%count%' => 4, '%foo%' => 'bar'),
                   ),
                   'transChoiceNumber' => 3,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ),
         );
 

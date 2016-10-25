@@ -17,56 +17,34 @@ use Symfony\Component\Translation\MessageCatalogueInterface;
 /**
  * Base catalogues binary operation class.
  *
-<<<<<<< HEAD
-=======
  * A catalogue binary operation performs operation on
  * source (the left argument) and target (the right argument) catalogues.
  *
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  * @author Jean-François Simon <contact@jfsimon.fr>
  */
 abstract class AbstractOperation implements OperationInterface
 {
     /**
-<<<<<<< HEAD
-     * @var MessageCatalogueInterface
-=======
      * @var MessageCatalogueInterface The source catalogue
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     protected $source;
 
     /**
-<<<<<<< HEAD
-     * @var MessageCatalogueInterface
-=======
      * @var MessageCatalogueInterface The target catalogue
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     protected $target;
 
     /**
-<<<<<<< HEAD
-     * @var MessageCatalogue
-=======
      * @var MessageCatalogue The result catalogue
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     protected $result;
 
     /**
-<<<<<<< HEAD
-     * @var null|array
-=======
      * @var null|array The domains affected by this operation
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     private $domains;
 
     /**
-<<<<<<< HEAD
-     * @var array
-=======
      * This array stores 'all', 'new' and 'obsolete' messages for all valid domains.
      *
      * The data structure of this array is as follows:
@@ -87,18 +65,12 @@ abstract class AbstractOperation implements OperationInterface
      * ```
      *
      * @var array The array that stores 'all', 'new' and 'obsolete' messages
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     protected $messages;
 
     /**
-<<<<<<< HEAD
-     * @param MessageCatalogueInterface $source
-     * @param MessageCatalogueInterface $target
-=======
      * @param MessageCatalogueInterface $source The source catalogue
      * @param MessageCatalogueInterface $target The target catalogue
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *
      * @throws \LogicException
      */
@@ -190,14 +162,10 @@ abstract class AbstractOperation implements OperationInterface
     }
 
     /**
-<<<<<<< HEAD
-     * @param string $domain
-=======
      * Performs operation on source and target catalogues for the given domain and
      * stores the results.
      *
      * @param string $domain The domain which the operation will be performed for
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     abstract protected function processDomain($domain);
 }

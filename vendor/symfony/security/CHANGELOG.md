@@ -1,8 +1,6 @@
 CHANGELOG
 =========
 
-<<<<<<< HEAD
-=======
 2.8.0
 -----
 
@@ -23,7 +21,6 @@ CHANGELOG
  * deprecated the `intention` option for all the authentication listeners,
    use the `csrf_token_id` option instead.
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 2.7.0
 -----
 

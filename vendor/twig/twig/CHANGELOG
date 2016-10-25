@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 * 1.26.1 (2016-10-05)
 
  * fixed default implementation of Twig_Template::getDebugInfo() for better BC
@@ -95,7 +93,6 @@
  * added a way to override the filesystem template cache system
  * added a way to get the original template source from Twig_Template
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 * 1.21.2 (2015-09-09)
 
  * fixed variable names for the deprecation triggering code

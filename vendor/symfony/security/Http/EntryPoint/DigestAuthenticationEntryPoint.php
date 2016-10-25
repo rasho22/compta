@@ -24,26 +24,15 @@ use Psr\Log\LoggerInterface;
  */
 class DigestAuthenticationEntryPoint implements AuthenticationEntryPointInterface
 {
-<<<<<<< HEAD
-    private $key;
-=======
     private $secret;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     private $realmName;
     private $nonceValiditySeconds;
     private $logger;
 
-<<<<<<< HEAD
-    public function __construct($realmName, $key, $nonceValiditySeconds = 300, LoggerInterface $logger = null)
-    {
-        $this->realmName = $realmName;
-        $this->key = $key;
-=======
     public function __construct($realmName, $secret, $nonceValiditySeconds = 300, LoggerInterface $logger = null)
     {
         $this->realmName = $realmName;
         $this->secret = $secret;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->nonceValiditySeconds = $nonceValiditySeconds;
         $this->logger = $logger;
     }
@@ -54,11 +43,7 @@ class DigestAuthenticationEntryPoint implements AuthenticationEntryPointInterfac
     public function start(Request $request, AuthenticationException $authException = null)
     {
         $expiryTime = microtime(true) + $this->nonceValiditySeconds * 1000;
-<<<<<<< HEAD
-        $signatureValue = md5($expiryTime.':'.$this->key);
-=======
         $signatureValue = md5($expiryTime.':'.$this->secret);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $nonceValue = $expiryTime.':'.$signatureValue;
         $nonceValueBase64 = base64_encode($nonceValue);
 
@@ -80,13 +65,6 @@ class DigestAuthenticationEntryPoint implements AuthenticationEntryPointInterfac
     }
 
     /**
-<<<<<<< HEAD
-     * @return string
-     */
-    public function getKey()
-    {
-        return $this->key;
-=======
      * @deprecated Since version 2.8, to be removed in 3.0. Use getSecret() instead.
      */
     public function getKey()
@@ -102,7 +80,6 @@ class DigestAuthenticationEntryPoint implements AuthenticationEntryPointInterfac
     public function getSecret()
     {
         return $this->secret;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**

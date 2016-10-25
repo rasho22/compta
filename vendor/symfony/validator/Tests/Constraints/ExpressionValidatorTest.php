@@ -40,10 +40,7 @@ class ExpressionValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', 'null')
-<<<<<<< HEAD
-=======
             ->setCode(Expression::EXPRESSION_FAILED_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -58,10 +55,7 @@ class ExpressionValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', '""')
-<<<<<<< HEAD
-=======
             ->setCode(Expression::EXPRESSION_FAILED_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -95,10 +89,7 @@ class ExpressionValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', 'object')
-<<<<<<< HEAD
-=======
             ->setCode(Expression::EXPRESSION_FAILED_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -135,14 +126,9 @@ class ExpressionValidatorTest extends AbstractConstraintValidatorTest
         $this->validator->validate('2', $constraint);
 
         $this->buildViolation('myMessage')
-<<<<<<< HEAD
-            ->setParameter('{{ value }}', '"2"')
-            ->atPath('data')
-=======
             ->atPath('data')
             ->setParameter('{{ value }}', '"2"')
             ->setCode(Expression::EXPRESSION_FAILED_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -185,14 +171,9 @@ class ExpressionValidatorTest extends AbstractConstraintValidatorTest
         $this->validator->validate('2', $constraint);
 
         $this->buildViolation('myMessage')
-<<<<<<< HEAD
-            ->setParameter('{{ value }}', '"2"')
-            ->atPath('reference.data')
-=======
             ->atPath('reference.data')
             ->setParameter('{{ value }}', '"2"')
             ->setCode(Expression::EXPRESSION_FAILED_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 
@@ -231,12 +212,6 @@ class ExpressionValidatorTest extends AbstractConstraintValidatorTest
         $this->validator->validate('2', $constraint);
 
         $this->buildViolation('myMessage')
-<<<<<<< HEAD
-            ->setParameter('{{ value }}', '"2"')
-            ->atPath('')
-            ->assertRaised();
-    }
-=======
             ->atPath('')
             ->setParameter('{{ value }}', '"2"')
             ->setCode(Expression::EXPRESSION_FAILED_ERROR)
@@ -266,5 +241,4 @@ class ExpressionValidatorTest extends AbstractConstraintValidatorTest
 
         $this->assertTrue($used, 'Failed asserting that custom ExpressionLanguage instance is used.');
     }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

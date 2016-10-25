@@ -29,10 +29,7 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
     protected $addIfNotSet = false;
     protected $performDeepMerging = true;
     protected $ignoreExtraKeys = false;
-<<<<<<< HEAD
-=======
     protected $removeExtraKeys = true;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     protected $normalizeKeys = true;
 
     public function setNormalizeKeys($normalizeKeys)
@@ -147,19 +144,12 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
      * Whether extra keys should just be ignore without an exception.
      *
      * @param bool $boolean To allow extra keys
-<<<<<<< HEAD
-     */
-    public function setIgnoreExtraKeys($boolean)
-    {
-        $this->ignoreExtraKeys = (bool) $boolean;
-=======
      * @param bool $remove  To remove extra keys
      */
     public function setIgnoreExtraKeys($boolean, $remove = true)
     {
         $this->ignoreExtraKeys = (bool) $boolean;
         $this->removeExtraKeys = $this->ignoreExtraKeys && $remove;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -316,11 +306,8 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
             if (isset($this->children[$name])) {
                 $normalized[$name] = $this->children[$name]->normalize($val);
                 unset($value[$name]);
-<<<<<<< HEAD
-=======
             } elseif (!$this->removeExtraKeys) {
                 $normalized[$name] = $val;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
         }
 

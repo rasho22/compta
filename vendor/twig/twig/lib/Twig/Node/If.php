@@ -19,16 +19,6 @@ class Twig_Node_If extends Twig_Node
 {
     public function __construct(Twig_NodeInterface $tests, Twig_NodeInterface $else = null, $lineno, $tag = null)
     {
-<<<<<<< HEAD
-        parent::__construct(array('tests' => $tests, 'else' => $else), array(), $lineno, $tag);
-    }
-
-    /**
-     * Compiles the node to PHP.
-     *
-     * @param Twig_Compiler $compiler A Twig_Compiler instance
-     */
-=======
         $nodes = array('tests' => $tests);
         if (null !== $else) {
             $nodes['else'] = $else;
@@ -37,7 +27,6 @@ class Twig_Node_If extends Twig_Node
         parent::__construct($nodes, array(), $lineno, $tag);
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function compile(Twig_Compiler $compiler)
     {
         $compiler->addDebugInfo($this);
@@ -61,11 +50,7 @@ class Twig_Node_If extends Twig_Node
             ;
         }
 
-<<<<<<< HEAD
-        if ($this->hasNode('else') && null !== $this->getNode('else')) {
-=======
         if ($this->hasNode('else')) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $compiler
                 ->outdent()
                 ->write("} else {\n")

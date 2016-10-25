@@ -31,11 +31,7 @@ class TranslationExtensionTest extends \PHPUnit_Framework_TestCase
     public function testTrans($template, $expected, array $variables = array())
     {
         if ($expected != $this->getTemplate($template)->render($variables)) {
-<<<<<<< HEAD
-            print $template."\n";
-=======
             echo $template."\n";
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $loader = new \Twig_Loader_Array(array('index' => $template));
             $twig = new \Twig_Environment($loader, array('debug' => true, 'cache' => false));
             $twig->addExtension(new TranslationExtension(new Translator('en', new MessageSelector())));
@@ -91,19 +87,6 @@ class TranslationExtensionTest extends \PHPUnit_Framework_TestCase
 
             // transchoice
             array('{% transchoice count from "messages" %}{0} There is no apples|{1} There is one apple|]1,Inf] There is %count% apples{% endtranschoice %}',
-<<<<<<< HEAD
-                'There is no apples', array('count' => 0),),
-            array('{% transchoice count %}{0} There is no apples|{1} There is one apple|]1,Inf] There is %count% apples{% endtranschoice %}',
-                'There is 5 apples', array('count' => 5),),
-            array('{% transchoice count %}{0} There is no apples|{1} There is one apple|]1,Inf] There is %count% apples (%name%){% endtranschoice %}',
-                'There is 5 apples (Symfony)', array('count' => 5, 'name' => 'Symfony'),),
-            array('{% transchoice count with { \'%name%\': \'Symfony\' } %}{0} There is no apples|{1} There is one apple|]1,Inf] There is %count% apples (%name%){% endtranschoice %}',
-                'There is 5 apples (Symfony)', array('count' => 5),),
-            array('{% transchoice count into "fr"%}{0} There is no apples|{1} There is one apple|]1,Inf] There is %count% apples{% endtranschoice %}',
-                'There is no apples', array('count' => 0),),
-            array('{% transchoice 5 into "fr"%}{0} There is no apples|{1} There is one apple|]1,Inf] There is %count% apples{% endtranschoice %}',
-                'There is 5 apples',),
-=======
                 'There is no apples', array('count' => 0)),
             array('{% transchoice count %}{0} There is no apples|{1} There is one apple|]1,Inf] There is %count% apples{% endtranschoice %}',
                 'There is 5 apples', array('count' => 5)),
@@ -115,7 +98,6 @@ class TranslationExtensionTest extends \PHPUnit_Framework_TestCase
                 'There is no apples', array('count' => 0)),
             array('{% transchoice 5 into "fr"%}{0} There is no apples|{1} There is one apple|]1,Inf] There is %count% apples{% endtranschoice %}',
                 'There is 5 apples'),
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
             // trans filter
             array('{{ "Hello"|trans }}', 'Hello'),

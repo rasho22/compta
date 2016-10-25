@@ -16,11 +16,7 @@ use Symfony\Component\Translation\Dumper\XliffFileDumper;
 
 class XliffFileDumperTest extends \PHPUnit_Framework_TestCase
 {
-<<<<<<< HEAD
-    public function testDump()
-=======
     public function testFormatCatalogue()
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     {
         $catalogue = new MessageCatalogue('en_US');
         $catalogue->add(array(
@@ -31,18 +27,6 @@ class XliffFileDumperTest extends \PHPUnit_Framework_TestCase
         $catalogue->setMetadata('foo', array('notes' => array(array('priority' => 1, 'from' => 'bar', 'content' => 'baz'))));
         $catalogue->setMetadata('key', array('notes' => array(array('content' => 'baz'), array('content' => 'qux'))));
 
-<<<<<<< HEAD
-        $tempDir = sys_get_temp_dir();
-        $dumper = new XliffFileDumper();
-        $dumper->dump($catalogue, array('path' => $tempDir, 'default_locale' => 'fr_FR'));
-
-        $this->assertEquals(
-            file_get_contents(__DIR__.'/../fixtures/resources-clean.xlf'),
-            file_get_contents($tempDir.'/messages.en_US.xlf')
-        );
-
-        unlink($tempDir.'/messages.en_US.xlf');
-=======
         $dumper = new XliffFileDumper();
 
         $this->assertStringEqualsFile(
@@ -101,6 +85,5 @@ class XliffFileDumperTest extends \PHPUnit_Framework_TestCase
             __DIR__.'/../fixtures/resources-target-attributes.xlf',
             $dumper->formatCatalogue($catalogue, 'messages', array('default_locale' => 'fr_FR'))
         );
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

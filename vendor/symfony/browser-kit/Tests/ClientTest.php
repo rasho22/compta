@@ -473,8 +473,6 @@ class ClientTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($headers, $client->getRequest()->getServer());
     }
 
-<<<<<<< HEAD
-=======
     public function testIsFollowingRedirects()
     {
         $client = new TestClient();
@@ -491,7 +489,6 @@ class ClientTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(3, $client->getMaxRedirects(), '->getMaxRedirects() returns assigned value');
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testFollowRedirectWithPostMethod()
     {
         $parameters = array('foo' => 'bar');

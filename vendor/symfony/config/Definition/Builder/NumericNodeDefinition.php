@@ -58,8 +58,6 @@ abstract class NumericNodeDefinition extends ScalarNodeDefinition
 
         return $this;
     }
-<<<<<<< HEAD
-=======
 
     /**
      * {@inheritdoc}
@@ -72,5 +70,4 @@ abstract class NumericNodeDefinition extends ScalarNodeDefinition
 
         return parent::cannotBeEmpty();
     }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

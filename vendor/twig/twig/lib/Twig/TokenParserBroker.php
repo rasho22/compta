@@ -26,14 +26,9 @@ class Twig_TokenParserBroker implements Twig_TokenParserBrokerInterface
     /**
      * Constructor.
      *
-<<<<<<< HEAD
-     * @param array|Traversable $parsers A Traversable of Twig_TokenParserInterface instances
-     * @param array|Traversable $brokers A Traversable of Twig_TokenParserBrokerInterface instances
-=======
      * @param array|Traversable $parsers                 A Traversable of Twig_TokenParserInterface instances
      * @param array|Traversable $brokers                 A Traversable of Twig_TokenParserBrokerInterface instances
      * @param bool              $triggerDeprecationError
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     public function __construct($parsers = array(), $brokers = array(), $triggerDeprecationError = true)
     {
@@ -43,21 +38,13 @@ class Twig_TokenParserBroker implements Twig_TokenParserBrokerInterface
 
         foreach ($parsers as $parser) {
             if (!$parser instanceof Twig_TokenParserInterface) {
-<<<<<<< HEAD
-                throw new LogicException('$parsers must a an array of Twig_TokenParserInterface');
-=======
                 throw new LogicException('$parsers must a an array of Twig_TokenParserInterface.');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
             $this->parsers[$parser->getTag()] = $parser;
         }
         foreach ($brokers as $broker) {
             if (!$broker instanceof Twig_TokenParserBrokerInterface) {
-<<<<<<< HEAD
-                throw new LogicException('$brokers must a an array of Twig_TokenParserBrokerInterface');
-=======
                 throw new LogicException('$brokers must a an array of Twig_TokenParserBrokerInterface.');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             }
             $this->brokers[] = $broker;
         }

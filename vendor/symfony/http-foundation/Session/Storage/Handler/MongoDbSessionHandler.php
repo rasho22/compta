@@ -214,11 +214,6 @@ class MongoDbSessionHandler implements \SessionHandlerInterface
      * Return an instance of a MongoDate or \MongoDB\BSON\UTCDateTime
      *
      * @param int $seconds An integer representing UTC seconds since Jan 1 1970.  Defaults to now.
-<<<<<<< HEAD
-     *
-     * @return \MongoDate|\MongoDB\BSON\UTCDateTime
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      */
     private function createDateTime($seconds = null)
     {

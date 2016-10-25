@@ -11,49 +11,6 @@
 
 namespace Symfony\Component\Translation\Catalogue;
 
-<<<<<<< HEAD
-/**
- * Diff operation between two catalogues.
- *
- * @author Jean-François Simon <contact@jfsimon.fr>
- */
-class DiffOperation extends AbstractOperation
-{
-    /**
-     * {@inheritdoc}
-     */
-    protected function processDomain($domain)
-    {
-        $this->messages[$domain] = array(
-            'all' => array(),
-            'new' => array(),
-            'obsolete' => array(),
-        );
-
-        foreach ($this->source->all($domain) as $id => $message) {
-            if ($this->target->has($id, $domain)) {
-                $this->messages[$domain]['all'][$id] = $message;
-                $this->result->add(array($id => $message), $domain);
-                if (null !== $keyMetadata = $this->source->getMetadata($id, $domain)) {
-                    $this->result->setMetadata($id, $keyMetadata, $domain);
-                }
-            } else {
-                $this->messages[$domain]['obsolete'][$id] = $message;
-            }
-        }
-
-        foreach ($this->target->all($domain) as $id => $message) {
-            if (!$this->source->has($id, $domain)) {
-                $this->messages[$domain]['all'][$id] = $message;
-                $this->messages[$domain]['new'][$id] = $message;
-                $this->result->add(array($id => $message), $domain);
-                if (null !== $keyMetadata = $this->target->getMetadata($id, $domain)) {
-                    $this->result->setMetadata($id, $keyMetadata, $domain);
-                }
-            }
-        }
-    }
-=======
 @trigger_error('The '.__NAMESPACE__.'\DiffOperation class is deprecated since version 2.8 and will be removed in 3.0. Use the TargetOperation class in the same namespace instead.', E_USER_DEPRECATED);
 
 /**
@@ -73,5 +30,4 @@ class DiffOperation extends AbstractOperation
  */
 class DiffOperation extends TargetOperation
 {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

@@ -31,8 +31,6 @@ class BooleanNodeDefinition extends ScalarNodeDefinition
     }
 
     /**
-<<<<<<< HEAD
-=======
      * {@inheritdoc}
      *
      * @deprecated Deprecated since version 2.8, to be removed in 3.0.
@@ -45,7 +43,6 @@ class BooleanNodeDefinition extends ScalarNodeDefinition
     }
 
     /**
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      * Instantiate a Node.
      *
      * @return BooleanNode The node

@@ -12,8 +12,4 @@ foo
 --DATA--
 return array('foo' => 'foo');
 --EXCEPTION--
-<<<<<<< HEAD
-Twig_Error_Runtime: Impossible to access an attribute ("bar") on a string variable ("foo") in "foo" at line 3
-=======
 Twig_Error_Runtime: Impossible to access an attribute ("bar") on a string variable ("foo") in "foo" at line 3.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af

@@ -63,8 +63,6 @@ class FormExtensionTableLayoutTest extends AbstractTableLayoutTest
         $this->extension = null;
     }
 
-<<<<<<< HEAD
-=======
     public function testStartTagHasNoActionAttributeWhenActionIsEmpty()
     {
         $form = $this->factory->create('Symfony\Component\Form\Extension\Core\Type\FormType', null, array(
@@ -89,7 +87,6 @@ class FormExtensionTableLayoutTest extends AbstractTableLayoutTest
         $this->assertSame('<form name="form" method="get" action="0">', $html);
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     protected function renderForm(FormView $view, array $vars = array())
     {
         return (string) $this->extension->renderer->renderBlock($view, 'form', $vars);
@@ -143,17 +140,4 @@ class FormExtensionTableLayoutTest extends AbstractTableLayoutTest
     {
         $this->extension->renderer->setTheme($view, $themes);
     }
-<<<<<<< HEAD
-
-    public function testRange()
-    {
-        // No-op for forward compatibility with AbstractLayoutTest 2.8
-    }
-
-    public function testRangeWithMinMaxValues()
-    {
-        // No-op for forward compatibility with AbstractLayoutTest 2.8
-    }
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

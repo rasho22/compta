@@ -20,27 +20,11 @@ class Twig_Extension_Sandbox extends Twig_Extension
         $this->sandboxedGlobally = $sandboxed;
     }
 
-<<<<<<< HEAD
-    /**
-     * Returns the token parser instances to add to the existing list.
-     *
-     * @return array An array of Twig_TokenParserInterface or Twig_TokenParserBrokerInterface instances
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getTokenParsers()
     {
         return array(new Twig_TokenParser_Sandbox());
     }
 
-<<<<<<< HEAD
-    /**
-     * Returns the node visitor instances to add to the existing list.
-     *
-     * @return Twig_NodeVisitorInterface[] An array of Twig_NodeVisitorInterface instances
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getNodeVisitors()
     {
         return array(new Twig_NodeVisitor_Sandbox());
@@ -106,14 +90,6 @@ class Twig_Extension_Sandbox extends Twig_Extension
         return $obj;
     }
 
-<<<<<<< HEAD
-    /**
-     * Returns the name of the extension.
-     *
-     * @return string The extension name
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function getName()
     {
         return 'sandbox';

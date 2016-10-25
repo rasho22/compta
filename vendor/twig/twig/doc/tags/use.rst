@@ -10,11 +10,7 @@
     regular templates. It is mainly used by projects that need to make
     template blocks reusable without using inheritance.
 
-<<<<<<< HEAD
-Template inheritance is one of the most powerful Twig's feature but it is
-=======
 Template inheritance is one of the most powerful features of Twig but it is
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 limited to single inheritance; a template can only extend one other template.
 This limitation makes template inheritance simple to understand and easy to
 debug:

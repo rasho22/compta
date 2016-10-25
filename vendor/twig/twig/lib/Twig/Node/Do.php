@@ -21,14 +21,6 @@ class Twig_Node_Do extends Twig_Node
         parent::__construct(array('expr' => $expr), array(), $lineno, $tag);
     }
 
-<<<<<<< HEAD
-    /**
-     * Compiles the node to PHP.
-     *
-     * @param Twig_Compiler $compiler A Twig_Compiler instance
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function compile(Twig_Compiler $compiler)
     {
         $compiler

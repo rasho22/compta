@@ -90,18 +90,6 @@ class StreamedResponseTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \LogicException
      */
-<<<<<<< HEAD
-    public function testSetCallbackNonCallable()
-    {
-        $response = new StreamedResponse(null);
-        $response->setCallback(null);
-    }
-
-    /**
-     * @expectedException \LogicException
-     */
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function testSetContent()
     {
         $response = new StreamedResponse(function () { echo 'foo'; });

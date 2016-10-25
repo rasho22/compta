@@ -1,18 +1,26 @@
 <?php
 
+<<<<<<< HEAD
 
 namespace compta\Domain;
+=======
+namespace app_compta\Domain;
+>>>>>>> 96f9626674bd8e4a9ed927ca1c0ad38b10f01a31
 
 use Symfony\Component\Security\Core\User\UserInterface;
 
 class User implements UserInterface
 {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 96f9626674bd8e4a9ed927ca1c0ad38b10f01a31
     private $id;
     private $color;
     private $Pwd;
     private $pseudo;
 
+<<<<<<< HEAD
     public function getId()
     {
         return $this->$id;
@@ -23,6 +31,15 @@ class User implements UserInterface
         $this->id = $id;
     }
 
+=======
+    public function getId() {
+        return $this->id;
+    }
+
+    public function setId($id) {
+        $this->id = $id;
+    }
+>>>>>>> 96f9626674bd8e4a9ed927ca1c0ad38b10f01a31
     /**
      * @inheritDoc
      */

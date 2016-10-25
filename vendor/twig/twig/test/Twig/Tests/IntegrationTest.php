@@ -141,14 +141,11 @@ class TwigTestExtension extends Twig_Extension
             new Twig_SimpleFilter('nl2br', array($this, 'nl2br'), array('pre_escape' => 'html', 'is_safe' => array('html'))),
             new Twig_SimpleFilter('escape_something', array($this, 'escape_something'), array('is_safe' => array('something'))),
             new Twig_SimpleFilter('preserves_safety', array($this, 'preserves_safety'), array('preserves_safety' => array('html'))),
-<<<<<<< HEAD
-=======
             new Twig_SimpleFilter('static_call_string', 'TwigTestExtension::staticCall'),
             new Twig_SimpleFilter('static_call_array', array('TwigTestExtension', 'staticCall')),
             new Twig_SimpleFilter('magic_call', array($this, 'magicCall')),
             new Twig_SimpleFilter('magic_call_string', 'TwigTestExtension::magicStaticCall'),
             new Twig_SimpleFilter('magic_call_array', array('TwigTestExtension', 'magicStaticCall')),
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             new Twig_SimpleFilter('*_path', array($this, 'dynamic_path')),
             new Twig_SimpleFilter('*_foo_*_bar', array($this, 'dynamic_foo')),
         );
@@ -160,11 +157,8 @@ class TwigTestExtension extends Twig_Extension
             new Twig_SimpleFunction('§', array($this, '§Function')),
             new Twig_SimpleFunction('safe_br', array($this, 'br'), array('is_safe' => array('html'))),
             new Twig_SimpleFunction('unsafe_br', array($this, 'br')),
-<<<<<<< HEAD
-=======
             new Twig_SimpleFunction('static_call_string', 'TwigTestExtension::staticCall'),
             new Twig_SimpleFunction('static_call_array', array('TwigTestExtension', 'staticCall')),
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             new Twig_SimpleFunction('*_path', array($this, 'dynamic_path')),
             new Twig_SimpleFunction('*_foo_*_bar', array($this, 'dynamic_foo')),
         );
@@ -225,14 +219,11 @@ class TwigTestExtension extends Twig_Extension
         return strtoupper($value);
     }
 
-<<<<<<< HEAD
-=======
     public static function staticCall($value)
     {
         return "*$value*";
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     public function br()
     {
         return '<br />';
@@ -243,11 +234,6 @@ class TwigTestExtension extends Twig_Extension
         return false !== strpos($value, ' ');
     }
 
-<<<<<<< HEAD
-    public function getName()
-    {
-        return 'integration_test';
-=======
     public function __call($method, $arguments)
     {
         if ('magicCall' !== $method) {
@@ -264,6 +250,5 @@ class TwigTestExtension extends Twig_Extension
         }
 
         return 'static_magic_'.$arguments[0];
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

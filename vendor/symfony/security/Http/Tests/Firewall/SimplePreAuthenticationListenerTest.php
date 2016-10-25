@@ -42,11 +42,7 @@ class SimplePreAuthenticationListenerTest extends \PHPUnit_Framework_TestCase
             ->will($this->returnValue($this->token))
         ;
 
-<<<<<<< HEAD
-        $simpleAuthenticator = $this->getMock('Symfony\Component\Security\Core\Authentication\SimplePreAuthenticatorInterface');
-=======
         $simpleAuthenticator = $this->getMock('Symfony\Component\Security\Http\Authentication\SimplePreAuthenticatorInterface');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $simpleAuthenticator
             ->expects($this->once())
             ->method('createToken')
@@ -83,11 +79,7 @@ class SimplePreAuthenticationListenerTest extends \PHPUnit_Framework_TestCase
             ->with($this->equalTo(null))
         ;
 
-<<<<<<< HEAD
-        $simpleAuthenticator = $this->getMock('Symfony\Component\Security\Core\Authentication\SimplePreAuthenticatorInterface');
-=======
         $simpleAuthenticator = $this->getMock('Symfony\Component\Security\Http\Authentication\SimplePreAuthenticatorInterface');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $simpleAuthenticator
             ->expects($this->once())
             ->method('createToken')

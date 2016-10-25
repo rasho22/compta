@@ -2,12 +2,6 @@
 
 namespace compta\DAO;
 
-<<<<<<< HEAD
-use Doctrine\DBAL\Connection;
-use compta\Domain\User;
-
-class UserDAO extends DAO
-=======
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Security\Core\User\UserProviderInterface;
 use Symfony\Component\Security\Core\Exception\UsernameNotFoundException;
@@ -17,7 +11,6 @@ use Doctrine\DBAL\Connection;
 use compta\Domain\User;
 
 class UserDAO extends DAO implements UserProviderInterface
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
 
 
@@ -27,11 +20,7 @@ class UserDAO extends DAO implements UserProviderInterface
      * @return array A list of all users.
      */
     public function findAll() {
-<<<<<<< HEAD
-        $sql = "select * from users order by users_id desc";
-=======
         $sql = "select * from users";
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $result = $this->db->fetchAll($sql);
         
         // Convert query result to an array of domain objects
@@ -43,24 +32,6 @@ class UserDAO extends DAO implements UserProviderInterface
         return $users;
     }
 
-<<<<<<< HEAD
-    //find a user by id
-
-    public function find() {
-        $sql = "select * from users where id_users=?";
-        $result = $this->db->fetchAll($sql);
-
-        $user = array();
-        foreach ($result as $row) {
-            $usersId = $row['id_users'];
-            $user[$usersId] = $this->buildDomainObject($row);
-        }
-        return $user;
-
-    }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
 
      * Creates a User object based on a DB row.

@@ -4,63 +4,105 @@ namespace compta\Controller;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
-use compta\Domain\Group;
 use compta\Domain\UserGroup;
 use compta\Domain\Depenses;
 
 
 class AdminController {
 
-    /**
-     * Admin home page controller.
-     *
-     * @param Application $app Silex application
-     */
-    public function indexAction(Application $app) {
-        $groups = $app['dao.group']->findAll();
-        $depenses = $app['dao.depense']->findAll();
-        $users = $app['dao.user']->findAll();
+    public function loginAction(Request $request, Application $app) {
+        return $app->render('/login', array(
+            'error'         => $app['security.last_error']($request),
+            'last_username' => $app['session']->get('_security.last_username'),
+        ));
     }
 
-    /**
-     * Add group controller.
-    
-     */
-    public function addGroupAction(Request $request, Application $app) {
-        $group = new Group();
-        $group = $app["dao.group"]->save();
-       return $app->json('success', 'The group was succesfully created.');
-    }
 
-    /**
-     * Edit group controller.
+        /**
+     * Add user controller.
      *
-     * @param integer $id Group id
      * @param Request $request Incoming request
      * @param Application $app Silex application
      */
-    public function editGroupAction($id, Request $request, Application $app) {
-        $group = $app['dao.group']->find($id);
+    public function addUserAction(Request $request, Application $app) {
+        $user = new User();
+              -> setName($user_name)
+              -> setColor($color)
+              -> setGroup($user_group)
+        $app['dao.user']->save($user);
+        return $app->json;
+    }
+    
+    /**
+     * Delete user controller.
+     *
+     * @param integer $id User id
+     * @param Application $app Silex application
+     */
+    public function deleteUserAction($id, Application $app) {
+        $app['dao.user']->delete($id);
+        $app['dao.usergroup']->deleteByGroup($id);
+        $app['dao.depenses']->deleteByUser($id);
+        return $app->json(array(
+            'status' => 'OK'
+                ), 200);
+        }
+
+    /**
+     * Add group controller.
+     */
+    public function addGroupAction(Request $request, Application $app) {
         
+        
+        if (!$request->request->has('id_user_group')) {
+            return $app->json('Missing required parameter: id_user_group', 400);
+        }
+        if (!$request->request->has('group_name')) {
+            return $app->json('Missing required parameter: group_name', 400);
+        }
+
+        $group = new UserGroup();
+        $group->setGroup($request->request->get('id_user_group'));
+        $group->setGroupName($request->request->get('group_name'));
+        $responseData = $this->buildGroupArray($group);
+
+        $app['dao.group']->save($group);
+
+         return $app->json($responseData, 201);  // 201 = Created    
+    }
+
+     /**
+     * API delete group controller.
+     *
+     * @param integer $id group id
+     * @param Application $app Silex application
+     */
+    public function editGroupAction($id_user_group, Application $app) {
+        // Delete all associated depenses
+        $app['dao.depense']->deleteAllByGroup($id_user_group);
+        // Delete the group
+        $app['dao.group']->delete($id_user_group);
+        return $app->json('No Content', 204);  // 204 = No content
     }
 
     /**
-     * Delete group controller.
+     * Converts an group object into an associative array for JSON encoding
      *
-     * @param integer $id Group id
-     * @param Application $app Silex application
+     *
+     *
+     * @return array Associative array whose fields are the group properties.
      */
-    public function deleteGroupAction($id, Application $app) {
-        // Delete all associated depenses
-        $app['dao.depense']->deleteAllByGroup($id);
-        // Delete the group
-        $app['dao.group']->delete($id);
-        $app['session']->getFlashBag()->add('success', 'The group was succesfully removed.');
-        // Redirect to admin home page
-        return $app->redirect($app['url_generator']->generate('admin'));
+    private function buildGroupArray(Group $group) {
+        $data  = array(
+            'id_user_group' => $group->getId(),
+            'group_name' => $group->getName(),
+            );
+        return $data;
     }
 
-    //Add depense controller
+
+
+ //Add depense controller
 
     public function addDepenseAction(Request $request, Application $app) {
 
@@ -130,76 +172,8 @@ class AdminController {
         return $app->redirect($app['url_generator']->generate('admin'));
     }
 
-    /**
-     * Add user controller.
-     *
-     * @param Request $request Incoming request
-     * @param Application $app Silex application
-     */
-    public function addUserAction(Request $request, Application $app) {
-        $user = new User();
-        $userForm = $app['form.factory']->create(new UserType(), $user);
-        $userForm->handleRequest($request);
-        if ($userForm->isSubmitted() && $userForm->isValid()) {
-            // generate a random salt value
-            $salt = substr(md5(time()), 0, 23);
-            $user->setSalt($salt);
-            $plainPassword = $user->getPassword();
-            // find the default encoder
-            $encoder = $app['security.encoder.digest'];
-            // compute the encoded password
-            $password = $encoder->encodePassword($plainPassword, $user->getSalt());
-            $user->setPassword($password); 
-            $app['dao.user']->save($user);
-            $app['session']->getFlashBag()->add('success', 'The user was successfully created.');
-        }
-        /*return $app['twig']->render('user_form.html.twig', array(
-            'title' => 'New user',
-            'userForm' => $userForm->createView()));*/
-    }
 
-    /**
-     * Edit user controller.
-     *
-     * @param integer $id User id
-     * @param Request $request Incoming request
-     * @param Application $app Silex application
-     */
-    public function editUserAction($id, Request $request, Application $app) {
-        $user = $app['dao.user']->find($id);
-        $userForm = $app['form.factory']->create(new UserType(), $user);
-        $userForm->handleRequest($request);
-        if ($userForm->isSubmitted() && $userForm->isValid()) {
-            $plainPassword = $user->getPassword();
-            // find the encoder for the user
-            $encoder = $app['security.encoder_factory']->getEncoder($user);
-            // compute the encoded password
-            $password = $encoder->encodePassword($plainPassword, $user->getSalt());
-            $user->setPassword($password); 
-            $app['dao.user']->save($user);
-            $app['session']->getFlashBag()->add('success', 'The user was succesfully updated.');
-        }
-       /* return $app['twig']->render('user_form.html.twig', array(
-            'title' => 'Edit user',
-            'userForm' => $userForm->createView()));*/
-    }
-
-    /**
-     * Delete user controller.
-     *
-     * @param integer $id User id
-     * @param Application $app Silex application
-     */
-    public function deleteUserAction($id, Application $app) {
-        // Delete all associated comments
-        $app['dao.comment']->deleteAllByUser($id);
-        // Delete the user
-        $app['dao.user']->delete($id);
-        $app['session']->getFlashBag()->add('success', 'The user was succesfully removed.');
-        // Redirect to admin home page
-        return $app->redirect($app['url_generator']->generate('admin'));
-    }
-
+  } 
 
     //converts a depense into an associative array => for json
     private function buildDepenseArray(Depenses $depense) {

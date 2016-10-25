@@ -74,10 +74,6 @@ class TwigDataCollector extends DataCollector implements LateDataCollectorInterf
     public function getHtmlCallGraph()
     {
         $dumper = new \Twig_Profiler_Dumper_Html();
-<<<<<<< HEAD
-
-        return new \Twig_Markup($dumper->dump($this->getProfile()), 'UTF-8');
-=======
         $dump = $dumper->dump($this->getProfile());
 
         // needed to remove the hardcoded CSS styles
@@ -92,7 +88,6 @@ class TwigDataCollector extends DataCollector implements LateDataCollectorInterf
         ), $dump);
 
         return new \Twig_Markup($dump, 'UTF-8');
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     public function getProfile()

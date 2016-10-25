@@ -12,11 +12,7 @@ class Twig_Tests_NodeVisitor_OptimizerTest extends PHPUnit_Framework_TestCase
 {
     public function testRenderBlockOptimizer()
     {
-<<<<<<< HEAD
-        $env = new Twig_Environment($this->getMock('Twig_LoaderInterface'), array('cache' => false, 'autoescape' => false));
-=======
         $env = new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock(), array('cache' => false, 'autoescape' => false));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $stream = $env->parse($env->tokenize('{{ block("foo") }}', 'index'));
 
@@ -28,11 +24,7 @@ class Twig_Tests_NodeVisitor_OptimizerTest extends PHPUnit_Framework_TestCase
 
     public function testRenderParentBlockOptimizer()
     {
-<<<<<<< HEAD
-        $env = new Twig_Environment($this->getMock('Twig_LoaderInterface'), array('cache' => false, 'autoescape' => false));
-=======
         $env = new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock(), array('cache' => false, 'autoescape' => false));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $stream = $env->parse($env->tokenize('{% extends "foo" %}{% block content %}{{ parent() }}{% endblock %}', 'index'));
 
@@ -48,11 +40,7 @@ class Twig_Tests_NodeVisitor_OptimizerTest extends PHPUnit_Framework_TestCase
             return;
         }
 
-<<<<<<< HEAD
-        $env = new Twig_Environment($this->getMock('Twig_LoaderInterface'), array('cache' => false, 'autoescape' => false));
-=======
         $env = new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock(), array('cache' => false, 'autoescape' => false));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $stream = $env->parse($env->tokenize('{{ block(name|lower) }}', 'index'));
 
         $node = $stream->getNode('body')->getNode(0)->getNode(1);
@@ -66,11 +54,7 @@ class Twig_Tests_NodeVisitor_OptimizerTest extends PHPUnit_Framework_TestCase
      */
     public function testForOptimizer($template, $expected)
     {
-<<<<<<< HEAD
-        $env = new Twig_Environment($this->getMock('Twig_LoaderInterface'), array('cache' => false));
-=======
         $env = new Twig_Environment($this->getMockBuilder('Twig_LoaderInterface')->getMock(), array('cache' => false));
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
         $stream = $env->parse($env->tokenize($template, 'index'));
 

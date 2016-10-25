@@ -272,10 +272,6 @@ class RouteCollectionBuilder
                 $route->setDefaults(array_merge($this->defaults, $route->getDefaults()));
                 $route->setOptions(array_merge($this->options, $route->getOptions()));
 
-<<<<<<< HEAD
-                // we're extra careful here to avoid re-setting deprecated _method and _scheme
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 foreach ($this->requirements as $key => $val) {
                     if (!$route->hasRequirement($key)) {
                         $route->setRequirement($key, $val);

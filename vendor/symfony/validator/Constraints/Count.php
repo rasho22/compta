@@ -22,13 +22,8 @@ use Symfony\Component\Validator\Exception\MissingOptionsException;
  */
 class Count extends Constraint
 {
-<<<<<<< HEAD
-    const TOO_FEW_ERROR = 1;
-    const TOO_MANY_ERROR = 2;
-=======
     const TOO_FEW_ERROR = 'bef8e338-6ae5-4caf-b8e2-50e7b0579e69';
     const TOO_MANY_ERROR = '756b1212-697c-468d-a9ad-50dd783bb169';
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     protected static $errorNames = array(
         self::TOO_FEW_ERROR => 'TOO_FEW_ERROR',

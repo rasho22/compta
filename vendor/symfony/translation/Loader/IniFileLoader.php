@@ -11,51 +11,18 @@
 
 namespace Symfony\Component\Translation\Loader;
 
-<<<<<<< HEAD
-use Symfony\Component\Translation\Exception\InvalidResourceException;
-use Symfony\Component\Translation\Exception\NotFoundResourceException;
-use Symfony\Component\Config\Resource\FileResource;
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 /**
  * IniFileLoader loads translations from an ini file.
  *
  * @author stealth35
  */
-<<<<<<< HEAD
-class IniFileLoader extends ArrayLoader
-=======
 class IniFileLoader extends FileLoader
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 {
     /**
      * {@inheritdoc}
      */
-<<<<<<< HEAD
-    public function load($resource, $locale, $domain = 'messages')
-    {
-        if (!stream_is_local($resource)) {
-            throw new InvalidResourceException(sprintf('This is not a local file "%s".', $resource));
-        }
-
-        if (!file_exists($resource)) {
-            throw new NotFoundResourceException(sprintf('File "%s" not found.', $resource));
-        }
-
-        $messages = parse_ini_file($resource, true);
-
-        $catalogue = parent::load($messages, $locale, $domain);
-
-        if (class_exists('Symfony\Component\Config\Resource\FileResource')) {
-            $catalogue->addResource(new FileResource($resource));
-        }
-
-        return $catalogue;
-=======
     protected function loadResource($resource)
     {
         return parse_ini_file($resource, true);
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 }

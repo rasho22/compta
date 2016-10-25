@@ -35,14 +35,11 @@ class LessThanOrEqualValidatorTest extends AbstractComparisonValidatorTestCase
         return new LessThanOrEqual($options);
     }
 
-<<<<<<< HEAD
-=======
     protected function getErrorCode()
     {
         return LessThanOrEqual::TOO_HIGH_ERROR;
     }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * {@inheritdoc}
      */

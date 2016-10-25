@@ -13,10 +13,7 @@ namespace Symfony\Bridge\Twig\Extension;
 
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Request;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Routing\RequestContext;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * Twig extension for the Symfony HttpFoundation component.
@@ -26,19 +23,12 @@ use Symfony\Component\Routing\RequestContext;
 class HttpFoundationExtension extends \Twig_Extension
 {
     private $requestStack;
-<<<<<<< HEAD
-
-    public function __construct(RequestStack $requestStack)
-    {
-        $this->requestStack = $requestStack;
-=======
     private $requestContext;
 
     public function __construct(RequestStack $requestStack, RequestContext $requestContext = null)
     {
         $this->requestStack = $requestStack;
         $this->requestContext = $requestContext;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     }
 
     /**
@@ -70,8 +60,6 @@ class HttpFoundationExtension extends \Twig_Extension
         }
 
         if (!$request = $this->requestStack->getMasterRequest()) {
-<<<<<<< HEAD
-=======
             if (null !== $this->requestContext && '' !== $host = $this->requestContext->getHost()) {
                 $scheme = $this->requestContext->getScheme();
                 $port = '';
@@ -89,7 +77,6 @@ class HttpFoundationExtension extends \Twig_Extension
                 return $scheme.'://'.$host.$port.$path;
             }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             return $path;
         }
 

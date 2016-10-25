@@ -37,12 +37,7 @@
     <xsd:group ref="configs" minOccurs="0" maxOccurs="unbounded" />
 
     <xsd:attribute name="id" type="xsd:string" use="required" />
-<<<<<<< HEAD
-    <xsd:attribute name="path" type="xsd:string" />
-    <xsd:attribute name="pattern" type="xsd:string" />
-=======
     <xsd:attribute name="path" type="xsd:string" use="required" />
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     <xsd:attribute name="host" type="xsd:string" />
     <xsd:attribute name="schemes" type="xsd:string" />
     <xsd:attribute name="methods" type="xsd:string" />

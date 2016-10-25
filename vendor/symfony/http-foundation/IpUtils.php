@@ -61,21 +61,11 @@ class IpUtils
      */
     public static function checkIp4($requestIp, $ip)
     {
-<<<<<<< HEAD
-        if (!filter_var($requestIp, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4)) {
-            return false;
-        }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         if (false !== strpos($ip, '/')) {
             list($address, $netmask) = explode('/', $ip, 2);
 
             if ($netmask === '0') {
-<<<<<<< HEAD
-=======
                 // Ensure IP is valid - using ip2long below implicitly validates, but we need to do it manually here
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 return filter_var($address, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4);
             }
 

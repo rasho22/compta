@@ -16,8 +16,6 @@ use Symfony\Component\Translation\MessageCatalogueInterface;
 /**
  * Represents an operation on catalogue(s).
  *
-<<<<<<< HEAD
-=======
  * An instance of this interface performs an operation on one or more catalogues and
  * stores intermediate and final results of the operation.
  *
@@ -32,7 +30,6 @@ use Symfony\Component\Translation\MessageCatalogueInterface;
  *
  * Result: also called 'result', is the resulting catalogue for the given domain that holds the same messages as 'all'.
  *
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
  * @author Jean-François Simon <jeanfrancois.simon@sensiolabs.com>
  */
 interface OperationInterface
@@ -45,11 +42,7 @@ interface OperationInterface
     public function getDomains();
 
     /**
-<<<<<<< HEAD
-     * Returns all valid messages after operation.
-=======
      * Returns all valid messages ('all') after operation.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *
      * @param string $domain
      *
@@ -58,11 +51,7 @@ interface OperationInterface
     public function getMessages($domain);
 
     /**
-<<<<<<< HEAD
-     * Returns new messages after operation.
-=======
      * Returns new messages ('new') after operation.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *
      * @param string $domain
      *
@@ -71,11 +60,7 @@ interface OperationInterface
     public function getNewMessages($domain);
 
     /**
-<<<<<<< HEAD
-     * Returns obsolete messages after operation.
-=======
      * Returns obsolete messages ('obsolete') after operation.
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *
      * @param string $domain
      *
@@ -84,11 +69,7 @@ interface OperationInterface
     public function getObsoleteMessages($domain);
 
     /**
-<<<<<<< HEAD
-     * Returns resulting catalogue.
-=======
      * Returns resulting catalogue ('result').
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
      *
      * @return MessageCatalogueInterface
      */

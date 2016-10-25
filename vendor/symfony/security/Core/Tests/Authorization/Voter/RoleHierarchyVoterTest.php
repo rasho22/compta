@@ -33,8 +33,6 @@ class RoleHierarchyVoterTest extends RoleVoterTest
             array(array('ROLE_FOO'), array('ROLE_FOOBAR'), VoterInterface::ACCESS_GRANTED),
         ));
     }
-<<<<<<< HEAD
-=======
 
     /**
      * @dataProvider getVoteWithEmptyHierarchyTests
@@ -50,5 +48,4 @@ class RoleHierarchyVoterTest extends RoleVoterTest
     {
         return parent::getVoteTests();
     }
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }

@@ -36,13 +36,6 @@ class BCryptPasswordEncoder extends BasePasswordEncoder
      */
     public function __construct($cost)
     {
-<<<<<<< HEAD
-        if (!function_exists('password_hash')) {
-            throw new \RuntimeException('To use the BCrypt encoder, you need to upgrade to PHP 5.5 or install the "ircmaxell/password-compat" via Composer.');
-        }
-
-=======
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $cost = (int) $cost;
         if ($cost < 4 || $cost > 31) {
             throw new \InvalidArgumentException('Cost must be in the range of 4-31.');
@@ -80,11 +73,8 @@ class BCryptPasswordEncoder extends BasePasswordEncoder
         $options = array('cost' => $this->cost);
 
         if ($salt) {
-<<<<<<< HEAD
-=======
             @trigger_error('Passing a $salt to '.__METHOD__.'() is deprecated since version 2.8 and will be ignored in 3.0.', E_USER_DEPRECATED);
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             $options['salt'] = $salt;
         }
 

@@ -24,10 +24,7 @@ use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Symfony\Component\Security\Http\HttpUtils;
 use Symfony\Component\Security\Http\Logout\LogoutHandlerInterface;
 use Symfony\Component\Security\Http\Logout\LogoutSuccessHandlerInterface;
-<<<<<<< HEAD
-=======
 use Symfony\Component\Security\Http\ParameterBagUtils;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 /**
  * LogoutListener logout users.
@@ -60,8 +57,6 @@ class LogoutListener implements ListenerInterface
             throw new InvalidArgumentException('The CSRF token manager should be an instance of CsrfProviderInterface or CsrfTokenManagerInterface.');
         }
 
-<<<<<<< HEAD
-=======
         if (isset($options['intention'])) {
             if (isset($options['csrf_token_id'])) {
                 throw new \InvalidArgumentException(sprintf('You should only define an option for one of "intention" or "csrf_token_id" for the "%s". Use the "csrf_token_id" as it replaces "intention".', __CLASS__));
@@ -72,16 +67,11 @@ class LogoutListener implements ListenerInterface
             $options['csrf_token_id'] = $options['intention'];
         }
 
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         $this->tokenStorage = $tokenStorage;
         $this->httpUtils = $httpUtils;
         $this->options = array_merge(array(
             'csrf_parameter' => '_csrf_token',
-<<<<<<< HEAD
-            'intention' => 'logout',
-=======
             'csrf_token_id' => 'logout',
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             'logout_path' => '/logout',
         ), $options);
         $this->successHandler = $successHandler;
@@ -119,15 +109,9 @@ class LogoutListener implements ListenerInterface
         }
 
         if (null !== $this->csrfTokenManager) {
-<<<<<<< HEAD
-            $csrfToken = $request->get($this->options['csrf_parameter'], null, true);
-
-            if (false === $this->csrfTokenManager->isTokenValid(new CsrfToken($this->options['intention'], $csrfToken))) {
-=======
             $csrfToken = ParameterBagUtils::getRequestParameterValue($request, $this->options['csrf_parameter']);
 
             if (false === $this->csrfTokenManager->isTokenValid(new CsrfToken($this->options['csrf_token_id'], $csrfToken))) {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
                 throw new LogoutException('Invalid CSRF token.');
             }
         }

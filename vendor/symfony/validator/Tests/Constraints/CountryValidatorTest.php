@@ -82,10 +82,7 @@ class CountryValidatorTest extends AbstractConstraintValidatorTest
 
         $this->buildViolation('myMessage')
             ->setParameter('{{ value }}', '"'.$country.'"')
-<<<<<<< HEAD
-=======
             ->setCode(Country::NO_SUCH_COUNTRY_ERROR)
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             ->assertRaised();
     }
 

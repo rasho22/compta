@@ -75,11 +75,7 @@ class TranslationNodeVisitor extends \Twig_BaseNodeVisitor
             // extract trans nodes
             $this->messages[] = array(
                 $node->getNode('body')->getAttribute('data'),
-<<<<<<< HEAD
-                $this->getReadDomainFromNode($node->getNode('domain')),
-=======
                 $node->hasNode('domain') ? $this->getReadDomainFromNode($node->getNode('domain')) : null,
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
             );
         }
 
@@ -126,17 +122,8 @@ class TranslationNodeVisitor extends \Twig_BaseNodeVisitor
      *
      * @return string|null
      */
-<<<<<<< HEAD
-    private function getReadDomainFromNode(\Twig_Node $node = null)
-    {
-        if (null === $node) {
-            return;
-        }
-
-=======
     private function getReadDomainFromNode(\Twig_Node $node)
     {
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
         if ($node instanceof \Twig_Node_Expression_Constant) {
             return $node->getAttribute('value');
         }
