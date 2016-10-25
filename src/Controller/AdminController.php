@@ -20,7 +20,6 @@ class AdminController {
 
     /**
      * Admin home page controller.
-
      *
      * @param Request $request Incoming request
      * @param Application $app Silex application
