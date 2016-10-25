@@ -10,17 +10,29 @@ use compta\Domain\Depenses;
 
 class AdminController {
 
-
     public function loginAction(Request $request, Application $app) {
-        return $app->render('/login', array(
-            'error'         => $app['security.last_error']($request),
-            'last_username' => $app['session']->get('_security.last_username'),
-        ));
+        $app['security.firewalls'] = array(
+            'admin' => array(
+                'pattern' => '^/admin/',
+                'form' => array('login_path' => '/login', 'check_path' => '/admin/login_check'),
+            ),
+        );
     }
 
+    public function logoutAction (Request $request, Application $app)
+    {
+        $app['security.firewalls'] = array(
+            'secured' => array(
+                'pattern' => '^/admin/',
+                'form' => array('login_path' => '/login', 'check_path' => '/admin/login_check'),
+                'logout' => array('logout_path' => '/admin/logout', 'invalidate_session' => true),
+            ),
+        );
+    }
+        /**
+     * Add user controller.
     /**
      * Admin home page controller.
-
      *
      * @param Request $request Incoming request
      * @param Application $app Silex application
