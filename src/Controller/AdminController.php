@@ -5,11 +5,11 @@ namespace compta\Controller;
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use compta\Domain\UserGroup;
-use compta\Domain\User;
 use compta\Domain\Depenses;
 
 
 class AdminController {
+<<<<<<< Updated upstream
 
     public function loginAction(Request $request, Application $app) {
         return $app->render('/login', array(
@@ -21,6 +21,10 @@ class AdminController {
 
         /**
      * Add user controller.
+=======
+    /**
+     * Admin home page controller.
+>>>>>>> Stashed changes
      *
      * @param Request $request Incoming request
      * @param Application $app Silex application
@@ -176,3 +180,15 @@ class AdminController {
 
   } 
 
+    //converts a depense into an associative array => for json
+    private function buildDepenseArray(Depenses $depense) {
+        $data = array(
+            'id' => $depense->getIdDepenses(),
+            'montant' => $depense->getMontant(),
+            'date' => $depense->getDate(),
+            'description' => $depense->getDescription,
+            'id_users' => $depense->getIdUser()
+            );
+        return $data;
+    }
+}

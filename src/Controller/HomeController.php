@@ -4,13 +4,41 @@ namespace compta\Controller;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+use compta\Domain\Depenses;
+use compta\Domain\User;
+use compta\Domain\UserGroup;
+
+<<<<<<< Updated upstream
+=======
 use compta\Domain\UserGroup;
 use compta\Domain\User;
 use compta\Domain\Depenses;
+>>>>>>> 96f9626674bd8e4a9ed927ca1c0ad38b10f01a31
+=======
+>>>>>>> Stashed changes
 
 class HomeController {
 
     /**
+<<<<<<< HEAD
+     * Home page controller.
+     *
+     * @param Application $app Silex application
+     */
+    public function indexAction(Application $app) {
+<<<<<<< Updated upstream
+=======
+
+        $articles = $app['dao.group']->findAll();
+        return $app['twig']->render('index.html.twig', array('articles' => $articles));
+    }
+>>>>>>> Stashed changes
+
+=======
      * group details controller.
      *
      * @param integer $id group id
@@ -38,13 +66,27 @@ class HomeController {
      *
      * @param Application $app Silex application
      */
+<<<<<<< Updated upstream
     public function indexAction(Application $app) {
+>>>>>>> 96f9626674bd8e4a9ed927ca1c0ad38b10f01a31
+=======
+    public function loginAction(Request $request, Application $app) {
+       return $app->render('/login', array(
+            'error'         => $app['security.last_error']($request),
+            'last_username' => $app['session']->get('_security.last_username'),
+            ));
+
+>>>>>>> Stashed changes
         $user = $app['dao.user']->findAll()
         return $app->json(array(
             'records' => $result,
             'status' => 'OK'
         ), 200);
+<<<<<<< Updated upstream
     
+=======
+
+>>>>>>> Stashed changes
     }
 
    
