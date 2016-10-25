@@ -4,20 +4,13 @@ namespace compta\Controller;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
-<<<<<<< HEAD
 use compta\Domain\Group;
-use compta\Domain\User;
-use compta\Domain\Depense;
-=======
 use compta\Domain\UserGroup;
-use compta\Domain\User;
 use compta\Domain\Depenses;
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
 
 class AdminController {
 
-<<<<<<< HEAD
     /**
      * Admin home page controller.
      *
@@ -136,9 +129,6 @@ class AdminController {
         // Redirect to admin home page
         return $app->redirect($app['url_generator']->generate('admin'));
     }
-=======
-    
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 
     /**
      * Add user controller.
@@ -148,7 +138,6 @@ class AdminController {
      */
     public function addUserAction(Request $request, Application $app) {
         $user = new User();
-<<<<<<< HEAD
         $userForm = $app['form.factory']->create(new UserType(), $user);
         $userForm->handleRequest($request);
         if ($userForm->isSubmitted() && $userForm->isValid()) {
@@ -195,16 +184,6 @@ class AdminController {
             'userForm' => $userForm->createView()));*/
     }
 
-=======
-              -> setName($user_name)
-              -> setColor($color)
-              -> setGroup($user_group)
-        $app['dao.user']->save($user);
-        return $app->json;
-    }
-
-    
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
     /**
      * Delete user controller.
      *
@@ -212,7 +191,6 @@ class AdminController {
      * @param Application $app Silex application
      */
     public function deleteUserAction($id, Application $app) {
-<<<<<<< HEAD
         // Delete all associated comments
         $app['dao.comment']->deleteAllByUser($id);
         // Delete the user
@@ -234,14 +212,4 @@ class AdminController {
             );
         return $data;
     }
-=======
-        $app['dao.user']->delete($id);
-        $app['dao.usergroup']->deleteByGroup($id);
-        $app['dao.depenses']->deleteByUser($id);
-        return $app->json(array(
-            'status' => 'OK'
-                ), 200);
-        }
-        
->>>>>>> 142cc195a7ab2884643ba9e1d4b7d43ec9adc6af
 }
