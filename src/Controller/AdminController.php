@@ -149,8 +149,6 @@ class AdminController {
      */
     public function editDepenseAction($id, Request $request, Application $app) {
         $depense = $app['dao.depense']->find($id);
-        $depenseForm = $app['form.factory']->create(new DepenseType(), $depense);
-        $depenseForm->handleRequest($request);
         if ($depenseForm->isSubmitted() && $depenseForm->isValid()) {
             $app['dao.depense']->save($depense);
             $app['session']->getFlashBag()->add('success', 'The depense was succesfully updated.');
@@ -182,7 +180,7 @@ class AdminController {
             'id' => $depense->getIdDepenses(),
             'montant' => $depense->getMontant(),
             'date' => $depense->getDate(),
-            'description' => $depense->getDescription,
+            'description' => $depense->getDescription(),
             'id_users' => $depense->getIdUser()
             );
         return $data;
