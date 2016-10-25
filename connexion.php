@@ -14,4 +14,8 @@ $db_server = "localhost";
 		echo 'Echec de la connection : '.$e->getMessage();
 
 	} 
-	
+
+
+        
+          
+       
