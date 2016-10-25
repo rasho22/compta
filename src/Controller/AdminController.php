@@ -9,6 +9,7 @@ use compta\Domain\Depenses;
 
 
 class AdminController {
+<<<<<<< Updated upstream
 
     public function loginAction(Request $request, Application $app) {
         return $app->render('/login', array(
@@ -20,6 +21,10 @@ class AdminController {
 
         /**
      * Add user controller.
+=======
+    /**
+     * Admin home page controller.
+>>>>>>> Stashed changes
      *
      * @param Request $request Incoming request
      * @param Application $app Silex application
