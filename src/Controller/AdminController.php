@@ -9,21 +9,7 @@ use compta\Domain\Depenses;
 
 
 class AdminController {
-<<<<<<< HEAD
-=======
 
-    public function loginAction(Request $request, Application $app) {
-        return $app->render('/login', array(
-            'error'         => $app['security.last_error']($request),
-            'last_username' => $app['session']->get('_security.last_username'),
-        ));
-    }
-
-
-
-    public function logoutAction (Request $request, Application $app)
-    {
->>>>>>> master
 
         /**
      * Add user controller.
