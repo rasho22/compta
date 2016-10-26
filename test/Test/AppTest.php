@@ -11,14 +11,7 @@ class AppTest extends WebTestCase
 {
     public $app;
 
-    /** 
-     * Basic, application-wide functional test inspired by Symfony best practices.
-     * Simply checks that all application URLs load successfully.
-     * During test execution, this method is called for each URL returned by the provideUrls method.
-     *
-     * @dataProvider provideUrls 
-     */
-    
+   
     public function testPageIsSuccessful($url)
     {
         $client = $this->createClient();
@@ -26,9 +19,10 @@ class AppTest extends WebTestCase
 
         $this->assertTrue($client->getResponse()->isSuccessful());
     }
-    public function testUserSelection(){
+    
 
-        $udao = $this->app['dao.user'];
+    public function testGroupSelection(){
+        $udao = $this->app['dao.UserGroup'];
         $res = $udao->findAll();
         $this->assertTrue(count($res) == 1);
 
@@ -42,7 +36,7 @@ class AppTest extends WebTestCase
         $app = new \Silex\Application();
 
         require __DIR__.'/../../app/config/dev.php';
-      //  require __DIR__.'/../../app/app.php';
+        require __DIR__.'/../../app/app.php';
         require __DIR__.'/../../app/routes.php';
         
         // Generate raw exceptions instead of HTML pages if errors occur
@@ -52,26 +46,18 @@ class AppTest extends WebTestCase
         // Enable anonymous access to admin zone
         $app['security.access_rules'] = array();
         $this->app = $app;
-        echo "EDUEDUEDUEDU";
-        var_dump($this->app['db']);
+    
+        //var_dump($this->app['db']);
         return $app;
     }
-
-    /**
-     * Provides all valid application URLs.
-     *
-     * @return array The list of all valid application URLs.
-     */
-    public function provideUrls()
+ public function provideUrls()
     {
         return array(
             array('/'),
-            array('/users/1'),
-            array('/login'),
-            array('/admin'),
-            array('/admin/user/add'),
-            array('/admin/user/1/edit'),
-            array('/admin/user_group/1/edit'),
+            array('/group/1'),
+            array('/admin/group/add'),
+            array('/admin/group/1/edit'),
             ); 
     }
 }
+ 

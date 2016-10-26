@@ -29,7 +29,6 @@ $app->register(new Silex\Provider\SecurityServiceProvider(), array(
         array('^/admin', 'ROLE_ADMIN'),
     ),
 ));
-$app->register(new Silex\Provider\FormServiceProvider());
 $app->register(new Silex\Provider\TranslationServiceProvider());
 $app->register(new Silex\Provider\ValidatorServiceProvider());
 $app->register(new Silex\Provider\MonologServiceProvider(), array(
@@ -37,17 +36,20 @@ $app->register(new Silex\Provider\MonologServiceProvider(), array(
     'monolog.name' => 'compta',
    // 'monolog.level' => $app['monolog.level']
 ));
+
 $app->register(new Silex\Provider\ServiceControllerServiceProvider());
+/*
 if (isset($app['debug']) && $app['debug']) {
     $app->register(new Silex\Provider\HttpFragmentServiceProvider());
     $app->register(new Silex\Provider\WebProfilerServiceProvider(), array(
         'profiler.cache_dir' => __DIR__.'/../var/cache/profiler'
     ));
-}
+}*/
+
 // Register services
 
 $app['dao.user'] = $app->share(function ($app) {
-    return new compta\DAO\UserDAO($app['db']);
+   // return new compta\DAO\UserDAO($app['db']);
 });
 
 $app['dao.group'] = $app->share(function ($app) {
