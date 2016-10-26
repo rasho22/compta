@@ -48,9 +48,9 @@ class HomeController {
             'error'         => $app['security.last_error']($request),
             'last_username' => $app['session']->get('_security.last_username'),
             ));
-
-
-
-   
 }
+
+    public function logoutAction (Request $request, Application $app){
+
+    }
 }

@@ -29,6 +29,8 @@ $app->register(new Silex\Provider\SecurityServiceProvider(), array(
         array('^/admin', 'ROLE_ADMIN'),
     ),
 ));
+
+
 $app->register(new Silex\Provider\FormServiceProvider());
 $app->register(new Silex\Provider\TranslationServiceProvider());
 $app->register(new Silex\Provider\ValidatorServiceProvider());
@@ -80,3 +82,13 @@ $app->before(function (Request $request) {
     }
 });
 
+
+$app['security.firewalls'] = array(
+    'secured' => array(
+        'pattern' => '^/admin/',
+        'form' => array('login_path' => '/login', 'check_path' => '/admin/login_check'),
+        'logout' => array('logout_path' => '/admin/logout', 'invalidate_session' => true),
+
+        // ...
+    ),
+);
