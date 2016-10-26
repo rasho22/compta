@@ -11,9 +11,8 @@ use compta\Domain\Depenses;
 
 class HomeController 
 
-{
-
     /**
+
      * Home page controller.
      *
      * @param Application $app Silex application

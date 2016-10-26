@@ -75,4 +75,3 @@ $app->before(function (Request $request) {
         $request->request->replace(is_array($data) ? $data : array());
     }
 });
-
