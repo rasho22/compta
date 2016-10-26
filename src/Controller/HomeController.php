@@ -9,15 +9,16 @@ use compta\Domain\User;
 use compta\Domain\Depenses;
 
 
-class HomeController {
+class HomeController 
 
     /**
+
      * Home page controller.
      *
      * @param Application $app Silex application
      */
     public function indexAction(Application $app) {
-          $user = $app['dao.user']->findAll();
+          $result = $app['dao.user']->findAll();
         return $app->json(array(
             'records' => $result,
             'status' => 'OK'
@@ -37,7 +38,7 @@ class HomeController {
            
         }
         $depenses = $app['dao.depense']->findAllByGroup($id);
-         return $app->json((array('success', 'Details the group.'));
+         return $app->json((array('success', 'Details the group.')));
     }
 
 

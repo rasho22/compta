@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <p>Hello World</p>
-</body>
-</html>
+<?php
+
+
+require_once __DIR__.'/../vendor/autoload.php';
+
+
+$app = new Silex\Application();
+
+
+require __DIR__.'/../app/config/dev.php';
+
+require __DIR__.'/../app/app.php';
+
+require __DIR__.'/../app/routes.php';
+
+
+$app->run();
+

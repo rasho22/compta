@@ -3,15 +3,16 @@
 namespace compta\Domain;
 
 
-use Symfony\Component\Security\Core\User\UserInterface;
 
-class User implements UserInterface
+
+class User 
 {
 
     private $id;
     private $color;
     private $Pwd;
     private $pseudo;
+    private $role;
 
 
     public function getId() {
@@ -25,7 +26,7 @@ class User implements UserInterface
     /**
      * @inheritDoc
      */
-    public function getSalt()
+    /*public function getSalt()
     {
         return $this->salt;
     }
@@ -33,7 +34,7 @@ class User implements UserInterface
     public function setSalt($salt)
     {
         $this->salt = $salt;
-    }
+    }*/
     /**
      * @inheritDoc
      */
@@ -65,12 +66,22 @@ class User implements UserInterface
      */
 
     public function getPwd() {
-        return $this->Pwd;
+        return $this->$Pwd;
     }
     /**
      * @inheritDoc
      */
     public function setPwd($Pwd) {
         $this->Pwd= $Pwd;
+    }
+
+    public function getRole() {
+        return $this->$role;
+    }
+    /**
+     * @inheritDoc
+     */
+    public function setRole($role) {
+        $this->role= $role;
     }
 }
