@@ -10,7 +10,6 @@ use compta\Domain\Depenses;
 
 class AdminController {
 
-
     public function loginAction(Request $request, Application $app) {
         return $app->render('/login', array(
             'error'         => $app['security.last_error']($request),
@@ -18,6 +17,14 @@ class AdminController {
         ));
     }
 
+
+
+    public function logoutAction (Request $request, Application $app)
+    {
+
+    }
+        /**
+     * Add user controller.
     /**
      * Admin home page controller.
 
