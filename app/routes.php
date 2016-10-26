@@ -18,6 +18,12 @@ $app->match('/admin/group/add', "compta\Controller\AdminController::addGroupActi
 // Edit an existing group
 $app->match('/admin/group/{id}/edit', "compta\Controller\AdminController::editGroupAction")->bind('admin_group_edit');
 
+//add a depense
+$app->get('/admin/depense/add', "compta\Controller\AdminController::addDepenseAction")->bind('admin_depense_add');
+
+//read depenses
+$app->get('/depense/{id}', "compta\Controller\AdminController::getDepenseAction");
+
 // Edit an existing depense
 $app->match('/admin/depense/{id}/edit', "compta\Controller\AdminController::editDepenseAction")->bind('admin_depense_edit');
 

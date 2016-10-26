@@ -14,7 +14,6 @@ class HomeController
 {
 
     /**
-
      * Home page controller.
      *
      * @param Application $app Silex application
@@ -25,7 +24,6 @@ class HomeController
             'records' => $result,
             'status' => 'OK'
         ), 200);
-
     }
 
     public function groupAction($id_user_group, Request $request, Application $app) {
@@ -50,9 +48,6 @@ class HomeController
             'error'         => $app['security.last_error']($request),
             'last_username' => $app['session']->get('_security.last_username'),
             ));
-
-
-
-   
 }
+
 }
