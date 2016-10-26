@@ -6,23 +6,35 @@ use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use compta\Domain\UserGroup;
 use compta\Domain\Depenses;
-use compta\Domain\User;
 
 
 class AdminController {
 
+    public function loginAction(Request $request, Application $app) {
+        return $app->render('/login', array(
+            'error'         => $app['security.last_error']($request),
+            'last_username' => $app['session']->get('_security.last_username'),
+        ));
+    }
 
+
+
+    public function logoutAction (Request $request, Application $app)
+    {
+
+    }
         /**
      * Add user controller.
     /**
      * Admin home page controller.
+
      *
      * @param Request $request Incoming request
      * @param Application $app Silex application
      */
     public function addUserAction(Request $request, Application $app) {
         $user = new User();
-              -> setPseudo($user_name)
+              -> setName($user_name)
               -> setColor($color)
               -> setGroup($user_group)
         $app['dao.user']->save($user);
@@ -154,8 +166,9 @@ class AdminController {
         }
 
         else {
-            echo "Il manque des paramètres !";
-        }
+            return $app->json(array(
+                'status' => 'KO',
+                'error' => 'Parametre(s) manquant(s)'), 412);
     }
 
     /**
