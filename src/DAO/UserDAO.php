@@ -8,9 +8,8 @@ use Symfony\Component\Security\Core\Exception\UsernameNotFoundException;
 use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
 use compta\Domain\User;
 use Doctrine\DBAL\Connection;
-use compta\Domain\User;
 
-class UserDAO extends DAO implements UserProviderInterface
+class UserDAO extends DAO
 {
 
 
@@ -21,7 +20,8 @@ class UserDAO extends DAO implements UserProviderInterface
      */
     public function findAll() {
         $sql = "select * from users";
-        $result = $this->db->fetchAll($sql);
+
+        $result = $this->getDb()->fetchAll($sql);
         
         // Convert query result to an array of domain objects
         $users = array();
@@ -49,7 +49,7 @@ class UserDAO extends DAO implements UserProviderInterface
         $user = new User();
 
         $user->setId($row['id_users']);
-        $user->setName($row['users_name']);
+        $user->setPseudo($row['user_name']);
         $user->setColor($row['color']);
         $user->setPwd($row['pwd']);
         $user->setRole($row['role']);

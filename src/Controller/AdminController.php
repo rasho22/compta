@@ -6,6 +6,7 @@ use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use compta\Domain\UserGroup;
 use compta\Domain\Depenses;
+use compta\Domain\User;
 
 
 class AdminController {
@@ -26,7 +27,7 @@ class AdminController {
      */
     public function addUserAction(Request $request, Application $app) {
         $user = new User();
-              -> setName($user_name)
+              -> setPseudo($user_name)
               -> setColor($color)
               -> setGroup($user_group)
         $app['dao.user']->save($user);

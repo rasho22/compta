@@ -42,7 +42,7 @@ class AppTest extends WebTestCase
         $app = new \Silex\Application();
 
         require __DIR__.'/../../app/config/dev.php';
-      //  require __DIR__.'/../../app/app.php';
+        require __DIR__.'/../../app/app.php';
         require __DIR__.'/../../app/routes.php';
         
         // Generate raw exceptions instead of HTML pages if errors occur
@@ -52,8 +52,6 @@ class AppTest extends WebTestCase
         // Enable anonymous access to admin zone
         $app['security.access_rules'] = array();
         $this->app = $app;
-        echo "EDUEDUEDUEDU";
-        var_dump($this->app['db']);
         return $app;
     }
 
@@ -66,12 +64,12 @@ class AppTest extends WebTestCase
     {
         return array(
             array('/'),
-            array('/users/1'),
-            array('/login'),
+            array('/admin/user/add'),
+            /*array('/login'),
             array('/admin'),
             array('/admin/user/add'),
             array('/admin/user/1/edit'),
-            array('/admin/user_group/1/edit'),
-            ); 
+            array('/admin/user_group/1/edit'),*/
+            );
     }
 }
