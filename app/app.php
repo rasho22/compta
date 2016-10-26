@@ -31,6 +31,22 @@ $app->register(new Silex\Provider\SecurityServiceProvider(), array(
 ));
 
 
+                                            /*------------- SECURITY LOGOUT ? --------------------*/
+
+$app->register(new Silex\Provider\DoctrineServiceProvider());
+$app->register(new Silex\Provider\UrlGeneratorServiceProvider());
+$app->register(new Silex\Provider\SessionServiceProvider());
+$app->register(new Silex\Provider\SecurityServiceProvider(), array(
+    'security.firewalls' = array(
+        'secured' => array(
+            'pattern' => '^/admin/',
+            'form' => array('login_path' => '/login', 'check_path' => '/admin/login_check'),
+            'logout' => array('logout_path' => '/admin/logout', 'invalidate_session' => true),
+
+        ),
+    ),
+));
+
 $app->register(new Silex\Provider\FormServiceProvider());
 $app->register(new Silex\Provider\TranslationServiceProvider());
 $app->register(new Silex\Provider\ValidatorServiceProvider());
@@ -81,14 +97,3 @@ $app->before(function (Request $request) {
         $request->request->replace(is_array($data) ? $data : array());
     }
 });
-
-
-$app['security.firewalls'] = array(
-    'secured' => array(
-        'pattern' => '^/admin/',
-        'form' => array('login_path' => '/login', 'check_path' => '/admin/login_check'),
-        'logout' => array('logout_path' => '/admin/logout', 'invalidate_session' => true),
-
-        // ...
-    ),
-);

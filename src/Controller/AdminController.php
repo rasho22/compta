@@ -9,20 +9,7 @@ use compta\Domain\Depenses;
 
 
 class AdminController {
-/*
-    public function loginAction(Request $request, Application $app) {
-        $app['security.firewalls'] = array(
-            'admin' => array(
-                'pattern' => '^/admin/',
-                'form' => array('login_path' => '/login', 'check_path' => '/admin/login_check'),
-            ),
-        );
-    }*/
 
-    public function logoutAction (Request $request, Application $app)
-    {
-
-    }
         /**
      * Add user controller.
     /**

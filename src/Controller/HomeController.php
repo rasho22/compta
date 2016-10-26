@@ -50,7 +50,4 @@ class HomeController {
             ));
 }
 
-    public function logoutAction (Request $request, Application $app){
-
-    }
 }
