@@ -9,8 +9,8 @@ ExceptionHandler::register();
 // Register service providers
 $app->register(new Silex\Provider\DoctrineServiceProvider());
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
-///$app->register(new Silex\Provider\SessionServiceProvider());
-/*$app->register(new Silex\Provider\SecurityServiceProvider(), array(
+$app->register(new Silex\Provider\SessionServiceProvider());
+$app->register(new Silex\Provider\SecurityServiceProvider(), array(
     'security.firewalls' => array(
         'secured' => array(
             'pattern' => '^/',
@@ -28,7 +28,7 @@ $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
     'security.access_rules' => array(
         array('^/admin', 'ROLE_ADMIN'),
     ),
-));*/
+));
 //$app->register(new Silex\Provider\ValidatorServiceProvider());
 $app->register(new Silex\Provider\MonologServiceProvider(), array(
     'monolog.logfile' => __DIR__.'/../var/logs/app_compta.log',
