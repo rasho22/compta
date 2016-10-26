@@ -9,11 +9,27 @@ use compta\Domain\Depenses;
 
 
 class AdminController {
+<<<<<<< HEAD
+=======
+
+    public function loginAction(Request $request, Application $app) {
+        return $app->render('/login', array(
+            'error'         => $app['security.last_error']($request),
+            'last_username' => $app['session']->get('_security.last_username'),
+        ));
+    }
+
+
+
+    public function logoutAction (Request $request, Application $app)
+    {
+>>>>>>> master
 
         /**
      * Add user controller.
     /**
      * Admin home page controller.
+
      *
      * @param Request $request Incoming request
      * @param Application $app Silex application
@@ -130,7 +146,12 @@ class AdminController {
 
     }
 
-
+    //read depense
+    public function getDepenseAction($id, Application $app) {
+        $depense = $app["dao.depense"]->findById($id);
+        $responseData = $this->buildDepenseArray($depense);
+        return $app->json($responseData);
+    }
 
 
     /**
@@ -141,14 +162,14 @@ class AdminController {
      * @param Application $app Silex application
      */
     public function editDepenseAction($id, Request $request, Application $app) {
-        $depense = $app['dao.depense']->find($id);
-        if ($depenseForm->isSubmitted() && $depenseForm->isValid()) {
+        $depense = $app['dao.depense']->findById($id);
+        if ($request->request->has('montant') AND $request->request->has('date') AND $request->request->has('description') AND $request->request->has('id_users')) {
             $app['dao.depense']->save($depense);
-            $app['session']->getFlashBag()->add('success', 'The depense was succesfully updated.');
         }
-        /*return $app['twig']->render('comment_form.html.twig', array(
-            'title' => 'Edit comment',
-            'commentForm' => $commentForm->createView()));*/
+
+        else {
+            echo "Il manque des paramètres !";
+        }
     }
 
     /**
@@ -159,7 +180,6 @@ class AdminController {
      */
     public function deleteDepenseAction($id, Application $app) {
         $app['dao.depense']->delete($id);
-        $app['session']->getFlashBag()->add('success', 'The depense was succesfully removed.');
         // Redirect to admin home page
         return $app->redirect($app['url_generator']->generate('admin'));
     }
