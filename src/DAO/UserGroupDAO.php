@@ -60,9 +60,9 @@ class UserGroupADO extends DAO
 
 
     //delete group
-    public function delete($id) {
+  /*  public function delete($id) {
         $this->getDB()->delete("user_group", array("id_user_group"=>$id));
-    }
+    }*/
 
 
     //creates a group object based on a DB row

@@ -6,12 +6,12 @@ require_once __DIR__.'/../../vendor/autoload.php';
 
 use Silex\WebTestCase;
 use compta\DAO\UserDAO;
+use compta\DAO\UserGroupDAO;
 
 class AppTest extends WebTestCase
 {
     public $app;
 
-   
     public function testPageIsSuccessful($url)
     {
         $client = $this->createClient();
@@ -21,8 +21,16 @@ class AppTest extends WebTestCase
     }
     
 
+  public function testUserSelection(){
+        $udao = $this->app['dao.user'];
+        $res = $udao->findAll();
+        $this->assertTrue(count($res) == 1);
+
+    }
+
+
     public function testGroupSelection(){
-        $udao = $this->app['dao.UserGroup'];
+        $udao = $this->app['dao.user_group'];
         $res = $udao->findAll();
         $this->assertTrue(count($res) == 1);
 
@@ -50,13 +58,15 @@ class AppTest extends WebTestCase
         //var_dump($this->app['db']);
         return $app;
     }
+
  public function provideUrls()
     {
         return array(
             array('/'),
             array('/group/1'),
+            /*
             array('/admin/group/add'),
-            array('/admin/group/1/edit'),
+            array('/admin/group/1/edit'),*/
             ); 
     }
 }

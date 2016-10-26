@@ -9,7 +9,7 @@ use compta\Domain\Depenses;
 
 
 class AdminController {
-
+/*
     public function loginAction(Request $request, Application $app) {
         $app['security.firewalls'] = array(
             'admin' => array(
@@ -17,17 +17,11 @@ class AdminController {
                 'form' => array('login_path' => '/login', 'check_path' => '/admin/login_check'),
             ),
         );
-    }
+    }*/
 
     public function logoutAction (Request $request, Application $app)
     {
-        $app['security.firewalls'] = array(
-            'secured' => array(
-                'pattern' => '^/admin/',
-                'form' => array('login_path' => '/login', 'check_path' => '/admin/login_check'),
-                'logout' => array('logout_path' => '/admin/logout', 'invalidate_session' => true),
-            ),
-        );
+
     }
     
         /**
@@ -162,16 +156,11 @@ class AdminController {
      */
     public function editDepenseAction($id, Request $request, Application $app) {
         $depense = $app['dao.depense']->find($id);
-        $depenseForm = $app['form.factory']->create(new DepenseType(), $depense);
-        $depenseForm->handleRequest($request);
         if ($depenseForm->isSubmitted() && $depenseForm->isValid()) {
             $app['dao.depense']->save($depense);
             $app['session']->getFlashBag()->add('success', 'The depense was succesfully updated.');
         }
-        /*return $app['twig']->render('comment_form.html.twig', array(
-            'title' => 'Edit comment',
-            'commentForm' => $commentForm->createView()));*/
-    }
+        
 
     /**
      * Delete depense controller.
@@ -195,7 +184,7 @@ class AdminController {
             'id' => $depense->getIdDepenses(),
             'montant' => $depense->getMontant(),
             'date' => $depense->getDate(),
-            'description' => $depense->getDescription,
+            'description' => $depense->getDescription(),
             'id_users' => $depense->getIdUser()
             );
         return $data;

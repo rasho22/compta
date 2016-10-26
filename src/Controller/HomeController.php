@@ -18,7 +18,7 @@ class HomeController {
      * @param Application $app Silex application
      */
     public function indexAction(Application $app) {
-          $user = $app['dao.user']->findAll()
+          $result = $app['dao.user']->findAll();
         return $app->json(array(
             'records' => $result,
             'status' => 'OK'
@@ -27,9 +27,10 @@ class HomeController {
     }
 
     public function groupAction($id_user_group, Request $request, Application $app) {
-        $group = $app['dao.group']->find($id_user_group);
+        $group = $app['dao.user_group']->find($id_user_group);
         
-        if ($app['security.authorization_checker']->isGranted('IS_AUTHENTICATED_FULLY')) {
+        if ($app['security.authorization_checker']->isGranted('IS_AUTHENTICATED_FULLY')) 
+        {
 
             //add depenses
             $depense = new Depense();
@@ -39,7 +40,7 @@ class HomeController {
            
         }
         $depenses = $app['dao.depense']->findAllByGroup($id);
-         return $app->json((array('success', 'Details the group.'));
+         return $app->json('success', 'Details the group.');
     }
 
 
@@ -48,9 +49,9 @@ class HomeController {
             'error'         => $app['security.last_error']($request),
             'last_username' => $app['session']->get('_security.last_username'),
             ));
-
-
-
-   
 }
+
+    public function logoutAction (Request $request, Application $app){
+
+    }
 }

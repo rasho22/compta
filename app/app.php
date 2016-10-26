@@ -9,8 +9,8 @@ ExceptionHandler::register();
 // Register service providers
 $app->register(new Silex\Provider\DoctrineServiceProvider());
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
-$app->register(new Silex\Provider\SessionServiceProvider());
-$app->register(new Silex\Provider\SecurityServiceProvider(), array(
+//$app->register(new Silex\Provider\SessionServiceProvider());
+/*$app->register(new Silex\Provider\SecurityServiceProvider(), array(
     'security.firewalls' => array(
         'secured' => array(
             'pattern' => '^/',
@@ -29,31 +29,33 @@ $app->register(new Silex\Provider\SecurityServiceProvider(), array(
         array('^/admin', 'ROLE_ADMIN'),
     ),
 ));
+
 $app->register(new Silex\Provider\TranslationServiceProvider());
-$app->register(new Silex\Provider\ValidatorServiceProvider());
+$app->register(new Silex\Provider\ValidatorServiceProvider());*/
+
 $app->register(new Silex\Provider\MonologServiceProvider(), array(
     'monolog.logfile' => __DIR__.'/../var/logs/app_compta.log',
     'monolog.name' => 'compta',
    // 'monolog.level' => $app['monolog.level']
 ));
 
-$app->register(new Silex\Provider\ServiceControllerServiceProvider());
-/*
+//$app->register(new Silex\Provider\ServiceControllerServiceProvider());
+
 if (isset($app['debug']) && $app['debug']) {
     $app->register(new Silex\Provider\HttpFragmentServiceProvider());
-    $app->register(new Silex\Provider\WebProfilerServiceProvider(), array(
+    /*$app->register(new Silex\Provider\WebProfilerServiceProvider(), array(
         'profiler.cache_dir' => __DIR__.'/../var/cache/profiler'
-    ));
-}*/
+    ));*/
+}
 
 // Register services
 
 $app['dao.user'] = $app->share(function ($app) {
-   // return new compta\DAO\UserDAO($app['db']);
+    return new compta\DAO\UserDAO($app['db']);
 });
 
 $app['dao.group'] = $app->share(function ($app) {
-    return new compta\DAO\GroupDAO($app['db']);
+    return new compta\DAO\UserGroupDAO($app['db']);
 });
 
 $app['dao.depense'] = $app->share(function ($app) {

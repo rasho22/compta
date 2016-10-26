@@ -16,11 +16,11 @@ class ApiController {
      * @return All groups in JSON format
      */
     public function getGroupsAction(Application $app) {
-        $groups = $app['dao.group']->findAll();
+        $groups = $app['dao.user_group']->findAll();
         // Convert an array of objects ($groups) into an array of associative arrays ($responseData)
         $responseData = array();
-        foreach ($groups as $group) {
-            $responseData[] = $this->buildArticleArray($group);
+        foreach ($groups as $user_group) {
+            $responseData[] = $this->buildArticleArray($user_group);
         }
         // Create and return a JSON response
         return $app->json($responseData);
@@ -35,7 +35,7 @@ class ApiController {
      * @return group details in JSON format
      */
     public function getGroupAction($id, Application $app) {
-        $group = $app['dao.group']->find($id);
+        $group = $app['dao.user_group']->find($id);
         $responseData = $this->buildArticleArray($group);
         // Create and return a JSON response
         return $app->json($responseData);
@@ -51,18 +51,18 @@ class ApiController {
      */
     public function addGroupAction(Request $request, Application $app) {
         // Check request parameters
-        if (!$request->request->has('title')) {
-            return $app->json('Missing required parameter: title', 400);
+        if (!$request->request->has('user_group')) {
+            return $app->json('Missing required parameter: group', 400);
         }
         if (!$request->request->has('content')) {
             return $app->json('Missing required parameter: content', 400);
         }
         // Build and save the new group
         $group = new Group();
-        $group->setTitle($request->request->get('title'));
+        $group->setUserGroup($request->request->get('user_group'));
         $group->setContent($request->request->get('content'));
-        $app['dao.group']->save($group);
-        $responseData = $this->buildArticleArray($group);
+        $app['dao.user_group']->save($user_group);
+        $responseData = $this->buildArticleArray($user_group);
         return $app->json($responseData, 201);  // 201 = Created
     }
 
@@ -76,7 +76,7 @@ class ApiController {
         // Delete all associated depenses
         $app['dao.depense']->deleteAllByGroup($id);
         // Delete the group
-        $app['dao.group']->delete($id);
+        $app['dao.user_group']->delete($id);
         return $app->json('No Content', 204);  // 204 = No content
     }
 
@@ -87,10 +87,10 @@ class ApiController {
      *
      * @return array Associative array whose fields are the group properties.
      */
-    private function buildGroupArray(Group $group) {
+    private function buildGroupArray(Group $user_group) {
         $data  = array(
-            'id' => $group->getId(),
-            'name' => $group->getName(),
+            'id' => $user_group->getId(),
+            'name' => $user_group->getName(),
             );
         return $data;
     }

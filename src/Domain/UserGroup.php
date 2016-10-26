@@ -2,8 +2,7 @@
 
 namespace compta\Domain;
 
-class UserGroup
-{
+class UserGroup {
    
     private $id_user_group;
 
