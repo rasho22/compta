@@ -9,7 +9,7 @@ use compta\Domain\User;
 use compta\Domain\Depenses;
 
 
-class HomeController {
+class HomeController 
 
     /**
 
@@ -18,12 +18,15 @@ class HomeController {
      * @param Application $app Silex application
      */
     public function indexAction(Application $app) {
+<<<<<<< HEAD
           $user = $app['dao.user']->findAll();
+=======
+          $result = $app['dao.user']->findAll();
+>>>>>>> 468013d9feae9b4fbc74fcfade37f28d21bdf3f7
         return $app->json(array(
             'records' => $result,
             'status' => 'OK'
         ), 200);
-
     }
 
     public function groupAction($id_user_group, Request $request, Application $app) {
@@ -39,7 +42,7 @@ class HomeController {
            
         }
         $depenses = $app['dao.depense']->findAllByGroup($id);
-         return $app->json((array('success', 'Details the group.'));
+         return $app->json((array('success', 'Details the group.')));
     }
 
 
@@ -50,7 +53,4 @@ class HomeController {
             ));
 }
 
-    public function logoutAction (Request $request, Application $app){
-
-    }
 }
