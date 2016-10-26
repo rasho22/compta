@@ -18,7 +18,7 @@ class HomeController {
      * @param Application $app Silex application
      */
     public function indexAction(Application $app) {
-          $user = $app['dao.user']->findAll()
+          $user = $app['dao.user']->findAll();
         return $app->json(array(
             'records' => $result,
             'status' => 'OK'
