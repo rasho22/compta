@@ -25,7 +25,7 @@ class HomeController
         ), 200);
     }
 
-    public function groupAction($id_user_group, Request $request, Application $app) {
+    public function groupAction(Application $app) {
         $groups = $app['dao.group']->findAll();
         $result = [];
         foreach ($groups as $group) {
@@ -40,6 +40,8 @@ class HomeController
           'status' => 'OK'
         ), 200);
     }
+
+    public function groupByIdAction()
 
 
     public function loginAction(Request $request, Application $app) {
