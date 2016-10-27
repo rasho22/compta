@@ -26,19 +26,19 @@ class HomeController
     }
 
     public function groupAction($id_user_group, Request $request, Application $app) {
-        $group = $app['dao.group']->find($id_user_group);
-        
-        if ($app['security.authorization_checker']->isGranted('IS_AUTHENTICATED_FULLY')) {
-
-            //add depenses
-            $depense = new Depense();
-            $depense->setGroup($group);
-            $user = $app['user'];
-            $depense->setDepense($user);
-           
-        }
-        $depenses = $app['dao.depense']->findAllByGroup($id);
-         return $app->json((array('success', 'Details the group.')));
+        $groups = $app['dao.group']->findAll();
+        $result = [];
+        foreach ($groups as $group) {
+          $result[] = array(
+            'id' => $group->getId(),
+            'name' => $group->getGroupName()
+          );
+        }        
+       
+        return $app->json(array(
+          'records' => $result,
+          'status' => 'OK'
+        ), 200);
     }
 
 

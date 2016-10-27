@@ -68,7 +68,7 @@ class UserGroupADO extends DAO
     //creates a group object based on a DB row
     protected function buildDomainObject($row) {
         $group = new UserGroup();
-        $group->setIdGroup($row['id_user_group']);
+        $group->setId($row['id_user_group']);
         $group->setGroupName($row['group_name']);
         return $group;
     }
