@@ -70,7 +70,7 @@ class AdminController {
         }
 
         $group = new UserGroup();
-        $group->setGroup($request->request->get('id_user_group'));
+        $group->setId($request->request->get('id_user_group'));
         $group->setGroupName($request->request->get('group_name'));
         $responseData = $this->buildGroupArray($group);
 
