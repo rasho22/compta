@@ -41,7 +41,13 @@ class HomeController
         ), 200);
     }
 
-    public function groupByIdAction()
+    public function groupByIdAction($id, Application $app) {
+      $group = $app["dao.group"]->findById($id);
+      return $app->json(array(
+        'records'=>$group,
+        'status'=>'OK'
+      ), 200);
+    }
 
 
     public function loginAction(Request $request, Application $app) {
