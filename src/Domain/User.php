@@ -3,11 +3,6 @@
 namespace compta\Domain;
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> master
 class User 
 {
 
@@ -26,22 +21,7 @@ class User
         $this->id = $id;
     }
 
-<<<<<<< HEAD
-    
-=======
-    /**
-     * @inheritDoc
-     */
-    /*public function getSalt()
-    {
-        return $this->salt;
-    }
 
-    public function setSalt($salt)
-    {
-        $this->salt = $salt;
-    }*/
->>>>>>> master
     /**
      * @inheritDoc
      */
@@ -82,18 +62,13 @@ class User
         $this->Pwd= $Pwd;
     }
 
-<<<<<<< HEAD
 
-      public function getRole() {
-=======
     public function getRole() {
->>>>>>> master
+
         return $this->$role;
     }
-    /**
-     * @inheritDoc
-     */
-    public function setRole($role) {
+    
+     public function setRole($role) {
         $this->role= $role;
     }
 }

@@ -12,11 +12,17 @@ class AppTest extends WebTestCase
 {
     public $app;
 
+    /** 
+     * Basic, application-wide functional test inspired by Symfony best practices.
+     * Simply checks that all application URLs load successfully.
+     * During test execution, this method is called for each URL returned by the provideUrls method.
+     *
+     * @dataProvider provideUrls 
+     */
     public function testPageIsSuccessful($url)
     {
         $client = $this->createClient();
         $client->request('GET', $url);
-
         $this->assertTrue($client->getResponse()->isSuccessful());
     }
     
@@ -24,17 +30,30 @@ class AppTest extends WebTestCase
   public function testUserSelection(){
         $udao = $this->app['dao.user'];
         $res = $udao->findAll();
-        $this->assertTrue(count($res) == 1);
+        $this->assertTrue(count($res) == 2);
+}
 
-    }
-
-
-    public function testGroupSelection(){
+//lister les groupes
+    public function testUserGroupSelection(){
         $udao = $this->app['dao.user_group'];
         $res = $udao->findAll();
-        $this->assertTrue(count($res) == 1);
+        $this->assertTrue(count($res) == 2);
 
     }
+
+    //ajouter un groupe
+   /* public function testAddGroupSelection(){
+        $udao=$this->app['dao.user_group'];
+        //$this->getDb()->insert('user_groups', $data);
+        //$res=$udao->save();
+        $this->assertTrue(1 == 1);
+
+       
+    }*/
+
+
+
+
 
     /**
      * {@inheritDoc}
@@ -54,11 +73,10 @@ class AppTest extends WebTestCase
         // Enable anonymous access to admin zone
         $app['security.access_rules'] = array();
         $this->app = $app;
-<<<<<<< HEAD
+
     
         //var_dump($this->app['db']);
-=======
->>>>>>> master
+
         return $app;
     }
 
@@ -66,21 +84,21 @@ class AppTest extends WebTestCase
     {
         return array(
             array('/'),
-<<<<<<< HEAD
+            //array('/login'),
             array('/group/1'),
-            /*
             array('/admin/group/add'),
-            array('/admin/group/1/edit'),*/
-            ); 
-=======
-            array('/admin/user/add'),
-            /*array('/login'),
-            array('/admin'),
+            /* array('/admin'),
+            array('/admin/group/1/edit'),
+            array('/admin/depense/add'),
+            array('/depense/1'),
+            array('/admin/depense/1/edit'),
+            array('/admin/depense/1/delete'),
             array('/admin/user/add'),
             array('/admin/user/1/edit'),
-            array('/admin/user_group/1/edit'),*/
+            array('/admin/user/1/delete'),*/
+         
             );
->>>>>>> master
+
     }
 }
  

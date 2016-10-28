@@ -27,7 +27,7 @@ class DepensesDAO extends DAO {
         if ($row)
             return $this->buildDomainObject($row);
         else
-            throw new \Exception("No depense matching id " . $id);
+            throw new \Exception("No article matching id " . $id);
     }
 
     //returns a depense matching the supplied date
@@ -38,7 +38,7 @@ class DepensesDAO extends DAO {
         if ($row)
             return $this->buildDomainObject($row);
         else
-            throw new \Exception("No depense matching date " . $date);
+            throw new \Exception("No article matching date " . $date);
     }
 
     //saves a depense intot the db

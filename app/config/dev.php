@@ -7,7 +7,7 @@ $app['db.options'] = array(
     'host'     => '127.0.0.1',  // Mandatory for PHPUnit testing
     'port'     => '3306',
     'dbname'   => 'app_compta',
-    'user'     => 'root',
+    'user'     => 'Abdul',
     'password' => 'facesimplon',
 );
 
