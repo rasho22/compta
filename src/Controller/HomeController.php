@@ -9,7 +9,7 @@ use compta\Domain\User;
 use compta\Domain\Depenses;
 
 
-class HomeController {
+class HomeController 
 
     /**
 
@@ -23,9 +23,25 @@ class HomeController {
             'records' => $result,
             'status' => 'OK'
         ), 200);
-
     }
 
+    public function groupAction(Application $app) {
+        $groups = $app['dao.group']->findAll();
+        $result = [];
+        foreach ($groups as $group) {
+          $result[] = array(
+            'id' => $group->getId(),
+            'name' => $group->getGroupName()
+          );
+        }        
+       
+        return $app->json(array(
+          'records' => $result,
+          'status' => 'OK'
+        ), 200);
+    }
+
+<<<<<<< HEAD
     public function groupAction($id_user_group, Request $request, Application $app) {
         $group = $app['dao.user_group']->find($id_user_group);
         
@@ -41,6 +57,14 @@ class HomeController {
         }
         $depenses = $app['dao.depense']->findAllByGroup($id);
          return $app->json('success', 'Details the group.');
+=======
+    public function groupByIdAction($id, Application $app) {
+      $group = $app["dao.group"]->findById($id);
+      return $app->json(array(
+        'records'=>$group,
+        'status'=>'OK'
+      ), 200);
+>>>>>>> master
     }
 
 
@@ -51,7 +75,4 @@ class HomeController {
             ));
 }
 
-    public function logoutAction (Request $request, Application $app){
-
-    }
 }

@@ -54,8 +54,11 @@ class AppTest extends WebTestCase
         // Enable anonymous access to admin zone
         $app['security.access_rules'] = array();
         $this->app = $app;
+<<<<<<< HEAD
     
         //var_dump($this->app['db']);
+=======
+>>>>>>> master
         return $app;
     }
 
@@ -63,11 +66,21 @@ class AppTest extends WebTestCase
     {
         return array(
             array('/'),
+<<<<<<< HEAD
             array('/group/1'),
             /*
             array('/admin/group/add'),
             array('/admin/group/1/edit'),*/
             ); 
+=======
+            array('/admin/user/add'),
+            /*array('/login'),
+            array('/admin'),
+            array('/admin/user/add'),
+            array('/admin/user/1/edit'),
+            array('/admin/user_group/1/edit'),*/
+            );
+>>>>>>> master
     }
 }
  

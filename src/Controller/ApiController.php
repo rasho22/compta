@@ -94,4 +94,12 @@ class ApiController {
             );
         return $data;
     }
+
+    public function getDepenseAction($id, Application $app) {
+        $depense = $app["dao.depense"]->findById($id);
+        $responseData = $this->buildDepenseArray($depense);
+        return $app->json($responseData);
+    }
+
+
 }

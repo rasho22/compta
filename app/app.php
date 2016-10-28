@@ -29,15 +29,20 @@ $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
         array('^/admin', 'ROLE_ADMIN'),
     ),
 ));
+<<<<<<< HEAD
 
 $app->register(new Silex\Provider\TranslationServiceProvider());
 $app->register(new Silex\Provider\ValidatorServiceProvider());*/
 
+=======
+//$app->register(new Silex\Provider\ValidatorServiceProvider());
+>>>>>>> master
 $app->register(new Silex\Provider\MonologServiceProvider(), array(
     'monolog.logfile' => __DIR__.'/../var/logs/app_compta.log',
     'monolog.name' => 'compta',
    // 'monolog.level' => $app['monolog.level']
 ));
+<<<<<<< HEAD
 
 //$app->register(new Silex\Provider\ServiceControllerServiceProvider());
 
@@ -46,9 +51,15 @@ if (isset($app['debug']) && $app['debug']) {
     /*$app->register(new Silex\Provider\WebProfilerServiceProvider(), array(
         'profiler.cache_dir' => __DIR__.'/../var/cache/profiler'
     ));*/
+=======
+//$app->register(new Silex\Provider\ServiceControllerServiceProvider());
+if (isset($app['debug']) && $app['debug']) {
+    $app->register(new Silex\Provider\HttpFragmentServiceProvider());
+>>>>>>> master
 }
 
 // Register services
+
 
 $app['dao.user'] = $app->share(function ($app) {
     return new compta\DAO\UserDAO($app['db']);
@@ -59,7 +70,7 @@ $app['dao.group'] = $app->share(function ($app) {
 });
 
 $app['dao.depense'] = $app->share(function ($app) {
-   return new compta\DAO\DepenseDAO($app['db']);
+   return new compta\DAO\DepensesDAO($app['db']);
 });
 
 // Register error handler
@@ -83,4 +94,7 @@ $app->before(function (Request $request) {
         $request->request->replace(is_array($data) ? $data : array());
     }
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
