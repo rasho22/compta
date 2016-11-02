@@ -17,17 +17,17 @@ class HomeController {
      *
      * @param Application $app Silex application
      */
-    public function indexAction(Application $app) {
+   /* public function indexAction(Application $app) {
           $result = $app['dao.user']->findAll();
         return $app->json(array(
             'records' => $result,
             'status' => 'OK'
         ), 200);
-    }
+    }*/
 
     public function groupAction($id_user_group, Request $request, Application $app) {
         $group = $app['dao.user_group']->findAll();
-        return $app->json(array(
+        return $app->json('/group/1',array(
             'records' => $group,
             'status' => 'OK'
         ), 200);
