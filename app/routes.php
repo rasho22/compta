@@ -1,6 +1,6 @@
 <?php
 
-// Home page
+// see all users
 $app->get('/', "compta\Controller\HomeController::indexAction")->bind('home');
 
 // Login form
@@ -8,7 +8,6 @@ $app->get('/login', "compta\Controller\HomeController::loginAction")->bind('logi
 
 // Detailed info about group
 $app->get('/group/{id}', "compta\Controller\HomeController::groupAction")->bind('group');
-
 
 // Add a new group
 $app->get('/admin/group/add', "compta\Controller\AdminController::addGroupAction")->bind('admin_group_add');
