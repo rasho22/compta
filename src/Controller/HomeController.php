@@ -25,28 +25,13 @@ class HomeController {
         ), 200);
     }
 
-    public function groupAction(Application $app) {
-        $groups = $app['dao.group']->findAll();
-        $result = [];
-        foreach ($groups as $group) {
-          $result[] = array(
-            'id' => $group->getId(),
-            'name' => $group->getGroupName()
-          );
-        }        
-       
+    public function groupAction($id_user_group, Request $request, Application $app) {
+        $group = $app['dao.user_group']->findAll();
         return $app->json(array(
-          'records' => $result,
-          'status' => 'OK'
+            'records' => $group,
+            'status' => 'OK'
         ), 200);
-    }
 
-    public function groupByIdAction($id, Application $app) {
-      $group = $app["dao.group"]->findById($id);
-      return $app->json(array(
-        'records'=>$group,
-        'status'=>'OK'
-      ), 200);
     }
 
 

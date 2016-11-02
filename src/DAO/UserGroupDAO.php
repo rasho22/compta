@@ -2,22 +2,28 @@
 
 namespace compta\DAO;
 
+use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Security\Core\User\UserProviderInterface;
+use Symfony\Component\Security\Core\Exception\UsernameNotFoundException;
+use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
 use compta\Domain\UserGroup;
+use compta\Domain\User;
+use Doctrine\DBAL\Connection;
 
-class UserGroupADO extends DAO 
+class UserGroupDAO extends DAO 
 {
     
     public function findAll() {
-        $sql = "select * from user_group order by id_user_group";
+        $sql = "select * from user_group";
         $result = $this->getDb()->fetchAll($sql);
 
         // Convert query result to an array of domain objects
-        $entities = array();
+        $groups = array();
         foreach ($result as $row) {
             $id = $row['id_user_group'];
-            $entities[$id] = $this->buildDomainObject($row);
+            $groups[$id] = $this->buildDomainObject($row);
         }
-        return $entities;
+        return $groups;
     }
 
     public function findById($id) {
@@ -57,12 +63,8 @@ class UserGroupADO extends DAO
             $id = $this->getDb()->lastInsertId();
             $group->setId($id);
         }
+  } 
 
-
-    //delete group
-    public function delete($id) {
-        $this->getDB()->delete("user_group", array("id_user_group"=>$id));
-    }
 
 
     //creates a group object based on a DB row
@@ -74,6 +76,6 @@ class UserGroupADO extends DAO
     }
 
 
-    }    
+     
 
 }
