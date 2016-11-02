@@ -9,7 +9,7 @@ use compta\Domain\User;
 use compta\Domain\Depenses;
 
 
-class HomeController 
+class HomeController {
 
     /**
 
