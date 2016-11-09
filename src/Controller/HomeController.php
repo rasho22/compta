@@ -36,7 +36,7 @@ class HomeController
      * @param Request $request Incoming request
      * @param Application $app Silex application
      */
-    public function groupAction($id_user_group, Request $request, Application $app) {
+    public function groupAction(Request $request, Application $app) {
         $group = $app['dao.user_group']->findAll();
         return $app->json(array(
             'records' => $group,

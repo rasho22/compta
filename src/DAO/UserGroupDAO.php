@@ -12,7 +12,7 @@ use Doctrine\DBAL\Connection;
 
 class UserGroupDAO extends DAO 
 {
-    
+    //Detailed info about groups
     public function findAll() {
         $sql = "select * from user_group";
         $result = $this->getDb()->fetchAll($sql);
@@ -20,7 +20,7 @@ class UserGroupDAO extends DAO
         // Convert query result to an array of domain objects
         $groups = array();
         foreach ($result as $row) {
-            $id = $row['id_user_group'];
+            $id = $row['group_name'];
             $groups[$id] = $this->buildDomainObject($row);
         }
         return $groups;

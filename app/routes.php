@@ -6,12 +6,14 @@ $app->get('/', "compta\Controller\HomeController::indexAction")->bind('home');
 // Login form
 $app->get('/login', "compta\Controller\HomeController::loginAction")->bind('login');
 
-// Detailed info about group
+
 
 // Admin zone
 //$app->get('/admin', "compta\Controller\AdminController::indexAction")->bind('admin');
 
-$app->get('/group/{id}', "compta\Controller\HomeController::groupAction")->bind('group');
+
+// Detailed info about groups
+$app->get('/groups', "compta\Controller\HomeController::groupAction")->bind('group');
 
 
 // Add a new group
