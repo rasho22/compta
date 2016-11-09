@@ -6,6 +6,7 @@ require_once __DIR__.'/../../vendor/autoload.php';
 
 use Silex\WebTestCase;
 use compta\DAO\UserDAO;
+use compta\DAO\UserGroupDAO;
 
 class AppTest extends WebTestCase
 {
@@ -18,7 +19,6 @@ class AppTest extends WebTestCase
      *
      * @dataProvider provideUrls 
      */
-    
     public function testPageIsSuccessful($url)
     {
         $client = $this->createClient();
@@ -27,14 +27,31 @@ class AppTest extends WebTestCase
     }
 
 
-    public function testUserSelection()
-    {
-
+  public function testUserSelection(){
         $udao = $this->app['dao.user'];
         $res = $udao->findAll();
-        $this->assertTrue(count($res) == 1);
+        $this->assertTrue(count($res) == 2);
+}
+
+//lister les groupes
+    public function testUserGroupSelection(){
+        $udao = $this->app['dao.user_group'];
+        $res = $udao->findAll();
+        $this->assertTrue(count($res) == 2);
 
     }
+
+    //ajouter un groupe
+public function testAddGroupSelection(){
+        $udao=$this->app['dao.user_group'];
+        $this->getDb()->insert('user_groups', $data);
+        $res=$udao->save();
+        $this->assertTrue(1 == 1);
+
+       
+    }
+
+
 
     /**
      * {@inheritDoc}
@@ -54,14 +71,19 @@ class AppTest extends WebTestCase
         // Enable anonymous access to admin zone
         $app['security.access_rules'] = array();
         $this->app = $app;
+
+    
+        //var_dump($this->app['db']);
+
         return $app;
     }
 
-    /**
+/**
      * Provides all valid application URLs.
      *
      * @return array The list of all valid application URLs.
      */
+
 
     public function provideUrls()
     {
@@ -72,6 +94,9 @@ class AppTest extends WebTestCase
             array('/admin'),
             /*array('/admin/user/1/edit'),
             array('/admin/user_group/1/edit'),*/
+
             );
+
     }
 }
+ 

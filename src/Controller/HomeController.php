@@ -9,8 +9,10 @@ use compta\Domain\User;
 use compta\Domain\Depenses;
 
 
+
 class HomeController 
 {
+
     /**
 
      * Home page controller.
@@ -27,20 +29,20 @@ class HomeController
         ), 200);
     }
 
+ /**
+     * Groupe details controller.
+     *
+     * @param integer $id UserGroupe id
+     * @param Request $request Incoming request
+     * @param Application $app Silex application
+     */
     public function groupAction($id_user_group, Request $request, Application $app) {
-        $group = $app['dao.group']->find($id_user_group);
-        
-        if ($app['security.authorization_checker']->isGranted('IS_AUTHENTICATED_FULLY')) {
+        $group = $app['dao.user_group']->findAll();
+        return $app->json(array(
+            'records' => $group,
+            'status' => 'OK'
+        ), 200);
 
-            //add depenses
-            $depense = new Depense();
-            $depense->setGroup($group);
-            $user = $app['user'];
-            $depense->setDepense($user);
-           
-        }
-        $depenses = $app['dao.depense']->findAllByGroup($id);
-         return $app->json((array('success', 'Details the group.')));
     }
 
 

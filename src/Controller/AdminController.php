@@ -6,10 +6,16 @@ use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use compta\Domain\UserGroup;
 use compta\Domain\Depenses;
-use compta\Domain\User;
 
 
 class AdminController {
+
+    public function loginAction(Request $request, Application $app) {
+        return $app->render('/login', array(
+            'error'         => $app['security.last_error']($request),
+            'last_username' => $app['session']->get('_security.last_username'),
+        ));
+    }
 
 
     use security;
@@ -17,12 +23,15 @@ class AdminController {
 
     /**
      * Add user controller.
+
     /**
      * Admin home page controller.
+
      *
      * @param Request $request Incoming request
      * @param Application $app Silex application
      */
+
 
     public function addUserAction(Request $request, Application $app) {
         $user = new User();
@@ -70,6 +79,7 @@ class AdminController {
        }
     }     
 
+
     
     /**
      * Delete user controller.
@@ -88,7 +98,11 @@ class AdminController {
 
     /**
      * Add group controller.
+     *
+     * @param Request $request Incoming request
+     * @param Application $app Silex application
      */
+     
     public function addGroupAction(Request $request, Application $app) {
         
         
@@ -100,26 +114,25 @@ class AdminController {
         }
 
         $group = new UserGroup();
-        $group->setGroup($request->request->get('id_user_group'));
+        $group->setId($request->request->get('id_user_group'));
         $group->setGroupName($request->request->get('group_name'));
         $responseData = $this->buildGroupArray($group);
 
-        $app['dao.group']->save($group);
+        $app['dao.user_group']->save($group);
 
-         return $app->json($responseData, 201);  // 201 = Created    
+         return $app->json(array($responseData), 201);  // 201 = Created    
     }
 
      /**
-     * API delete group controller.
+     * edit group controller.
      *
-     * @param integer $id group id
+     * @param integer $id user_group id
      * @param Application $app Silex application
      */
     public function editGroupAction($id_user_group, Application $app) {
-        // Delete all associated depenses
-        $app['dao.depense']->deleteAllByGroup($id_user_group);
+       
         // Delete the group
-        $app['dao.group']->delete($id_user_group);
+        $app['dao.user_group']->delete($id_user_group);
         return $app->json('No Content', 204);  // 204 = No content
     }
 
@@ -138,9 +151,7 @@ class AdminController {
         return $data;
     }
 
-
-
- //Add depense controller
+     //Add depense controller
 
     public function addDepenseAction(Request $request, Application $app) {
 
@@ -196,7 +207,9 @@ class AdminController {
         }
 
         else {
-            echo "Il manque des paramètres !";
+            return $app->json(array(
+                'status' => 'KO',
+                'error' => 'Parametre(s) manquant(s)'), 412);
         }
     }
 
@@ -213,8 +226,6 @@ class AdminController {
     }
 
 
-   
-
     //converts a depense into an associative array => for json
     /*private function buildDepenseArray(Depenses $depense) {
         $data = array(
@@ -225,6 +236,11 @@ class AdminController {
             'id_users' => $depense->getIdUser()
             );
         return $data;
+
     }*/
+
+    }
+
+
 }
 
