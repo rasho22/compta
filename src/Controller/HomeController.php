@@ -10,15 +10,17 @@ use compta\Domain\Depenses;
 
 
 class HomeController 
-
+{
     /**
 
      * Home page controller.
      *
      * @param Application $app Silex application
      */
+
+
     public function indexAction(Application $app) {
-          $result = $app['dao.user']->findAll();
+        $result = $app['dao.user']->findAll();
         return $app->json(array(
             'records' => $result,
             'status' => 'OK'

@@ -23,10 +23,12 @@ class AppTest extends WebTestCase
     {
         $client = $this->createClient();
         $client->request('GET', $url);
-
         $this->assertTrue($client->getResponse()->isSuccessful());
     }
-    public function testUserSelection(){
+
+
+    public function testUserSelection()
+    {
 
         $udao = $this->app['dao.user'];
         $res = $udao->findAll();
@@ -60,15 +62,15 @@ class AppTest extends WebTestCase
      *
      * @return array The list of all valid application URLs.
      */
+
     public function provideUrls()
     {
         return array(
             array('/'),
-            array('/admin/user/add'),
-            /*array('/login'),
+            //array('/admin/user/add'),
+            //array('/login'),
             array('/admin'),
-            array('/admin/user/add'),
-            array('/admin/user/1/edit'),
+            /*array('/admin/user/1/edit'),
             array('/admin/user_group/1/edit'),*/
             );
     }

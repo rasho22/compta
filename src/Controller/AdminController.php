@@ -12,7 +12,10 @@ use compta\Domain\User;
 class AdminController {
 
 
-        /**
+    use security;
+
+
+    /**
      * Add user controller.
     /**
      * Admin home page controller.
@@ -20,14 +23,53 @@ class AdminController {
      * @param Request $request Incoming request
      * @param Application $app Silex application
      */
+
     public function addUserAction(Request $request, Application $app) {
         $user = new User();
-              -> setPseudo($user_name)
-              -> setColor($color)
-              -> setGroup($user_group)
-        $app['dao.user']->save($user);
-        return $app->json;
-    }
+        try {
+        // methode pour récupérer et decoder le format json
+                $data = json_decode($request->getContent(), true);
+                $request->request->replace(is_array($data) ? $data : array());
+                // on verifie que nous avons bien toute les valeurs dont nous avons besoin
+                if ($request->request->has('username') && $request->request->has('usergroup') && $request->request->has('usercolor')) {
+                    if ($request->request->has('Id')) {
+                    //on hydrate notre objet (cad on donne les valeurs aux attributs)
+                        $user->setId($request->request->get('Id'));
+                    }
+                    $user->setPseudo($request->request->get('username'));
+                    //$user->setGroup($request->request->get('usergroup'));
+                    $user->setColor($request->request->get('usercolor'));
+                }
+                // message d'erreur en json 
+                else {
+                    return $app->json(array(
+                    'records' => [],
+                    'status' => 'KO',
+                    'error' => 'missing parametres username, usergroup and/or usercolor',
+                    ), 400);
+                }
+                //on appelle la fontion Save de UserDAO
+                $users = $app['dao.user']->save($user);
+                // on affiche le resultat en json
+                $result = array(
+                    "id"=>$user->getId(),
+                    "username"=> $user->getPseudo()
+                    );
+                return $app->json(array(
+                'records' => $result,
+                'status' => 'OK'
+                ), 200);
+            }
+        catch(Exception $e){
+                return $app->json(array(
+                    'records' => [],
+                    'status' => 'KO',
+                    'error' => $e->getMessage()
+                ), 400);
+        
+       }
+    }     
+
     
     /**
      * Delete user controller.
@@ -37,7 +79,7 @@ class AdminController {
      */
     public function deleteUserAction($id, Application $app) {
         $app['dao.user']->delete($id);
-        $app['dao.usergroup']->deleteByGroup($id);
+        $app['dao.user_group']->deleteByGroup($id);
         $app['dao.depenses']->deleteByUser($id);
         return $app->json(array(
             'status' => 'OK'
@@ -171,10 +213,10 @@ class AdminController {
     }
 
 
-  } 
+   
 
     //converts a depense into an associative array => for json
-    private function buildDepenseArray(Depenses $depense) {
+    /*private function buildDepenseArray(Depenses $depense) {
         $data = array(
             'id' => $depense->getIdDepenses(),
             'montant' => $depense->getMontant(),
@@ -183,5 +225,6 @@ class AdminController {
             'id_users' => $depense->getIdUser()
             );
         return $data;
-    }
+    }*/
 }
+

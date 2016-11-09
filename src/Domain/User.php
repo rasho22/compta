@@ -13,6 +13,7 @@ class User
     private $Pwd;
     private $pseudo;
     private $role;
+    private $groups;
 
 
     public function getId() {
@@ -84,4 +85,35 @@ class User
     public function setRole($role) {
         $this->role= $role;
     }
+
+
+    /**
+        * Returns the list of groups for the current user.
+        *
+        * @return int[] The list of groups for the current user.
+    */
+        public function getGroups() { return $this->groups; }
+        
+    /**
+
+    /**
+        * Sets the list of groups for the current user.
+        *
+        * @param int[] The new list of groups for the current user, as group ids.
+        *
+        * @return self|null The current user if the param is valid, null otherwise.
+        */
+    
+        public function setGroups(array $groups) {
+            if (count($groups) == 0) $this->groups = NULL;
+            else {
+                foreach ($groups as $group) {
+                    $group = (int) $groups;
+                    if ($group <= 0) return NULL;
+                }
+                $this->groups = $groups;
+            }
+            return $this;
+        }
+
 }
