@@ -7,7 +7,12 @@ $app->get('/', "compta\Controller\HomeController::indexAction")->bind('home');
 $app->get('/login', "compta\Controller\HomeController::loginAction")->bind('login');
 
 // Detailed info about group
+
+// Admin zone
+//$app->get('/admin', "compta\Controller\AdminController::indexAction")->bind('admin');
+
 $app->get('/group/{id}', "compta\Controller\HomeController::groupAction")->bind('group');
+
 
 // Add a new group
 $app->get('/admin/group/add', "compta\Controller\AdminController::addGroupAction")->bind('admin_group_add');
@@ -28,10 +33,10 @@ $app->match('/admin/depense/{id}/edit', "compta\Controller\AdminController::edit
 $app->get('/admin/depense/{id}/delete', "compta\Controller\AdminController::deleteDepenseAction")->bind('admin_depense_delete');
 
 // Add a user
-$app->match('/admin/user/add', "compta\Controller\AdminController::addUserAction")->bind('admin_user_add');
+$app->post('/admin/user/add', "compta\Controller\AdminController::addUserAction")->bind('admin_user_add');
 
 // Edit an existing user
-$app->match('/admin/user/{id}/edit', "compta\Controller\AdminController::editUserAction")->bind('admin_user_edit');
+$app->get('/admin/user/{id}/edit', "compta\Controller\AdminController::editUserAction")->bind('admin_user_edit');
 
 // Remove a user
 $app->get('/admin/user/{id}/delete', "compta\Controller\AdminController::deleteUserAction")->bind('admin_user_delete');

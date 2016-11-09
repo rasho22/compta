@@ -25,7 +25,7 @@ class AppTest extends WebTestCase
         $client->request('GET', $url);
         $this->assertTrue($client->getResponse()->isSuccessful());
     }
-    
+
 
   public function testUserSelection(){
         $udao = $this->app['dao.user'];
@@ -84,23 +84,17 @@ public function testAddGroupSelection(){
      * @return array The list of all valid application URLs.
      */
 
- public function provideUrls()
+
+    public function provideUrls()
     {
         return array(
             array('/'),
-            array('/login'),
-            array('/group'),
-            array('/admin/group/add'),
-            /* 
-            array('/admin/group/1/edit'),
-            array('/admin/depense/add'),
-            array('/depense/1'),
-            array('/admin/depense/1/edit'),
-            array('/admin/depense/1/delete'),
-            array('/admin/user/add'),
-            array('/admin/user/1/edit'),
-            array('/admin/user/1/delete'),*/
-         
+            //array('/admin/user/add'),
+            //array('/login'),
+            array('/admin'),
+            /*array('/admin/user/1/edit'),
+            array('/admin/user_group/1/edit'),*/
+
             );
 
     }
