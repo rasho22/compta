@@ -26,14 +26,14 @@ class AdminController {
      * @param Request $request Incoming request
      * @param Application $app Silex application
      */
-  /*  public function addUserAction(Request $request, Application $app) {
+   public function addUserAction(Request $request, Application $app) {
         $user = new User();
               -> setName($user_name)
               -> setColor($color)
               -> setGroup($user_group)
         $app['dao.user']->save($user);
         return $app->json;
-    }*/
+    }
     
     /**
      * Delete user controller.
@@ -43,7 +43,7 @@ class AdminController {
      */
     public function deleteUserAction($id, Application $app) {
         $app['dao.user']->delete($id);
-        $app['dao.usergroup']->deleteByGroup($id);
+        $app['dao.user_group']->deleteByGroup($id);
         $app['dao.depenses']->deleteByUser($id);
         return $app->json(array(
             'status' => 'OK'
@@ -52,7 +52,11 @@ class AdminController {
 
     /**
      * Add group controller.
+     *
+     * @param Request $request Incoming request
+     * @param Application $app Silex application
      */
+     
     public function addGroupAction(Request $request, Application $app) {
         
         
@@ -74,16 +78,15 @@ class AdminController {
     }
 
      /**
-     * API delete group controller.
+     * edit group controller.
      *
-     * @param integer $id group id
+     * @param integer $id user_group id
      * @param Application $app Silex application
      */
     public function editGroupAction($id_user_group, Application $app) {
-        // Delete all associated depenses
-        $app['dao.depense']->deleteAllByGroup($id_user_group);
+       
         // Delete the group
-        $app['dao.group']->delete($id_user_group);
+        $app['dao.user_group']->delete($id_user_group);
         return $app->json('No Content', 204);  // 204 = No content
     }
 

@@ -26,12 +26,12 @@ class AppTest extends WebTestCase
         $this->assertTrue($client->getResponse()->isSuccessful());
     }
     
-/*
+
   public function testUserSelection(){
         $udao = $this->app['dao.user'];
         $res = $udao->findAll();
         $this->assertTrue(count($res) == 2);
-}*/
+}
 
 //lister les groupes
     public function testUserGroupSelection(){
@@ -42,14 +42,14 @@ class AppTest extends WebTestCase
     }
 
     //ajouter un groupe
- /*public function testAddGroupSelection(){
+public function testAddGroupSelection(){
         $udao=$this->app['dao.user_group'];
-        //$this->getDb()->insert('user_groups', $data);
-        //$res=$udao->save();
+        $this->getDb()->insert('user_groups', $data);
+        $res=$udao->save();
         $this->assertTrue(1 == 1);
 
        
-    }*/
+    }
 
 
 
@@ -78,13 +78,19 @@ class AppTest extends WebTestCase
         return $app;
     }
 
+/**
+     * Provides all valid application URLs.
+     *
+     * @return array The list of all valid application URLs.
+     */
+
  public function provideUrls()
     {
         return array(
             array('/'),
             array('/login'),
-            array('/group/1'),
-          //  array('/admin/group/add'),
+            array('/group'),
+            array('/admin/group/add'),
             /* 
             array('/admin/group/1/edit'),
             array('/admin/depense/add'),
