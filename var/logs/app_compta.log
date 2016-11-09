@@ -869,3 +869,8 @@
 =======
 >>>>>>> 70f252d8e563e9e34c759bf774d31fcfb9c68923
 >>>>>>> d4a21c4e60c01d6cc56a19da99a8d74d8b9bd4dd
+[2016-11-09 15:14:10] compta.INFO: Matched route "home". {"route_parameters":{"_controller":"compta\\Controller\\HomeController::indexAction","_route":"home"},"request_uri":"http://compta/"} []
+[2016-11-09 15:14:10] compta.INFO: > GET / [] []
+[2016-11-09 15:15:41] compta.INFO: Matched route "home". {"route_parameters":{"_controller":"compta\\Controller\\HomeController::indexAction","_route":"home"},"request_uri":"http://compta/"} []
+[2016-11-09 15:15:41] compta.INFO: > GET / [] []
+[2016-11-09 15:15:41] compta.INFO: < 200 [] []
