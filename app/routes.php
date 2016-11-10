@@ -13,7 +13,10 @@ $app->get('/login', "compta\Controller\HomeController::loginAction")->bind('logi
 
 
 // Detailed info about groups
-$app->get('/groups', "compta\Controller\HomeController::groupAction")->bind('group');
+$app->get('/groups', "compta\Controller\HomeController::groupsAction")->bind('groups');
+
+// info about group
+$app->get('/group/{id}', "compta\Controller\HomeController::groupAction")->bind('group');
 
 
 // Add a new group

@@ -12,7 +12,7 @@ use Doctrine\DBAL\Connection;
 
 class UserGroupDAO extends DAO 
 {
-    //Detailed info about groups
+    //infos about allGroups
     public function findAll() {
         $sql = "select * from user_group";
         $result = $this->getDb()->fetchAll($sql);
@@ -23,19 +23,31 @@ class UserGroupDAO extends DAO
             $id = $row['group_name'];
             $groups[$id] = $this->buildDomainObject($row);
         }
-        return $groups;
+        print_r ($groups);
     }
 
+//infos about one group byId
+   
     public function findById($id) {
-        $sql = "select * from user_group where id_user_group=?";
-        $row = $this->getDb()->fetchAssoc($sql, array($id));
+            if ($id == null)
+                throw new \Exception("id null ");
+            else {
+               $sql = "SELECT * FROM user_group WHERE id_user_group=:id";
+               $dbh = $this->getDb()->prepare($sql);
+               $dbh->execute(array('id'=>$id));
+                $result = $dbh->fetchAll();
+                error_log(var_export($result,true));
 
-        if ($row)
-            return $this->buildDomainObject($row);
-        else
-            throw new \Exception("No group matching id " . $id);
-    }
+                if (count($result)>0){
+                   $gro = $this->buildDomainObject($result[0]);
+                    return $gro;
+               }
+                else
+                    throw new \Exception("No group matching id " . $id);
+           }
+       }
 
+//infos about one group byName
     public function findByName($name) {
         $sql = "select * from user_group where group_name=?";
         $row = $this->getDb()->fetchAssoc($sql, array($name));
@@ -75,7 +87,17 @@ class UserGroupDAO extends DAO
         return $group;
     }
 
-
+//convertir un objet en tableau
+    public function toJSONStructure(Array $groupes){
+       $jsonResult=[];
+       foreach ($groupes as $key => $groupe) {
+           $jsonResult[$key] = [];
+           $jsonResult[$key]["id_user_group"] = $groupe->getId();
+           $jsonResult[$key]["group_name"] = $groupe->getGroupName();
+           
+       }        return $jsonResult;
+               
+   }
      
 
 }
