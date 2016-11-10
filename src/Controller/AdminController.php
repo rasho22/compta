@@ -219,10 +219,12 @@ class AdminController {
      * @param integer $id Depense id
      * @param Application $app Silex application
      */
+
     public function deleteDepenseAction($id, Application $app) {
+        // Delete the article
         $app['dao.depense']->delete($id);
-        // Redirect to admin home page
-        return $app->redirect($app['url_generator']->generate('admin'));
+        $app['session']->getFlashBag()->add('success', "La dépense vient d'être supprimé");
+        return $app->redirect('/');
     }
 
 
@@ -240,7 +242,4 @@ class AdminController {
     }*/
 
     }
-
-
-}
 
