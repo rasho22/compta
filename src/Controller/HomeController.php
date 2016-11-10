@@ -52,7 +52,7 @@ class HomeController
      * @param Application $app Silex application
      */
 
-    public function groupAction($id, Application $app  ){
+    public function groupAction($id, Application $app){
            try{
                $group = $app['dao.user_group']->findById($id);
                $m = [];
@@ -82,9 +82,4 @@ class HomeController
 }
 
 }
-
-/*public function converTojson ($group){
-    $tab = [];
-    return $tab;
-}*/
 

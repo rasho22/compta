@@ -19,7 +19,7 @@ $app->get('/groups', "compta\Controller\HomeController::groupsAction")->bind('gr
 // info about group
 $app->get('/group/{id}', "compta\Controller\HomeController::groupAction")->bind('group');
 
-$app->get('/group/{id_user_group}', "compta\Controller\HomeController::groupAction")->bind('group');
+/*$app->get('/group/{id_user_group}', "compta\Controller\HomeController::groupAction")->bind('group');*/
 
 
 

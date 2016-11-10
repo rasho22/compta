@@ -36,9 +36,10 @@ class UserGroupDAO extends DAO
                $dbh = $this->getDb()->prepare($sql);
                $dbh->execute(array('id'=>$id));
                 $result = $dbh->fetchAll();
-                error_log(var_export($result,true));
+               
 
                 if (count($result)>0){
+                     error_log(var_export($result,true));
                    $gro = $this->buildDomainObject($result[0]);
                     return $gro;
                }
