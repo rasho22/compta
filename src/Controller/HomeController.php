@@ -36,25 +36,25 @@ class HomeController
      * @param Request $request Incoming request
      * @param Application $app Silex application
      */
-<<<<<<< Updated upstream
-    public function groupAction(Request $request, Application $app) {
-        $group = $app['dao.user_group']->findAll();
-=======
-/*    public function groupAction($id, Request $request, Application $app) {
-        $group = $app['dao.user_group']->findById($id);
-        try {
-            $json = this->fetchAssoc($group, $tab);
->>>>>>> Stashed changes
-        return $app->json(array(
-            'records' => $json,
-            'status' => 'OK'
-        ), 200);
 
-        }
-        catch (Exception $e) {
-            echo 'Exception reçue : ',  $e->getMessage(), "\n";
-        }
-    }*/
+    /*  public function groupAction(Request $request, Application $app) {
+          $group = $app['dao.user_group']->findAll();
+
+      public function groupAction($id, Request $request, Application $app) {
+          $group = $app['dao.user_group']->findById($id);
+          try {
+              $json = this->fetchAssoc($group, $tab);
+
+          return $app->json(array(
+              'records' => $json,
+              'status' => 'OK'
+          ), 200);
+
+          }
+          catch (Exception $e) {
+              echo 'Exception reçue : ',  $e->getMessage(), "\n";
+          }
+      }*/
 
 
     public function loginAction(Request $request, Application $app) {

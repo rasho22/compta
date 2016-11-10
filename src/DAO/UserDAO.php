@@ -96,15 +96,14 @@ class UserDAO extends DAO
 
 
 
-<<<<<<< Updated upstream
-=======
+
    /**
     * Return a list of all users, sorted by date .
     *
     * @return array A list of all users.
     */
 
->>>>>>> Stashed changes
+
     /**     * Creates a User object based on a DB row.     *     * @param array $row The DB row containing Users data.     * @return compta\Domain\User     */   
 
     protected function buildDomainObject($row) {        
