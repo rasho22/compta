@@ -11,13 +11,13 @@ $app->get('/login', "compta\Controller\HomeController::loginAction")->bind('logi
 // Admin zone
 //$app->get('/admin', "compta\Controller\AdminController::indexAction")->bind('admin');
 
-<<<<<<< Updated upstream
+
 
 // Detailed info about groups
 $app->get('/groups', "compta\Controller\HomeController::groupAction")->bind('group');
-=======
+
 $app->get('/group/{id_user_group}', "compta\Controller\HomeController::groupAction")->bind('group');
->>>>>>> Stashed changes
+
 
 
 // Add a new group
