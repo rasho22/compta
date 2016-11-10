@@ -12,11 +12,15 @@ $app->get('/login', "compta\Controller\HomeController::loginAction")->bind('logi
 //$app->get('/admin', "compta\Controller\AdminController::indexAction")->bind('admin');
 
 
+
 // Detailed info about groups
 $app->get('/groups', "compta\Controller\HomeController::groupsAction")->bind('groups');
 
 // info about group
 $app->get('/group/{id}', "compta\Controller\HomeController::groupAction")->bind('group');
+
+$app->get('/group/{id_user_group}', "compta\Controller\HomeController::groupAction")->bind('group');
+
 
 
 // Add a new group
@@ -25,7 +29,7 @@ $app->get('/admin/group/add', "compta\Controller\AdminController::addGroupAction
 // Edit an existing group
 $app->get('/admin/group/{id}/edit', "compta\Controller\AdminController::editGroupAction")->bind('admin_group_edit');
 
-//add a depense
+    //add a depense
 $app->get('/admin/depense/add', "compta\Controller\AdminController::addDepenseAction")->bind('admin_depense_add');
 
 //read depenses

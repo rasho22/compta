@@ -51,14 +51,6 @@ class HomeController
      * @param Request $request Incoming request
      * @param Application $app Silex application
      */
-    /*public function groupAction($id, Application $app) {
-        $group = $app['dao.user_group']->findById($id);
-        return $app->json(array(
-            'records' => $group,
-            'status' => 'OK'
-        ), 200);
-
-    }*/
 
     public function groupAction($id, Application $app  ){
            try{
@@ -90,3 +82,9 @@ class HomeController
 }
 
 }
+
+/*public function converTojson ($group){
+    $tab = [];
+    return $tab;
+}*/
+
